@@ -1,4 +1,4 @@
-import  { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../src/App.scss';
 import Button from './components/Buttons/Button';
 import json from './virtualDb/virtualJSON.json';
@@ -112,10 +112,14 @@ function App() {
       </div>
 
       <div className='container'>
-        <Maps
-          dataMapAll={dataAll}
-          getTodo={data?.ask}
-        />
+        {
+          data &&
+          dataAll &&
+          <Maps
+            dataMapAll={dataAll}
+            getTodo={data?.ask}
+          />
+        }
       </div>
 
       total {data?.ask}
