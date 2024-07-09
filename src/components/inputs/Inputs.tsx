@@ -1,11 +1,9 @@
-import React from 'react'
-import { AutoComplete } from 'antd';
 import { Input } from 'antd';
 
 
-const { Search } = Input;
 const Inputs = (props: any) => {
     const { data, setData, type } = props
+    console.log("🚀 ~ Inputs ~ type:", type)
     const handlechange = (event: any) => {
         try {
             const funtionReuire = () => {
