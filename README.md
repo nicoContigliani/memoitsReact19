@@ -35,7 +35,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
    npm run dev
 
 ## Estructura del Proyecto
-.
+.<br/>
 ├── index.html <br/>
 ├── package.json<br/>
 ├── package-lock.json<br/>
