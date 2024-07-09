@@ -1,18 +1,12 @@
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Memorización de Preguntas sobre Tecnologías</title>
-
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
-</head>
-
-
-
-
 # Sistema de Memorización de Preguntas sobre Tecnologías
 
 Este es un sistema de memorización de preguntas sobre tecnologías desarrollado con React 19, Vite y TypeScript. La aplicación está diseñada para ayudar a los usuarios a memorizar preguntas y respuestas en diferentes niveles de dificultad.
+
+![Ejemplo de interfaz de la aplicación](https://st.depositphotos.com/1203257/1717/i/450/depositphotos_17170035-stock-photo-communication-background.jpg)
+
+
+
 
 ## Características
 
