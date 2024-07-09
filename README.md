@@ -34,3 +34,52 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 4. Inicia el servidor de desarrollo
    npm run dev
 
+## Estructura del Proyecto
+.
+├── index.html
+├── package.json
+├── package-lock.json
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.scss
+│   ├── App.tsx
+│   ├── assets
+│   │   ├── react.svg
+│   │   └── styles
+│   │       └── main.scss
+│   ├── components
+│   │   ├── Buttons
+│   │   │   ├──  buttons.sass
+│   │   │   └── Button.tsx
+│   │   ├── cards
+│   │   ├── checkbox
+│   │   │   └── Checkbox.tsx
+│   │   ├── checkboxmaps
+│   │   │   └── Checkbox.tsx
+│   │   ├── FloatButtons
+│   │   │   └── Floatbutton.tsx
+│   │   ├── inputs
+│   │   │   └── Inputs.tsx
+│   │   └── Map
+│   │       ├── Asks
+│   │       │   └── Asks.tsx
+│   │       ├── Aswers
+│   │       ├── Maps.tsx
+│   │       └── Selects
+│   │           └── Selects.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── services
+│   ├── utils
+│   │   └── generateNumberRandom.utils.ts
+│   ├── virtualDb
+│   │   ├── virtualJSON copy.json
+│   │   └── virtualJSON.json
+│   └── vite-env.d.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
