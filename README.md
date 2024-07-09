@@ -6,7 +6,7 @@ Este es un sistema de memorización de preguntas sobre tecnologías desarrollado
 <!-- ![Ejemplo de interfaz de la aplicación](https://st.depositphotos.com/1203257/1717/i/450/depositphotos_17170035-stock-photo-communication-background.jpg)
  -->
 
-<img src="https://img.lovepik.com/background/20211021/large/lovepik-gorgeous-technology-wallpaper-background-image_500567322.jpg" alt="Ejemplo de interfaz de la aplicación" style="width: 100%;heith:25%; display: block;">
+<img src="https://img.pikbest.com/backgrounds/20191001/vector-background-technology-in-the-concept-of-digital--v_1564600jpg!bw700" alt="Ejemplo de interfaz de la aplicación" style="width: 100%; display: block;">
 
 
 ## Características
