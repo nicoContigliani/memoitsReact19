@@ -4,391 +4,448 @@
             "react": {
                 "basic": [
                     {
-                        "ask": "¿Qué es React?",
+                        "ask": "¿Qué es un componente en React?",
                         "options": [
-                            "Una librería de JavaScript",
-                            "Un framework de JavaScript",
-                            "Un lenguaje de programación"
+                            "Una función de JavaScript",
+                            "Un archivo CSS",
+                            "Una base de datos"
                         ],
-                        "answer": "Una librería de JavaScript",
-                        "images": "https://example.com/react-logo.png",
-                        "information": "React es una librería de JavaScript para construir interfaces de usuario."
+                        "answer": "Una función de JavaScript",
+                        "images": "https://example.com/react-component.png",
+                        "information": "Un componente en React es simplemente una función de JavaScript que retorna JSX para renderizar contenido en la interfaz de usuario."
                     },
                     {
-                        "ask": "¿Qué es JSX?",
+                        "ask": "¿Qué es el estado (state) en React?",
                         "options": [
-                            "Una extensión de JavaScript",
-                            "Un lenguaje de marcado",
-                            "Un archivo de estilo"
+                            "Un componente de React",
+                            "Un objeto JavaScript",
+                            "Una variable global"
                         ],
-                        "answer": "Una extensión de JavaScript",
-                        "images": "https://example.com/jsx-logo.png",
-                        "information": "JSX es una extensión de JavaScript que permite escribir HTML dentro de JavaScript."
+                        "answer": "Un objeto JavaScript",
+                        "images": "https://example.com/react-state.png",
+                        "information": "El estado (state) en React es un objeto JavaScript que contiene datos dinámicos y afecta la representación de los componentes y su renderizado."
                     },
                     {
-                        "ask": "¿Cómo se crea un componente funcional en React?",
+                        "ask": "¿Cómo se llama la función utilizada para renderizar un componente en React?",
                         "options": [
-                            "function MyComponent() {}",
-                            "class MyComponent extends React.Component {}",
-                            "const MyComponent = () => {}"
+                            "renderComponent()",
+                            "loadComponent()",
+                            "ReactDOM.render()"
                         ],
-                        "answer": "const MyComponent = () => {}",
-                        "images": "https://example.com/functional-component.png",
-                        "information": "Un componente funcional se crea usando una función que retorna JSX."
+                        "answer": "ReactDOM.render()",
+                        "images": "https://example.com/react-render.png",
+                        "information": "ReactDOM.render() es la función principal utilizada para renderizar un componente de React en el DOM del navegador."
                     },
                     {
-                        "ask": "¿Qué hook se utiliza para manejar el estado en componentes funcionales?",
-                        "options": [
-                            "useState",
-                            "useEffect",
-                            "useRef"
-                        ],
-                        "answer": "useState",
-                        "images": "https://example.com/useState.png",
-                        "information": "useState es un hook que permite manejar el estado en componentes funcionales."
-                    },
-                    {
-                        "ask": "¿Cómo se pasa información de un componente padre a un componente hijo?",
-                        "options": [
-                            "Usando props",
-                            "Usando state",
-                            "Usando context"
-                        ],
-                        "answer": "Usando props",
-                        "images": "https://example.com/props.png",
-                        "information": "Props son un mecanismo para pasar datos de un componente padre a un componente hijo."
-                    },
-                    {
-                        "ask": "¿Qué hook se utiliza para efectos secundarios en componentes funcionales?",
+                        "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de renderizar?",
                         "options": [
                             "useEffect",
                             "useState",
-                            "useMemo"
+                            "useContext"
                         ],
                         "answer": "useEffect",
-                        "images": "https://example.com/useEffect.png",
-                        "information": "useEffect es un hook que se usa para manejar efectos secundarios como llamadas a APIs."
+                        "images": "https://example.com/react-useEffect.png",
+                        "information": "useEffect es un hook de React que permite realizar efectos secundarios después de que el componente se haya renderizado en el DOM."
                     },
                     {
-                        "ask": "¿Cómo se establece un valor inicial para useState?",
+                        "ask": "¿Qué se utiliza para manejar eventos como clics o cambios de estado en React?",
+                        "options": [
+                            "EventListeners",
+                            "setState()",
+                            "useEffect()"
+                        ],
+                        "answer": "setState()",
+                        "images": "https://example.com/react-setState.png",
+                        "information": "setState() es un método que se utiliza para actualizar el estado de un componente y re-renderizar la interfaz de usuario en React."
+                    },
+                    {
+                        "ask": "¿Qué método se utiliza para definir un estado inicial en un componente de clase en React?",
+                        "options": [
+                            "constructor()",
+                            "componentDidMount()",
+                            "setState()"
+                        ],
+                        "answer": "constructor()",
+                        "images": "https://example.com/react-constructor.png",
+                        "information": "El método constructor() se utiliza para inicializar el estado y otras configuraciones iniciales en un componente de clase en React."
+                    },
+                    {
+                        "ask": "¿Cuál es el propósito del método componentDidMount() en un componente de clase en React?",
+                        "options": [
+                            "Actualizar el estado del componente",
+                            "Renderizar el componente en el DOM",
+                            "Realizar acciones después de que el componente haya sido montado"
+                        ],
+                        "answer": "Realizar acciones después de que el componente haya sido montado",
+                        "images": "https://example.com/react-componentDidMount.png",
+                        "information": "componentDidMount() es un método de ciclo de vida en React que se llama después de que el componente ha sido montado en el DOM, permitiendo realizar acciones como llamadas a API."
+                    },
+                    {
+                        "ask": "¿Cómo se llama la función que permite pasar datos de un componente a otro en React?",
+                        "options": [
+                            "sendData()",
+                            "transferProps()",
+                            "props"
+                        ],
+                        "answer": "props",
+                        "images": "https://example.com/react-props.png",
+                        "information": "props es una propiedad especial en React que permite pasar datos (propiedades) de un componente padre a un componente hijo."
+                    },
+                    {
+                        "ask": "¿Qué hook de React se utiliza para manejar el estado en componentes funcionales?",
                         "options": [
                             "useState()",
-                            "useState(null)",
-                            "useState(initialValue)"
+                            "useEffect()",
+                            "useContext()"
                         ],
-                        "answer": "useState(initialValue)",
-                        "images": "https://example.com/useState-initial.png",
-                        "information": "useState acepta un valor inicial que se usará como estado inicial del componente."
+                        "answer": "useState()",
+                        "images": "https://example.com/react-useState.png",
+                        "information": "useState() es un hook de React que permite añadir estado a componentes funcionales, reemplazando la necesidad de utilizar clases para manejar el estado."
                     },
                     {
-                        "ask": "¿Qué método del ciclo de vida se sustituye con useEffect?",
+                        "ask": "¿Cuál es la biblioteca utilizada para hacer llamadas AJAX en React?",
                         "options": [
-                            "componentDidMount",
-                            "componentDidUpdate",
-                            "componentWillUnmount",
-                            "Todas las anteriores"
+                            "jQuery",
+                            "Axios",
+                            "Fetch"
                         ],
-                        "answer": "Todas las anteriores",
-                        "images": "https://example.com/lifecycle.png",
-                        "information": "useEffect puede sustituir múltiples métodos del ciclo de vida de los componentes de clase."
+                        "answer": "Axios",
+                        "images": "https://example.com/react-axios.png",
+                        "information": "Axios es una biblioteca popular en JavaScript utilizada para hacer peticiones HTTP y AJAX, muy comúnmente utilizada en aplicaciones React."
                     },
                     {
-                        "ask": "¿Cómo se puede manejar un formulario en React?",
+                        "ask": "¿Qué método se utiliza para actualizar el estado de un componente en React?",
                         "options": [
-                            "Con eventos onChange y onSubmit",
-                            "Con props",
-                            "Con useState"
+                            "updateState()",
+                            "setState()",
+                            "modifyState()"
                         ],
-                        "answer": "Con eventos onChange y onSubmit",
-                        "images": "https://example.com/form-handling.png",
-                        "information": "Para manejar formularios se usan los eventos onChange para actualizar el estado y onSubmit para manejar el envío."
+                        "answer": "setState()",
+                        "images": "https://example.com/react-setState.png",
+                        "information": "setState() es el método utilizado para actualizar el estado de un componente en React, permitiendo que la interfaz de usuario responda a eventos y datos."
                     },
                     {
-                        "ask": "¿Qué herramienta se usa comúnmente para manejar rutas en una aplicación React?",
+                        "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios en componentes funcionales?",
                         "options": [
-                            "React Router",
+                            "useEffect()",
+                            "useState()",
+                            "useContext()"
+                        ],
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-useEffect.png",
+                        "information": "useEffect() es un hook de React que permite realizar efectos secundarios en componentes funcionales, como la suscripción a datos externos o el manejo de eventos DOM."
+                    },
+                    {
+                        "ask": "¿Cuál es la herramienta recomendada para la gestión del estado global en aplicaciones React?",
+                        "options": [
+                            "Context API",
                             "Redux",
                             "Axios"
                         ],
-                        "answer": "React Router",
-                        "images": "https://example.com/react-router.png",
-                        "information": "React Router se utiliza para manejar la navegación y las rutas en aplicaciones React."
+                        "answer": "Redux",
+                        "images": "https://example.com/react-redux.png",
+                        "information": "Redux es una biblioteca para manejar el estado global en aplicaciones JavaScript, ampliamente utilizada junto con React para mantener un estado predecible en toda la aplicación."
                     },
                     {
-                        "ask": "¿Cómo se renderiza un componente en el DOM?",
+                        "ask": "¿Qué método se utiliza para manejar eventos en React?",
                         "options": [
-                            "ReactDOM.render()",
-                            "React.render()",
-                            "Component.render()"
+                            "eventHandlers()",
+                            "handleEvent()",
+                            "onClick()"
                         ],
-                        "answer": "ReactDOM.render()",
-                        "images": "https://example.com/reactdom-render.png",
-                        "information": "ReactDOM.render() se usa para renderizar un componente React en el DOM."
+                        "answer": "onClick()",
+                        "images": "https://example.com/react-onClick.png",
+                        "information": "onClick() es un atributo de JSX utilizado en React para manejar eventos, como hacer clic en un elemento, desencadenando funciones o actualizando el estado del componente."
                     },
                     {
-                        "ask": "¿Qué es un componente en React?",
+                        "ask": "¿Cómo se llama la función que permite renderizar varios elementos en React sin la necesidad de envolverlos en un div adicional?",
                         "options": [
-                            "Una parte reutilizable de la interfaz de usuario",
-                            "Una función para calcular valores",
-                            "Un archivo de configuración"
+                            "Fragment",
+                            "Wrapper",
+                            "Component"
                         ],
-                        "answer": "Una parte reutilizable de la interfaz de usuario",
-                        "images": "https://example.com/component.png",
-                        "information": "Un componente en React es una parte reutilizable de la interfaz de usuario que puede contener lógica y presentación."
+                        "answer": "Fragment",
+                        "images": "https://example.com/react-fragment.png",
+                        "information": "Fragment es una característica de React que permite agrupar múltiples elementos hijos sin agregar nodos adicionales al DOM, útil para renderizar listas o componentes."
                     },
                     {
-                        "ask": "¿Cuál es la forma correcta de definir un componente de clase en React?",
+                        "ask": "¿Qué método se utiliza para actualizar el estado de un componente en React?",
                         "options": [
-                            "class MyComponent extends React.Component {}",
-                            "function MyComponent() {}",
-                            "const MyComponent = () => {}"
+                            "updateState()",
+                            "setState()",
+                            "modifyState()"
                         ],
-                        "answer": "class MyComponent extends React.Component {}",
-                        "images": "https://example.com/class-component.png",
-                        "information": "Un componente de clase en React se define extendiendo la clase React.Component."
+                        "answer": "setState()",
+                        "images": "https://example.com/react-setState.png",
+                        "information": "setState() es el método utilizado para actualizar el estado de un componente en React, permitiendo que la interfaz de usuario responda a eventos y datos."
                     },
                     {
-                        "ask": "¿Qué significa 'props' en React?",
+                        "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios en componentes funcionales?",
                         "options": [
-                            "Propiedades que se pasan de un componente padre a un componente hijo",
-                            "Métodos internos de los componentes",
-                            "Valores constantes"
-                        ],
-                        "answer": "Propiedades que se pasan de un componente padre a un componente hijo",
-                        "images": "https://example.com/props-basic.png",
-                        "information": "'Props' en React son propiedades que se pasan de un componente padre a un componente hijo para que este último pueda renderizar y funcionar correctamente."
-                    },
-                    {
-                        "ask": "¿Qué es el Virtual DOM en React?",
-                        "options": [
-                            "Una representación virtual de la estructura de un DOM real",
-                            "Un método de enrutamiento",
-                            "Un modelo de datos"
-                        ],
-                        "answer": "Una representación virtual de la estructura de un DOM real",
-                        "images": "https://example.com/virtual-dom.png",
-                        "information": "El Virtual DOM en React es una representación virtual de la estructura de un DOM real, utilizado para optimizar y actualizar eficientemente los cambios en la interfaz de usuario."
-                    },
-                    {
-                        "ask": "¿Qué es JSX en React?",
-                        "options": [
-                            "Una extensión de JavaScript que permite escribir HTML dentro de JavaScript",
-                            "Un lenguaje de marcado independiente",
-                            "Un preprocesador para CSS"
-                        ],
-                        "answer": "Una extensión de JavaScript que permite escribir HTML dentro de JavaScript",
-                        "images": "https://example.com/jsx-basic.png",
-                        "information": "JSX en React es una extensión de JavaScript que permite escribir HTML dentro de JavaScript, facilitando la creación de interfaces de usuario de manera declarativa."
-                    },
-                    {
-                        "ask": "¿Qué hook se utiliza para manejar el ciclo de vida en componentes funcionales?",
-                        "options": [
-                            "useEffect",
-                            "useState",
-                            "useRef"
-                        ],
-                        "answer": "useEffect",
-                        "images": "https://example.com/useEffect-basic.png",
-                        "information": "useEffect es un hook que se utiliza en componentes funcionales de React para manejar efectos secundarios y ciclo de vida, como montaje, actualización y desmontaje del componente."
-                    },
-                    {
-                        "ask": "¿Qué función cumple el método render() en un componente de clase en React?",
-                        "options": [
-                            "Devuelve el JSX que representa la interfaz de usuario del componente",
-                            "Inicializa el estado del componente",
-                            "Define métodos de ciclo de vida"
-                        ],
-                        "answer": "Devuelve el JSX que representa la interfaz de usuario del componente",
-                        "images": "https://example.com/render-basic.png",
-                        "information": "El método render() en un componente de clase en React devuelve el JSX que representa la interfaz de usuario del componente, determinando cómo se verá en la pantalla."
-                    },
-                    {
-                        "ask": "¿Cómo se define el estado en un componente de clase en React?",
-                        "options": [
-                            "this.state = { }",
+                            "useEffect()",
                             "useState()",
-                            "const [state, setState] = useState()"
+                            "useContext()"
                         ],
-                        "answer": "this.state = { }",
-                        "images": "https://example.com/state-basic.png",
-                        "information": "El estado en un componente de clase en React se define usando this.state = { } dentro del constructor del componente."
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-useEffect.png",
+                        "information": "useEffect() es un hook de React que permite realizar efectos secundarios en componentes funcionales, como la suscripción a datos externos o el manejo de eventos DOM."
                     },
                     {
-                        "ask": "¿Qué es el propósito de la función setState() en React?",
+                        "ask": "¿Cuál es la herramienta recomendada para la gestión del estado global en aplicaciones React?",
                         "options": [
-                            "Actualizar el estado del componente y re-renderizarlo",
-                            "Definir props adicionales",
-                            "Eliminar el estado del componente"
+                            "Context API",
+                            "Redux",
+                            "Axios"
                         ],
-                        "answer": "Actualizar el estado del componente y re-renderizarlo",
-                        "images": "https://example.com/setState-basic.png",
-                        "information": "La función setState() en React se utiliza para actualizar el estado del componente y re-renderizarlo para reflejar los cambios en la interfaz de usuario."
+                        "answer": "Redux",
+                        "images": "https://example.com/react-redux.png",
+                        "information": "Redux es una biblioteca para manejar el estado global en aplicaciones JavaScript, ampliamente utilizada junto con React para mantener un estado predecible en toda la aplicación."
                     },
                     {
-                        "ask": "¿Qué es un evento en React?",
+                        "ask": "¿Qué método se utiliza para manejar eventos en React?",
                         "options": [
-                            "Acciones que ocurren cuando interactúas con elementos de la interfaz de usuario",
-                            "Propiedades de los componentes",
-                            "Clases que definen métodos"
+                            "eventHandlers()",
+                            "handleEvent()",
+                            "onClick()"
                         ],
-                        "answer": "Acciones que ocurren cuando interactúas con elementos de la interfaz de usuario",
-                        "images": "https://example.com/event-basic.png",
-                        "information": "Un evento en React son acciones que ocurren cuando interactúas con elementos de la interfaz de usuario, como clics, cambios de estado, o envíos de formularios."
+                        "answer": "onClick()",
+                        "images": "https://example.com/react-onClick.png",
+                        "information": "onClick() es un atributo de JSX utilizado en React para manejar eventos, como hacer clic en un elemento, desencadenando funciones o actualizando el estado del componente."
                     },
                     {
-                        "ask": "¿Qué propiedad se usa para aplicar estilos en línea a un componente?",
+                        "ask": "¿Cómo se llama la función que permite renderizar varios elementos en React sin la necesidad de envolverlos en un div adicional?",
                         "options": [
-                            "style",
-                            "className",
-                            "id"
+                            "Fragment",
+                            "Wrapper",
+                            "Component"
                         ],
-                        "answer": "style",
-                        "images": "https://example.com/style-prop.png",
-                        "information": "La propiedad style se usa para aplicar estilos en línea a un componente React."
+                        "answer": "Fragment",
+                        "images": "https://example.com/react-fragment.png",
+                        "information": "Fragment es una característica de React que permite agrupar múltiples elementos hijos sin agregar nodos adicionales al DOM, útil para renderizar listas o componentes."
                     },
                     {
-                        "ask": "¿Cómo se puede agregar una clase CSS a un componente?",
+                        "ask": "¿Qué método se utiliza para pasar datos de un componente padre a un componente hijo en React?",
                         "options": [
-                            "className",
-                            "class",
-                            "id"
+                            "setData()",
+                            "props",
+                            "setState()"
                         ],
-                        "answer": "className",
-                        "images": "https://example.com/classname.png",
-                        "information": "La propiedad className se usa para agregar una clase CSS a un componente React."
+                        "answer": "props",
+                        "images": "https://example.com/react-props.png",
+                        "information": "En React, los datos se pasan de un componente padre a un componente hijo a través de props (propiedades), que son objetos JavaScript utilizados para pasar datos de solo lectura entre componentes."
                     },
                     {
-                        "ask": "¿Qué método se usa para crear un nuevo proyecto React?",
+                        "ask": "¿Qué método se utiliza para eliminar un componente de la jerarquía en React?",
                         "options": [
-                            "create-react-app",
-                            "npm init react-app",
-                            "react-create-app"
+                            "removeComponent()",
+                            "deleteComponent()",
+                            "unmountComponent()"
                         ],
-                        "answer": "create-react-app",
-                        "images": "https://example.com/create-react-app.png",
-                        "information": "create-react-app es una herramienta oficial para crear nuevos proyectos React."
+                        "answer": "unmountComponent()",
+                        "images": "https://example.com/react-unmount.png",
+                        "information": "Para eliminar un componente de la jerarquía de React, se utiliza el método unmountComponent(), que desmonta y destruye el componente, liberando los recursos asociados."
                     },
                     {
-                        "ask": "¿Qué es un 'fragment' en React?",
+                        "ask": "¿Qué ciclo de vida de un componente de clase se utiliza para realizar operaciones después de que el componente se haya renderizado?",
                         "options": [
-                            "Un contenedor sin un elemento extra en el DOM",
-                            "Una función",
-                            "Un hook"
+                            "componentDidMount()",
+                            "componentWillUnmount()",
+                            "rendered()"
                         ],
-                        "answer": "Un contenedor sin un elemento extra en el DOM",
-                        "images": "https://example.com/fragment.png",
-                        "information": "Un fragment permite agrupar múltiples elementos sin agregar un nodo extra en el DOM."
+                        "answer": "componentDidMount()",
+                        "images": "https://example.com/react-componentDidMount.png",
+                        "information": "componentDidMount() es un método del ciclo de vida de un componente de clase en React que se ejecuta después de que el componente se haya renderizado en el DOM, utilizado para realizar operaciones como llamadas a API o suscripciones."
                     },
                     {
-                        "ask": "¿Cómo se puede acceder a un elemento del DOM directamente en React?",
+                        "ask": "¿Cuál es la función utilizada para iterar sobre elementos de una lista en JSX en React?",
                         "options": [
-                            "Usando useRef",
-                            "Usando useState",
-                            "Usando useEffect"
+                            "forEach()",
+                            "map()",
+                            "loop()"
                         ],
-                        "answer": "Usando useRef",
-                        "images": "https://example.com/useRef.png",
-                        "information": "useRef se usa para acceder directamente a un elemento del DOM en un componente funcional."
+                        "answer": "map()",
+                        "images": "https://example.com/react-map.png",
+                        "information": "En JSX de React, la función utilizada para iterar sobre elementos de una lista y generar elementos React es map(), que devuelve una lista de elementos React basada en una lista original."
                     },
                     {
-                        "ask": "¿Qué es un 'estado' en React?",
+                        "ask": "¿Cómo se llama la función utilizada para manejar errores en componentes de React?",
                         "options": [
-                            "Un objeto que determina cómo se renderiza un componente",
-                            "Una función",
-                            "Un método del ciclo de vida"
+                            "handleErrors()",
+                            "errorHandler()",
+                            "componentDidCatch()"
                         ],
-                        "answer": "Un objeto que determina cómo se renderiza un componente",
-                        "images": "https://example.com/state.png",
-                        "information": "El estado es un objeto que contiene datos que determinan cómo se renderiza un componente."
+                        "answer": "componentDidCatch()",
+                        "images": "https://example.com/react-componentDidCatch.png",
+                        "information": "componentDidCatch() es un método del ciclo de vida de un componente de clase en React utilizado para manejar errores generados por componentes secundarios, permitiendo que la aplicación maneje errores y muestre una interfaz de usuario adecuada."
                     },
                     {
-                        "ask": "¿Cómo se puede actualizar el estado de un componente?",
+                        "ask": "¿Qué método se utiliza para actualizar el estado en un componente de React?",
                         "options": [
-                            "Usando setState en componentes de clase o useState en componentes funcionales",
-                            "Usando render()",
-                            "Usando getState()"
+                          "updateState()",
+                          "setState()",
+                          "modifyState()"
                         ],
-                        "answer": "Usando setState en componentes de clase o useState en componentes funcionales",
-                        "images": "https://example.com/setState.png",
-                        "information": "El estado se actualiza usando setState en componentes de clase o useState en componentes funcionales."
-                    },
-                    {
-                        "ask": "¿Qué es un 'prop' en React?",
+                        "answer": "setState()",
+                        "images": "https://example.com/react-setState.png",
+                        "information": "setState() es el método utilizado en React para actualizar el estado de un componente, permitiendo re-renderizar el componente con los nuevos datos."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de que el componente se haya renderizado?",
                         "options": [
-                            "Datos que se pasan de un componente padre a un componente hijo",
-                            "Un método del ciclo de vida",
-                            "Un hook"
+                          "useEffect()",
+                          "useEffectAfter()",
+                          "afterEffect()"
                         ],
-                        "answer": "Datos que se pasan de un componente padre a un componente hijo",
-                        "images": "https://example.com/props.png",
-                        "information": "Props son datos que se pasan de un componente padre a un componente hijo."
-                    },
-                    {
-                        "ask": "¿Cómo se puede manejar un evento en React?",
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-useEffect.png",
+                        "information": "useEffect() es un hook de React utilizado para realizar efectos secundarios después de que el componente se haya renderizado, como peticiones HTTP, suscripciones a eventos o limpieza de recursos."
+                      },
+                      {
+                        "ask": "¿Qué método se utiliza para manejar eventos de clic en React?",
                         "options": [
-                            "Usando onClick, onChange, etc.",
-                            "Usando addEventListener",
-                            "Usando attachEvent"
+                          "handleEvent()",
+                          "onClick()",
+                          "eventHandler()"
                         ],
-                        "answer": "Usando onClick, onChange, etc.",
-                        "images": "https://example.com/event-handling.png",
-                        "information": "Los eventos en React se manejan usando propiedades como onClick, onChange, etc."
-                    },
-                    {
-                        "ask": "¿Qué es un patrón de diseño en programación?",
+                        "answer": "onClick()",
+                        "images": "https://example.com/react-onClick.png",
+                        "information": "onClick() es el método utilizado en React para manejar eventos de clic, permitiendo a los componentes responder a las interacciones del usuario y ejecutar acciones específicas."
+                      },
+                      {
+                        "ask": "¿Cuál es la forma correcta de definir un componente funcional en React?",
                         "options": [
-                            "Una solución general y reutilizable a un problema común en el diseño de software",
-                            "Un método específico para estilizar componentes en React",
-                            "Una técnica para mejorar el rendimiento de la aplicación"
+                          "function MyComponent() {}",
+                          "class MyComponent {}",
+                          "const MyComponent = () => {}"
                         ],
-                        "answer": "Una solución general y reutilizable a un problema común en el diseño de software",
-                        "images": "https://example.com/design-patterns-basic.png",
-                        "information": "Un patrón de diseño en programación es una solución general y reutilizable a un problema común en el diseño de software, que ayuda a estructurar y organizar el código de manera eficiente."
-                    },
-                    {
-                        "ask": "¿Cuál es la ventaja de usar patrones de diseño en React?",
+                        "answer": "const MyComponent = () => {}",
+                        "images": "https://example.com/react-functional-component.png",
+                        "information": "La forma correcta de definir un componente funcional en React es utilizando la sintaxis 'const MyComponent = () => {}', que permite crear componentes basados en funciones con estado y props."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para obtener el estado y el ciclo de vida de un componente?",
                         "options": [
-                            "Mejoran la estructura y mantenibilidad del código",
-                            "Aumentan el tamaño de los componentes",
-                            "Reducen la velocidad de renderizado"
+                          "useState()",
+                          "useEffect()",
+                          "useComponent()"
                         ],
-                        "answer": "Mejoran la estructura y mantenibilidad del código",
-                        "images": "https://example.com/design-patterns-advantage-basic.png",
-                        "information": "Usar patrones de diseño en React mejora la estructura y mantenibilidad del código, facilitando la comprensión y colaboración entre desarrolladores y reduciendo la duplicación de código."
-                    },
-                    {
-                        "ask": "¿Qué patrón de diseño se usa comúnmente para manejar la comunicación entre componentes en React?",
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-lifecycle.png",
+                        "information": "useEffect() es un hook de React utilizado para obtener el ciclo de vida y el estado de un componente funcional, permitiendo efectos secundarios basados en cambios de estado o props."
+                      },
+                      {
+                        "ask": "¿Qué método se utiliza para actualizar el estado en un componente de React?",
                         "options": [
-                            "Patrón Observer",
-                            "Patrón Singleton",
-                            "Patrón Factory"
+                          "updateState()",
+                          "setState()",
+                          "modifyState()"
                         ],
-                        "answer": "Patrón Observer",
-                        "images": "https://example.com/observer-pattern-basic.png",
-                        "information": "El patrón Observer se usa comúnmente en React para manejar la comunicación entre componentes, permitiendo que varios componentes escuchen y respondan a cambios en otros componentes de manera eficiente."
-                    },
-                    {
-                        "ask": "¿Cuál es el objetivo principal del patrón de diseño MVC (Modelo-Vista-Controlador) en aplicaciones React?",
+                        "answer": "setState()",
+                        "images": "https://example.com/react-setState.png",
+                        "information": "setState() es el método utilizado en React para actualizar el estado de un componente, permitiendo re-renderizar el componente con los nuevos datos."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de que el componente se haya renderizado?",
                         "options": [
-                            "Separar la lógica de negocio, presentación y control en capas distintas",
-                            "Optimizar el rendimiento de los componentes",
-                            "Agregar estilos de forma eficiente"
+                          "useEffect()",
+                          "useEffectAfter()",
+                          "afterEffect()"
                         ],
-                        "answer": "Separar la lógica de negocio, presentación y control en capas distintas",
-                        "images": "https://example.com/mvc-pattern-basic.png",
-                        "information": "El patrón MVC en React tiene como objetivo separar la lógica de negocio (Modelo), presentación (Vista) y control (Controlador) en capas distintas, facilitando el desarrollo y mantenimiento de aplicaciones escalables."
-                    },
-                    {
-                        "ask": "¿Qué patrón de diseño se utiliza para encapsular lógica de estado compleja y hacerla accesible a varios componentes?",
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-useEffect.png",
+                        "information": "useEffect() es un hook de React utilizado para realizar efectos secundarios después de que el componente se haya renderizado, como peticiones HTTP, suscripciones a eventos o limpieza de recursos."
+                      },
+                      {
+                        "ask": "¿Qué método se utiliza para manejar eventos de clic en React?",
                         "options": [
-                            "Patrón State Management",
-                            "Patrón Decorator",
-                            "Patrón Prototype"
+                          "handleEvent()",
+                          "onClick()",
+                          "eventHandler()"
                         ],
-                        "answer": "Patrón State Management",
-                        "images": "https://example.com/state-management-pattern-basic.png",
-                        "information": "El patrón de diseño State Management se utiliza para encapsular lógica de estado compleja y hacerla accesible a varios componentes en React, mejorando la escalabilidad y mantenibilidad de la aplicación."
-                    }
+                        "answer": "onClick()",
+                        "images": "https://example.com/react-onClick.png",
+                        "information": "onClick() es el método utilizado en React para manejar eventos de clic, permitiendo a los componentes responder a las interacciones del usuario y ejecutar acciones específicas."
+                      },
+                      {
+                        "ask": "¿Cuál es la forma correcta de definir un componente funcional en React?",
+                        "options": [
+                          "function MyComponent() {}",
+                          "class MyComponent {}",
+                          "const MyComponent = () => {}"
+                        ],
+                        "answer": "const MyComponent = () => {}",
+                        "images": "https://example.com/react-functional-component.png",
+                        "information": "La forma correcta de definir un componente funcional en React es utilizando la sintaxis 'const MyComponent = () => {}', que permite crear componentes basados en funciones con estado y props."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para obtener el estado y el ciclo de vida de un componente?",
+                        "options": [
+                          "useState()",
+                          "useEffect()",
+                          "useComponent()"
+                        ],
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-lifecycle.png",
+                        "information": "useEffect() es un hook de React utilizado para obtener el ciclo de vida y el estado de un componente funcional, permitiendo efectos secundarios basados en cambios de estado o props."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para manejar el estado en un componente funcional?",
+                        "options": [
+                          "useState()",
+                          "setState()",
+                          "modifyState()"
+                        ],
+                        "answer": "useState()",
+                        "images": "https://example.com/react-useState.png",
+                        "information": "useState() es un hook de React utilizado para añadir el estado local a los componentes funcionales, permitiendo que el componente reaccione y se actualice según los cambios de estado."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de cada renderizado?",
+                        "options": [
+                          "useEffect()",
+                          "useEffectAfter()",
+                          "afterEffect()"
+                        ],
+                        "answer": "useEffect()",
+                        "images": "https://example.com/react-useEffect.png",
+                        "information": "useEffect() es un hook de React utilizado para realizar efectos secundarios después de cada renderizado, como peticiones HTTP, suscripciones a eventos o limpieza de recursos."
+                      },
+                      {
+                        "ask": "¿Cuál es la función utilizada en useEffect() para limpiar suscripciones y efectos?",
+                        "options": [
+                          "cleanupEffect()",
+                          "clearEffect()",
+                          "return cleanupFunction"
+                        ],
+                        "answer": "cleanupEffect()",
+                        "images": "https://example.com/react-useEffect-cleanup.png",
+                        "information": "Para limpiar suscripciones y efectos en useEffect(), se utiliza una función de limpieza que puede devolver en la forma de una función cleanupEffect(). Esto asegura que los recursos se liberen correctamente cuando el componente se desmonte o el efecto se vuelva a ejecutar."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para optimizar el rendimiento evitando renders innecesarios?",
+                        "options": [
+                          "useMemo()",
+                          "useRef()",
+                          "optimizeRender()"
+                        ],
+                        "answer": "useMemo()",
+                        "images": "https://example.com/react-useMemo.png",
+                        "information": "useMemo() es un hook de React utilizado para optimizar el rendimiento al memoizar valores computados entre renders, evitando cálculos costosos en cada renderizado del componente."
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para acceder al contexto en componentes de manera sencilla?",
+                        "options": [
+                          "useContext()",
+                          "useContextAPI()",
+                          "getContext()"
+                        ],
+                        "answer": "useContext()",
+                        "images": "https://example.com/react-useContext.png",
+                        "information": "useContext() es un hook de React utilizado para acceder al contexto proporcionado por un proveedor en componentes hijos, permitiendo pasar datos a través de la jerarquía de componentes sin necesidad de props adicionales."
+                      }
+                      
+                      
+                      
                 ],
                 "middel": [
                     {
@@ -1453,35 +1510,55 @@
                     },
                     {
                         "ask": "¿Cómo se aplica el patrón de diseño Observer para gestionar las actualizaciones entre componentes en React?",
-                        "options": ["Utilizando un componente observable y suscriptores que reaccionan a los cambios", "Aplicando estilos dinámicos a componentes", "Optimizando la velocidad de renderizado de componentes"],
+                        "options": [
+                            "Utilizando un componente observable y suscriptores que reaccionan a los cambios",
+                            "Aplicando estilos dinámicos a componentes",
+                            "Optimizando la velocidad de renderizado de componentes"
+                        ],
                         "answer": "Utilizando un componente observable y suscriptores que reaccionan a los cambios",
                         "images": "https://example.com/observer-pattern-god.png",
                         "information": "El patrón Observer en React se aplica utilizando un componente observable que notifica a sus suscriptores sobre cambios importantes, permitiendo una gestión eficiente de las actualizaciones entre componentes."
                     },
                     {
                         "ask": "¿Por qué es beneficioso implementar el patrón de diseño Decorator en la composición de componentes React?",
-                        "options": ["Para añadir responsabilidades adicionales a objetos de manera dinámica", "Optimiza la carga inicial de la aplicación", "Crea componentes envolventes que añaden funcionalidades adicionales"],
+                        "options": [
+                            "Para añadir responsabilidades adicionales a objetos de manera dinámica",
+                            "Optimiza la carga inicial de la aplicación",
+                            "Crea componentes envolventes que añaden funcionalidades adicionales"
+                        ],
                         "answer": "Para añadir responsabilidades adicionales a objetos de manera dinámica",
                         "images": "https://example.com/decorator-pattern-god.png",
                         "information": "El patrón Decorator en React es beneficioso porque permite añadir responsabilidades adicionales a objetos de manera dinámica, extendiendo así la funcionalidad de los componentes de manera flexible y sin modificar su estructura base."
                     },
                     {
                         "ask": "¿Cómo se implementa el patrón de diseño Strategy para permitir que un componente React pueda cambiar su comportamiento en tiempo de ejecución?",
-                        "options": ["Definiendo una familia de algoritmos, encapsulándolos y haciendo que sean intercambiables", "Aplicando estilos dinámicos a componentes", "Usando una función que crea y devuelve componentes basados en condiciones específicas"],
+                        "options": [
+                            "Definiendo una familia de algoritmos, encapsulándolos y haciendo que sean intercambiables",
+                            "Aplicando estilos dinámicos a componentes",
+                            "Usando una función que crea y devuelve componentes basados en condiciones específicas"
+                        ],
                         "answer": "Definiendo una familia de algoritmos, encapsulándolos y haciendo que sean intercambiables",
                         "images": "https://example.com/strategy-pattern-god.png",
                         "information": "El patrón Strategy en React se implementa definiendo una familia de algoritmos, encapsulándolos y haciendo que sean intercambiables dinámicamente, permitiendo que un componente pueda cambiar su comportamiento en tiempo de ejecución según sea necesario."
                     },
                     {
                         "ask": "¿Por qué es útil aplicar el patrón de diseño Singleton en la gestión de instancias únicas de componentes React?",
-                        "options": ["Para asegurar que solo exista una instancia de un componente en toda la aplicación", "Optimizar la velocidad de renderizado de componentes", "Controlar el flujo de datos entre componentes"],
+                        "options": [
+                            "Para asegurar que solo exista una instancia de un componente en toda la aplicación",
+                            "Optimizar la velocidad de renderizado de componentes",
+                            "Controlar el flujo de datos entre componentes"
+                        ],
                         "answer": "Para asegurar que solo exista una instancia de un componente en toda la aplicación",
                         "images": "https://example.com/singleton-pattern-god.png",
                         "information": "El patrón Singleton en React es útil porque asegura que solo exista una instancia de un componente en toda la aplicación, evitando así problemas de sincronización y garantizando el acceso controlado a dicha instancia."
                     },
                     {
                         "ask": "¿Cómo se implementa el patrón de diseño Factory Method para crear componentes React basados en ciertos criterios?",
-                        "options": ["Definiendo una interfaz para crear un objeto, pero permitiendo que las subclases decidan qué clase instanciar", "Aplicando estilos dinámicos a componentes", "Optimizando la velocidad de renderizado de componentes"],
+                        "options": [
+                            "Definiendo una interfaz para crear un objeto, pero permitiendo que las subclases decidan qué clase instanciar",
+                            "Aplicando estilos dinámicos a componentes",
+                            "Optimizando la velocidad de renderizado de componentes"
+                        ],
                         "answer": "Definiendo una interfaz para crear un objeto, pero permitiendo que las subclases decidan qué clase instanciar",
                         "images": "https://example.com/factory-method-pattern-god.png",
                         "information": "El patrón Factory Method en React se implementa definiendo una interfaz para crear un objeto, pero permitiendo que las subclases decidan qué clase instanciar, proporcionando así una forma flexible de crear componentes basados en ciertos criterios específicos."
