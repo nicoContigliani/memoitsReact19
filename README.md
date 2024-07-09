@@ -3,9 +3,10 @@
 
 Este es un sistema de memorización de preguntas sobre tecnologías desarrollado con React 19, Vite y TypeScript. La aplicación está diseñada para ayudar a los usuarios a memorizar preguntas y respuestas en diferentes niveles de dificultad.
 
-![Ejemplo de interfaz de la aplicación](https://st.depositphotos.com/1203257/1717/i/450/depositphotos_17170035-stock-photo-communication-background.jpg)
+<!-- ![Ejemplo de interfaz de la aplicación](https://st.depositphotos.com/1203257/1717/i/450/depositphotos_17170035-stock-photo-communication-background.jpg)
+ -->
 
-
+<img src="https://st.depositphotos.com/1203257/1717/i/450/depositphotos_17170035-stock-photo-communication-background.jpg" alt="Ejemplo de interfaz de la aplicación" style="width: 100%; display: block;">
 
 
 ## Características
