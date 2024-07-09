@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import '../src/App.scss';
 import Button from './components/Buttons/Button';
 import json from './virtualDb/virtualJSON.json';
