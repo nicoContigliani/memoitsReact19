@@ -1,0 +1,18 @@
+$primary-color: #007bff;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: $primary-color;
+}
+
+.header {
+  background-color: $primary-color;
+  // padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  margin: 20px;
+}

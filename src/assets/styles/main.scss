@@ -1,0 +1,49 @@
+$primary-color: #007bff;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: $primary-color;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  // background-color: $primary-color;
+  // padding:10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  margin: 20px;
+}
+
+$glass-background-color: rgba(144, 177, 255, 0.491); // Color del fondo con transparencia
+$glass-blur: 10px; // Nivel de desenfoque para el efecto de vidrio
+.bodySetting{
+    padding-top: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adjust the gap between columns as needed */
+
+}
+
+.checkbox-wrapper {
+  background-color: $glass-background-color; // Aplicar color de fondo con transparencia
+  backdrop-filter: blur($glass-blur); // Aplicar desenfoque para el efecto de vidrio
+  border-radius: 4px; // Redondear esquinas opcional para mejorar el aspecto estético
+  padding: 5px; // Espacio interior para los checkbox
+  margin: 5px; // Margen exterior para separar del resto de contenido
+  box-shadow: #000000;
+  border-radius: 1%;
+}
+.inputAsk{
+  padding-top: 5px;
+}
+.checkClass{
+  padding-left: 2%;
+}
+.chekboxDiv{
+  
+}
