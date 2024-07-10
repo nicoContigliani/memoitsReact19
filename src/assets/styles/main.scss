@@ -71,6 +71,26 @@ $glass-blur: 10px; // Nivel de desenfoque para el efecto de vidrio
    position: relative;
    
 }
+
+
+@media screen and (max-width: 768px) {
+  .checkClass {
+    grid-template-columns: repeat(3, 1fr); /* Dos columnas en tabletas */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .checkClass {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna en teléfonos */
+    grid-gap: 5%; /* Espacio entre elementos */
+    justify-content: space-around;
+    align-items: start;
+    align-content: flex-start;
+  }
+}
+
+
 .headerCheckbox{
 
 }
@@ -102,6 +122,17 @@ width: auto;
   display: flex;
   align-items: center;
   z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonReset {
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buttonReset {
+ padding-right: 10%;
+  }
 }
 
 .buttonGroup{
