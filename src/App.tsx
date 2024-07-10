@@ -2,12 +2,15 @@ import { useEffect, useMemo, useState } from 'react';
 import '../src/App.scss';
 import Button from './components/Buttons/Button';
 import json from './virtualDb/virtualJSON.json';
+console.log("🚀 ~ json:", json)
 import Checkboxs from './components/checkbox/Checkbox';
 import Inputs from './components/inputs/Inputs';
 import Maps from './components/Map/Maps';
 
 import { CommentOutlined, CustomerServiceOutlined, FieldNumberOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
 import { FloatButton } from 'antd';
+import useProcessTecnologyData from './hooks/useProcessTecnologyData';
+import MapStatistic from './components/Map/mapStatistic/MapStatistic';
 
 function App() {
   const [count, setCount] = useState<number>(0);
@@ -24,6 +27,23 @@ function App() {
   const [selectedValue, setSelectedValue] = useState<number>(0);
 
   const { tecnology } = todo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   const dataTodo = useMemo(() => {
@@ -61,7 +81,6 @@ function App() {
   useEffect(() => {
     try {
       const level = ['basic', 'middel', 'expert', 'god'][selectValueLevel]
-      console.log("🚀 ~ useEffect ~ level:", level)
       if (selectValueLevel !== undefined) setSelectLevel(['basic', 'middel', 'expert', 'god'][selectValueLevel]);
     } catch (error) {
       console.log("🚀 ~ useEffect ~ error:", error);
@@ -87,11 +106,53 @@ function App() {
     }
   }, [selectTecnology, selectLevel, tecnology]);
 
+
+
+    // useEffect(() => {
+    //   const functionAsync = async () => {
+    //     const tecnosData = json.tecnology;
+    //     const results = {};
+    
+    //     tecnosData.forEach((element) => {
+    //       Object.keys(element).forEach((techKey) => {
+    //         const levels = element[techKey];
+    //         Object.keys(levels).forEach((levelKey) => {
+    //           const levelArray = levels[levelKey];
+    
+    //           const totalQuestions = levelArray.length;
+    //           const totalAnswers = levelArray.reduce((sum, question) => sum + question.options.length, 0);
+    
+    //           if (!results[techKey]) {
+    //             results[techKey] = {};
+    //           }
+    
+    //           results[techKey][levelKey] = {
+    //             totalQuestions,
+    //             totalAnswers,
+    //           };
+    //         });
+    //       });
+    //     });
+    
+    //     console.log("Results:", results);
+    //   };
+    
+    //   functionAsync();
+    // }, [json]);
+
+    const results = useProcessTecnologyData(json);
+    console.log("🚀 ~ App ~ results:", results)
+
+
   return (
     <>
       <div className='header'>
         <h2> Que comience el juego</h2>
+
       </div>
+      <MapStatistic
+      results={results}
+      />
       <div className=''>
 
 
@@ -103,7 +164,7 @@ function App() {
         >
           <div className='level'>
             <span>
-             Count Answer
+              Count Answer
             </span>
             <Inputs
               type={'number'}
@@ -114,7 +175,7 @@ function App() {
             />
           </div>
         </FloatButton.Group>
---
+        --
 
         <FloatButton.Group
           trigger="hover"
@@ -139,13 +200,13 @@ function App() {
           style={{ right: 85 }}
           icon={<WifiOutlined />}
         >
-            <Checkboxs
-              name={`checkbox-level`}
-              optionsTecnology={['basic', 'middel', 'expert', 'god']}
-              selectedValue={selectValueLevel}
-              setSelectedValue={setSelectValueLevel}
-            />
-        
+          <Checkboxs
+            name={`checkbox-level`}
+            optionsTecnology={['basic', 'middel', 'expert', 'god']}
+            selectedValue={selectValueLevel}
+            setSelectedValue={setSelectValueLevel}
+          />
+
         </FloatButton.Group>
 
 
