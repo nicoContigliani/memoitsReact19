@@ -281,339 +281,335 @@
                     {
                         "ask": "¿Qué método se utiliza para actualizar el estado en un componente de React?",
                         "options": [
-                          "updateState()",
-                          "setState()",
-                          "modifyState()"
+                            "updateState()",
+                            "setState()",
+                            "modifyState()"
                         ],
                         "answer": "setState()",
                         "images": "https://example.com/react-setState.png",
                         "information": "setState() es el método utilizado en React para actualizar el estado de un componente, permitiendo re-renderizar el componente con los nuevos datos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de que el componente se haya renderizado?",
                         "options": [
-                          "useEffect()",
-                          "useEffectAfter()",
-                          "afterEffect()"
+                            "useEffect()",
+                            "useEffectAfter()",
+                            "afterEffect()"
                         ],
                         "answer": "useEffect()",
                         "images": "https://example.com/react-useEffect.png",
                         "information": "useEffect() es un hook de React utilizado para realizar efectos secundarios después de que el componente se haya renderizado, como peticiones HTTP, suscripciones a eventos o limpieza de recursos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué método se utiliza para manejar eventos de clic en React?",
                         "options": [
-                          "handleEvent()",
-                          "onClick()",
-                          "eventHandler()"
+                            "handleEvent()",
+                            "onClick()",
+                            "eventHandler()"
                         ],
                         "answer": "onClick()",
                         "images": "https://example.com/react-onClick.png",
                         "information": "onClick() es el método utilizado en React para manejar eventos de clic, permitiendo a los componentes responder a las interacciones del usuario y ejecutar acciones específicas."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cuál es la forma correcta de definir un componente funcional en React?",
                         "options": [
-                          "function MyComponent() {}",
-                          "class MyComponent {}",
-                          "const MyComponent = () => {}"
+                            "function MyComponent() {}",
+                            "class MyComponent {}",
+                            "const MyComponent = () => {}"
                         ],
                         "answer": "const MyComponent = () => {}",
                         "images": "https://example.com/react-functional-component.png",
                         "information": "La forma correcta de definir un componente funcional en React es utilizando la sintaxis 'const MyComponent = () => {}', que permite crear componentes basados en funciones con estado y props."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para obtener el estado y el ciclo de vida de un componente?",
                         "options": [
-                          "useState()",
-                          "useEffect()",
-                          "useComponent()"
+                            "useState()",
+                            "useEffect()",
+                            "useComponent()"
                         ],
                         "answer": "useEffect()",
                         "images": "https://example.com/react-lifecycle.png",
                         "information": "useEffect() es un hook de React utilizado para obtener el ciclo de vida y el estado de un componente funcional, permitiendo efectos secundarios basados en cambios de estado o props."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué método se utiliza para actualizar el estado en un componente de React?",
                         "options": [
-                          "updateState()",
-                          "setState()",
-                          "modifyState()"
+                            "updateState()",
+                            "setState()",
+                            "modifyState()"
                         ],
                         "answer": "setState()",
                         "images": "https://example.com/react-setState.png",
                         "information": "setState() es el método utilizado en React para actualizar el estado de un componente, permitiendo re-renderizar el componente con los nuevos datos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de que el componente se haya renderizado?",
                         "options": [
-                          "useEffect()",
-                          "useEffectAfter()",
-                          "afterEffect()"
+                            "useEffect()",
+                            "useEffectAfter()",
+                            "afterEffect()"
                         ],
                         "answer": "useEffect()",
                         "images": "https://example.com/react-useEffect.png",
                         "information": "useEffect() es un hook de React utilizado para realizar efectos secundarios después de que el componente se haya renderizado, como peticiones HTTP, suscripciones a eventos o limpieza de recursos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué método se utiliza para manejar eventos de clic en React?",
                         "options": [
-                          "handleEvent()",
-                          "onClick()",
-                          "eventHandler()"
+                            "handleEvent()",
+                            "onClick()",
+                            "eventHandler()"
                         ],
                         "answer": "onClick()",
                         "images": "https://example.com/react-onClick.png",
                         "information": "onClick() es el método utilizado en React para manejar eventos de clic, permitiendo a los componentes responder a las interacciones del usuario y ejecutar acciones específicas."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cuál es la forma correcta de definir un componente funcional en React?",
                         "options": [
-                          "function MyComponent() {}",
-                          "class MyComponent {}",
-                          "const MyComponent = () => {}"
+                            "function MyComponent() {}",
+                            "class MyComponent {}",
+                            "const MyComponent = () => {}"
                         ],
                         "answer": "const MyComponent = () => {}",
                         "images": "https://example.com/react-functional-component.png",
                         "information": "La forma correcta de definir un componente funcional en React es utilizando la sintaxis 'const MyComponent = () => {}', que permite crear componentes basados en funciones con estado y props."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para obtener el estado y el ciclo de vida de un componente?",
                         "options": [
-                          "useState()",
-                          "useEffect()",
-                          "useComponent()"
+                            "useState()",
+                            "useEffect()",
+                            "useComponent()"
                         ],
                         "answer": "useEffect()",
                         "images": "https://example.com/react-lifecycle.png",
                         "information": "useEffect() es un hook de React utilizado para obtener el ciclo de vida y el estado de un componente funcional, permitiendo efectos secundarios basados en cambios de estado o props."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para manejar el estado en un componente funcional?",
                         "options": [
-                          "useState()",
-                          "setState()",
-                          "modifyState()"
+                            "useState()",
+                            "setState()",
+                            "modifyState()"
                         ],
                         "answer": "useState()",
                         "images": "https://example.com/react-useState.png",
                         "information": "useState() es un hook de React utilizado para añadir el estado local a los componentes funcionales, permitiendo que el componente reaccione y se actualice según los cambios de estado."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para realizar efectos secundarios después de cada renderizado?",
                         "options": [
-                          "useEffect()",
-                          "useEffectAfter()",
-                          "afterEffect()"
+                            "useEffect()",
+                            "useEffectAfter()",
+                            "afterEffect()"
                         ],
                         "answer": "useEffect()",
                         "images": "https://example.com/react-useEffect.png",
                         "information": "useEffect() es un hook de React utilizado para realizar efectos secundarios después de cada renderizado, como peticiones HTTP, suscripciones a eventos o limpieza de recursos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cuál es la función utilizada en useEffect() para limpiar suscripciones y efectos?",
                         "options": [
-                          "cleanupEffect()",
-                          "clearEffect()",
-                          "return cleanupFunction"
+                            "cleanupEffect()",
+                            "clearEffect()",
+                            "return cleanupFunction"
                         ],
                         "answer": "cleanupEffect()",
                         "images": "https://example.com/react-useEffect-cleanup.png",
                         "information": "Para limpiar suscripciones y efectos en useEffect(), se utiliza una función de limpieza que puede devolver en la forma de una función cleanupEffect(). Esto asegura que los recursos se liberen correctamente cuando el componente se desmonte o el efecto se vuelva a ejecutar."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para optimizar el rendimiento evitando renders innecesarios?",
                         "options": [
-                          "useMemo()",
-                          "useRef()",
-                          "optimizeRender()"
+                            "useMemo()",
+                            "useRef()",
+                            "optimizeRender()"
                         ],
                         "answer": "useMemo()",
                         "images": "https://example.com/react-useMemo.png",
                         "information": "useMemo() es un hook de React utilizado para optimizar el rendimiento al memoizar valores computados entre renders, evitando cálculos costosos en cada renderizado del componente."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hook de React se utiliza para acceder al contexto en componentes de manera sencilla?",
                         "options": [
-                          "useContext()",
-                          "useContextAPI()",
-                          "getContext()"
+                            "useContext()",
+                            "useContextAPI()",
+                            "getContext()"
                         ],
                         "answer": "useContext()",
                         "images": "https://example.com/react-useContext.png",
                         "information": "useContext() es un hook de React utilizado para acceder al contexto proporcionado por un proveedor en componentes hijos, permitiendo pasar datos a través de la jerarquía de componentes sin necesidad de props adicionales."
-                      }
-                      
-                      
-                      
+                    }
                 ],
                 "middel": [
-                    
-    {
-        "ask": "¿Cómo se evita que un componente se vuelva a renderizar en React?",
-        "options": [
-            "Usando React.memo",
-            "Usando useEffect",
-            "Usando useState"
-        ],
-        "answer": "Usando React.memo",
-        "images": "https://example.com/prevent-render.png",
-        "information": "Para evitar que un componente se vuelva a renderizar innecesariamente, se puede usar React.memo para memorizar el componente."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para realizar tareas de limpieza en un componente funcional?",
-        "options": [
-            "useEffect",
-            "useState",
-            "useContext"
-        ],
-        "answer": "useEffect",
-        "images": "https://example.com/cleanup-task.png",
-        "information": "El hook useEffect se utiliza para realizar tareas de limpieza, devolviendo una función de limpieza en el cuerpo del useEffect."
-    },
-    {
-        "ask": "¿Cómo se define un estado inicial complejo en un componente funcional?",
-        "options": [
-            "Pasando una función a useState",
-            "Usando useReducer",
-            "Usando useEffect"
-        ],
-        "answer": "Pasando una función a useState",
-        "images": "https://example.com/complex-initial-state.png",
-        "information": "Para definir un estado inicial complejo en un componente funcional, se puede pasar una función a useState que retorne el estado inicial."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para acceder a valores de contexto en componentes funcionales?",
-        "options": [
-            "useContext",
-            "useState",
-            "useReducer"
-        ],
-        "answer": "useContext",
-        "images": "https://example.com/access-context.png",
-        "information": "El hook useContext se utiliza para acceder a valores de contexto en componentes funcionales, permitiendo usar valores de contexto sin pasar props."
-    },
-    {
-        "ask": "¿Cómo se puede optimizar la performance de un componente en React?",
-        "options": [
-            "Usando React.memo y useMemo",
-            "Usando useEffect y useState",
-            "Usando useReducer y useContext"
-        ],
-        "answer": "Usando React.memo y useMemo",
-        "images": "https://example.com/optimize-performance.png",
-        "information": "Para optimizar la performance de un componente en React, se pueden usar React.memo para memorizar componentes y useMemo para memorizar valores."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para manejar formularios en React?",
-        "options": [
-            "useState",
-            "useEffect",
-            "useContext"
-        ],
-        "answer": "useState",
-        "images": "https://example.com/handle-forms.png",
-        "information": "El hook useState se utiliza para manejar el estado de los campos de un formulario en componentes funcionales de React."
-    },
-    {
-        "ask": "¿Cómo se implementa el manejo de errores en componentes funcionales?",
-        "options": [
-            "Usando un hook personalizado para manejo de errores",
-            "Usando useState para almacenar el error",
-            "Usando useEffect para lanzar errores"
-        ],
-        "answer": "Usando un hook personalizado para manejo de errores",
-        "images": "https://example.com/error-handling.png",
-        "information": "Para implementar el manejo de errores en componentes funcionales, se puede usar un hook personalizado que encapsule la lógica de manejo de errores."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para suscribirse a datos en tiempo real en componentes funcionales?",
-        "options": [
-            "useEffect",
-            "useState",
-            "useContext"
-        ],
-        "answer": "useEffect",
-        "images": "https://example.com/real-time-data.png",
-        "information": "El hook useEffect se utiliza para suscribirse a datos en tiempo real en componentes funcionales, configurando la suscripción y limpiándola al desmontar."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para manejar animaciones en React?",
-        "options": [
-            "useEffect con bibliotecas de animación",
-            "useState para almacenar estados de animación",
-            "useContext para compartir animaciones"
-        ],
-        "answer": "useEffect con bibliotecas de animación",
-        "images": "https://example.com/handle-animations.png",
-        "information": "Para manejar animaciones en React, se puede usar useEffect junto con bibliotecas de animación como GSAP o Framer Motion."
-    },
-    {
-        "ask": "¿Cómo se pueden combinar múltiples reducers en React?",
-        "options": [
-            "Usando una función combinadora de reducers",
-            "Usando múltiples useReducer",
-            "Usando useState y useEffect juntos"
-        ],
-        "answer": "Usando una función combinadora de reducers",
-        "images": "https://example.com/combine-reducers.png",
-        "information": "Para combinar múltiples reducers en React, se puede usar una función combinadora de reducers que maneje la lógica de combinación."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para mantener el estado entre renderizados?",
-        "options": [
-            "useRef",
-            "useState",
-            "useEffect"
-        ],
-        "answer": "useRef",
-        "images": "https://example.com/maintain-state.png",
-        "information": "El hook useRef se utiliza para mantener valores entre renderizados sin causar una nueva renderización del componente."
-    },
-    {
-        "ask": "¿Cómo se puede optimizar la renderización de listas en React?",
-        "options": [
-            "Usando React.memo y virtualización",
-            "Usando useState para almacenar elementos",
-            "Usando useEffect para manejar actualizaciones"
-        ],
-        "answer": "Usando React.memo y virtualización",
-        "images": "https://example.com/optimize-lists.png",
-        "information": "Para optimizar la renderización de listas en React, se puede usar React.memo para memorizar elementos y técnicas de virtualización para renderizar solo los visibles."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para manejar eventos personalizados en React?",
-        "options": [
-            "useEffect para configurar listeners",
-            "useState para almacenar eventos",
-            "useContext para compartir eventos"
-        ],
-        "answer": "useEffect para configurar listeners",
-        "images": "https://example.com/custom-events.png",
-        "information": "El hook useEffect se utiliza para configurar listeners de eventos personalizados en componentes funcionales de React."
-    },
-    {
-        "ask": "¿Qué es un reducer en React?",
-        "options": [
-            "Una función que maneja actualizaciones de estado basadas en acciones",
-            "Una función que devuelve un nuevo estado",
-            "Una función que se utiliza para obtener datos"
-        ],
-        "answer": "Una función que maneja actualizaciones de estado basadas en acciones",
-        "images": "https://example.com/reducer.png",
-        "information": "Un reducer en React es una función que maneja actualizaciones de estado basadas en acciones, comúnmente usada con useReducer."
-    },
-    {
-        "ask": "¿Qué hook se utiliza para manejar el ciclo de vida de un componente funcional?",
-        "options": [
-            "useEffect",
-            "useState",
-            "useReducer"
-        ],
-        "answer": "useEffect",
-        "images": "https://example.com/lifecycle.png",
-        "information": "El hook useEffect se utiliza para manejar el ciclo de vida de un componente funcional, como montar, actualizar y desmontar."
-    },
+                    {
+                        "ask": "¿Cómo se evita que un componente se vuelva a renderizar en React?",
+                        "options": [
+                            "Usando React.memo",
+                            "Usando useEffect",
+                            "Usando useState"
+                        ],
+                        "answer": "Usando React.memo",
+                        "images": "https://example.com/prevent-render.png",
+                        "information": "Para evitar que un componente se vuelva a renderizar innecesariamente, se puede usar React.memo para memorizar el componente."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para realizar tareas de limpieza en un componente funcional?",
+                        "options": [
+                            "useEffect",
+                            "useState",
+                            "useContext"
+                        ],
+                        "answer": "useEffect",
+                        "images": "https://example.com/cleanup-task.png",
+                        "information": "El hook useEffect se utiliza para realizar tareas de limpieza, devolviendo una función de limpieza en el cuerpo del useEffect."
+                    },
+                    {
+                        "ask": "¿Cómo se define un estado inicial complejo en un componente funcional?",
+                        "options": [
+                            "Pasando una función a useState",
+                            "Usando useReducer",
+                            "Usando useEffect"
+                        ],
+                        "answer": "Pasando una función a useState",
+                        "images": "https://example.com/complex-initial-state.png",
+                        "information": "Para definir un estado inicial complejo en un componente funcional, se puede pasar una función a useState que retorne el estado inicial."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para acceder a valores de contexto en componentes funcionales?",
+                        "options": [
+                            "useContext",
+                            "useState",
+                            "useReducer"
+                        ],
+                        "answer": "useContext",
+                        "images": "https://example.com/access-context.png",
+                        "information": "El hook useContext se utiliza para acceder a valores de contexto en componentes funcionales, permitiendo usar valores de contexto sin pasar props."
+                    },
+                    {
+                        "ask": "¿Cómo se puede optimizar la performance de un componente en React?",
+                        "options": [
+                            "Usando React.memo y useMemo",
+                            "Usando useEffect y useState",
+                            "Usando useReducer y useContext"
+                        ],
+                        "answer": "Usando React.memo y useMemo",
+                        "images": "https://example.com/optimize-performance.png",
+                        "information": "Para optimizar la performance de un componente en React, se pueden usar React.memo para memorizar componentes y useMemo para memorizar valores."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar formularios en React?",
+                        "options": [
+                            "useState",
+                            "useEffect",
+                            "useContext"
+                        ],
+                        "answer": "useState",
+                        "images": "https://example.com/handle-forms.png",
+                        "information": "El hook useState se utiliza para manejar el estado de los campos de un formulario en componentes funcionales de React."
+                    },
+                    {
+                        "ask": "¿Cómo se implementa el manejo de errores en componentes funcionales?",
+                        "options": [
+                            "Usando un hook personalizado para manejo de errores",
+                            "Usando useState para almacenar el error",
+                            "Usando useEffect para lanzar errores"
+                        ],
+                        "answer": "Usando un hook personalizado para manejo de errores",
+                        "images": "https://example.com/error-handling.png",
+                        "information": "Para implementar el manejo de errores en componentes funcionales, se puede usar un hook personalizado que encapsule la lógica de manejo de errores."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para suscribirse a datos en tiempo real en componentes funcionales?",
+                        "options": [
+                            "useEffect",
+                            "useState",
+                            "useContext"
+                        ],
+                        "answer": "useEffect",
+                        "images": "https://example.com/real-time-data.png",
+                        "information": "El hook useEffect se utiliza para suscribirse a datos en tiempo real en componentes funcionales, configurando la suscripción y limpiándola al desmontar."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar animaciones en React?",
+                        "options": [
+                            "useEffect con bibliotecas de animación",
+                            "useState para almacenar estados de animación",
+                            "useContext para compartir animaciones"
+                        ],
+                        "answer": "useEffect con bibliotecas de animación",
+                        "images": "https://example.com/handle-animations.png",
+                        "information": "Para manejar animaciones en React, se puede usar useEffect junto con bibliotecas de animación como GSAP o Framer Motion."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden combinar múltiples reducers en React?",
+                        "options": [
+                            "Usando una función combinadora de reducers",
+                            "Usando múltiples useReducer",
+                            "Usando useState y useEffect juntos"
+                        ],
+                        "answer": "Usando una función combinadora de reducers",
+                        "images": "https://example.com/combine-reducers.png",
+                        "information": "Para combinar múltiples reducers en React, se puede usar una función combinadora de reducers que maneje la lógica de combinación."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para mantener el estado entre renderizados?",
+                        "options": [
+                            "useRef",
+                            "useState",
+                            "useEffect"
+                        ],
+                        "answer": "useRef",
+                        "images": "https://example.com/maintain-state.png",
+                        "information": "El hook useRef se utiliza para mantener valores entre renderizados sin causar una nueva renderización del componente."
+                    },
+                    {
+                        "ask": "¿Cómo se puede optimizar la renderización de listas en React?",
+                        "options": [
+                            "Usando React.memo y virtualización",
+                            "Usando useState para almacenar elementos",
+                            "Usando useEffect para manejar actualizaciones"
+                        ],
+                        "answer": "Usando React.memo y virtualización",
+                        "images": "https://example.com/optimize-lists.png",
+                        "information": "Para optimizar la renderización de listas en React, se puede usar React.memo para memorizar elementos y técnicas de virtualización para renderizar solo los visibles."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar eventos personalizados en React?",
+                        "options": [
+                            "useEffect para configurar listeners",
+                            "useState para almacenar eventos",
+                            "useContext para compartir eventos"
+                        ],
+                        "answer": "useEffect para configurar listeners",
+                        "images": "https://example.com/custom-events.png",
+                        "information": "El hook useEffect se utiliza para configurar listeners de eventos personalizados en componentes funcionales de React."
+                    },
+                    {
+                        "ask": "¿Qué es un reducer en React?",
+                        "options": [
+                            "Una función que maneja actualizaciones de estado basadas en acciones",
+                            "Una función que devuelve un nuevo estado",
+                            "Una función que se utiliza para obtener datos"
+                        ],
+                        "answer": "Una función que maneja actualizaciones de estado basadas en acciones",
+                        "images": "https://example.com/reducer.png",
+                        "information": "Un reducer en React es una función que maneja actualizaciones de estado basadas en acciones, comúnmente usada con useReducer."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar el ciclo de vida de un componente funcional?",
+                        "options": [
+                            "useEffect",
+                            "useState",
+                            "useReducer"
+                        ],
+                        "answer": "useEffect",
+                        "images": "https://example.com/lifecycle.png",
+                        "information": "El hook useEffect se utiliza para manejar el ciclo de vida de un componente funcional, como montar, actualizar y desmontar."
+                    },
                     {
                         "ask": "¿Qué hook se utiliza para referenciar elementos del DOM en componentes funcionales?",
                         "options": [
@@ -2893,452 +2889,1047 @@
                     {
                         "ask": "¿Cómo se puede instalar un paquete NPM?",
                         "options": [
-                          "Usando 'npm install nombre_paquete'",
-                          "Usando 'npm add nombre_paquete'",
-                          "Usando 'npm update nombre_paquete'"
+                            "Usando 'npm install nombre_paquete'",
+                            "Usando 'npm add nombre_paquete'",
+                            "Usando 'npm update nombre_paquete'"
                         ],
                         "answer": "Usando 'npm install nombre_paquete' o 'npm add nombre_paquete'",
                         "images": "https://example.com/npm-install.png",
                         "information": "Para instalar un paquete NPM, se utiliza el comando 'npm install' o 'npm add' seguido del nombre del paquete."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se crea un servidor web simple con Node.js?",
                         "options": [
-                          "Usando el módulo 'http'",
-                          "Usando el módulo 'express'",
-                          "Usando el módulo 'fs'"
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'express'",
+                            "Usando el módulo 'fs'"
                         ],
                         "answer": "Usando el módulo 'http' o 'express'",
                         "images": "https://example.com/node-server.png",
                         "information": "Para crear un servidor web simple con Node.js, se puede usar el módulo 'http' o 'express'. El módulo 'http' ofrece funcionalidades básicas, mientras que 'express' proporciona más herramientas y simplifica la creación de aplicaciones web."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el bucle 'for' en Node.js?",
                         "options": [
-                          "Un tipo de dato",
-                          "Una variable",
-                          "Una estructura de control de flujo"
+                            "Un tipo de dato",
+                            "Una variable",
+                            "Una estructura de control de flujo"
                         ],
                         "answer": "Una estructura de control de flujo",
                         "images": "https://example.com/for-loop.png",
                         "information": "El bucle 'for' en Node.js es una estructura de control de flujo que permite iterar sobre un bloque de código un número determinado de veces o hasta que se cumpla una condición."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se manejan errores en Node.js?",
                         "options": [
-                          "Usando 'try...catch'",
-                          "Usando 'throw new Error()'",
-                          "Usando 'console.error()'"
+                            "Usando 'try...catch'",
+                            "Usando 'throw new Error()'",
+                            "Usando 'console.error()'"
                         ],
                         "answer": "Usando 'try...catch' y 'throw new Error()'",
                         "images": "https://example.com/error-handling.png",
                         "information": "En Node.js, se utilizan los bloques 'try...catch' para manejar errores. El bloque 'try' contiene el código que podría generar un error, y el bloque 'catch' se ejecuta si se produce un error. El comando 'throw new Error()' se utiliza para generar un error."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'fs' en Node.js?",
                         "options": [
-                          "Un módulo para manejar archivos y directorios",
-                          "Un módulo para crear servidores web",
-                          "Un módulo para instalar paquetes NPM"
+                            "Un módulo para manejar archivos y directorios",
+                            "Un módulo para crear servidores web",
+                            "Un módulo para instalar paquetes NPM"
                         ],
                         "answer": "Un módulo para manejar archivos y directorios",
                         "images": "https://example.com/fs-module.png",
                         "information": "El módulo 'fs' (File System) en Node.js proporciona funciones para leer, escribir, crear, eliminar y modificar archivos y directorios."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se puede instalar un paquete NPM?",
                         "options": [
-                          "Usando 'npm update nombre_paquete'",
-                          "Usando 'npm add nombre_paquete'",
-                          "Usando 'npm install nombre_paquete'"
+                            "Usando 'npm update nombre_paquete'",
+                            "Usando 'npm add nombre_paquete'",
+                            "Usando 'npm install nombre_paquete'"
                         ],
                         "answer": "Usando 'npm install nombre_paquete' o 'npm add nombre_paquete'",
                         "images": "https://example.com/npm-install.png",
                         "information": "Para instalar un paquete NPM, se utiliza el comando 'npm install' o 'npm add' seguido del nombre del paquete."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se crea un servidor web simple con Node.js?",
                         "options": [
-                          "Usando el módulo 'express'",
-                          "Usando el módulo 'fs'",
-                          "Usando el módulo 'http'"
+                            "Usando el módulo 'express'",
+                            "Usando el módulo 'fs'",
+                            "Usando el módulo 'http'"
                         ],
                         "answer": "Usando el módulo 'http' o 'express'",
                         "images": "https://example.com/node-server.png",
                         "information": "Para crear un servidor web simple con Node.js, se puede usar el módulo 'http' o 'express'. El módulo 'http' ofrece funcionalidades básicas, mientras que 'express' proporciona más herramientas y simplifica la creación de aplicaciones web."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el bucle 'for' en Node.js?",
                         "options": [
-                          "Una estructura de control de flujo",
-                          "Un tipo de dato",
-                          "Una variable"
+                            "Una estructura de control de flujo",
+                            "Un tipo de dato",
+                            "Una variable"
                         ],
                         "answer": "Una estructura de control de flujo",
                         "images": "https://example.com/for-loop.png",
                         "information": "El bucle 'for' en Node.js es una estructura de control de flujo que permite iterar sobre un bloque de código un número determinado de veces o hasta que se cumpla una condición."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se manejan errores en Node.js?",
                         "options": [
-                          "Usando 'console.error()'",
-                          "Usando 'throw new Error()'",
-                          "Usando 'try...catch'"
+                            "Usando 'console.error()'",
+                            "Usando 'throw new Error()'",
+                            "Usando 'try...catch'"
                         ],
                         "answer": "Usando 'try...catch' y 'throw new Error()'",
                         "images": "https://example.com/error-handling.png",
                         "information": "En Node.js, se utilizan los bloques 'try...catch' para manejar errores. El bloque 'try' contiene el código que podría generar un error, y el bloque 'catch' se ejecuta si se produce un error. El comando 'throw new Error()' se utiliza para generar un error."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'fs' en Node.js?",
                         "options": [
-                          "Un módulo para instalar paquetes NPM",
-                          "Un módulo para manejar archivos y directorios",
-                          "Un módulo para crear servidores web"
+                            "Un módulo para instalar paquetes NPM",
+                            "Un módulo para manejar archivos y directorios",
+                            "Un módulo para crear servidores web"
                         ],
                         "answer": "Un módulo para manejar archivos y directorios",
                         "images": "https://example.com/fs-module.png",
                         "information": "El módulo 'fs' (File System) en Node.js proporciona funciones para leer, escribir, crear, eliminar y modificar archivos y directorios."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.readFile'?",
                         "options": [
-                          "Elimina un archivo",
-                          "Crea un nuevo archivo",
-                          "Lee el contenido de un archivo"
+                            "Elimina un archivo",
+                            "Crea un nuevo archivo",
+                            "Lee el contenido de un archivo"
                         ],
                         "answer": "Lee el contenido de un archivo",
                         "images": "https://example.com/fs-readfile.png",
                         "information": "El método 'fs.readFile' en Node.js se utiliza para leer el contenido de un archivo y devolverlo como una cadena o un búfer."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.writeFile'?",
                         "options": [
-                          "Elimina un archivo",
-                          "Lee el contenido de un archivo",
-                          "Crea o sobrescribe un archivo"
+                            "Elimina un archivo",
+                            "Lee el contenido de un archivo",
+                            "Crea o sobrescribe un archivo"
                         ],
                         "answer": "Crea o sobrescribe un archivo",
                         "images": "https://example.com/fs-writeFile.png",
                         "information": "El método 'fs.writeFile' en Node.js se utiliza para crear o sobrescribir un archivo con el contenido especificado."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.appendFile'?",
                         "options": [
-                          "Crea un nuevo archivo",
-                          "Elimina un archivo",
-                          "Agrega contenido al final de un archivo existente"
+                            "Crea un nuevo archivo",
+                            "Elimina un archivo",
+                            "Agrega contenido al final de un archivo existente"
                         ],
                         "answer": "Agrega contenido al final de un archivo existente",
                         "images": "https://example.com/fs-appendFile.png",
                         "information": "El método 'fs.appendFile' en Node.js se utiliza para agregar contenido al final de un archivo existente sin sobrescribir su contenido anterior."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.unlink'?",
                         "options": [
-                          "Crea un nuevo archivo",
-                          "Elimina un archivo",
-                          "Lee el contenido de un archivo"
+                            "Crea un nuevo archivo",
+                            "Elimina un archivo",
+                            "Lee el contenido de un archivo"
                         ],
                         "answer": "Elimina un archivo",
                         "images": "https://example.com/unlink.png",
                         "information": "El método 'fs.unlink' en Node.js se utiliza para eliminar un archivo del sistema de archivos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.rmdir'?",
                         "options": [
-                          "Crea un nuevo directorio",
-                          "Elimina un directorio vacío",
-                          "Lee el contenido de un directorio"
+                            "Crea un nuevo directorio",
+                            "Elimina un directorio vacío",
+                            "Lee el contenido de un directorio"
                         ],
                         "answer": "Elimina un directorio vacío",
                         "images": "https://example.com/fs-rmdir.png",
                         "information": "El método 'fs.rmdir' en Node.js se utiliza para eliminar un directorio vacío del sistema de archivos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.mkdir'?",
                         "options": [
-                          "Elimina un directorio",
-                          "Crea un nuevo directorio",
-                          "Lee el contenido de un directorio"
+                            "Elimina un directorio",
+                            "Crea un nuevo directorio",
+                            "Lee el contenido de un directorio"
                         ],
                         "answer": "Crea un nuevo directorio",
                         "images": "https://example.com/fs-mkdir.png",
                         "information": "El método 'fs.mkdir' en Node.js se utiliza para crear un nuevo directorio en el sistema de archivos."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.readdir'?",
                         "options": [
-                          "Crea un nuevo directorio",
-                          "Elimina un directorio",
-                          "Lee una lista de archivos y directorios dentro de un directorio"
+                            "Crea un nuevo directorio",
+                            "Elimina un directorio",
+                            "Lee una lista de archivos y directorios dentro de un directorio"
                         ],
                         "answer": "Lee una lista de archivos y directorios dentro de un directorio",
                         "images": "https://example.com/fs-readdir.png",
                         "information": "El método 'fs.readdir' en Node.js se utiliza para obtener una lista de archivos y directorios dentro de un directorio especificado."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'path' en Node.js?",
                         "options": [
-                          "Un módulo para manejar rutas de archivo",
-                          "Un módulo para crear servidores web",
-                          "Un módulo para instalar paquetes NPM"
+                            "Un módulo para manejar rutas de archivo",
+                            "Un módulo para crear servidores web",
+                            "Un módulo para instalar paquetes NPM"
                         ],
                         "answer": "Un módulo para manejar rutas de archivo",
                         "images": "https://example.com/path-module.png",
                         "information": "El módulo 'path' en Node.js proporciona funciones para trabajar con rutas de archivo, como unir rutas, obtener la extensión de un archivo, verificar si un archivo existe, etc."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.readdirSync'?",
                         "options": [
-                          "Crea un nuevo directorio",
-                          "Elimina un directorio",
-                          "Lee una lista de archivos y directorios dentro de un directorio de forma síncrona"
+                            "Crea un nuevo directorio",
+                            "Elimina un directorio",
+                            "Lee una lista de archivos y directorios dentro de un directorio de forma síncrona"
                         ],
                         "answer": "Lee una lista de archivos y directorios dentro de un directorio de forma síncrona",
                         "images": "https://example.com/fs-readdirSync.png",
                         "information": "El método 'fs.readdirSync' en Node.js se utiliza para obtener una lista de archivos y directorios dentro de un directorio especificado de forma síncrona, bloqueando el hilo de ejecución hasta que se complete la operación."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.writeFileSync'?",
                         "options": [
-                          "Elimina un archivo",
-                          "Crea o sobrescribe un archivo de forma síncrona",
-                          "Lee el contenido de un archivo"
+                            "Elimina un archivo",
+                            "Crea o sobrescribe un archivo de forma síncrona",
+                            "Lee el contenido de un archivo"
                         ],
                         "answer": "Crea o sobrescribe un archivo de forma síncrona",
                         "images": "https://example.com/fs-writeFileSync.png",
                         "information": "El método 'fs.writeFileSync' en Node.js se utiliza para crear o sobrescribir un archivo con el contenido especificado de forma síncrona, bloqueando el hilo de ejecución hasta que se complete la operación."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué hace el método 'fs.mkdirSync'?",
                         "options": [
-                          "Elimina un directorio",
-                          "Crea un nuevo directorio de forma síncrona",
-                          "Lee el contenido de un directorio"
+                            "Elimina un directorio",
+                            "Crea un nuevo directorio de forma síncrona",
+                            "Lee el contenido de un directorio"
                         ],
                         "answer": "Crea un nuevo directorio de forma síncrona",
                         "images": "https://example.com/fs-mkdirSync.png",
                         "information": "El método 'fs.mkdirSync' en Node.js se utiliza para crear un nuevo directorio en el sistema de archivos de forma síncrona, bloqueando el hilo de ejecución hasta que se complete la operación."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el evento 'error' en Node.js?",
                         "options": [
-                          "Se emite cuando se produce un error en una operación de E/S",
-                          "Se emite cuando se completa una operación de E/S con éxito",
-                          "Se emite cuando se recibe una solicitud HTTP"
+                            "Se emite cuando se produce un error en una operación de E/S",
+                            "Se emite cuando se completa una operación de E/S con éxito",
+                            "Se emite cuando se recibe una solicitud HTTP"
                         ],
                         "answer": "Se emite cuando se produce un error en una operación de E/S",
                         "images": "https://example.com/error-event.png",
                         "information": "El evento 'error' en Node.js se emite cuando se produce un error durante una operación de entrada/salida (E/S), como leer un archivo, escribir en un archivo o crear un socket. Este evento permite manejar los errores de forma adecuada."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el objeto 'global' en Node.js?",
                         "options": [
-                          "Un objeto que contiene variables globales accesibles desde cualquier parte del código",
-                          "Un módulo que proporciona funciones para trabajar con el sistema de archivos",
-                          "Un framework para crear servidores web"
+                            "Un objeto que contiene variables globales accesibles desde cualquier parte del código",
+                            "Un módulo que proporciona funciones para trabajar con el sistema de archivos",
+                            "Un framework para crear servidores web"
                         ],
                         "answer": "Un objeto que contiene variables globales accesibles desde cualquier parte del código",
                         "images": "https://example.com/global-object.png",
                         "information": "El objeto 'global' en Node.js proporciona un espacio de nombres global donde se pueden declarar variables que estarán disponibles desde cualquier parte del código de la aplicación. Sin embargo, se recomienda evitar su uso excesivo y utilizar módulos para organizar el código de manera más eficiente."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'process' en Node.js?",
                         "options": [
-                          "Un módulo que proporciona información sobre el proceso actual de Node.js",
-                          "Un módulo para crear servidores web",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Un módulo que proporciona información sobre el proceso actual de Node.js",
+                            "Un módulo para crear servidores web",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Un módulo que proporciona información sobre el proceso actual de Node.js",
                         "images": "https://example.com/process-module.png",
                         "information": "El módulo 'process' en Node.js proporciona información sobre el proceso actual de Node.js, como el pid (identificador de proceso), la memoria utilizada, las variables de entorno y las señales recibidas. También permite salir del proceso o enviar señales a otros procesos."
-                      }
-                    
+                    }
                 ],
                 "middel": [
                     {
                         "ask": "¿Cómo se pueden utilizar módulos externos en Node.js?",
                         "options": [
-                          "Usando 'require()' para importar el módulo",
-                          "Instalando el módulo con 'npm install' y luego importándolo con 'require()'",
-                          "Ambas opciones son válidas"
+                            "Usando 'require()' para importar el módulo",
+                            "Instalando el módulo con 'npm install' y luego importándolo con 'require()'",
+                            "Ambas opciones son válidas"
                         ],
                         "answer": "Ambas opciones son válidas",
                         "images": "https://example.com/node-modules.png",
                         "information": "En Node.js, se pueden utilizar módulos externos para ampliar las funcionalidades de las aplicaciones. Para hacerlo, se puede usar el comando 'require()' para importar el módulo, ya sea directamente desde el archivo o después de instalarlo con 'npm install'."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el patrón 'MVC' en Node.js?",
                         "options": [
-                          "Un patrón de arquitectura para organizar el código de aplicaciones web",
-                          "Un módulo para crear servidores web",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Un patrón de arquitectura para organizar el código de aplicaciones web",
+                            "Un módulo para crear servidores web",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Un patrón de arquitectura para organizar el código de aplicaciones web",
                         "images": "https://example.com/mvc-pattern.png",
                         "information": "El patrón 'MVC' (Modelo-Vista-Controlador) es un patrón de arquitectura de software que se utiliza para organizar el código de aplicaciones web. Separa la lógica de negocio (Modelo), la interfaz de usuario (Vista) y la lógica de control (Controlador) en capas independientes, lo que facilita el mantenimiento y la reutilización del código."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'express-validator' en Node.js?",
                         "options": [
-                          "Un módulo para validar datos de entrada en formularios web",
-                          "Un módulo para crear servidores web",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Un módulo para validar datos de entrada en formularios web",
+                            "Un módulo para crear servidores web",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Un módulo para validar datos de entrada en formularios web",
                         "images": "https://example.com/express-validator.png",
                         "information": "El módulo 'express-validator' en Node.js proporciona funciones para validar datos de entrada en formularios web, como verificar que los campos no estén vacíos, que sean del tipo correcto y que cumplan con ciertas reglas personalizadas."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se pueden manejar las sesiones de usuario en Node.js?",
                         "options": [
-                          "Usando módulos como 'express-session' o 'connect-session'",
-                          "Guardando la información de sesión en el objeto 'req' de las solicitudes HTTP",
-                          "Ambas opciones son válidas"
+                            "Usando módulos como 'express-session' o 'connect-session'",
+                            "Guardando la información de sesión en el objeto 'req' de las solicitudes HTTP",
+                            "Ambas opciones son válidas"
                         ],
                         "answer": "Ambas opciones son válidas",
                         "images": "https://example.com/node-sessions.png",
                         "information": "En Node.js, se pueden manejar las sesiones de usuario utilizando módulos como 'express-session' o 'connect-session'. Estos módulos permiten almacenar y recuperar información sobre la sesión del usuario, como el ID de sesión, el usuario autenticado y los datos asociados a la sesión."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué son las 'middlewares' en Node.js?",
                         "options": [
-                          "Funciones que se ejecutan antes o después de las rutas de una aplicación Express",
-                          "Módulos para crear servidores web",
-                          "Frameworks para trabajar con archivos y directorios"
+                            "Funciones que se ejecutan antes o después de las rutas de una aplicación Express",
+                            "Módulos para crear servidores web",
+                            "Frameworks para trabajar con archivos y directorios"
                         ],
                         "answer": "Funciones que se ejecutan antes o después de las rutas de una aplicación Express",
                         "images": "https://example.com/express-middleware.png",
                         "information": "Las 'middlewares' en Node.js son funciones que se ejecutan antes o después de las rutas de una aplicación Express. Permiten realizar acciones comunes antes de procesar una solicitud, como autenticar al usuario, registrar la actividad del usuario o validar los datos de entrada."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'cluster' en Node.js?",
                         "options": [
-                          "Un módulo para crear aplicaciones escalables que aprovechan el multiprocesamiento",
-                          "Un módulo para manejar sesiones de usuario",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Un módulo para crear aplicaciones escalables que aprovechan el multiprocesamiento",
+                            "Un módulo para manejar sesiones de usuario",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Un módulo para crear aplicaciones escalables que aprovechan el multiprocesamiento",
                         "images": "https://example.com/node-cluster.png",
                         "information": "El módulo 'cluster' en Node.js permite crear aplicaciones escalables que aprovechan el multiprocesamiento, ejecutando diferentes partes de la aplicación en diferentes procesos. Esto puede mejorar el rendimiento y la capacidad de respuesta, especialmente en aplicaciones que manejan muchas conexiones o tareas de larga duración."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué son los 'streams' en Node.js?",
                         "options": [
-                          "Flujos de datos que permiten procesar datos de forma fragmentada",
-                          "Módulos para crear servidores web",
-                          "Frameworks para trabajar con archivos y directorios"
+                            "Flujos de datos que permiten procesar datos de forma fragmentada",
+                            "Módulos para crear servidores web",
+                            "Frameworks para trabajar con archivos y directorios"
                         ],
                         "answer": "Flujos de datos que permiten procesar datos de forma fragmentada",
                         "images": "https://example.com/node-streams.png",
                         "information": "Los 'streams' en Node.js son flujos de datos que permiten procesar datos de forma fragmentada, en lugar de cargar todo el contenido a la vez en memoria. Esto es útil para manejar grandes cantidades de datos, como archivos grandes o transmisiones de vídeo, sin necesidad de consumir mucha memoria."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se pueden utilizar las 'promesas' en Node.js?",
                         "options": [
-                          "Para manejar operaciones asincrónicas y obtener el resultado en el futuro",
-                          "Para validar datos de entrada en formularios web",
-                          "Para crear aplicaciones escalables que aprovechan el multiprocesamiento"
+                            "Para manejar operaciones asincrónicas y obtener el resultado en el futuro",
+                            "Para validar datos de entrada en formularios web",
+                            "Para crear aplicaciones escalables que aprovechan el multiprocesamiento"
                         ],
                         "answer": "Para manejar operaciones asincrónicas y obtener el resultado en el futuro",
                         "images": "https://example.com/node-promises.png",
                         "information": "Las 'promesas' en Node.js son una forma de manejar operaciones asincrónicas, como leer un archivo, realizar una petición a una API o ejecutar una tarea que lleva tiempo. Permiten escribir código más limpio y estructurado, y evitar los callbacks anidados."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'async/await' en Node.js?",
                         "options": [
-                          "Una sintaxis alternativa para trabajar con 'promesas' de forma más legible",
-                          "Un módulo para manejar sesiones de usuario",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Una sintaxis alternativa para trabajar con 'promesas' de forma más legible",
+                            "Un módulo para manejar sesiones de usuario",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Una sintaxis alternativa para trabajar con 'promesas' de forma más legible",
                         "images": "https://example.com/async-await.png",
                         "information": "El módulo 'async/await' en Node.js proporciona una sintaxis alternativa para trabajar con 'promesas' de forma más legible y similar al código síncrono. Permite escribir código más claro y fácil de entender, especialmente cuando se encadenan varias operaciones asincrónicas."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el patrón 'Pub/Sub' en Node.js?",
                         "options": [
-                          "Un patrón de diseño para comunicar componentes de una aplicación mediante mensajes",
-                          "Un módulo para crear servidores web",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Un patrón de diseño para comunicar componentes de una aplicación mediante mensajes",
+                            "Un módulo para crear servidores web",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Un patrón de diseño para comunicar componentes de una aplicación mediante mensajes",
                         "images": "https://example.com/node-pubsub.png",
                         "information": "El patrón 'Pub/Sub' (Publicación/Suscripción) en Node.js es un patrón de diseño que permite a los componentes de una aplicación comunicarse entre sí mediante mensajes. Un componente publica un mensaje y los componentes interesados se suscriben para recibirlo. Esto permite una comunicación desacoplada y escalable entre componentes."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se pueden implementar APIs RESTful en Node.js?",
                         "options": [
-                          "Usando frameworks como 'Express' o 'Hapi' junto con el módulo 'restify'",
-                          "Utilizando el módulo 'http' y escribiendo código manualmente para manejar las solicitudes y respuestas",
-                          "Ambas opciones son válidas"
+                            "Usando frameworks como 'Express' o 'Hapi' junto con el módulo 'restify'",
+                            "Utilizando el módulo 'http' y escribiendo código manualmente para manejar las solicitudes y respuestas",
+                            "Ambas opciones son válidas"
                         ],
                         "answer": "Ambas opciones son válidas",
                         "images": "https://example.com/node-restful-apis.png",
                         "information": "En Node.js, se pueden implementar APIs RESTful utilizando frameworks como 'Express' o 'Hapi', que facilitan la creación de rutas, la gestión de métodos HTTP (GET, POST, PUT, DELETE) y el envío de respuestas en formato JSON. También se puede utilizar el módulo 'http' y escribir código manualmente para manejar las solicitudes y respuestas, pero esto requiere más trabajo de desarrollo."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'mongoose' en Node.js?",
                         "options": [
-                          "Un ODM (Object Document Mapper) para trabajar con bases de datos NoSQL como MongoDB",
-                          "Un módulo para crear servidores web",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Un ODM (Object Document Mapper) para trabajar con bases de datos NoSQL como MongoDB",
+                            "Un módulo para crear servidores web",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Un ODM (Object Document Mapper) para trabajar con bases de datos NoSQL como MongoDB",
                         "images": "https://example.com/node-mongoose.png",
                         "information": "El módulo 'mongoose' en Node.js es un ODM (Object Document Mapper) que permite trabajar con bases de datos NoSQL como MongoDB de forma orientada a objetos. Facilita la creación, lectura, actualización y eliminación de datos en la base de datos, mapeando los objetos de JavaScript a documentos de MongoDB."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué es el módulo 'socket.io' en Node.js?",
                         "options": [
-                          "Una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas",
-                          "Un módulo para manejar sesiones de usuario",
-                          "Un framework para trabajar con archivos y directorios"
+                            "Una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas",
+                            "Un módulo para manejar sesiones de usuario",
+                            "Un framework para trabajar con archivos y directorios"
                         ],
                         "answer": "Una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas",
                         "images": "https://example.com/node-socket-io.png",
                         "information": "El módulo 'socket.io' en Node.js es una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas. Permite establecer conexiones bidireccionales y persistentes entre un servidor y varios clientes, posibilitando la comunicación en tiempo real y la sincronización de datos entre usuarios."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Cómo se pueden implementar sistemas de autenticación y autorización en Node.js?",
                         "options": [
-                          "Usando módulos como 'passport' o 'jsonwebtoken'",
-                          "Escribiendo código manualmente para verificar usuarios y contraseñas",
-                          "Ambas opciones son válidas"
+                            "Usando módulos como 'passport' o 'jsonwebtoken'",
+                            "Escribiendo código manualmente para verificar usuarios y contraseñas",
+                            "Ambas opciones son válidas"
                         ],
                         "answer": "Ambas opciones son válidas",
                         "images": "https://example.com/node-authentication.png",
                         "information": "En Node.js, se pueden implementar sistemas de autenticación y autorización utilizando módulos como 'passport' o 'jsonwebtoken'. Estos módulos facilitan la gestión de usuarios, contraseñas, tokens de autenticación y control de acceso a diferentes recursos de la aplicación. También se puede escribir código manualmente para verificar usuarios y contraseñas, pero esto requiere más trabajo de desarrollo."
-                      },
-                      {
+                    },
+                    {
                         "ask": "¿Qué son las 'variables de entorno' en Node.js?",
                         "options": [
-                          "Variables que se definen en el entorno de ejecución de Node.js y se pueden utilizar en la aplicación",
-                          "Módulos para crear servidores web",
-                          "Frameworks para trabajar con archivos y directorios"
+                            "Variables que se definen en el entorno de ejecución de Node.js y se pueden utilizar en la aplicación",
+                            "Módulos para crear servidores web",
+                            "Frameworks para trabajar con archivos y directorios"
                         ],
                         "answer": "Variables que se definen en el entorno de ejecución de Node.js y se pueden utilizar en la aplicación",
                         "images": "https://example.com/node-environment-variables.png",
                         "information": "Las 'variables de entorno' en Node.js son variables que se definen en el entorno de ejecución y se pueden utilizar en la aplicación para almacenar configuraciones, rutas de archivos, claves de API o cualquier otra información que se necesite durante la ejecución. Se pueden acceder a ellas mediante el objeto 'process.env'."
-                      }
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de testeo en Node.js?",
+                        "options": [
+                            "Usando frameworks como 'Mocha' o 'Jest' junto con módulos como 'chai' o 'Sinon'",
+                            "Escribiendo código de prueba manual para cada caso de uso",
+                            "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-testing.png",
+                        "information": "En Node.js, se pueden implementar sistemas de testeo utilizando frameworks como 'Mocha' o 'Jest' junto con módulos como 'chai' o 'Sinon'. Estos frameworks facilitan la creación de casos de prueba, la ejecución de pruebas automatizadas y la obtención de informes de resultados. También se puede escribir código de prueba manual para cada caso de uso, pero esto requiere más trabajo de desarrollo y puede ser menos eficiente a largo plazo."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'npm-run-all' en Node.js?",
+                        "options": [
+                            "Un módulo para ejecutar scripts de forma simultánea o consecutiva en diferentes paquetes NPM",
+                            "Un módulo para manejar sesiones de usuario",
+                            "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un módulo para ejecutar scripts de forma simultánea o consecutiva en diferentes paquetes NPM",
+                        "images": "https://example.com/npm-run-all.png",
+                        "information": "El módulo 'npm-run-all' en Node.js permite ejecutar scripts de forma simultánea o consecutiva en diferentes paquetes NPM. Esto puede ser útil para automatizar tareas que dependen de la ejecución de varios scripts en diferentes paquetes o para optimizar el tiempo de ejecución."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden utilizar las 'dependencias de desarrollo' en Node.js?",
+                        "options": [
+                            "Para instalar paquetes NPM que solo se necesitan durante el desarrollo de la aplicación",
+                            "Para ejecutar scripts de forma simultánea o consecutiva en diferentes paquetes NPM",
+                            "Ambas opciones son válidas"
+                        ],
+                        "answer": "Para instalar paquetes NPM que solo se necesitan durante el desarrollo de la aplicación",
+                        "images": "https://example.com/node-dev-dependencies.png",
+                        "information": "En Node.js, las 'dependencias de desarrollo' son paquetes NPM que solo se necesitan durante el desarrollo de la aplicación, como herramientas de prueba, frameworks de desarrollo o módulos de ejemplo. Se instalan con el comando 'npm install --save-dev' y no se incluyen en la aplicación final."
+                    },
+                    {
+                        "ask": "¿Qué son los 'monitores de eventos' en Node.js?",
+                        "options": [
+                            "Mecanismos para escuchar y responder a eventos que ocurren en el sistema o en la aplicación",
+                            "Módulos para manejar sesiones de usuario",
+                            "Frameworks para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Mecanismos para escuchar y responder a eventos que ocurren en el sistema o en la aplicación",
+                        "images": "https://example.com/node-event-listeners.png",
+                        "information": "Los 'monitores de eventos' en Node.js son mecanismos para escuchar y responder a eventos que ocurren en el sistema o en la aplicación. Permiten ejecutar código específico cuando se produce un evento, como una petición HTTP, un cambio en un archivo o una señal del sistema. Esto facilita la creación de aplicaciones reactivas y escalables."
+                    }
                 ],
                 "expert": [
                     {
-                        "ask": {},
-                        "options": {},
-                        "answer": {},
-                        "images": {},
-                        "information": {}
+                        "ask": "¿Cómo se pueden implementar sistemas de despliegue continuo en Node.js?",
+                        "options": [
+                            "Utilizando herramientas como 'Jenkins' o 'Travis CI' junto con servicios de hosting como 'Heroku' o 'AWS'",
+                            "Escribiendo scripts manuales para automatizar el proceso de compilación, pruebas y despliegue",
+                            "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-continuous-deployment.png",
+                        "information": "En Node.js, se pueden implementar sistemas de despliegue continuo utilizando herramientas como 'Jenkins' o 'Travis CI' junto con servicios de hosting como 'Heroku' o 'AWS'. Estas herramientas automatizan el proceso de compilación, pruebas y despliegue de la aplicación, lo que permite entregar nuevas versiones de forma rápida y segura. También se puede escribir scripts manuales para automatizar el proceso, pero esto requiere más trabajo de configuración y mantenimiento."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'webpack' en Node.js?",
+                        "options": [
+                            "Un empaquetador de módulos y recursos estáticos para aplicaciones web modernas",
+                            "Un módulo para manejar sesiones de usuario",
+                            "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un empaquetador de módulos y recursos estáticos para aplicaciones web modernas",
+                        "images": "https://example.com/node-webpack.png",
+                        "information": "El módulo 'webpack' en Node.js es un empaquetador de módulos y recursos estáticos para aplicaciones web modernas. Permite agrupar y optimizar módulos JavaScript, CSS e imágenes, lo que mejora el rendimiento y la carga de la aplicación. También facilita la gestión de dependencias y la configuración de diferentes entornos de desarrollo y producción."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden utilizar las 'funciones generadoras' en Node.js?",
+                        "options": [
+                            "Para generar secuencias de valores de forma pausada o asíncrona",
+                            "Para implementar sistemas de despliegue continuo en Node.js",
+                            "Para empaquetar módulos y recursos estáticos para aplicaciones web modernas"
+                        ],
+                        "answer": "Para generar secuencias de valores de forma pausada o asíncrona",
+                        "images": "https://example.com/node-generator-functions.png",
+                        "information": "Las 'funciones generadoras' en Node.js permiten generar secuencias de valores de forma pausada o asíncrona. Esto significa que se puede iterar sobre una secuencia de valores sin necesidad de cargar toda la secuencia en memoria a la vez. Esto puede ser útil para manejar grandes conjuntos de datos o para generar valores de forma asíncrona a partir de una fuente externa."
+                    },
+                    {
+                        "ask": "¿Qué son los 'flujos de datos de salida' en Node.js?",
+                        "options": [
+                            "Flujos de datos que permiten escribir datos en un destino, como un archivo o una red",
+                            "Módulos para manejar sesiones de usuario",
+                            "Frameworks para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Flujos de datos que permiten escribir datos en un destino, como un archivo o una red",
+                        "images": "https://example.com/node-writable-streams.png",
+                        "information": "Los 'flujos de datos de salida' en Node.js son flujos de datos que permiten escribir datos en un destino, como un archivo o una red. Permiten escribir datos de forma fragmentada, en lugar de escribir todo el contenido a la vez, lo que puede ser útil para manejar grandes cantidades de datos."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'http2' en Node.js?",
+                        "options": [
+                            "Un módulo para implementar el protocolo HTTP/2, que ofrece mayor rendimiento y eficiencia en las comunicaciones web",
+                            "Para almacenar y manipular datos binarios de forma eficiente",
+                            "Para escribir datos en un destino, como un archivo o una red"
+                        ],
+                        "answer": "Un módulo para implementar el protocolo HTTP/2, que ofrece mayor rendimiento y eficiencia en las comunicaciones web",
+                        "images": "https://example.com/node-http2.png",
+                        "information": "El módulo 'http2' en Node.js permite implementar el protocolo HTTP/2, que es una versión más reciente del protocolo HTTP que ofrece mayor rendimiento y eficiencia en las comunicaciones web. HTTP/2 permite multiplexar varias solicitudes en una sola conexión, comprimir encabezados y datos, y utilizar técnicas de transporte más eficientes, lo que reduce la latencia y mejora la velocidad de carga de las páginas web."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden utilizar las 'dependencias de pares' en Node.js?",
+                        "options": [
+                            "Para instalar paquetes NPM que son necesarios para que otros paquetes funcionen correctamente",
+                            "Para implementar el protocolo HTTP/2, que ofrece mayor rendimiento y eficiencia en las comunicaciones web",
+                            "Para almacenar y manipular datos binarios de forma eficiente"
+                        ],
+                        "answer": "Para instalar paquetes NPM que son necesarios para que otros paquetes funcionen correctamente",
+                        "images": "https://example.com/node-peer-dependencies.png",
+                        "information": "Las 'dependencias de pares' en Node.js son paquetes NPM que son necesarios para que otros paquetes funcionen correctamente. Se instalan con el comando 'npm install --save-peer' y no se incluyen en la aplicación final. Esto permite a los desarrolladores de paquetes especificar las dependencias que son necesarias para que su paquete funcione en diferentes entornos o con diferentes versiones de otros paquetes."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'dotenv' en Node.js?",
+                        "options": [
+                            "Un módulo para cargar variables de entorno desde un archivo '.env' en la aplicación",
+                            "Para instalar paquetes NPM que son necesarios para que otros paquetes funcionen correctamente",
+                            "Para implementar el protocolo HTTP/2, que ofrece mayor rendimiento y eficiencia en las comunicaciones web"
+                        ],
+                        "answer": "Un módulo para cargar variables de entorno desde un archivo '.env' en la aplicación",
+                        "images": "https://example.com/node-dotenv.png",
+                        "information": "El módulo 'dotenv' en Node.js permite cargar variables de entorno desde un archivo '.env' en la aplicación. Esto facilita la gestión de configuraciones sensibles, como claves API, contraseñas o rutas de archivos, sin tener que exponerlas directamente en el código fuente. El archivo '.env' se ignora en el control de versiones, por lo que las variables de entorno no se almacenan en el repositorio de código."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden utilizar las 'herramientas de depuración' en Node.js?",
+                        "options": [
+                            "Para inspeccionar y depurar el código de la aplicación durante la ejecución",
+                            "Para cargar variables de entorno desde un archivo '.env' en la aplicación",
+                            "Para instalar paquetes NPM que son necesarios para que otros paquetes funcionen correctamente"
+                        ],
+                        "answer": "Para inspeccionar y depurar el código de la aplicación durante la ejecución",
+                        "images": "https://example.com/node-debugging.png",
+                        "information": "Las 'herramientas de depuración' en Node.js permiten inspeccionar y depurar el código de la aplicación durante la ejecución. Esto facilita la identificación y resolución de errores, problemas de rendimiento o comportamientos inesperados. Algunas herramientas populares de depuración para Node.js incluyen el depurador integrado de Node.js, 'Node Inspector' y 'WebStorm Debugger'."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de monitorización y alertas en Node.js?",
+                        "options": [
+                            "Utilizando herramientas como 'Prometheus' o 'Grafana' junto con servicios como 'Datadog' o 'Sentry'",
+                            "Escribiendo scripts manuales para recopilar y analizar métricas de rendimiento",
+                            "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-monitoring-alerts.png",
+                        "information": "En Node.js, se pueden implementar sistemas de monitorización y alertas utilizando herramientas como 'Prometheus' o 'Grafana' junto con servicios como 'Datadog' o 'Sentry'. Estas herramientas permiten recopilar métricas de rendimiento de la aplicación, como el uso de CPU, memoria, tiempo de respuesta de las solicitudes, y generar alertas cuando se detectan anomalías o problemas de rendimiento. También se puede escribir scripts manuales para recopilar y analizar métricas de rendimiento, pero esto requiere más trabajo de desarrollo y mantenimiento."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'pino' en Node.js?",
+                        "options": [
+                            "Un módulo para registrar mensajes de log de forma estructurada y eficiente",
+                            "Para implementar sistemas de monitorización y alertas en Node.js",
+                            "Escribiendo scripts manuales para recopilar y analizar métricas de rendimiento"
+                        ],
+                        "answer": "Un módulo para registrar mensajes de log de forma estructurada y eficiente",
+                        "images": "https://example.com/node-pino.png",
+                        "information": "El módulo 'pino' en Node.js permite registrar mensajes de log de forma estructurada y eficiente. Facilita la creación de registros de log más informativos y fáciles de analizar, incluyendo detalles como la fecha, hora, nivel de log, identificadores de contexto y datos específicos del mensaje. También permite configurar diferentes formatos de salida y transportadores de log."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden utilizar las 'plantillas de EJS' en Node.js?",
+                        "options": [
+                            "Para generar dinámicamente contenido HTML desde el servidor",
+                            "Para registrar mensajes de log de forma estructurada y eficiente",
+                            "Para implementar sistemas de monitorización y alertas en Node.js"
+                        ],
+                        "answer": "Para generar dinámicamente contenido HTML desde el servidor",
+                        "images": "https://example.com/node-ejs-templates.png",
+                        "information": "Las 'plantillas de EJS' en Node.js permiten generar dinámicamente contenido HTML desde el servidor. Esto facilita la creación de páginas web dinámicas y personalizadas, utilizando datos de la aplicación para renderizar el contenido. EJS es un motor de plantillas basado en JavaScript que permite incrustar código JavaScript dentro de las plantillas HTML, lo que aumenta la flexibilidad y el control sobre el contenido generado."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'morgan' en Node.js?",
+                        "options": [
+                            "Un módulo para registrar información sobre las solicitudes HTTP en la consola o en un archivo de log",
+                            "Para generar dinámicamente contenido HTML desde el servidor",
+                            "Para registrar mensajes de log de forma estructurada y eficiente"
+                        ],
+                        "answer": "Un módulo para registrar información sobre las solicitudes HTTP en la consola o en un archivo de log",
+                        "images": "https://example.com/node-morgan.png",
+                        "information": "El módulo 'morgan' en Node.js permite registrar información sobre las solicitudes HTTP en la consola o en un archivo de log. Esto facilita el seguimiento de las solicitudes que llegan al servidor, incluyendo la dirección IP del cliente, la ruta de la solicitud, el método HTTP, el código de estado de la respuesta y otros detalles relevantes. Es útil para depurar problemas, analizar el tráfico web y obtener información sobre el uso de la aplicación."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar pasarelas de pago en Node.js?",
+                        "options": [
+                            "Utilizando servicios de pago como Stripe o PayPal junto con módulos como 'stripe' o 'paypal-rest-sdk'",
+                            "Escribiendo código manual para procesar pagos con tarjetas de crédito o débito",
+                            "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-payment-gateways.png",
+                        "information": "En Node.js, se pueden implementar pasarelas de pago utilizando servicios de pago como Stripe o PayPal junto con módulos como 'stripe' o 'paypal-rest-sdk'. Estos servicios facilitan la integración de pagos en la aplicación, procesando de forma segura los datos de las tarjetas de crédito o débito y manejando las transacciones financieras. También se puede escribir código manual para procesar pagos, pero esto requiere más trabajo de desarrollo, conocimiento sobre seguridad de pagos y cumplimiento de normas PCI."
+                    },
+                    {
+                        "ask": "¿Qué es el módulo 'cluster-pm' en Node.js?",
+                        "options": [
+                            "Un administrador de procesos para Node.js que facilita la gestión de múltiples procesos de trabajo",
+                            "Para implementar pasarelas de pago en Node.js",
+                            "Escribiendo código manual para procesar pagos con tarjetas de crédito o débito"
+                        ],
+                        "answer": "Un administrador de procesos para Node.js que facilita la gestión de múltiples procesos de trabajo",
+                        "images": "https://example.com/node-cluster-pm.png",
+                        "information": "El módulo 'cluster-pm' en Node.js es un administrador de procesos que facilita la gestión de múltiples procesos de trabajo. Permite escalar aplicaciones Node.js de forma eficiente, aprovechando los recursos del sistema y mejorando el rendimiento. Cluster-pm se encarga de crear, administrar y reiniciar los procesos de trabajo, asegurando que la aplicación siempre esté disponible y funcionando correctamente."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden utilizar las 'herramientas de línea de comandos' para automatizar tareas en Node.js?",
+                        "options": [
+                            "Escribiendo scripts con herramientas como 'npm' o 'npx' para ejecutar tareas repetitivas",
+                            "Para implementar pasarelas de pago en Node.js",
+                            "Un administrador de procesos para Node.js que facilita la gestión de múltiples procesos de trabajo"
+                        ],
+                        "answer": "Escribiendo scripts con herramientas como 'npm' o 'npx' para ejecutar tareas repetitivas",
+                        "images": "https://example.com/node-cli-automation.png",
+                        "information": "En Node.js, se pueden utilizar herramientas de línea de comandos como 'npm' o 'npx' para automatizar tareas repetitivas. Esto permite crear scripts que ejecutan comandos, procesan archivos, generan informes o realizan otras operaciones sin necesidad de intervención manual. Los scripts se pueden ejecutar desde la terminal o integrar en sistemas de integración continua y entrega (CI/CD)."
+                    },
+                    {
+                        "ask": "¿Qué son los 'trabajadores web' en Node.js?",
+                        "options": [
+                            "Un tipo de hilo de ejecución que permite ejecutar código JavaScript en un contexto aislado",
+                            "Para utilizar herramientas de línea de comandos para automatizar tareas en Node.js",
+                            "Un administrador de procesos para Node.js que facilita la gestión de múltiples procesos de trabajo"
+                        ],
+                        "answer": "Un tipo de hilo de ejecución que permite ejecutar código JavaScript en un contexto aislado",
+                        "images": "https://example.com/node-web-workers.png",
+                        "information": "Los 'trabajadores web' en Node.js son un tipo de hilo de ejecución que permite ejecutar código JavaScript en un contexto aislado. Esto significa que el código que se ejecuta en un trabajador web no tiene acceso al alcance global de la aplicación y no puede bloquear el hilo principal. Los trabajadores web son útiles para ejecutar tareas intensivas en CPU, como el procesamiento de imágenes, la compresión de datos o cálculos complejos, sin afectar el rendimiento del hilo principal y la interfaz de usuario de la aplicación."
                     }
                 ],
                 "god": [
                     {
-                        "ask": {},
-                        "options": {},
-                        "answer": {},
-                        "images": {},
-                        "information": {}
+                        "ask": "¿Cómo se puede optimizar el rendimiento de una aplicación Node.js para manejar grandes volúmenes de tráfico?",
+                        "options": [
+                            "Utilizando técnicas de caché, como 'Redis' o 'Memcached', para almacenar datos frecuentemente accedidos",
+                            "Implementando un balanceador de carga para distribuir las solicitudes entre múltiples instancias de la aplicación",
+                            "Optimizando el código JavaScript para eliminar cuellos de botella y mejorar la eficiencia",
+                            "Utilizando un servidor web optimizado para Node.js, como 'Nginx' o 'Apache', junto con la configuración adecuada",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-performance-optimization.png",
+                        "information": "Para optimizar el rendimiento de una aplicación Node.js para manejar grandes volúmenes de tráfico, se deben considerar varias estrategias: **Caché:** Utilizar sistemas de caché como Redis o Memcached para almacenar datos frecuentemente accedidos, reduciendo la necesidad de consultas a bases de datos o APIs externas. **Balanceador de carga:** Implementar un balanceador de carga para distribuir las solicitudes entre múltiples instancias de la aplicación, asegurando una alta disponibilidad y escalabilidad. **Optimización de código:** Revisar y optimizar el código JavaScript para eliminar cuellos de botella, mejorar la eficiencia y reducir el tiempo de respuesta. **Servidor web:** Utilizar un servidor web optimizado para Node.js, como Nginx o Apache, junto con la configuración adecuada para manejar el tráfico de manera eficiente. **Otras técnicas:** Considerar técnicas como la compresión de datos, la minificación de código, la utilización de async/await y promesas, y la monitorización del rendimiento para identificar y solucionar problemas."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de seguridad robustos en aplicaciones Node.js?",
+                        "options": [
+                            "Validando y sanatizando entradas de usuario para prevenir ataques de inyección de código",
+                            "Implementando autenticación y autorización para controlar el acceso a recursos y datos",
+                            "Protegiendo contra ataques XSS y CSRF utilizando técnicas de validación y sanitización de datos",
+                            "Cifrando datos sensibles, como contraseñas y tokens de autenticación, utilizando algoritmos de cifrado robustos",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-security-best-practices.png",
+                        "information": "La seguridad en aplicaciones Node.js es crucial para proteger datos, usuarios y la infraestructura. Se deben implementar medidas como: **Validación y sanitización:** Validar y sanatizar todas las entradas de usuario para prevenir ataques de inyección de código, scripts maliciosos o datos no válidos. **Autenticación y autorización:** Implementar un sistema de autenticación para verificar la identidad de los usuarios y un sistema de autorización para controlar el acceso a recursos y datos en función de los permisos de cada usuario. **Protección contra XSS y CSRF:** Utilizar técnicas de validación y sanitización de datos para protegerse contra ataques XSS (Cross-Site Scripting) y CSRF (Cross-Site Request Forgery). **Cifrado de datos:** Cifrar datos sensibles, como contraseñas, tokens de autenticación e información personal, utilizando algoritmos de cifrado robustos como bcrypt o scrypt. **Actualizaciones y parches:** Mantener el software actualizado con las últimas versiones y parches de seguridad para corregir vulnerabilidades conocidas."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden integrar aplicaciones Node.js con sistemas empresariales existentes y bases de datos heredadas?",
+                        "options": [
+                            "Utilizando APIs y SDKs proporcionados por los sistemas empresariales o bases de datos",
+                            "Implementando adaptadores o conectores personalizados para comunicarse con los sistemas",
+                            "Utilizando herramientas de integración de datos como 'Enterprise Service Bus' o 'API Gateway'",
+                            "Considerar la migración de datos o la creación de APIs para abstraer la complejidad de los sistemas heredados",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-enterprise-integration.png",
+                        "information": "La integración de aplicaciones Node.js con sistemas empresariales existentes y bases de datos heredadas puede ser un desafío. Se pueden utilizar diferentes estrategias: **APIs y SDKs:** Aprovechar APIs y SDKs oficiales proporcionados por los sistemas empresariales o bases de datos para simplificar la comunicación. **Adaptadores personalizados:** Desarrollar adaptadores o conectores personalizados para traducir formatos de datos y protocolos de comunicación entre Node.js y los sistemas heredados. **Herramientas de integración:** Utilizar herramientas de integración de datos como Enterprise Service Bus o API Gateway para orquestar la comunicación y el intercambio de datos entre diferentes sistemas. **Migración de datos:** Considerar la migración de datos relevantes a un formato moderno o la creación de APIs para abstraer la complejidad de los sistemas heredados y facilitar el acceso a los datos desde Node.js."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar estrategias de monitoreo y observabilidad para aplicaciones Node.js en producción?",
+                        "options": [
+                            "Utilizar herramientas de monitoreo como 'Prometheus' o 'Grafana' para recopilar métricas de rendimiento",
+                            "Implementar registro de logs detallado y centralizado para identificar errores y problemas",
+                            "Utilizar herramientas de análisis de rendimiento como 'New Relic' o 'AppDynamics' para obtener información profunda sobre el comportamiento de la aplicación",
+                            "Realizar pruebas de carga y rendimiento para evaluar el comportamiento de la aplicación bajo diferentes escenarios de tráfico",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-monitoring-observability.png",
+                        "information": "El monitoreo y la observabilidad son cruciales para garantizar el buen funcionamiento y la salud de las aplicaciones Node.js en producción. Se recomienda: **Herramientas de monitoreo:** Utilizar herramientas como Prometheus o Grafana para recopilar métricas de rendimiento clave, como el uso de CPU, memoria, tiempo de respuesta de las solicitudes y errores. **Registro de logs:** Implementar un registro de logs detallado y centralizado que capture eventos, errores y mensajes relevantes para facilitar la identificación y resolución de problemas. **Análisis de rendimiento:** Utilizar herramientas como New Relic o AppDynamics para obtener información profunda sobre el comportamiento de la aplicación, identificar cuellos de botella y optimizar el rendimiento. **Pruebas de carga y rendimiento:** Realizar pruebas de carga y rendimiento para evaluar el comportamiento de la aplicación bajo diferentes escenarios de tráfico, asegurando que pueda manejar la demanda esperada."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de despliegue gradual (canary releases) para aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar un servicio de descubrimiento como Consul para enrutar el tráfico",
+                            "Implementar feature flags para habilitar nuevas funcionalidades de forma controlada",
+                            "Utilizar un proxy inverso como Nginx para distribuir el tráfico entre versiones",
+                            "Implementar un sistema de rollback automatizado en caso de detectar problemas",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-canary-releases.png",
+                        "information": "Un sistema de despliegue gradual para Node.js implica: **Descubrimiento de servicios:** Utilizar Consul o etcd para gestionar dinámicamente las rutas de tráfico. **Feature flags:** Implementar toggles para activar nuevas funcionalidades de forma controlada, utilizando bibliotecas como LaunchDarkly. **Proxy inverso:** Configurar Nginx o HAProxy para distribuir el tráfico entre diferentes versiones de la aplicación. **Rollback automatizado:** Implementar scripts que monitoreen métricas clave y reviertan automáticamente a la versión anterior si se detectan problemas. Además, es crucial implementar un sistema robusto de monitoreo y alertas, utilizar herramientas de análisis de logs en tiempo real, y considerar la implementación de tests A/B para evaluar el impacto de nuevas funcionalidades."
+                    },
+                    {
+                        "ask": "¿Cuáles son las técnicas avanzadas para optimizar el rendimiento de operaciones de I/O en Node.js?",
+                        "options": [
+                            "Utilizar worker threads para operaciones intensivas de CPU",
+                            "Implementar buffers personalizados para operaciones de lectura/escritura",
+                            "Utilizar el módulo 'fs/promises' para operaciones de archivo asíncronas",
+                            "Implementar batch processing para operaciones de base de datos",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-io-optimization.png",
+                        "information": "La optimización de I/O en Node.js incluye: **Worker threads:** Utilizar hilos para operaciones intensivas de CPU, evitando bloquear el event loop. **Buffers personalizados:** Implementar buffers optimizados para mejorar la eficiencia en operaciones de lectura/escritura de grandes volúmenes de datos. **fs/promises:** Aprovechar las promesas nativas para operaciones de archivo asíncronas, mejorando la legibilidad y manejo de errores. **Batch processing:** Agrupar operaciones de base de datos para reducir la sobrecarga de comunicación. También es importante considerar el uso de streams para procesar datos de forma eficiente, implementar connection pooling para bases de datos, y utilizar caches en memoria como Redis para datos frecuentemente accedidos."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de gestión de configuración dinámica para microservicios Node.js?",
+                        "options": [
+                            "Utilizar un servicio de configuración centralizado como etcd o Consul KV",
+                            "Implementar hot reloading de configuraciones sin reiniciar los servicios",
+                            "Utilizar variables de entorno encriptadas para manejar secretos",
+                            "Implementar versionado de configuraciones y rollback",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-dynamic-config.png",
+                        "information": "La gestión de configuración dinámica en microservicios Node.js implica: **Servicio centralizado:** Utilizar etcd o Consul KV para almacenar y distribuir configuraciones. **Hot reloading:** Implementar un mecanismo para actualizar configuraciones en tiempo real sin reiniciar servicios. **Secretos encriptados:** Utilizar herramientas como Vault para manejar secretos de forma segura. **Versionado y rollback:** Mantener un historial de configuraciones y permitir revertir a versiones anteriores. Es importante también implementar un sistema de auditoría para cambios de configuración, utilizar esquemas de validación para asegurar la integridad de las configuraciones, y considerar la implementación de canary releases para probar nuevas configuraciones de forma gradual."
+                    },
+                    {
+                        "ask": "¿Cuáles son las estrategias avanzadas para implementar caching distribuido en aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar Redis Cluster para caching distribuido y alta disponibilidad",
+                            "Implementar caching en múltiples niveles (multi-tiered caching)",
+                            "Utilizar algoritmos de invalidación de caché predictivos",
+                            "Implementar caching de consultas a nivel de ORM",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-distributed-caching.png",
+                        "information": "El caching distribuido en Node.js incluye: **Redis Cluster:** Configurar un cluster de Redis para escalar horizontalmente y garantizar alta disponibilidad. **Multi-tiered caching:** Implementar capas de caché (memoria, Redis, CDN) para optimizar el acceso a datos. **Invalidación predictiva:** Utilizar algoritmos que anticipen la expiración de datos basados en patrones de uso. **Caching a nivel ORM:** Configurar caching de resultados de consultas frecuentes directamente en el ORM. También es crucial implementar estrategias de warm-up del caché, utilizar técnicas de cache stampede prevention, y considerar el uso de Bloom filters para reducir accesos innecesarios a la base de datos."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de tracing distribuido avanzado para debuggear microservicios Node.js?",
+                        "options": [
+                            "Utilizar OpenTelemetry para instrumentación y recolección de datos de tracing",
+                            "Implementar correlación de logs entre servicios usando IDs de traza",
+                            "Utilizar Jaeger o Zipkin para visualización y análisis de trazas",
+                            "Implementar muestreo adaptativo para reducir la sobrecarga en producción",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-distributed-tracing.png",
+                        "information": "El tracing distribuido avanzado en microservicios Node.js implica: **OpenTelemetry:** Utilizar este estándar para instrumentar código y recolectar datos de tracing de forma consistente. **Correlación de logs:** Implementar un sistema para correlacionar logs entre servicios usando IDs de traza únicas. **Visualización:** Utilizar herramientas como Jaeger o Zipkin para analizar y visualizar trazas distribuidas. **Muestreo adaptativo:** Implementar estrategias de muestreo inteligente para reducir la cantidad de datos recolectados en producción sin perder información crítica. Es importante también considerar la integración con APM (Application Performance Monitoring) para una visión completa del rendimiento, implementar alertas basadas en anomalías detectadas en las trazas, y utilizar análisis de impacto para identificar los efectos de cambios en el sistema distribuido."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden optimizar las aplicaciones Node.js para un rendimiento óptimo en dispositivos móviles?",
+                        "options": [
+                            "Utilizar bibliotecas como 'React Native' o 'NativeScript' para crear interfaces de usuario móviles nativas",
+                            "Optimizar el código JavaScript para minimizar el tiempo de carga y el uso de recursos",
+                            "Implementar estrategias de caché y precarga de datos para mejorar la experiencia del usuario",
+                            "Considerar el uso de tecnologías como WebAssembly para ejecutar código nativo en el navegador",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-mobile-performance.png",
+                        "information": "Optimizar aplicaciones Node.js para dispositivos móviles requiere considerar diferentes aspectos: **Bibliotecas móviles:** Utilizar bibliotecas como React Native o NativeScript para crear interfaces de usuario nativas que aprovechen las capacidades de los dispositivos móviles. **Optimización de código:** Minimizar el tiempo de carga y el uso de recursos optimizando el código JavaScript, evitando operaciones innecesarias y utilizando librerías eficientes. **Estrategias de caché:** Implementar estrategias de caché y precarga de datos para mejorar la experiencia del usuario, reduciendo el tiempo de carga de datos y mejorando la fluidez de la aplicación. **WebAssembly:** Considerar el uso de tecnologías como WebAssembly para ejecutar código nativo en el navegador, lo que puede mejorar el rendimiento de tareas intensivas en CPU. **Pruebas y análisis:** Realizar pruebas de rendimiento y análisis de uso para identificar cuellos de botella y optimizar la aplicación para diferentes dispositivos y condiciones de red."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de mensajería en tiempo real en aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar tecnologías como 'WebSockets' o 'Server-Sent Events' para la comunicación bidireccional en tiempo real",
+                            "Implementar servicios de mensajería como 'Socket.io' o 'PubNub' para facilitar la gestión de mensajes y la comunicación entre clientes",
+                            "Considerar la utilización de bases de datos NoSQL como 'MongoDB' o 'Redis' para almacenar y recuperar mensajes de forma eficiente",
+                            "Implementar mecanismos de autenticación y autorización para controlar el acceso a los mensajes y garantizar la seguridad",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-real-time-messaging.png",
+                        "information": "Los sistemas de mensajería en tiempo real permiten la comunicación instantánea entre clientes y servidores en aplicaciones Node.js. Se pueden utilizar: **Tecnologías de mensajería:** WebSockets o Server-Sent Events para la comunicación bidireccional en tiempo real, permitiendo el envío y recepción de mensajes de forma fluida. **Servicios de mensajería:** Socket.io o PubNub para facilitar la gestión de mensajes, la comunicación entre clientes y la escalabilidad de la aplicación. **Bases de datos NoSQL:** MongoDB o Redis para almacenar y recuperar mensajes de forma eficiente, aprovechando su escalabilidad y rendimiento. **Seguridad:** Implementar mecanismos de autenticación y autorización para controlar el acceso a los mensajes, garantizar la seguridad y evitar accesos no autorizados."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de procesamiento de lenguaje natural (NLP) en aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar bibliotecas de NLP como 'Natural Language Toolkit' (NLTK) o 'Stanford CoreNLP' para tareas de procesamiento de lenguaje",
+                            "Implementar modelos de NLP personalizados utilizando frameworks como 'TensorFlow.js' o 'Brain.js'",
+                            "Integrar APIs de NLP externas como 'Google Cloud Natural Language API' o 'Amazon Comprehend' para obtener funcionalidades avanzadas",
+                            "Considerar la utilización de herramientas de procesamiento de voz como 'SpeechRecognition.js' o 'Web Speech API' para interactuar con el usuario mediante voz",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-nlp-processing.png",
+                        "information": "El procesamiento del lenguaje natural (NLP) permite a las aplicaciones Node.js comprender, analizar y generar lenguaje humano. Se pueden utilizar: **Bibliotecas de NLP:** NLTK o Stanford CoreNLP para realizar tareas básicas de NLP como tokenización, análisis sintáctico, extracción de entidades y clasificación de texto. **Modelos NLP personalizados:** Implementar modelos de NLP personalizados utilizando frameworks como TensorFlow.js o Brain.js para tareas más complejas como la traducción automática, el resumen de texto o la generación de texto. **APIs de NLP externas:** Integrar APIs de NLP externas como Google Cloud Natural Language API o Amazon Comprehend para acceder a funcionalidades avanzadas como el análisis de sentimientos, la detección de intenciones o el reconocimiento de entidades nombradas. **Procesamiento de voz:** Utilizar herramientas de procesamiento de voz como SpeechRecognition.js o Web Speech API para interactuar con el usuario mediante voz, permitiendo el control de la aplicación o la entrada de datos mediante comandos de voz."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de recomendación en aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar algoritmos de recomendación basados en contenido o basados en la colaboración para sugerir contenido relevante a los usuarios",
+                            "Implementar sistemas de recomendación personalizados utilizando frameworks como 'Recommender.js' o 'Node-Recommender'",
+                            "Integrar APIs de recomendación externas como 'Amazon Personalize' o 'Google Recommender Engine' para obtener funcionalidades avanzadas",
+                            "Considerar la utilización de técnicas de aprendizaje automático para mejorar la precisión de las recomendaciones",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-recommendation-systems.png",
+                        "information": "Los sistemas de recomendación permiten a las aplicaciones Node.js sugerir contenido relevante a los usuarios, mejorando su experiencia y aumentando la participación. Se pueden utilizar: **Algoritmos de recomendación:** Algoritmos basados en contenido o basados en la colaboración para sugerir contenido similar al que el usuario ha visto o interactuado previamente. **Sistemas de recomendación personalizados:** Implementar sistemas de recomendación personalizados utilizando frameworks como Recommender.js o Node-Recommender para adaptar las recomendaciones a las preferencias y el historial de cada usuario. **APIs de recomendación externas:** Integrar APIs de recomendación externas como Amazon Personalize o Google Recommender Engine para acceder a funcionalidades avanzadas como la recomendación en tiempo real o la personalización basada en datos demográficos. **Aprendizaje automático:** Utilizar técnicas de aprendizaje automático para mejorar la precisión de las recomendaciones, analizando patrones de comportamiento y preferencias de los usuarios."
+                    },
+                    {
+                        "ask": "¿Cómo se implementa un sistema de control de concurrencia optimista en una aplicación Node.js con base de datos distribuida?",
+                        "options": [
+                            "Utilizar timestamps para detectar conflictos de versiones",
+                            "Implementar un sistema de bloqueo distribuido con Redis",
+                            "Usar vector clocks para manejar conflictos en entornos multi-master",
+                            "Implementar una estrategia de merge automático para resolver conflictos",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-concurrency-control.png",
+                        "information": "El control de concurrencia optimista en sistemas distribuidos implica: **Timestamps:** Usar marcas de tiempo para detectar y resolver conflictos de versiones. **Bloqueo distribuido:** Implementar un sistema de bloqueo ligero con Redis para operaciones críticas. **Vector clocks:** Utilizar relojes vectoriales para ordenar eventos en sistemas distribuidos multi-master. **Merge automático:** Desarrollar estrategias para fusionar automáticamente cambios conflictivos cuando sea posible. También es importante implementar retries inteligentes, utilizar transacciones distribuidas cuando sea necesario, y considerar el uso de CRDTs (Conflict-free Replicated Data Types) para tipos de datos que puedan resolverse automáticamente."
+                    },
+                    {
+                        "ask": "¿Cuáles son las técnicas avanzadas para optimizar el rendimiento de WebSockets en Node.js a gran escala?",
+                        "options": [
+                            "Implementar sharding de conexiones WebSocket basado en el ID del cliente",
+                            "Utilizar un proxy reverso como nginx para balancear conexiones WebSocket",
+                            "Implementar compresión de mensajes WebSocket",
+                            "Utilizar protocolo MQTT para comunicación pub/sub eficiente",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-websocket-optimization.png",
+                        "information": "La optimización de WebSockets a gran escala incluye: **Sharding:** Distribuir conexiones entre múltiples servidores basándose en identificadores de cliente. **Balanceo de carga:** Utilizar nginx con el módulo stream para distribuir conexiones WebSocket. **Compresión:** Implementar compresión de mensajes para reducir el ancho de banda utilizado. **MQTT:** Considerar el uso de MQTT para escenarios de publicación/suscripción eficientes. Además, es crucial implementar reconexión automática en el cliente, utilizar heartbeats para mantener conexiones activas, y considerar el uso de Redis para sincronización de estado entre instancias de servidor."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de procesamiento de eventos complejos (CEP) en Node.js?",
+                        "options": [
+                            "Utilizar bibliotecas como RxJS para procesamiento de flujos de eventos",
+                            "Implementar un motor de reglas para definir patrones de eventos complejos",
+                            "Utilizar una base de datos de series temporales para almacenar y analizar eventos",
+                            "Implementar ventanas deslizantes para análisis de eventos en tiempo real",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-cep.png",
+                        "information": "Un sistema CEP en Node.js puede incluir: **RxJS:** Utilizar programación reactiva para manejar y transformar flujos de eventos complejos. **Motor de reglas:** Implementar un sistema para definir y ejecutar reglas sobre patrones de eventos. **Base de datos de series temporales:** Usar InfluxDB o similar para almacenar y consultar eficientemente grandes volúmenes de eventos temporales. **Ventanas deslizantes:** Implementar análisis sobre ventanas de tiempo móviles para detectar patrones en tiempo real. Es importante también considerar la integración con sistemas de mensajería como Kafka para ingesta de eventos a gran escala, implementar técnicas de muestreo para manejar alta carga, y utilizar técnicas de machine learning para detección de anomalías en tiempo real."
+                    },
+                    {
+                        "ask": "¿Cuáles son las mejores prácticas para implementar una arquitectura serverless con Node.js?",
+                        "options": [
+                            "Utilizar frameworks como Serverless Framework o AWS SAM",
+                            "Implementar funciones idempotentes y stateless",
+                            "Utilizar servicios gestionados para almacenamiento y base de datos",
+                            "Implementar un sistema de orquestación de funciones como Step Functions",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-serverless.png",
+                        "information": "Las mejores prácticas serverless con Node.js incluyen: **Frameworks:** Utilizar herramientas como Serverless Framework para simplificar el desarrollo y despliegue. **Idempotencia:** Diseñar funciones que puedan ser ejecutadas múltiples veces sin efectos secundarios. **Servicios gestionados:** Aprovechar servicios como DynamoDB o S3 para reducir la complejidad operativa. **Orquestación:** Utilizar servicios como AWS Step Functions para coordinar flujos de trabajo complejos. También es crucial optimizar el cold start de las funciones, implementar logging y monitoreo adecuados, y considerar el uso de capas (layers) para compartir código común entre funciones."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de CI/CD avanzado para microservicios Node.js?",
+                        "options": [
+                            "Utilizar GitOps con herramientas como ArgoCD para despliegue continuo",
+                            "Implementar blue/green deployments para actualizaciones sin tiempo de inactividad",
+                            "Utilizar herramientas de seguridad como Snyk en el pipeline de CI",
+                            "Implementar testing de contrato para asegurar la compatibilidad entre servicios",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-cicd-advanced.png",
+                        "information": "Un sistema CI/CD avanzado para microservicios Node.js puede incluir: **GitOps:** Utilizar ArgoCD o Flux para sincronizar el estado deseado del cluster con un repositorio Git. **Blue/Green:** Implementar despliegues paralelos para permitir rollbacks rápidos y sin downtime. **Seguridad:** Integrar análisis de seguridad automatizado en el pipeline de CI. **Testing de contrato:** Utilizar herramientas como Pact para asegurar que los cambios no rompan la comunicación entre servicios. Es importante también implementar análisis de calidad de código, automatizar la generación y despliegue de documentación de API, y considerar la implementación de chaos engineering para probar la resiliencia del sistema."
+                    },
+                    {
+                        "ask": "¿Cuáles son las técnicas avanzadas para optimizar consultas GraphQL en Node.js?",
+                        "options": [
+                            "Implementar DataLoader para batch y cache de resolvers",
+                            "Utilizar schema stitching para federación de múltiples servicios GraphQL",
+                            "Implementar persisted queries para reducir el tamaño de las peticiones",
+                            "Utilizar análisis estático de queries para optimización automática",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-graphql-optimization.png",
+                        "information": "La optimización de GraphQL en Node.js incluye: **DataLoader:** Utilizar esta biblioteca para agrupar y cachear eficientemente la resolución de campos. **Schema stitching:** Combinar múltiples schemas GraphQL para crear una API unificada. **Persisted queries:** Almacenar queries en el servidor y enviar solo un hash desde el cliente para reducir el payload. **Análisis estático:** Utilizar herramientas como graphql-query-complexity para analizar y optimizar queries automáticamente. También es importante implementar rate limiting específico para GraphQL, utilizar fragments para optimizar queries del cliente, y considerar el uso de subscriptions para datos en tiempo real."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de procesamiento de streams de datos en tiempo real con Node.js?",
+                        "options": [
+                            "Utilizar Apache Kafka con la biblioteca node-rdkafka para procesamiento de streams",
+                            "Implementar backpressure handling para manejar picos de carga",
+                            "Utilizar Node.js Streams API para procesamiento eficiente de datos",
+                            "Implementar windowing techniques para agregaciones en tiempo real",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-stream-processing.png",
+                        "information": "El procesamiento de streams en tiempo real con Node.js implica: **Kafka:** Utilizar Apache Kafka con node-rdkafka para ingerir y procesar grandes volúmenes de datos en tiempo real. **Backpressure:** Implementar mecanismos para regular el flujo de datos y evitar sobrecargas. **Streams API:** Aprovechar la API nativa de Node.js para procesamiento eficiente de streams. **Windowing:** Utilizar técnicas de ventana deslizante para realizar agregaciones y análisis en tiempo real. Es crucial también considerar la implementación de exactly-once processing para garantizar la integridad de los datos, utilizar técnicas de particionamiento para paralelizar el procesamiento, y implementar mecanismos de recuperación ante fallos."
+                    },
+                    {
+                        "ask": "¿Cuáles son las mejores prácticas para implementar un sistema de autenticación y autorización basado en blockchain en Node.js?",
+                        "options": [
+                            "Utilizar smart contracts para gestionar roles y permisos",
+                            "Implementar autenticación basada en firmas digitales con claves públicas/privadas",
+                            "Utilizar tokens no fungibles (NFTs) para representar credenciales de acceso",
+                            "Implementar un sistema de reputación descentralizado para autorización dinámica",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-blockchain-auth.png",
+                        "information": "La autenticación y autorización basada en blockchain en Node.js puede incluir: **Smart contracts:** Utilizar contratos inteligentes en Ethereum o similar para gestionar roles y permisos de forma descentralizada. **Firmas digitales:** Implementar autenticación basada en criptografía asimétrica, verificando firmas en el servidor. **NFTs:** Utilizar tokens no fungibles para representar credenciales o badges de acceso únicos. **Sistema de reputación:** Implementar un mecanismo descentralizado para calcular y verificar la reputación de los usuarios para autorización dinámica. Es importante también considerar la implementación de mecanismos de recuperación de cuentas, utilizar oráculos para integrar datos off-chain en las decisiones de autorización, y implementar capas de caché para optimizar el rendimiento de las verificaciones frecuentes."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de machine learning distribuido utilizando Node.js?",
+                        "options": [
+                            "Utilizar TensorFlow.js para entrenamiento y inferencia distribuida",
+                            "Implementar un sistema de colas distribuido para tareas de procesamiento ML",
+                            "Utilizar WebAssembly para optimizar cálculos intensivos en CPU",
+                            "Implementar federated learning para entrenar modelos de forma descentralizada",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-distributed-ml.png",
+                        "information": "Un sistema de ML distribuido en Node.js puede incluir: **TensorFlow.js:** Utilizar esta biblioteca para ejecutar y entrenar modelos de ML en entornos distribuidos. **Colas distribuidas:** Implementar un sistema como Bull para distribuir tareas de procesamiento ML entre múltiples nodos. **WebAssembly:** Utilizar WASM para optimizar operaciones intensivas en CPU, mejorando el rendimiento de algoritmos ML. **Federated learning:** Implementar técnicas de aprendizaje federado para entrenar modelos globales mientras los datos permanecen en dispositivos locales. Es crucial también considerar la implementación de técnicas de paralelización de datos y modelos, utilizar sistemas de almacenamiento distribuido para datasets grandes, y implementar mecanismos de monitoreo y logging específicos para ML."
+                    },
+                    {
+                        "ask": "¿Cuáles son las técnicas avanzadas para implementar un sistema de caché predictivo en Node.js?",
+                        "options": [
+                            "Utilizar algoritmos de aprendizaje automático para predecir patrones de acceso",
+                            "Implementar pre-fetching basado en análisis de comportamiento de usuario",
+                            "Utilizar Graph Neural Networks para modelar relaciones entre datos y optimizar el caché",
+                            "Implementar un sistema de caché multi-nivel con políticas de evicción adaptativas",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-predictive-cache.png",
+                        "information": "Un sistema de caché predictivo avanzado en Node.js puede incluir: **ML para predicción:** Utilizar algoritmos como regresión logística o árboles de decisión para predecir qué datos cachear. **Pre-fetching inteligente:** Analizar patrones de comportamiento de usuario para pre-cargar datos probablemente necesarios. **Graph Neural Networks:** Modelar relaciones complejas entre datos para optimizar decisiones de caché. **Caché multi-nivel:** Implementar diferentes niveles de caché (memoria, SSD, disco) con políticas de evicción que se adapten dinámicamente. Es importante también considerar la implementación de técnicas de compresión adaptativa, utilizar análisis de series temporales para identificar patrones cíclicos, y implementar mecanismos de feedback para ajustar continuamente el modelo predictivo."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de análisis de datos en tiempo real utilizando Node.js y técnicas de stream processing?",
+                        "options": [
+                            "Utilizar Apache Flink con su API para JavaScript/Node.js",
+                            "Implementar ventanas temporales deslizantes para análisis continuo",
+                            "Utilizar aproximaciones probabilísticas como HyperLogLog para estimaciones de cardinalidad",
+                            "Implementar un sistema de alertas basado en anomalías detectadas en tiempo real",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-realtime-analytics.png",
+                        "information": "Un sistema de análisis en tiempo real con Node.js puede incluir: **Apache Flink:** Utilizar su API para JavaScript para procesamiento de streams distribuido y escalable. **Ventanas deslizantes:** Implementar análisis sobre ventanas de tiempo móviles para métricas como promedios móviles o detección de tendencias. **HyperLogLog:** Usar esta estructura de datos probabilística para estimar cardinalidades únicas en grandes volúmenes de datos. **Alertas en tiempo real:** Desarrollar un sistema que detecte y notifique anomalías basándose en patrones históricos y umbrales dinámicos. Es importante también considerar la implementación de técnicas de muestreo adaptativo para manejar picos de tráfico, utilizar bases de datos de series temporales para almacenamiento eficiente, y diseñar una arquitectura lambda para combinar procesamiento en tiempo real con análisis por lotes."
+                    },
+                    {
+                        "ask": "¿Cuáles son las técnicas avanzadas para implementar un sistema de recomendación en tiempo real con Node.js?",
+                        "options": [
+                            "Utilizar algoritmos de filtrado colaborativo con actualizaciones incrementales",
+                            "Implementar un sistema de embedding de usuarios y artículos con modelos de deep learning",
+                            "Utilizar técnicas de bandidos multi-brazo para optimización de recomendaciones",
+                            "Implementar un sistema de recomendación sensible al contexto utilizando procesamiento de streams",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-realtime-recommendations.png",
+                        "information": "Un sistema de recomendación avanzado en Node.js puede incluir: **Filtrado colaborativo incremental:** Actualizar modelos de recomendación en tiempo real a medida que llegan nuevas interacciones. **Embeddings con deep learning:** Utilizar redes neuronales para generar representaciones vectoriales de usuarios y artículos. **Bandidos multi-brazo:** Implementar algoritmos como Thompson Sampling para balancear exploración y explotación en las recomendaciones. **Recomendaciones contextuales:** Incorporar factores como ubicación, hora del día o dispositivo en el modelo de recomendación. Es crucial también implementar técnicas de caching inteligente para servir recomendaciones rápidamente, utilizar procesamiento distribuido para manejar grandes volúmenes de datos, y diseñar un sistema de feedback para evaluar y mejorar continuamente la calidad de las recomendaciones."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de orquestación de microservicios avanzado en Node.js?",
+                        "options": [
+                            "Utilizar un service mesh como Istio para gestión de tráfico y políticas",
+                            "Implementar un patrón de Saga para manejar transacciones distribuidas",
+                            "Utilizar gRPC para comunicación eficiente entre servicios",
+                            "Implementar un sistema de descubrimiento de servicios basado en DNS",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-microservices-orchestration.png",
+                        "information": "Un sistema avanzado de orquestación de microservicios en Node.js puede incluir: **Service mesh:** Utilizar Istio o Linkerd para manejar aspectos como descubrimiento de servicios, balanceo de carga y seguridad. **Patrón Saga:** Implementar flujos de trabajo distribuidos para manejar transacciones que abarcan múltiples servicios. **gRPC:** Utilizar este protocolo para comunicación eficiente y tipada entre servicios. **Descubrimiento basado en DNS:** Implementar un sistema de registro y descubrimiento de servicios utilizando DNS y herramientas como CoreDNS. Es importante también considerar la implementación de circuit breakers para manejar fallos en cascada, utilizar contratos de API para asegurar la compatibilidad entre servicios, y diseñar un sistema de trazabilidad distribuida para depuración y monitoreo."
+                    },
+                    {
+                        "ask": "¿Cuáles son las mejores prácticas para implementar un sistema de procesamiento de eventos complejos (CEP) en Node.js a gran escala?",
+                        "options": [
+                            "Utilizar una base de datos de grafos temporal para modelar y consultar patrones de eventos complejos",
+                            "Implementar un motor de reglas distribuido para procesamiento paralelo de eventos",
+                            "Utilizar técnicas de ventana deslizante semántica para detectar patrones basados en contexto",
+                            "Implementar un sistema de checkpoint y recuperación para garantizar el procesamiento exactamente una vez",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-cep-large-scale.png",
+                        "information": "Un sistema CEP avanzado en Node.js puede incluir: **Base de datos de grafos temporal:** Utilizar una solución como TigerGraph para modelar y consultar eficientemente relaciones complejas entre eventos a lo largo del tiempo. **Motor de reglas distribuido:** Implementar un sistema que permita definir y ejecutar reglas de negocio complejas de forma distribuida y paralela. **Ventana deslizante semántica:** Desarrollar técnicas que permitan definir ventanas de eventos basadas en el contexto y significado de los eventos, no solo en tiempo o conteo. **Checkpoint y recuperación:** Implementar mecanismos robustos para garantizar el procesamiento exactamente una vez incluso en caso de fallos. Es crucial también considerar la implementación de técnicas de compresión y muestreo para manejar grandes volúmenes de eventos, utilizar aprendizaje automático para detección de patrones emergentes, y diseñar una arquitectura que permita escalar horizontalmente el procesamiento de eventos."
+                    },
+                    {
+                        "ask": "¿Cómo se puede implementar un sistema de edge computing distribuido utilizando Node.js?",
+                        "options": [
+                            "Utilizar WebAssembly para ejecutar código de alto rendimiento en dispositivos edge",
+                            "Implementar un sistema de sincronización de datos offline-first",
+                            "Utilizar service workers para manejar lógica de aplicación en el edge",
+                            "Implementar un sistema de despliegue y actualización OTA (Over-The-Air) para nodos edge",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-edge-computing.png",
+                        "information": "Un sistema de edge computing con Node.js puede incluir: **WebAssembly:** Utilizar WASM para ejecutar código de alto rendimiento en dispositivos con recursos limitados. **Sincronización offline-first:** Implementar estrategias de sincronización que permitan operaciones offline y resolución de conflictos. **Service workers:** Aprovechar estos para manejar lógica de aplicación, caching y sincronización en el edge. **Actualizaciones OTA:** Desarrollar un sistema para desplegar y actualizar software en dispositivos edge de forma remota y segura. Es importante también considerar la implementación de técnicas de compresión y optimización de payload para comunicaciones eficientes, utilizar protocolos ligeros como MQTT para comunicación M2M (machine-to-machine), y diseñar estrategias de seguridad robustas para proteger los dispositivos y datos en el edge."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de gestión de contenido (CMS) en aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar frameworks CMS como 'Strapi' o 'Ghost' para crear y administrar contenido web de forma dinámica",
+                            "Implementar APIs RESTful para gestionar contenido desde aplicaciones externas o clientes móviles",
+                            "Considerar la utilización de bases de datos NoSQL como 'MongoDB' o 'CouchDB' para almacenar contenido de forma flexible y escalable",
+                            "Integrar herramientas de colaboración como 'Git' o 'GitHub' para facilitar el trabajo en equipo y la gestión de versiones del contenido",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-content-management-systems.png",
+                        "information": "Los sistemas de gestión de contenido (CMS) permiten crear y administrar contenido web de forma dinámica en aplicaciones Node.js. Se pueden utilizar: **Frameworks CMS:** Strapi o Ghost para crear APIs RESTful, administrar contenido y generar páginas web dinámicas. **APIs RESTful:** Implementar APIs RESTful para gestionar contenido desde aplicaciones externas o clientes móviles, permitiendo la interoperabilidad y el acceso remoto. **Bases de datos NoSQL:** MongoDB o CouchDB para almacenar contenido de forma flexible y escalable, aprovechando su estructura flexible y escalabilidad horizontal. **Herramientas de colaboración:** Git o GitHub para facilitar el trabajo en equipo, la gestión de versiones del contenido y el control de cambios."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden implementar sistemas de gestión de relaciones con el cliente (CRM) en aplicaciones Node.js?",
+                        "options": [
+                            "Utilizar frameworks CRM como 'Salesforce' o 'Zoho CRM' para gestionar datos de clientes, oportunidades y ventas",
+                            "Implementar APIs RESTful para integrar datos de CRM con otras aplicaciones o sistemas",
+                            "Considerar la utilización de herramientas de automatización de marketing como 'MailChimp' o 'Drip' para enviar correos electrónicos personalizados y automatizar campañas de marketing",
+                            "Integrar herramientas de análisis de datos como 'Google Analytics' o 'Mixpanel' para obtener información sobre el comportamiento de los clientes",
+                            "Todas las opciones anteriores"
+                        ],
+                        "answer": "Todas las opciones anteriores",
+                        "images": "https://example.com/node-crm-systems.png",
+                        "information": "Los sistemas de gestión de relaciones con el cliente (CRM) permiten gestionar datos de clientes, oportunidades y ventas en aplicaciones Node.js. Se pueden utilizar: **Frameworks CRM:** Salesforce o Zoho CRM para gestionar datos de clientes, leads, oportunidades y ventas, automatizar flujos de trabajo y generar informes. **APIs RESTful:** Implementar APIs RESTful para integrar datos de CRM con otras aplicaciones o sistemas, permitiendo la interoperabilidad y el intercambio de información. **Herramientas de automatización de marketing:** MailChimp o Drip para enviar correos electrónicos personalizados, automatizar campañas de marketing y nutrir leads. **Herramientas de análisis de datos:** Google Analytics o Mixpanel para obtener información sobre el comportamiento de los clientes, analizar campañas de marketing y tomar decisiones basadas en datos."
                     }
                 ]
             }
