@@ -6,6 +6,9 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   color: $primary-color;
+  overflow-x: auto;
+  overflow: hidden;
+  
 }
 
 .header {
