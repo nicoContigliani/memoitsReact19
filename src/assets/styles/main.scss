@@ -3,6 +3,8 @@ $secondary-color:  #007bff;
 
 
 body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   color: $primary-color;
@@ -31,7 +33,7 @@ body {
 $glass-background-color: rgba(144, 177, 255, 0.271); // Color del fondo con transparencia
 $glass-blur: 10px; // Nivel de desenfoque para el efecto de vidrio
 .bodySetting{
-    padding-top: 1px;
+    // padding-top: 1px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* Adjust the gap between columns as needed */
