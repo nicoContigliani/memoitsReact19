@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import '../src/App.scss';
 import Button from './components/Buttons/Button';
 import json from './virtualDb/virtualJSON.json';
 import Checkboxs from './components/checkbox/Checkbox';
 import Inputs from './components/inputs/Inputs';
 import Maps from './components/Map/Maps';
+
+import { CommentOutlined, CustomerServiceOutlined, FieldNumberOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
+import { FloatButton } from 'antd';
 
 function App() {
   const [count, setCount] = useState<number>(0);
@@ -21,17 +24,23 @@ function App() {
   const [selectedValue, setSelectedValue] = useState<number>(0);
 
   const { tecnology } = todo;
-  const dataTodo: string[] = [];
 
-  for (const key in tecnology) {
-    if (Object?.prototype?.hasOwnProperty.call(tecnology, key)) {
-      const element: any = tecnology[key];
-      if (typeof element === 'object' && element !== null) {
-        const todoE = Object?.keys(element);
-        dataTodo.push(todoE[0]);
+
+  const dataTodo = useMemo(() => {
+    const result: string[] = [];
+    for (const key in tecnology) {
+      if (Object?.prototype?.hasOwnProperty.call(tecnology, key)) {
+        const element: any = tecnology[key];
+        if (typeof element === 'object' && element !== null) {
+          const todoE = Object?.keys(element);
+          result.push(todoE[0]);
+        }
       }
     }
-  }
+    return result;
+  }, [tecnology]);
+
+
 
   useEffect(() => {
     try {
@@ -83,7 +92,66 @@ function App() {
       <div className='header'>
         <h2> Que comience el juego</h2>
       </div>
-      <div className='bodySetting'>
+      <div className=''>
+
+
+        <FloatButton.Group
+          trigger="hover"
+          type="primary"
+          style={{ right: 185 }}
+          icon={<FieldNumberOutlined />}
+        >
+          <div className='level'>
+            <span>
+             Count Answer
+            </span>
+            <Inputs
+              type={'number'}
+              data={data}
+              setData={setData}
+              placeholder={"cuantas consultas"}
+              name={"ask"}
+            />
+          </div>
+        </FloatButton.Group>
+--
+
+        <FloatButton.Group
+          trigger="hover"
+          type="primary"
+          style={{ right: 135 }}
+          icon={<LinuxOutlined />}
+        >
+
+          <Checkboxs
+            name={`checkbox-tecnology`}
+            optionsTecnology={optionsTecnology}
+            selectedValue={selectedValue}
+            setSelectedValue={setSelectedValue}
+          />
+          {/* <FloatButton icon={<CommentOutlined />}
+        /> */}
+        </FloatButton.Group>
+
+        <FloatButton.Group
+          trigger="hover"
+          type="primary"
+          style={{ right: 85 }}
+          icon={<WifiOutlined />}
+        >
+            <Checkboxs
+              name={`checkbox-level`}
+              optionsTecnology={['basic', 'middel', 'expert', 'god']}
+              selectedValue={selectValueLevel}
+              setSelectedValue={setSelectValueLevel}
+            />
+        
+        </FloatButton.Group>
+
+
+      </div>
+
+      {/* <div className='bodySetting'>
         <div className='tecnology'>
           <Checkboxs
             name={`checkbox-tecnology`}
@@ -109,7 +177,7 @@ function App() {
             name={"ask"}
           />
         </div>
-      </div>
+      </div> */}
 
       <div className='container'>
         {
@@ -124,7 +192,6 @@ function App() {
 
       total {data?.ask}
 
-      <Button />
     </>
   );
 }

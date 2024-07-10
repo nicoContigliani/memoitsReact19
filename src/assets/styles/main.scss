@@ -1,4 +1,6 @@
-$primary-color: #007bff;
+$primary-color: #b5cdfd43;
+$secondary-color:  #007bff;
+
 
 body {
   font-family: Arial, sans-serif;
@@ -17,42 +19,93 @@ body {
 
 .container {
   margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: $secondary-color;
+
 }
 
-$glass-background-color: rgba(144, 177, 255, 0.491); // Color del fondo con transparencia
+$glass-background-color: rgba(144, 177, 255, 0.271); // Color del fondo con transparencia
 $glass-blur: 10px; // Nivel de desenfoque para el efecto de vidrio
 .bodySetting{
     padding-top: 1px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* Adjust the gap between columns as needed */
-
 }
 
 .checkbox-wrapper {
   background-color: $glass-background-color; // Aplicar color de fondo con transparencia
   backdrop-filter: blur($glass-blur); // Aplicar desenfoque para el efecto de vidrio
-  border-radius: 4px; // Redondear esquinas opcional para mejorar el aspecto estético
-  padding: 5px; // Espacio interior para los checkbox
-  margin: 5px; // Margen exterior para separar del resto de contenido
-  box-shadow: #000000;
-  border-radius: 1%;
+  // border-radius: 4px; // Redondear esquinas opcional para mejorar el aspecto estético
+  // padding: 5px; // Espacio interior para los checkbox
+  // margin: 5px; // Margen exterior para separar del resto de contenido
+  // box-shadow: #000000;
+  // border-radius: 1%;
+  // display: flex;
+  // flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  border-radius: 3%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 100px;
+  /* Lighter shade */
+  // box-shadow: 0 1px 0 rgba(0, 0, 0, 0.917) inset;
+  
 }
 .inputAsk{
   padding-top: 5px;
 }
 .checkClass{
   padding-left: 2%;
+  padding-bottom: 1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Dos columnas usando repeat */
+  grid-gap: 5%; /* Espacio entre elementos */
+  align-items: center;
+   justify-content: space-around;
+   place-content: center;
+   position: relative;
+   
 }
+.headerCheckbox{
+
+}
+
 .chekboxDiv{
   
 }
 .answersSussses{
-background-color: cornflowerblue;
+background-color: $secondary-color;
 width: auto;
 }
 .answersError{
   background-color: grey;
+}
+.level{
+  width: 150px;
+  padding: 1%;
+  background-color: $glass-background-color; // Aplicar color de fondo con transparencia
+  backdrop-filter: blur($glass-blur); // Aplicar desenfoque para el efecto de vidrio
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 
+}
 
+.buttonReset{
+  border-radius: 100%;
+  position: fixed;
+  bottom: 53px;
+  right: 50%;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.buttonGroup{
+  padding: 1%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }

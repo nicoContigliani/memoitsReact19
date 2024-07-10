@@ -1,11 +1,17 @@
+import { useEffect, useState } from "react"
 
 const Asnwers = (props: any) => {
     const { Asnwers } = props
-    console.log("🚀 ~ Asnwers ~ Asnwers:", Asnwers)
+
+    const [answers, setAnswers] = useState<any[] | any | undefined>()
+    useEffect(() => {
+        setAnswers(Asnwers)
+    }, [Asnwers])
+
 
     return (
         <div>
-            {Asnwers ?
+            {answers ?
                 <div className='answersSussses'>
                     si
                 </div>
