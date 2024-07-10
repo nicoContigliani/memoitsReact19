@@ -448,6 +448,447 @@
                       
                 ],
                 "middel": [
+                    
+    {
+        "ask": "¿Cómo se evita que un componente se vuelva a renderizar en React?",
+        "options": [
+            "Usando React.memo",
+            "Usando useEffect",
+            "Usando useState"
+        ],
+        "answer": "Usando React.memo",
+        "images": "https://example.com/prevent-render.png",
+        "information": "Para evitar que un componente se vuelva a renderizar innecesariamente, se puede usar React.memo para memorizar el componente."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para realizar tareas de limpieza en un componente funcional?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useContext"
+        ],
+        "answer": "useEffect",
+        "images": "https://example.com/cleanup-task.png",
+        "information": "El hook useEffect se utiliza para realizar tareas de limpieza, devolviendo una función de limpieza en el cuerpo del useEffect."
+    },
+    {
+        "ask": "¿Cómo se define un estado inicial complejo en un componente funcional?",
+        "options": [
+            "Pasando una función a useState",
+            "Usando useReducer",
+            "Usando useEffect"
+        ],
+        "answer": "Pasando una función a useState",
+        "images": "https://example.com/complex-initial-state.png",
+        "information": "Para definir un estado inicial complejo en un componente funcional, se puede pasar una función a useState que retorne el estado inicial."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para acceder a valores de contexto en componentes funcionales?",
+        "options": [
+            "useContext",
+            "useState",
+            "useReducer"
+        ],
+        "answer": "useContext",
+        "images": "https://example.com/access-context.png",
+        "information": "El hook useContext se utiliza para acceder a valores de contexto en componentes funcionales, permitiendo usar valores de contexto sin pasar props."
+    },
+    {
+        "ask": "¿Cómo se puede optimizar la performance de un componente en React?",
+        "options": [
+            "Usando React.memo y useMemo",
+            "Usando useEffect y useState",
+            "Usando useReducer y useContext"
+        ],
+        "answer": "Usando React.memo y useMemo",
+        "images": "https://example.com/optimize-performance.png",
+        "information": "Para optimizar la performance de un componente en React, se pueden usar React.memo para memorizar componentes y useMemo para memorizar valores."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para manejar formularios en React?",
+        "options": [
+            "useState",
+            "useEffect",
+            "useContext"
+        ],
+        "answer": "useState",
+        "images": "https://example.com/handle-forms.png",
+        "information": "El hook useState se utiliza para manejar el estado de los campos de un formulario en componentes funcionales de React."
+    },
+    {
+        "ask": "¿Cómo se implementa el manejo de errores en componentes funcionales?",
+        "options": [
+            "Usando un hook personalizado para manejo de errores",
+            "Usando useState para almacenar el error",
+            "Usando useEffect para lanzar errores"
+        ],
+        "answer": "Usando un hook personalizado para manejo de errores",
+        "images": "https://example.com/error-handling.png",
+        "information": "Para implementar el manejo de errores en componentes funcionales, se puede usar un hook personalizado que encapsule la lógica de manejo de errores."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para suscribirse a datos en tiempo real en componentes funcionales?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useContext"
+        ],
+        "answer": "useEffect",
+        "images": "https://example.com/real-time-data.png",
+        "information": "El hook useEffect se utiliza para suscribirse a datos en tiempo real en componentes funcionales, configurando la suscripción y limpiándola al desmontar."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para manejar animaciones en React?",
+        "options": [
+            "useEffect con bibliotecas de animación",
+            "useState para almacenar estados de animación",
+            "useContext para compartir animaciones"
+        ],
+        "answer": "useEffect con bibliotecas de animación",
+        "images": "https://example.com/handle-animations.png",
+        "information": "Para manejar animaciones en React, se puede usar useEffect junto con bibliotecas de animación como GSAP o Framer Motion."
+    },
+    {
+        "ask": "¿Cómo se pueden combinar múltiples reducers en React?",
+        "options": [
+            "Usando una función combinadora de reducers",
+            "Usando múltiples useReducer",
+            "Usando useState y useEffect juntos"
+        ],
+        "answer": "Usando una función combinadora de reducers",
+        "images": "https://example.com/combine-reducers.png",
+        "information": "Para combinar múltiples reducers en React, se puede usar una función combinadora de reducers que maneje la lógica de combinación."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para mantener el estado entre renderizados?",
+        "options": [
+            "useRef",
+            "useState",
+            "useEffect"
+        ],
+        "answer": "useRef",
+        "images": "https://example.com/maintain-state.png",
+        "information": "El hook useRef se utiliza para mantener valores entre renderizados sin causar una nueva renderización del componente."
+    },
+    {
+        "ask": "¿Cómo se puede optimizar la renderización de listas en React?",
+        "options": [
+            "Usando React.memo y virtualización",
+            "Usando useState para almacenar elementos",
+            "Usando useEffect para manejar actualizaciones"
+        ],
+        "answer": "Usando React.memo y virtualización",
+        "images": "https://example.com/optimize-lists.png",
+        "information": "Para optimizar la renderización de listas en React, se puede usar React.memo para memorizar elementos y técnicas de virtualización para renderizar solo los visibles."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para manejar eventos personalizados en React?",
+        "options": [
+            "useEffect para configurar listeners",
+            "useState para almacenar eventos",
+            "useContext para compartir eventos"
+        ],
+        "answer": "useEffect para configurar listeners",
+        "images": "https://example.com/custom-events.png",
+        "information": "El hook useEffect se utiliza para configurar listeners de eventos personalizados en componentes funcionales de React."
+    },
+    {
+        "ask": "¿Qué es un reducer en React?",
+        "options": [
+            "Una función que maneja actualizaciones de estado basadas en acciones",
+            "Una función que devuelve un nuevo estado",
+            "Una función que se utiliza para obtener datos"
+        ],
+        "answer": "Una función que maneja actualizaciones de estado basadas en acciones",
+        "images": "https://example.com/reducer.png",
+        "information": "Un reducer en React es una función que maneja actualizaciones de estado basadas en acciones, comúnmente usada con useReducer."
+    },
+    {
+        "ask": "¿Qué hook se utiliza para manejar el ciclo de vida de un componente funcional?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useReducer"
+        ],
+        "answer": "useEffect",
+        "images": "https://example.com/lifecycle.png",
+        "information": "El hook useEffect se utiliza para manejar el ciclo de vida de un componente funcional, como montar, actualizar y desmontar."
+    },
+                    {
+                        "ask": "¿Qué hook se utiliza para referenciar elementos del DOM en componentes funcionales?",
+                        "options": [
+                            "useRef",
+                            "useState",
+                            "useEffect"
+                        ],
+                        "answer": "useRef",
+                        "images": "https://example.com/useRef.png",
+                        "information": "El hook useRef se utiliza para crear referencias a elementos del DOM y acceder a ellos directamente en componentes funcionales."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para ejecutar una función solo una vez al montar el componente?",
+                        "options": [
+                            "useEffect con una lista de dependencias vacía",
+                            "useState",
+                            "useMemo"
+                        ],
+                        "answer": "useEffect con una lista de dependencias vacía",
+                        "images": "https://example.com/useEffect-once.png",
+                        "information": "Para ejecutar una función solo una vez al montar el componente, se usa useEffect con una lista de dependencias vacía ([])."
+                    },
+                    {
+                        "ask": "¿Qué función se usa para actualizar el estado en un componente de clase?",
+                        "options": [
+                            "setState",
+                            "useState",
+                            "useReducer"
+                        ],
+                        "answer": "setState",
+                        "images": "https://example.com/setState.png",
+                        "information": "En un componente de clase, la función setState se utiliza para actualizar el estado del componente."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden manejar múltiples estados relacionados en React?",
+                        "options": [
+                            "Usando useReducer",
+                            "Usando múltiples llamadas a useState",
+                            "Usando useContext"
+                        ],
+                        "answer": "Usando useReducer",
+                        "images": "https://example.com/multiple-states.png",
+                        "information": "Usando el hook useReducer se pueden manejar múltiples estados relacionados y una lógica de estado compleja de manera más estructurada."
+                    },
+                    {
+                        "ask": "¿Qué función se usa para manejar eventos en React?",
+                        "options": [
+                            "Se usan funciones de evento (event handlers)",
+                            "Se usa una función callback",
+                            "Se usa un hook específico"
+                        ],
+                        "answer": "Se usan funciones de evento (event handlers)",
+                        "images": "https://example.com/event-handlers.png",
+                        "information": "Para manejar eventos en React, se utilizan funciones de evento (event handlers) que se pasan como props a los elementos del DOM."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para ejecutar una función cuando una variable específica cambia?",
+                        "options": [
+                            "useEffect",
+                            "useState",
+                            "useMemo"
+                        ],
+                        "answer": "useEffect",
+                        "images": "https://example.com/variable-change.png",
+                        "information": "El hook useEffect se utiliza para ejecutar una función cuando una variable específica cambia, especificando la variable en la lista de dependencias."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para memorizar valores que solo se deben recalcular cuando cambian las dependencias?",
+                        "options": [
+                            "useMemo",
+                            "useState",
+                            "useEffect"
+                        ],
+                        "answer": "useMemo",
+                        "images": "https://example.com/memoize-values.png",
+                        "information": "El hook useMemo se utiliza para memorizar valores que solo se deben recalcular cuando cambian las dependencias especificadas."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar lógica de ciclo de vida en componentes funcionales?",
+                        "options": [
+                            "useEffect",
+                            "useState",
+                            "useRef"
+                        ],
+                        "answer": "useEffect",
+                        "images": "https://example.com/lifecycle-logic.png",
+                        "information": "El hook useEffect se utiliza para manejar lógica de ciclo de vida en componentes funcionales, como montar, actualizar y desmontar."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para definir valores que no cambian entre renderizados?",
+                        "options": [
+                            "useRef",
+                            "useState",
+                            "useReducer"
+                        ],
+                        "answer": "useRef",
+                        "images": "https://example.com/define-values.png",
+                        "information": "El hook useRef se utiliza para definir valores que no cambian entre renderizados, como referencias a elementos del DOM."
+                    },
+                    {
+                        "ask": "¿Cómo se pasa un estado de un componente padre a un componente hijo en React?",
+                        "options": [
+                            "Usando props",
+                            "Usando useState",
+                            "Usando useEffect"
+                        ],
+                        "answer": "Usando props",
+                        "images": "https://example.com/pass-state.png",
+                        "information": "Para pasar un estado de un componente padre a un componente hijo en React, se utilizan props."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar el contexto en componentes funcionales?",
+                        "options": [
+                            "useContext",
+                            "useState",
+                            "useMemo"
+                        ],
+                        "answer": "useContext",
+                        "images": "https://example.com/handle-context.png",
+                        "information": "El hook useContext se utiliza para manejar el contexto en componentes funcionales, permitiendo acceder a valores de contexto sin pasar props."
+                    },
+                    {
+                        "ask": "¿Qué método se usa para hacer un componente puro en React?",
+                        "options": [
+                            "React.memo",
+                            "React.pureComponent",
+                            "React.createElement"
+                        ],
+                        "answer": "React.memo",
+                        "images": "https://example.com/pure-component.png",
+                        "information": "Para hacer un componente funcional puro en React, se utiliza React.memo, que memoiza el componente y evita renderizaciones innecesarias."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar una API en React?",
+                        "options": [
+                            "Usando useEffect para realizar solicitudes fetch",
+                            "Usando useState para almacenar la URL",
+                            "Usando useContext para compartir datos"
+                        ],
+                        "answer": "Usando useEffect para realizar solicitudes fetch",
+                        "images": "https://example.com/api-handling.png",
+                        "information": "Para manejar una API en React, se usa el hook useEffect para realizar solicitudes fetch y actualizar el estado con los datos obtenidos."
+                    },
+                    {
+                        "ask": "¿Qué es el estado local en React?",
+                        "options": [
+                            "Estado específico de un componente",
+                            "Estado compartido entre múltiples componentes",
+                            "Estado global de la aplicación"
+                        ],
+                        "answer": "Estado específico de un componente",
+                        "images": "https://example.com/local-state.png",
+                        "information": "El estado local en React es el estado específico de un componente, manejado con useState o this.state en componentes de clase."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar el estado de un componente funcional en React?",
+                        "options": [
+                            "useState",
+                            "useEffect",
+                            "useContext"
+                        ],
+                        "answer": "useState",
+                        "images": "https://example.com/handle-state.png",
+                        "information": "El hook useState se utiliza para manejar el estado en componentes funcionales de React, proporcionando un valor de estado y una función para actualizarlo."
+                    },
+                    {
+                        "ask": "¿Qué es un hook en React?",
+                        "options": [
+                            "Una función especial que permite usar estado y otras características de React",
+                            "Un componente de clase",
+                            "Una forma de manejar eventos"
+                        ],
+                        "answer": "Una función especial que permite usar estado y otras características de React",
+                        "images": "https://example.com/react-hook.png",
+                        "information": "Un hook es una función especial que te permite 'enganchar' características de React como el estado y el ciclo de vida en componentes funcionales."
+                    },
+                    {
+                        "ask": "¿Qué hook se usa para manejar efectos secundarios en componentes funcionales?",
+                        "options": [
+                            "useEffect",
+                            "useState",
+                            "useContext"
+                        ],
+                        "answer": "useEffect",
+                        "images": "https://example.com/useEffect.png",
+                        "information": "El hook useEffect te permite realizar efectos secundarios en componentes funcionales, como la obtención de datos, suscripciones o cambios manuales en el DOM."
+                    },
+                    {
+                        "ask": "¿Cómo se crea un contexto en React?",
+                        "options": [
+                            "Usando React.createContext",
+                            "Usando React.createRef",
+                            "Usando React.createElement"
+                        ],
+                        "answer": "Usando React.createContext",
+                        "images": "https://example.com/createContext.png",
+                        "information": "React.createContext se usa para crear un contexto, que permite pasar datos a través de la estructura de componentes sin tener que pasar props manualmente en cada nivel."
+                    },
+                    {
+                        "ask": "¿Qué es un memoized component?",
+                        "options": [
+                            "Un componente que solo se vuelve a renderizar si sus props cambian",
+                            "Un componente que siempre se vuelve a renderizar",
+                            "Un componente que no se puede reutilizar"
+                        ],
+                        "answer": "Un componente que solo se vuelve a renderizar si sus props cambian",
+                        "images": "https://example.com/memoized-component.png",
+                        "information": "Un componente memoized usa React.memo para evitar renderizaciones innecesarias. Solo se vuelve a renderizar si las props cambian."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar el estado en componentes funcionales?",
+                        "options": [
+                            "useState",
+                            "useEffect",
+                            "useReducer"
+                        ],
+                        "answer": "useState",
+                        "images": "https://example.com/useState.png",
+                        "information": "El hook useState se utiliza para manejar el estado en componentes funcionales. Devuelve un valor de estado y una función para actualizarlo."
+                    },
+                    {
+                        "ask": "¿Cómo se accede al valor actual de un input en React?",
+                        "options": [
+                            "Usando el atributo value del input",
+                            "Usando el atributo id del input",
+                            "Usando el atributo name del input"
+                        ],
+                        "answer": "Usando el atributo value del input",
+                        "images": "https://example.com/input-value.png",
+                        "information": "Para acceder al valor actual de un input en React, se usa el atributo value del input y se maneja generalmente con el estado del componente."
+                    },
+                    {
+                        "ask": "¿Qué es el virtual DOM?",
+                        "options": [
+                            "Una representación en memoria del DOM real",
+                            "Una copia exacta del DOM real",
+                            "Una base de datos interna de React"
+                        ],
+                        "answer": "Una representación en memoria del DOM real",
+                        "images": "https://example.com/virtual-dom.png",
+                        "information": "El virtual DOM es una representación en memoria del DOM real. React lo utiliza para optimizar las actualizaciones del DOM real."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar el contexto en React?",
+                        "options": [
+                            "useContext",
+                            "useState",
+                            "useEffect"
+                        ],
+                        "answer": "useContext",
+                        "images": "https://example.com/useContext.png",
+                        "information": "El hook useContext se utiliza para acceder a valores del contexto en componentes funcionales, evitando la necesidad de usar el consumidor de contexto."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para manejar estados complejos en React?",
+                        "options": [
+                            "useReducer",
+                            "useState",
+                            "useEffect"
+                        ],
+                        "answer": "useReducer",
+                        "images": "https://example.com/useReducer.png",
+                        "information": "El hook useReducer se utiliza para manejar estados complejos y lógica de estado avanzada en componentes funcionales, similar a cómo se usaría un reducer en Redux."
+                    },
+                    {
+                        "ask": "¿Qué hook se utiliza para optimizar cálculos en React?",
+                        "options": [
+                            "useMemo",
+                            "useEffect",
+                            "useState"
+                        ],
+                        "answer": "useMemo",
+                        "images": "https://example.com/useMemo.png",
+                        "information": "El hook useMemo se utiliza para optimizar cálculos costosos al memorizar el resultado y recalcularlo solo cuando las dependencias cambian."
+                    },
                     {
                         "ask": "¿Qué es un estado derivado (derived state)?",
                         "options": [
@@ -1570,21 +2011,1317 @@
             "node": {
                 "basic": [
                     {
-                        "ask": {},
-                        "options": {},
-                        "answer": {},
-                        "images": {},
-                        "information": {}
-                    }
+                        "ask": "¿Cómo se inicia un nuevo proyecto en Node.js?",
+                        "options": [
+                            "Usando el comando 'npm init'",
+                            "Usando el comando 'node start'",
+                            "Usando el comando 'npm install'"
+                        ],
+                        "answer": "Usando el comando 'npm init'",
+                        "images": "https://example.com/npm-init.png",
+                        "information": "Para iniciar un nuevo proyecto en Node.js, se utiliza el comando 'npm init', que crea un archivo package.json."
+                    },
+                    {
+                        "ask": "¿Cómo se instala un paquete en Node.js?",
+                        "options": [
+                            "Usando el comando 'npm install <paquete>'",
+                            "Usando el comando 'node install <paquete>'",
+                            "Usando el comando 'npm start <paquete>'"
+                        ],
+                        "answer": "Usando el comando 'npm install <paquete>'",
+                        "images": "https://example.com/npm-install.png",
+                        "information": "Para instalar un paquete en Node.js, se utiliza el comando 'npm install <paquete>'."
+                    },
+                    {
+                        "ask": "¿Cuál es el archivo principal en un proyecto de Node.js?",
+                        "options": [
+                            "index.js",
+                            "main.js",
+                            "app.js"
+                        ],
+                        "answer": "index.js",
+                        "images": "https://example.com/index-js.png",
+                        "information": "El archivo principal en un proyecto de Node.js suele ser index.js, aunque esto se puede configurar en el package.json."
+                    },
+                    {
+                        "ask": "¿Cómo se puede exportar una función en Node.js?",
+                        "options": [
+                            "module.exports = miFuncion",
+                            "exports.miFuncion = miFuncion",
+                            "Both of the above"
+                        ],
+                        "answer": "Both of the above",
+                        "images": "https://example.com/module-exports.png",
+                        "information": "En Node.js, se puede exportar una función usando 'module.exports = miFuncion' o 'exports.miFuncion = miFuncion'."
+                    },
+                    {
+                        "ask": "¿Cómo se lee un archivo en Node.js?",
+                        "options": [
+                            "Usando el módulo 'fs'",
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'path'"
+                        ],
+                        "answer": "Usando el módulo 'fs'",
+                        "images": "https://example.com/fs-readfile.png",
+                        "information": "Para leer un archivo en Node.js, se usa el módulo 'fs' y su método readFile."
+                    },
+                    {
+                        "ask": "¿Qué es npm en Node.js?",
+                        "options": [
+                            "Node Package Manager",
+                            "Node Program Manager",
+                            "Node Project Manager"
+                        ],
+                        "answer": "Node Package Manager",
+                        "images": "https://example.com/npm.png",
+                        "information": "npm (Node Package Manager) es una herramienta que se usa para gestionar paquetes en proyectos de Node.js."
+                    },
+                    {
+                        "ask": "¿Cómo se crea un servidor HTTP básico en Node.js?",
+                        "options": [
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'fs'",
+                            "Usando el módulo 'path'"
+                        ],
+                        "answer": "Usando el módulo 'http'",
+                        "images": "https://example.com/http-server.png",
+                        "information": "Para crear un servidor HTTP básico en Node.js, se utiliza el módulo 'http'."
+                    },
+                    {
+                        "ask": "¿Cómo se instala un paquete de manera global en Node.js?",
+                        "options": [
+                            "Usando el comando 'npm install -g <paquete>'",
+                            "Usando el comando 'npm start -g <paquete>'",
+                            "Usando el comando 'npm init -g <paquete>'"
+                        ],
+                        "answer": "Usando el comando 'npm install -g <paquete>'",
+                        "images": "https://example.com/npm-install-global.png",
+                        "information": "Para instalar un paquete de manera global en Node.js, se utiliza el comando 'npm install -g <paquete>'."
+                    },
+                    {
+                        "ask": "¿Qué es 'require' en Node.js?",
+                        "options": [
+                            "Una función para importar módulos",
+                            "Una función para exportar módulos",
+                            "Una función para crear módulos"
+                        ],
+                        "answer": "Una función para importar módulos",
+                        "images": "https://example.com/require.png",
+                        "information": "En Node.js, 'require' es una función utilizada para importar módulos en el código."
+                    },
+                    {
+                        "ask": "¿Cómo se define una variable de entorno en Node.js?",
+                        "options": [
+                            "Usando 'process.env.VARIABLE'",
+                            "Usando 'global.VARIABLE'",
+                            "Usando 'env.VARIABLE'"
+                        ],
+                        "answer": "Usando 'process.env.VARIABLE'",
+                        "images": "https://example.com/env-variable.png",
+                        "information": "En Node.js, una variable de entorno se define usando 'process.env.VARIABLE'."
+                    },
+                    {
+                        "ask": "¿Cómo se maneja una promesa en Node.js?",
+                        "options": [
+                            "Usando 'then' y 'catch'",
+                            "Usando 'resolve' y 'reject'",
+                            "Usando 'try' y 'catch'"
+                        ],
+                        "answer": "Usando 'then' y 'catch'",
+                        "images": "https://example.com/promise.png",
+                        "information": "En Node.js, se manejan las promesas usando los métodos 'then' y 'catch'."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar rutas en una aplicación Node.js?",
+                        "options": [
+                            "Usando el módulo 'express'",
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'path'"
+                        ],
+                        "answer": "Usando el módulo 'express'",
+                        "images": "https://example.com/express-routes.png",
+                        "information": "Para manejar rutas en una aplicación Node.js, se puede usar el módulo 'express'."
+                    },
+                    {
+                        "ask": "¿Cómo se conecta una base de datos a una aplicación Node.js?",
+                        "options": [
+                            "Usando un cliente de base de datos como 'mongoose' o 'pg'",
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'fs'"
+                        ],
+                        "answer": "Usando un cliente de base de datos como 'mongoose' o 'pg'",
+                        "images": "https://example.com/db-connect.png",
+                        "information": "Para conectar una base de datos a una aplicación Node.js, se puede usar un cliente de base de datos como 'mongoose' para MongoDB o 'pg' para PostgreSQL."
+                    },
+                    {
+                        "ask": "¿Cómo se configura un middleware en una aplicación Node.js?",
+                        "options": [
+                            "Usando 'app.use' en Express",
+                            "Usando 'require' en Express",
+                            "Usando 'module.exports' en Express"
+                        ],
+                        "answer": "Usando 'app.use' en Express",
+                        "images": "https://example.com/middleware.png",
+                        "information": "Para configurar un middleware en una aplicación Node.js usando Express, se utiliza 'app.use'."
+                    },
+                    {
+                        "ask": "¿Cómo se maneja el versionado de paquetes en Node.js?",
+                        "options": [
+                            "Usando el archivo 'package.json'",
+                            "Usando el archivo 'index.js'",
+                            "Usando el archivo 'app.js'"
+                        ],
+                        "answer": "Usando el archivo 'package.json'",
+                        "images": "https://example.com/package-json.png",
+                        "information": "El versionado de paquetes en Node.js se maneja utilizando el archivo 'package.json'."
+                    },
+                    {
+                        "ask": "¿Cómo se puede ejecutar un script en Node.js?",
+                        "options": [
+                            "Usando el comando 'node <nombre_del_script>'",
+                            "Usando el comando 'npm run <nombre_del_script>'",
+                            "Usando el comando 'node start <nombre_del_script>'"
+                        ],
+                        "answer": "Usando el comando 'node <nombre_del_script>'",
+                        "images": "https://example.com/node-script.png",
+                        "information": "Para ejecutar un script en Node.js, se utiliza el comando 'node <nombre_del_script>'."
+                    },
+                    {
+                        "ask": "¿Cómo se puede crear un servidor estático en Node.js?",
+                        "options": [
+                            "Usando el módulo 'express' con 'express.static'",
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'fs'"
+                        ],
+                        "answer": "Usando el módulo 'express' con 'express.static'",
+                        "images": "https://example.com/express-static.png",
+                        "information": "Para crear un servidor estático en Node.js, se puede usar el módulo 'express' y su función 'express.static'."
+                    },
+                    {
+                        "ask": "¿Qué es un callback en Node.js?",
+                        "options": [
+                            "Una función que se pasa como argumento a otra función",
+                            "Una función que se ejecuta de inmediato",
+                            "Una función que detiene la ejecución del programa"
+                        ],
+                        "answer": "Una función que se pasa como argumento a otra función",
+                        "images": "https://example.com/callback.png",
+                        "information": "En Node.js, un callback es una función que se pasa como argumento a otra función y se ejecuta después de que esa función haya completado su tarea."
+                    },
+                    {
+                        "ask": "¿Qué es un módulo en Node.js?",
+                        "options": [
+                            "Un archivo o conjunto de archivos que pueden ser reutilizados",
+                            "Una variable global",
+                            "Una función incorporada en Node.js"
+                        ],
+                        "answer": "Un archivo o conjunto de archivos que pueden ser reutilizados",
+                        "images": "https://example.com/module.png",
+                        "information": "Un módulo en Node.js es un archivo o conjunto de archivos que pueden ser reutilizados en diferentes partes de la aplicación."
+                    },
+                    {
+                        "ask": "¿Cómo se manejan errores en Node.js?",
+                        "options": [
+                            "Usando bloques try-catch",
+                            "Usando bloques if-else",
+                            "Usando bucles for"
+                        ],
+                        "answer": "Usando bloques try-catch",
+                        "images": "https://example.com/try-catch.png",
+                        "information": "En Node.js, los errores se manejan usando bloques try-catch para capturar y manejar excepciones."
+                    },
+                    {
+                        "ask": "¿Cómo se ejecuta código de manera asíncrona en Node.js?",
+                        "options": [
+                            "Usando promesas o async/await",
+                            "Usando bucles while",
+                            "Usando variables globales"
+                        ],
+                        "answer": "Usando promesas o async/await",
+                        "images": "https://example.com/async-await.png",
+                        "information": "Para ejecutar código de manera asíncrona en Node.js, se utilizan promesas o la sintaxis async/await."
+                    },
+                    {
+                        "ask": "¿Cómo se puede ver la versión de Node.js instalada?",
+                        "options": [
+                            "Usando el comando 'node -v'",
+                            "Usando el comando 'node --version'",
+                            "Ambas respuestas son correctas"
+                        ],
+                        "answer": "Ambas respuestas son correctas",
+                        "images": "https://example.com/node-version.png",
+                        "information": "Para ver la versión de Node.js instalada, se pueden usar los comandos 'node -v' o 'node --version'."
+                    },
+                    {
+                        "ask": "¿Qué es un stream en Node.js?",
+                        "options": [
+                            "Una secuencia de datos que se puede leer o escribir de manera continua",
+                            "Un conjunto de funciones",
+                            "Una colección de módulos"
+                        ],
+                        "answer": "Una secuencia de datos que se puede leer o escribir de manera continua",
+                        "images": "https://example.com/stream.png",
+                        "information": "En Node.js, un stream es una secuencia de datos que se puede leer o escribir de manera continua, ideal para manejar archivos grandes."
+                    },
+                    {
+                        "ask": "¿Cómo se crea un nuevo proyecto con npm?",
+                        "options": [
+                            "Usando 'npm init'",
+                            "Usando 'npm create'",
+                            "Usando 'npm start'"
+                        ],
+                        "answer": "Usando 'npm init'",
+                        "images": "https://example.com/npm-init-project.png",
+                        "information": "Para crear un nuevo proyecto con npm, se utiliza el comando 'npm init', que inicializa un nuevo archivo package.json."
+                    },
+                    {
+                        "ask": "¿Cómo se puede actualizar un paquete en Node.js?",
+                        "options": [
+                            "Usando 'npm update <paquete>'",
+                            "Usando 'npm upgrade <paquete>'",
+                            "Usando 'npm install <paquete>'"
+                        ],
+                        "answer": "Usando 'npm update <paquete>'",
+                        "images": "https://example.com/npm-update.png",
+                        "information": "Para actualizar un paquete en Node.js, se utiliza el comando 'npm update <paquete>'."
+                    },
+                    {
+                        "ask": "¿Qué es el archivo package.json?",
+                        "options": [
+                            "Un archivo que contiene información sobre el proyecto y sus dependencias",
+                            "Un archivo de configuración del sistema",
+                            "Un archivo de estilo"
+                        ],
+                        "answer": "Un archivo que contiene información sobre el proyecto y sus dependencias",
+                        "images": "https://example.com/package-json.png",
+                        "information": "El archivo package.json contiene información sobre el proyecto, sus dependencias y scripts de ejecución."
+                    },
+                    {
+                        "ask": "¿Cómo se puede definir un script en package.json?",
+                        "options": [
+                            "Agregando una entrada en el objeto 'scripts'",
+                            "Agregando una entrada en el objeto 'dependencies'",
+                            "Agregando una entrada en el objeto 'main'"
+                        ],
+                        "answer": "Agregando una entrada en el objeto 'scripts'",
+                        "images": "https://example.com/scripts.png",
+                        "information": "Para definir un script en package.json, se agrega una entrada en el objeto 'scripts'."
+                    },
+                    {
+                        "ask": "¿Qué es una promesa en Node.js?",
+                        "options": [
+                            "Un objeto que representa una operación asíncrona",
+                            "Una función sincrónica",
+                            "Un módulo incorporado en Node.js"
+                        ],
+                        "answer": "Un objeto que representa una operación asíncrona",
+                        "images": "https://example.com/promise.png",
+                        "information": "Una promesa en Node.js es un objeto que representa una operación asíncrona y su resultado eventual."
+                    },
+                    {
+                        "ask": "¿Cómo se puede cancelar un temporizador en Node.js?",
+                        "options": [
+                            "Usando 'clearTimeout'",
+                            "Usando 'cancelTimeout'",
+                            "Usando 'resetTimeout'"
+                        ],
+                        "answer": "Usando 'clearTimeout'",
+                        "images": "https://example.com/clearTimeout.png",
+                        "information": "Para cancelar un temporizador en Node.js, se utiliza la función 'clearTimeout'."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar un error en una promesa en Node.js?",
+                        "options": [
+                            "Usando el método 'catch'",
+                            "Usando el método 'then'",
+                            "Usando el método 'finally'"
+                        ],
+                        "answer": "Usando el método 'catch'",
+                        "images": "https://example.com/promise-catch.png",
+                        "information": "Para manejar un error en una promesa en Node.js, se utiliza el método 'catch'."
+                    },
+                    {
+                        "ask": "¿Qué es un módulo nativo en Node.js?",
+                        "options": [
+                            "Un módulo incorporado que no necesita ser instalado",
+                            "Un módulo descargado desde npm",
+                            "Un módulo creado por el usuario"
+                        ],
+                        "answer": "Un módulo incorporado que no necesita ser instalado",
+                        "images": "https://example.com/native-module.png",
+                        "information": "Un módulo nativo en Node.js es un módulo incorporado que no necesita ser instalado, como 'fs' o 'http'."
+                    },
+                    {
+                        "ask": "¿Cómo se pueden manejar múltiples promesas en Node.js?",
+                        "options": [
+                            "Usando 'Promise.all'",
+                            "Usando 'Promise.one'",
+                            "Usando 'Promise.any'"
+                        ],
+                        "answer": "Usando 'Promise.all'",
+                        "images": "https://example.com/promise-all.png",
+                        "information": "Para manejar múltiples promesas en Node.js, se utiliza 'Promise.all' para esperar a que todas se resuelvan."
+                    },
+                    {
+                        "ask": "¿Qué hace el módulo 'fs' en Node.js?",
+                        "options": [
+                            "Permite interactuar con el sistema de archivos",
+                            "Permite hacer solicitudes HTTP",
+                            "Permite trabajar con datos binarios"
+                        ],
+                        "answer": "Permite interactuar con el sistema de archivos",
+                        "images": "https://example.com/fs-module.png",
+                        "information": "El módulo 'fs' en Node.js permite interactuar con el sistema de archivos para leer, escribir y manipular archivos y directorios."
+                    },
+                    {
+                        "ask": "¿Cómo se instala un paquete globalmente usando npm?",
+                        "options": [
+                            "Usando el comando 'npm install -g <paquete>'",
+                            "Usando el comando 'npm global install <paquete>'",
+                            "Usando el comando 'npm install global <paquete>'"
+                        ],
+                        "answer": "Usando el comando 'npm install -g <paquete>'",
+                        "images": "https://example.com/npm-global.png",
+                        "information": "Para instalar un paquete globalmente en Node.js, se utiliza el comando 'npm install -g <paquete>'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'readFile' del módulo 'fs'?",
+                        "options": [
+                            "Lee el contenido de un archivo de manera asíncrona",
+                            "Escribe contenido en un archivo de manera asíncrona",
+                            "Elimina un archivo"
+                        ],
+                        "answer": "Lee el contenido de un archivo de manera asíncrona",
+                        "images": "https://example.com/readFile.png",
+                        "information": "El método 'readFile' del módulo 'fs' se utiliza para leer el contenido de un archivo de manera asíncrona."
+                    },
+                    {
+                        "ask": "¿Cómo se puede crear un archivo en Node.js?",
+                        "options": [
+                            "Usando el método 'writeFile' del módulo 'fs'",
+                            "Usando el método 'createFile' del módulo 'fs'",
+                            "Usando el método 'openFile' del módulo 'fs'"
+                        ],
+                        "answer": "Usando el método 'writeFile' del módulo 'fs'",
+                        "images": "https://example.com/writeFile.png",
+                        "information": "Para crear un archivo en Node.js, se utiliza el método 'writeFile' del módulo 'fs', que permite escribir contenido en el archivo."
+                    },
+                    {
+                        "ask": "¿Cómo se puede escuchar un evento en Node.js?",
+                        "options": [
+                            "Usando la clase 'EventEmitter'",
+                            "Usando la clase 'EventWatcher'",
+                            "Usando la clase 'EventListener'"
+                        ],
+                        "answer": "Usando la clase 'EventEmitter'",
+                        "images": "https://example.com/eventEmitter.png",
+                        "information": "En Node.js, la clase 'EventEmitter' se utiliza para escuchar y emitir eventos dentro de la aplicación."
+                    },
+                    {
+                        "ask": "¿Cómo se puede instalar todas las dependencias listadas en package.json?",
+                        "options": [
+                            "Usando el comando 'npm install'",
+                            "Usando el comando 'npm fetch'",
+                            "Usando el comando 'npm get'"
+                        ],
+                        "answer": "Usando el comando 'npm install'",
+                        "images": "https://example.com/npm-install.png",
+                        "information": "Para instalar todas las dependencias listadas en package.json, se utiliza el comando 'npm install'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'setTimeout' en Node.js?",
+                        "options": [
+                            "Ejecuta una función después de un tiempo especificado",
+                            "Ejecuta una función inmediatamente",
+                            "Cancela una función programada"
+                        ],
+                        "answer": "Ejecuta una función después de un tiempo especificado",
+                        "images": "https://example.com/setTimeout.png",
+                        "information": "El método 'setTimeout' en Node.js se utiliza para ejecutar una función después de un tiempo especificado."
+                    },
+                    {
+                        "ask": "¿Qué es un buffer en Node.js?",
+                        "options": [
+                            "Un área de memoria utilizada para almacenar datos binarios",
+                            "Un área de memoria utilizada para almacenar texto",
+                            "Una colección de funciones"
+                        ],
+                        "answer": "Un área de memoria utilizada para almacenar datos binarios",
+                        "images": "https://example.com/buffer.png",
+                        "information": "En Node.js, un buffer es un área de memoria utilizada para almacenar datos binarios de manera eficiente."
+                    },
+                    {
+                        "ask": "¿Cómo se puede crear un servidor HTTP en Node.js?",
+                        "options": [
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'https'",
+                            "Usando el módulo 'fs'"
+                        ],
+                        "answer": "Usando el módulo 'http'",
+                        "images": "https://example.com/http-server.png",
+                        "information": "Para crear un servidor HTTP en Node.js, se utiliza el módulo 'http', que proporciona funcionalidades para crear y manejar servidores."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar una solicitud POST en Node.js?",
+                        "options": [
+                            "Usando el método 'req.on('data', callback)' para recibir datos",
+                            "Usando el método 'req.write()' para enviar datos",
+                            "Usando el método 'req.end()' para finalizar la respuesta"
+                        ],
+                        "answer": "Usando el método 'req.on('data', callback)' para recibir datos",
+                        "images": "https://example.com/post-request.png",
+                        "information": "Para manejar una solicitud POST en Node.js, se utiliza el método 'req.on('data', callback)' para recibir los datos enviados por el cliente."
+                    },
+                    {
+                        "ask": "¿Qué es npm?",
+                        "options": [
+                            "El gestor de paquetes de Node.js",
+                            "Un framework de desarrollo",
+                            "Un servidor web"
+                        ],
+                        "answer": "El gestor de paquetes de Node.js",
+                        "images": "https://example.com/npm.png",
+                        "information": "npm es el gestor de paquetes de Node.js, utilizado para gestionar dependencias y módulos en los proyectos."
+                    },
+                    {
+                        "ask": "¿Cómo se puede convertir un callback en una promesa en Node.js?",
+                        "options": [
+                            "Usando 'util.promisify'",
+                            "Usando 'callback.promisify'",
+                            "Usando 'promise.promisify'"
+                        ],
+                        "answer": "Usando 'util.promisify'",
+                        "images": "https://example.com/promisify.png",
+                        "information": "Para convertir un callback en una promesa en Node.js, se utiliza la función 'util.promisify'."
+                    },
+                    {
+                        "ask": "¿Qué hace el módulo 'path' en Node.js?",
+                        "options": [
+                            "Proporciona utilidades para trabajar con rutas de archivos y directorios",
+                            "Proporciona utilidades para realizar operaciones matemáticas",
+                            "Proporciona utilidades para manejar solicitudes HTTP"
+                        ],
+                        "answer": "Proporciona utilidades para trabajar con rutas de archivos y directorios",
+                        "images": "https://example.com/path.png",
+                        "information": "El módulo 'path' en Node.js proporciona utilidades para trabajar con rutas de archivos y directorios."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar errores de promesas en Node.js?",
+                        "options": [
+                            "Usando el método 'catch' de las promesas",
+                            "Usando el método 'then' de las promesas",
+                            "Usando el método 'finally' de las promesas"
+                        ],
+                        "answer": "Usando el método 'catch' de las promesas",
+                        "images": "https://example.com/promise-catch.png",
+                        "information": "Para manejar errores de promesas en Node.js, se utiliza el método 'catch' de las promesas."
+                    },
+                    {
+                        "ask": "¿Qué es el archivo '.env'?",
+                        "options": [
+                            "Un archivo que contiene variables de entorno",
+                            "Un archivo de configuración de npm",
+                            "Un archivo de configuración de Babel"
+                        ],
+                        "answer": "Un archivo que contiene variables de entorno",
+                        "images": "https://example.com/env-file.png",
+                        "information": "El archivo '.env' se utiliza para definir variables de entorno en un proyecto de Node.js."
+                    },
+                    {
+                        "ask": "¿Cómo se puede definir una variable de entorno en Node.js?",
+                        "options": [
+                            "Usando el objeto 'process.env'",
+                            "Usando el objeto 'global.env'",
+                            "Usando el objeto 'node.env'"
+                        ],
+                        "answer": "Usando el objeto 'process.env'",
+                        "images": "https://example.com/process-env.png",
+                        "information": "En Node.js, las variables de entorno se definen usando el objeto 'process.env'."
+                    },
+                    {
+                        "ask": "¿Qué es una promesa resuelta en Node.js?",
+                        "options": [
+                            "Una promesa que ha sido completada exitosamente",
+                            "Una promesa que ha fallado",
+                            "Una promesa que aún está pendiente"
+                        ],
+                        "answer": "Una promesa que ha sido completada exitosamente",
+                        "images": "https://example.com/resolved-promise.png",
+                        "information": "Una promesa resuelta en Node.js es una promesa que ha sido completada exitosamente y su resultado está disponible."
+                    },
+                    {
+                        "ask": "¿Cómo se puede escuchar eventos del servidor en Node.js?",
+                        "options": [
+                            "Usando el método 'server.on(evento, callback)'",
+                            "Usando el método 'server.listen(evento, callback)'",
+                            "Usando el método 'server.emit(evento, callback)'"
+                        ],
+                        "answer": "Usando el método 'server.on(evento, callback)'",
+                        "images": "https://example.com/server-on.png",
+                        "information": "En Node.js, se puede escuchar eventos del servidor usando el método 'server.on(evento, callback)'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'fs.readdir'?",
+                        "options": [
+                            "Lee el contenido de un directorio",
+                            "Elimina un directorio",
+                            "Crea un nuevo directorio"
+                        ],
+                        "answer": "Lee el contenido de un directorio",
+                        "images": "https://example.com/readdir.png",
+                        "information": "El método 'fs.readdir' en Node.js se utiliza para leer el contenido de un directorio."
+                    },
+                    {
+                        "ask": "¿Qué es un stream en Node.js?",
+                        "options": [
+                            "Una abstracción para trabajar con datos que se mueven",
+                            "Un tipo de función",
+                            "Una clase para manejar eventos"
+                        ],
+                        "answer": "Una abstracción para trabajar con datos que se mueven",
+                        "images": "https://example.com/stream.png",
+                        "information": "En Node.js, un stream es una abstracción para trabajar con datos que se mueven, como archivos o datos de red."
+                    },
+                    {
+                        "ask": "¿Cómo se maneja una solicitud GET en Express?",
+                        "options": [
+                            "Usando 'app.get(ruta, callback)'",
+                            "Usando 'app.post(ruta, callback)'",
+                            "Usando 'app.put(ruta, callback)'"
+                        ],
+                        "answer": "Usando 'app.get(ruta, callback)'",
+                        "images": "https://example.com/express-get.png",
+                        "information": "Para manejar una solicitud GET en Express, se utiliza 'app.get(ruta, callback)'."
+                    },
+                    {
+                        "ask": "¿Qué es middleware en Express?",
+                        "options": [
+                            "Funciones que tienen acceso al objeto de solicitud, respuesta y al siguiente middleware",
+                            "Una base de datos",
+                            "Una API para manejar datos"
+                        ],
+                        "answer": "Funciones que tienen acceso al objeto de solicitud, respuesta y al siguiente middleware",
+                        "images": "https://example.com/middleware.png",
+                        "information": "En Express, middleware son funciones que tienen acceso al objeto de solicitud, respuesta y al siguiente middleware en el ciclo de solicitud/respuesta."
+                    },
+                    {
+                        "ask": "¿Cómo se puede crear una promesa en Node.js?",
+                        "options": [
+                            "Usando el constructor 'new Promise((resolve, reject) => { ... })'",
+                            "Usando 'Promise.create((resolve, reject) => { ... })'",
+                            "Usando 'Promise.new((resolve, reject) => { ... })'"
+                        ],
+                        "answer": "Usando el constructor 'new Promise((resolve, reject) => { ... })'",
+                        "images": "https://example.com/new-promise.png",
+                        "information": "Para crear una promesa en Node.js, se utiliza el constructor 'new Promise((resolve, reject) => { ... })'."
+                    },
+                    {
+                        "ask": "¿Qué es un callback en Node.js?",
+                        "options": [
+                            "Una función que se pasa como argumento a otra función",
+                            "Una variable global",
+                            "Un módulo interno"
+                        ],
+                        "answer": "Una función que se pasa como argumento a otra función",
+                        "images": "https://example.com/callback.png",
+                        "information": "En Node.js, un callback es una función que se pasa como argumento a otra función y se ejecuta después de que se complete una operación."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'JSON.stringify'?",
+                        "options": [
+                            "Convierte un objeto JavaScript en una cadena JSON",
+                            "Convierte una cadena JSON en un objeto JavaScript",
+                            "Convierte un archivo en un objeto JavaScript"
+                        ],
+                        "answer": "Convierte un objeto JavaScript en una cadena JSON",
+                        "images": "https://example.com/json-stringify.png",
+                        "information": "El método 'JSON.stringify' convierte un objeto JavaScript en una cadena JSON."
+                    },
+                    {
+                        "ask": "¿Cómo se puede importar un módulo en Node.js?",
+                        "options": [
+                            "Usando 'require('modulo')'",
+                            "Usando 'importar('modulo')'",
+                            "Usando 'fetch('modulo')'"
+                        ],
+                        "answer": "Usando 'require('modulo')'",
+                        "images": "https://example.com/require.png",
+                        "information": "En Node.js, se puede importar un módulo usando 'require('modulo')'."
+                    },
+                    {
+                        "ask": "¿Qué es un módulo en Node.js?",
+                        "options": [
+                            "Un archivo que contiene código JavaScript que se puede reutilizar",
+                            "Una variable global",
+                            "Un tipo de dato especial"
+                        ],
+                        "answer": "Un archivo que contiene código JavaScript que se puede reutilizar",
+                        "images": "https://example.com/module.png",
+                        "information": "En Node.js, un módulo es un archivo que contiene código JavaScript que se puede reutilizar en otros archivos."
+                    },
+                    {
+                        "ask": "¿Qué es un paquete en Node.js?",
+                        "options": [
+                            "Una colección de módulos",
+                            "Un archivo que contiene código JavaScript",
+                            "Un tipo de dato especial"
+                        ],
+                        "answer": "Una colección de módulos",
+                        "images": "https://example.com/package.png",
+                        "information": "En Node.js, un paquete es una colección de módulos que se pueden gestionar y distribuir a través de npm."
+                    },
+                    {
+                        "ask": "¿Cómo se puede ejecutar un script en Node.js?",
+                        "options": [
+                            "Usando el comando 'node script.js'",
+                            "Usando el comando 'npm run script'",
+                            "Usando el comando 'node execute script.js'"
+                        ],
+                        "answer": "Usando el comando 'node script.js'",
+                        "images": "https://example.com/node-script.png",
+                        "information": "Para ejecutar un script en Node.js, se utiliza el comando 'node script.js'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'process.exit()'?",
+                        "options": [
+                            "Finaliza el proceso de Node.js",
+                            "Inicia un nuevo proceso de Node.js",
+                            "Reinicia el proceso de Node.js"
+                        ],
+                        "answer": "Finaliza el proceso de Node.js",
+                        "images": "https://example.com/process-exit.png",
+                        "information": "El método 'process.exit()' finaliza el proceso de Node.js con el código de salida especificado."
+                    },
+                    {
+                        "ask": "¿Cómo se puede crear un servidor HTTPS en Node.js?",
+                        "options": [
+                            "Usando el módulo 'https'",
+                            "Usando el módulo 'http'",
+                            "Usando el módulo 'tls'"
+                        ],
+                        "answer": "Usando el módulo 'https'",
+                        "images": "https://example.com/https-server.png",
+                        "information": "Para crear un servidor HTTPS en Node.js, se utiliza el módulo 'https', que proporciona funcionalidades para crear y manejar servidores seguros."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'fs.mkdir'?",
+                        "options": [
+                            "Crea un nuevo directorio",
+                            "Elimina un directorio",
+                            "Lee el contenido de un directorio"
+                        ],
+                        "answer": "Crea un nuevo directorio",
+                        "images": "https://example.com/mkdir.png",
+                        "information": "El método 'fs.mkdir' en Node.js se utiliza para crear un nuevo directorio."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar errores en Node.js?",
+                        "options": [
+                            "Usando bloques 'try...catch'",
+                            "Usando 'console.log()'",
+                            "Usando 'alert()'"
+                        ],
+                        "answer": "Usando bloques 'try...catch'",
+                        "images": "https://example.com/try-catch.png",
+                        "information": "En Node.js, se pueden manejar errores usando bloques 'try...catch' para capturar y gestionar excepciones."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'fs.readFile'?",
+                        "options": [
+                            "Lee el contenido de un archivo",
+                            "Escribe datos en un archivo",
+                            "Elimina un archivo"
+                        ],
+                        "answer": "Lee el contenido de un archivo",
+                        "images": "https://example.com/readFile.png",
+                        "information": "El método 'fs.readFile' en Node.js se utiliza para leer el contenido de un archivo de forma asíncrona."
+                    },
+                    {
+                        "ask": "¿Cómo se puede crear una aplicación Express?",
+                        "options": [
+                            "Usando 'const app = express()'",
+                            "Usando 'const app = createExpressApp()'",
+                            "Usando 'const app = new ExpressApp()'"
+                        ],
+                        "answer": "Usando 'const app = express()'",
+                        "images": "https://example.com/express-app.png",
+                        "information": "Para crear una aplicación Express, se utiliza 'const app = express()' después de importar el módulo Express."
+                    },
+                    {
+                        "ask": "¿Qué es npm en Node.js?",
+                        "options": [
+                            "Un gestor de paquetes para Node.js",
+                            "Una base de datos",
+                            "Un servidor web"
+                        ],
+                        "answer": "Un gestor de paquetes para Node.js",
+                        "images": "https://example.com/npm.png",
+                        "information": "npm es un gestor de paquetes para Node.js que se utiliza para instalar, compartir y gestionar dependencias de proyectos."
+                    },
+                    {
+                        "ask": "¿Cómo se puede definir una ruta en Express?",
+                        "options": [
+                            "Usando 'app.get('/ruta', callback)'",
+                            "Usando 'app.route('/ruta')'",
+                            "Usando 'app.path('/ruta')'"
+                        ],
+                        "answer": "Usando 'app.get('/ruta', callback)'",
+                        "images": "https://example.com/express-route.png",
+                        "information": "Para definir una ruta en Express, se utiliza 'app.get('/ruta', callback)' para manejar solicitudes GET en la ruta especificada."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'os.cpus()'?",
+                        "options": [
+                            "Devuelve información sobre las CPUs del sistema",
+                            "Devuelve información sobre la memoria del sistema",
+                            "Devuelve información sobre los discos del sistema"
+                        ],
+                        "answer": "Devuelve información sobre las CPUs del sistema",
+                        "images": "https://example.com/os-cpus.png",
+                        "information": "El método 'os.cpus()' en Node.js devuelve información detallada sobre cada CPU en el sistema."
+                    },
+                    {
+                        "ask": "¿Cómo se puede ejecutar un comando del sistema en Node.js?",
+                        "options": [
+                            "Usando 'child_process.exec'",
+                            "Usando 'system.exec'",
+                            "Usando 'os.exec'"
+                        ],
+                        "answer": "Usando 'child_process.exec'",
+                        "images": "https://example.com/child-process.png",
+                        "information": "Para ejecutar un comando del sistema en Node.js, se utiliza el método 'child_process.exec' del módulo 'child_process'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'process.env'?",
+                        "options": [
+                            "Accede a las variables de entorno",
+                            "Crea un nuevo proceso",
+                            "Finaliza un proceso"
+                        ],
+                        "answer": "Accede a las variables de entorno",
+                        "images": "https://example.com/process-env.png",
+                        "information": "El método 'process.env' en Node.js se utiliza para acceder a las variables de entorno del sistema."
+                    },
+                    {
+                        "ask": "¿Cómo se puede escribir datos en un archivo en Node.js?",
+                        "options": [
+                            "Usando el método 'fs.writeFile'",
+                            "Usando el método 'fs.readFile'",
+                            "Usando el método 'fs.deleteFile'"
+                        ],
+                        "answer": "Usando el método 'fs.writeFile'",
+                        "images": "https://example.com/writeFile.png",
+                        "information": "Para escribir datos en un archivo en Node.js, se utiliza el método 'fs.writeFile'."
+                    },
+                    {
+                        "ask": "¿Qué es un buffer en Node.js?",
+                        "options": [
+                            "Una región de memoria que almacena datos de manera temporal",
+                            "Una función especial",
+                            "Un archivo temporal"
+                        ],
+                        "answer": "Una región de memoria que almacena datos de manera temporal",
+                        "images": "https://example.com/buffer.png",
+                        "information": "En Node.js, un buffer es una región de memoria que almacena datos de manera temporal, especialmente útil para manejar flujos de datos."
+                    },
+                    {
+                        "ask": "¿Cómo se puede instalar un paquete en Node.js?",
+                        "options": [
+                            "Usando 'npm install paquete'",
+                            "Usando 'npm create paquete'",
+                            "Usando 'npm build paquete'"
+                        ],
+                        "answer": "Usando 'npm install paquete'",
+                        "images": "https://example.com/npm-install.png",
+                        "information": "Para instalar un paquete en Node.js, se utiliza el comando 'npm install paquete'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'http.createServer'?",
+                        "options": [
+                            "Crea un nuevo servidor HTTP",
+                            "Crea un nuevo servidor HTTPS",
+                            "Crea una nueva conexión HTTP"
+                        ],
+                        "answer": "Crea un nuevo servidor HTTP",
+                        "images": "https://example.com/http-createServer.png",
+                        "information": "El método 'http.createServer' en Node.js se utiliza para crear un nuevo servidor HTTP."
+                    },
+                    {
+                        "ask": "¿Cómo se puede manejar solicitudes POST en Express?",
+                        "options": [
+                            "Usando 'app.post(ruta, callback)'",
+                            "Usando 'app.get(ruta, callback)'",
+                            "Usando 'app.put(ruta, callback)'"
+                        ],
+                        "answer": "Usando 'app.post(ruta, callback)'",
+                        "images": "https://example.com/express-post.png",
+                        "information": "Para manejar solicitudes POST en Express, se utiliza 'app.post(ruta, callback)'."
+                    },
+                    {
+                        "ask": "¿Qué hace el método 'fs.unlink'?",
+                        "options": [
+                            "Elimina un archivo",
+                            "Crea un nuevo archivo",
+                            "Lee el contenido de un archivo"
+                        ],
+                        "answer": "Elimina un archivo",
+                        "images": "https://example.com/unlink.png",
+                        "information": "El método 'fs.unlink' en Node.js se utiliza para eliminar un archivo."
+                    },
+                    {
+                        "ask": "¿Qué es 'package.json'?",
+                        "options": [
+                            "Un archivo que contiene la información y dependencias del proyecto",
+                            "Un módulo de Node.js",
+                            "Una variable global"
+                        ],
+                        "answer": "Un archivo que contiene la información y dependencias del proyecto",
+                        "images": "https://example.com/package-json.png",
+                        "information": "El archivo 'package.json' contiene la información del proyecto, como su nombre, versión y dependencias."
+                    },
+                    {
+                        "ask": "¿Cómo se puede leer la entrada del usuario desde la línea de comandos en Node.js?",
+                        "options": [
+                            "Usando el módulo 'readline'",
+                            "Usando el módulo 'input'",
+                            "Usando el módulo 'cli'"
+                        ],
+                        "answer": "Usando el módulo 'readline'",
+                        "images": "https://example.com/readline.png",
+                        "information": "Para leer la entrada del usuario desde la línea de comandos en Node.js, se utiliza el módulo 'readline'."
+                    },
+                    {
+                        "ask": "¿Cómo se puede instalar un paquete NPM?",
+                        "options": [
+                          "Usando 'npm install nombre_paquete'",
+                          "Usando 'npm add nombre_paquete'",
+                          "Usando 'npm update nombre_paquete'"
+                        ],
+                        "answer": "Usando 'npm install nombre_paquete' o 'npm add nombre_paquete'",
+                        "images": "https://example.com/npm-install.png",
+                        "information": "Para instalar un paquete NPM, se utiliza el comando 'npm install' o 'npm add' seguido del nombre del paquete."
+                      },
+                      {
+                        "ask": "¿Cómo se crea un servidor web simple con Node.js?",
+                        "options": [
+                          "Usando el módulo 'http'",
+                          "Usando el módulo 'express'",
+                          "Usando el módulo 'fs'"
+                        ],
+                        "answer": "Usando el módulo 'http' o 'express'",
+                        "images": "https://example.com/node-server.png",
+                        "information": "Para crear un servidor web simple con Node.js, se puede usar el módulo 'http' o 'express'. El módulo 'http' ofrece funcionalidades básicas, mientras que 'express' proporciona más herramientas y simplifica la creación de aplicaciones web."
+                      },
+                      {
+                        "ask": "¿Qué es el bucle 'for' en Node.js?",
+                        "options": [
+                          "Un tipo de dato",
+                          "Una variable",
+                          "Una estructura de control de flujo"
+                        ],
+                        "answer": "Una estructura de control de flujo",
+                        "images": "https://example.com/for-loop.png",
+                        "information": "El bucle 'for' en Node.js es una estructura de control de flujo que permite iterar sobre un bloque de código un número determinado de veces o hasta que se cumpla una condición."
+                      },
+                      {
+                        "ask": "¿Cómo se manejan errores en Node.js?",
+                        "options": [
+                          "Usando 'try...catch'",
+                          "Usando 'throw new Error()'",
+                          "Usando 'console.error()'"
+                        ],
+                        "answer": "Usando 'try...catch' y 'throw new Error()'",
+                        "images": "https://example.com/error-handling.png",
+                        "information": "En Node.js, se utilizan los bloques 'try...catch' para manejar errores. El bloque 'try' contiene el código que podría generar un error, y el bloque 'catch' se ejecuta si se produce un error. El comando 'throw new Error()' se utiliza para generar un error."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'fs' en Node.js?",
+                        "options": [
+                          "Un módulo para manejar archivos y directorios",
+                          "Un módulo para crear servidores web",
+                          "Un módulo para instalar paquetes NPM"
+                        ],
+                        "answer": "Un módulo para manejar archivos y directorios",
+                        "images": "https://example.com/fs-module.png",
+                        "information": "El módulo 'fs' (File System) en Node.js proporciona funciones para leer, escribir, crear, eliminar y modificar archivos y directorios."
+                      },
+                      {
+                        "ask": "¿Cómo se puede instalar un paquete NPM?",
+                        "options": [
+                          "Usando 'npm update nombre_paquete'",
+                          "Usando 'npm add nombre_paquete'",
+                          "Usando 'npm install nombre_paquete'"
+                        ],
+                        "answer": "Usando 'npm install nombre_paquete' o 'npm add nombre_paquete'",
+                        "images": "https://example.com/npm-install.png",
+                        "information": "Para instalar un paquete NPM, se utiliza el comando 'npm install' o 'npm add' seguido del nombre del paquete."
+                      },
+                      {
+                        "ask": "¿Cómo se crea un servidor web simple con Node.js?",
+                        "options": [
+                          "Usando el módulo 'express'",
+                          "Usando el módulo 'fs'",
+                          "Usando el módulo 'http'"
+                        ],
+                        "answer": "Usando el módulo 'http' o 'express'",
+                        "images": "https://example.com/node-server.png",
+                        "information": "Para crear un servidor web simple con Node.js, se puede usar el módulo 'http' o 'express'. El módulo 'http' ofrece funcionalidades básicas, mientras que 'express' proporciona más herramientas y simplifica la creación de aplicaciones web."
+                      },
+                      {
+                        "ask": "¿Qué es el bucle 'for' en Node.js?",
+                        "options": [
+                          "Una estructura de control de flujo",
+                          "Un tipo de dato",
+                          "Una variable"
+                        ],
+                        "answer": "Una estructura de control de flujo",
+                        "images": "https://example.com/for-loop.png",
+                        "information": "El bucle 'for' en Node.js es una estructura de control de flujo que permite iterar sobre un bloque de código un número determinado de veces o hasta que se cumpla una condición."
+                      },
+                      {
+                        "ask": "¿Cómo se manejan errores en Node.js?",
+                        "options": [
+                          "Usando 'console.error()'",
+                          "Usando 'throw new Error()'",
+                          "Usando 'try...catch'"
+                        ],
+                        "answer": "Usando 'try...catch' y 'throw new Error()'",
+                        "images": "https://example.com/error-handling.png",
+                        "information": "En Node.js, se utilizan los bloques 'try...catch' para manejar errores. El bloque 'try' contiene el código que podría generar un error, y el bloque 'catch' se ejecuta si se produce un error. El comando 'throw new Error()' se utiliza para generar un error."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'fs' en Node.js?",
+                        "options": [
+                          "Un módulo para instalar paquetes NPM",
+                          "Un módulo para manejar archivos y directorios",
+                          "Un módulo para crear servidores web"
+                        ],
+                        "answer": "Un módulo para manejar archivos y directorios",
+                        "images": "https://example.com/fs-module.png",
+                        "information": "El módulo 'fs' (File System) en Node.js proporciona funciones para leer, escribir, crear, eliminar y modificar archivos y directorios."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.readFile'?",
+                        "options": [
+                          "Elimina un archivo",
+                          "Crea un nuevo archivo",
+                          "Lee el contenido de un archivo"
+                        ],
+                        "answer": "Lee el contenido de un archivo",
+                        "images": "https://example.com/fs-readfile.png",
+                        "information": "El método 'fs.readFile' en Node.js se utiliza para leer el contenido de un archivo y devolverlo como una cadena o un búfer."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.writeFile'?",
+                        "options": [
+                          "Elimina un archivo",
+                          "Lee el contenido de un archivo",
+                          "Crea o sobrescribe un archivo"
+                        ],
+                        "answer": "Crea o sobrescribe un archivo",
+                        "images": "https://example.com/fs-writeFile.png",
+                        "information": "El método 'fs.writeFile' en Node.js se utiliza para crear o sobrescribir un archivo con el contenido especificado."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.appendFile'?",
+                        "options": [
+                          "Crea un nuevo archivo",
+                          "Elimina un archivo",
+                          "Agrega contenido al final de un archivo existente"
+                        ],
+                        "answer": "Agrega contenido al final de un archivo existente",
+                        "images": "https://example.com/fs-appendFile.png",
+                        "information": "El método 'fs.appendFile' en Node.js se utiliza para agregar contenido al final de un archivo existente sin sobrescribir su contenido anterior."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.unlink'?",
+                        "options": [
+                          "Crea un nuevo archivo",
+                          "Elimina un archivo",
+                          "Lee el contenido de un archivo"
+                        ],
+                        "answer": "Elimina un archivo",
+                        "images": "https://example.com/unlink.png",
+                        "information": "El método 'fs.unlink' en Node.js se utiliza para eliminar un archivo del sistema de archivos."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.rmdir'?",
+                        "options": [
+                          "Crea un nuevo directorio",
+                          "Elimina un directorio vacío",
+                          "Lee el contenido de un directorio"
+                        ],
+                        "answer": "Elimina un directorio vacío",
+                        "images": "https://example.com/fs-rmdir.png",
+                        "information": "El método 'fs.rmdir' en Node.js se utiliza para eliminar un directorio vacío del sistema de archivos."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.mkdir'?",
+                        "options": [
+                          "Elimina un directorio",
+                          "Crea un nuevo directorio",
+                          "Lee el contenido de un directorio"
+                        ],
+                        "answer": "Crea un nuevo directorio",
+                        "images": "https://example.com/fs-mkdir.png",
+                        "information": "El método 'fs.mkdir' en Node.js se utiliza para crear un nuevo directorio en el sistema de archivos."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.readdir'?",
+                        "options": [
+                          "Crea un nuevo directorio",
+                          "Elimina un directorio",
+                          "Lee una lista de archivos y directorios dentro de un directorio"
+                        ],
+                        "answer": "Lee una lista de archivos y directorios dentro de un directorio",
+                        "images": "https://example.com/fs-readdir.png",
+                        "information": "El método 'fs.readdir' en Node.js se utiliza para obtener una lista de archivos y directorios dentro de un directorio especificado."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'path' en Node.js?",
+                        "options": [
+                          "Un módulo para manejar rutas de archivo",
+                          "Un módulo para crear servidores web",
+                          "Un módulo para instalar paquetes NPM"
+                        ],
+                        "answer": "Un módulo para manejar rutas de archivo",
+                        "images": "https://example.com/path-module.png",
+                        "information": "El módulo 'path' en Node.js proporciona funciones para trabajar con rutas de archivo, como unir rutas, obtener la extensión de un archivo, verificar si un archivo existe, etc."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.readdirSync'?",
+                        "options": [
+                          "Crea un nuevo directorio",
+                          "Elimina un directorio",
+                          "Lee una lista de archivos y directorios dentro de un directorio de forma síncrona"
+                        ],
+                        "answer": "Lee una lista de archivos y directorios dentro de un directorio de forma síncrona",
+                        "images": "https://example.com/fs-readdirSync.png",
+                        "information": "El método 'fs.readdirSync' en Node.js se utiliza para obtener una lista de archivos y directorios dentro de un directorio especificado de forma síncrona, bloqueando el hilo de ejecución hasta que se complete la operación."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.writeFileSync'?",
+                        "options": [
+                          "Elimina un archivo",
+                          "Crea o sobrescribe un archivo de forma síncrona",
+                          "Lee el contenido de un archivo"
+                        ],
+                        "answer": "Crea o sobrescribe un archivo de forma síncrona",
+                        "images": "https://example.com/fs-writeFileSync.png",
+                        "information": "El método 'fs.writeFileSync' en Node.js se utiliza para crear o sobrescribir un archivo con el contenido especificado de forma síncrona, bloqueando el hilo de ejecución hasta que se complete la operación."
+                      },
+                      {
+                        "ask": "¿Qué hace el método 'fs.mkdirSync'?",
+                        "options": [
+                          "Elimina un directorio",
+                          "Crea un nuevo directorio de forma síncrona",
+                          "Lee el contenido de un directorio"
+                        ],
+                        "answer": "Crea un nuevo directorio de forma síncrona",
+                        "images": "https://example.com/fs-mkdirSync.png",
+                        "information": "El método 'fs.mkdirSync' en Node.js se utiliza para crear un nuevo directorio en el sistema de archivos de forma síncrona, bloqueando el hilo de ejecución hasta que se complete la operación."
+                      },
+                      {
+                        "ask": "¿Qué es el evento 'error' en Node.js?",
+                        "options": [
+                          "Se emite cuando se produce un error en una operación de E/S",
+                          "Se emite cuando se completa una operación de E/S con éxito",
+                          "Se emite cuando se recibe una solicitud HTTP"
+                        ],
+                        "answer": "Se emite cuando se produce un error en una operación de E/S",
+                        "images": "https://example.com/error-event.png",
+                        "information": "El evento 'error' en Node.js se emite cuando se produce un error durante una operación de entrada/salida (E/S), como leer un archivo, escribir en un archivo o crear un socket. Este evento permite manejar los errores de forma adecuada."
+                      },
+                      {
+                        "ask": "¿Qué es el objeto 'global' en Node.js?",
+                        "options": [
+                          "Un objeto que contiene variables globales accesibles desde cualquier parte del código",
+                          "Un módulo que proporciona funciones para trabajar con el sistema de archivos",
+                          "Un framework para crear servidores web"
+                        ],
+                        "answer": "Un objeto que contiene variables globales accesibles desde cualquier parte del código",
+                        "images": "https://example.com/global-object.png",
+                        "information": "El objeto 'global' en Node.js proporciona un espacio de nombres global donde se pueden declarar variables que estarán disponibles desde cualquier parte del código de la aplicación. Sin embargo, se recomienda evitar su uso excesivo y utilizar módulos para organizar el código de manera más eficiente."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'process' en Node.js?",
+                        "options": [
+                          "Un módulo que proporciona información sobre el proceso actual de Node.js",
+                          "Un módulo para crear servidores web",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un módulo que proporciona información sobre el proceso actual de Node.js",
+                        "images": "https://example.com/process-module.png",
+                        "information": "El módulo 'process' en Node.js proporciona información sobre el proceso actual de Node.js, como el pid (identificador de proceso), la memoria utilizada, las variables de entorno y las señales recibidas. También permite salir del proceso o enviar señales a otros procesos."
+                      }
+                    
                 ],
                 "middel": [
                     {
-                        "ask": {},
-                        "options": {},
-                        "answer": {},
-                        "images": {},
-                        "information": {}
-                    }
+                        "ask": "¿Cómo se pueden utilizar módulos externos en Node.js?",
+                        "options": [
+                          "Usando 'require()' para importar el módulo",
+                          "Instalando el módulo con 'npm install' y luego importándolo con 'require()'",
+                          "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-modules.png",
+                        "information": "En Node.js, se pueden utilizar módulos externos para ampliar las funcionalidades de las aplicaciones. Para hacerlo, se puede usar el comando 'require()' para importar el módulo, ya sea directamente desde el archivo o después de instalarlo con 'npm install'."
+                      },
+                      {
+                        "ask": "¿Qué es el patrón 'MVC' en Node.js?",
+                        "options": [
+                          "Un patrón de arquitectura para organizar el código de aplicaciones web",
+                          "Un módulo para crear servidores web",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un patrón de arquitectura para organizar el código de aplicaciones web",
+                        "images": "https://example.com/mvc-pattern.png",
+                        "information": "El patrón 'MVC' (Modelo-Vista-Controlador) es un patrón de arquitectura de software que se utiliza para organizar el código de aplicaciones web. Separa la lógica de negocio (Modelo), la interfaz de usuario (Vista) y la lógica de control (Controlador) en capas independientes, lo que facilita el mantenimiento y la reutilización del código."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'express-validator' en Node.js?",
+                        "options": [
+                          "Un módulo para validar datos de entrada en formularios web",
+                          "Un módulo para crear servidores web",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un módulo para validar datos de entrada en formularios web",
+                        "images": "https://example.com/express-validator.png",
+                        "information": "El módulo 'express-validator' en Node.js proporciona funciones para validar datos de entrada en formularios web, como verificar que los campos no estén vacíos, que sean del tipo correcto y que cumplan con ciertas reglas personalizadas."
+                      },
+                      {
+                        "ask": "¿Cómo se pueden manejar las sesiones de usuario en Node.js?",
+                        "options": [
+                          "Usando módulos como 'express-session' o 'connect-session'",
+                          "Guardando la información de sesión en el objeto 'req' de las solicitudes HTTP",
+                          "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-sessions.png",
+                        "information": "En Node.js, se pueden manejar las sesiones de usuario utilizando módulos como 'express-session' o 'connect-session'. Estos módulos permiten almacenar y recuperar información sobre la sesión del usuario, como el ID de sesión, el usuario autenticado y los datos asociados a la sesión."
+                      },
+                      {
+                        "ask": "¿Qué son las 'middlewares' en Node.js?",
+                        "options": [
+                          "Funciones que se ejecutan antes o después de las rutas de una aplicación Express",
+                          "Módulos para crear servidores web",
+                          "Frameworks para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Funciones que se ejecutan antes o después de las rutas de una aplicación Express",
+                        "images": "https://example.com/express-middleware.png",
+                        "information": "Las 'middlewares' en Node.js son funciones que se ejecutan antes o después de las rutas de una aplicación Express. Permiten realizar acciones comunes antes de procesar una solicitud, como autenticar al usuario, registrar la actividad del usuario o validar los datos de entrada."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'cluster' en Node.js?",
+                        "options": [
+                          "Un módulo para crear aplicaciones escalables que aprovechan el multiprocesamiento",
+                          "Un módulo para manejar sesiones de usuario",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un módulo para crear aplicaciones escalables que aprovechan el multiprocesamiento",
+                        "images": "https://example.com/node-cluster.png",
+                        "information": "El módulo 'cluster' en Node.js permite crear aplicaciones escalables que aprovechan el multiprocesamiento, ejecutando diferentes partes de la aplicación en diferentes procesos. Esto puede mejorar el rendimiento y la capacidad de respuesta, especialmente en aplicaciones que manejan muchas conexiones o tareas de larga duración."
+                      },
+                      {
+                        "ask": "¿Qué son los 'streams' en Node.js?",
+                        "options": [
+                          "Flujos de datos que permiten procesar datos de forma fragmentada",
+                          "Módulos para crear servidores web",
+                          "Frameworks para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Flujos de datos que permiten procesar datos de forma fragmentada",
+                        "images": "https://example.com/node-streams.png",
+                        "information": "Los 'streams' en Node.js son flujos de datos que permiten procesar datos de forma fragmentada, en lugar de cargar todo el contenido a la vez en memoria. Esto es útil para manejar grandes cantidades de datos, como archivos grandes o transmisiones de vídeo, sin necesidad de consumir mucha memoria."
+                      },
+                      {
+                        "ask": "¿Cómo se pueden utilizar las 'promesas' en Node.js?",
+                        "options": [
+                          "Para manejar operaciones asincrónicas y obtener el resultado en el futuro",
+                          "Para validar datos de entrada en formularios web",
+                          "Para crear aplicaciones escalables que aprovechan el multiprocesamiento"
+                        ],
+                        "answer": "Para manejar operaciones asincrónicas y obtener el resultado en el futuro",
+                        "images": "https://example.com/node-promises.png",
+                        "information": "Las 'promesas' en Node.js son una forma de manejar operaciones asincrónicas, como leer un archivo, realizar una petición a una API o ejecutar una tarea que lleva tiempo. Permiten escribir código más limpio y estructurado, y evitar los callbacks anidados."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'async/await' en Node.js?",
+                        "options": [
+                          "Una sintaxis alternativa para trabajar con 'promesas' de forma más legible",
+                          "Un módulo para manejar sesiones de usuario",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Una sintaxis alternativa para trabajar con 'promesas' de forma más legible",
+                        "images": "https://example.com/async-await.png",
+                        "information": "El módulo 'async/await' en Node.js proporciona una sintaxis alternativa para trabajar con 'promesas' de forma más legible y similar al código síncrono. Permite escribir código más claro y fácil de entender, especialmente cuando se encadenan varias operaciones asincrónicas."
+                      },
+                      {
+                        "ask": "¿Qué es el patrón 'Pub/Sub' en Node.js?",
+                        "options": [
+                          "Un patrón de diseño para comunicar componentes de una aplicación mediante mensajes",
+                          "Un módulo para crear servidores web",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un patrón de diseño para comunicar componentes de una aplicación mediante mensajes",
+                        "images": "https://example.com/node-pubsub.png",
+                        "information": "El patrón 'Pub/Sub' (Publicación/Suscripción) en Node.js es un patrón de diseño que permite a los componentes de una aplicación comunicarse entre sí mediante mensajes. Un componente publica un mensaje y los componentes interesados se suscriben para recibirlo. Esto permite una comunicación desacoplada y escalable entre componentes."
+                      },
+                      {
+                        "ask": "¿Cómo se pueden implementar APIs RESTful en Node.js?",
+                        "options": [
+                          "Usando frameworks como 'Express' o 'Hapi' junto con el módulo 'restify'",
+                          "Utilizando el módulo 'http' y escribiendo código manualmente para manejar las solicitudes y respuestas",
+                          "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-restful-apis.png",
+                        "information": "En Node.js, se pueden implementar APIs RESTful utilizando frameworks como 'Express' o 'Hapi', que facilitan la creación de rutas, la gestión de métodos HTTP (GET, POST, PUT, DELETE) y el envío de respuestas en formato JSON. También se puede utilizar el módulo 'http' y escribir código manualmente para manejar las solicitudes y respuestas, pero esto requiere más trabajo de desarrollo."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'mongoose' en Node.js?",
+                        "options": [
+                          "Un ODM (Object Document Mapper) para trabajar con bases de datos NoSQL como MongoDB",
+                          "Un módulo para crear servidores web",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Un ODM (Object Document Mapper) para trabajar con bases de datos NoSQL como MongoDB",
+                        "images": "https://example.com/node-mongoose.png",
+                        "information": "El módulo 'mongoose' en Node.js es un ODM (Object Document Mapper) que permite trabajar con bases de datos NoSQL como MongoDB de forma orientada a objetos. Facilita la creación, lectura, actualización y eliminación de datos en la base de datos, mapeando los objetos de JavaScript a documentos de MongoDB."
+                      },
+                      {
+                        "ask": "¿Qué es el módulo 'socket.io' en Node.js?",
+                        "options": [
+                          "Una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas",
+                          "Un módulo para manejar sesiones de usuario",
+                          "Un framework para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas",
+                        "images": "https://example.com/node-socket-io.png",
+                        "information": "El módulo 'socket.io' en Node.js es una biblioteca para crear aplicaciones de chat en tiempo real y aplicaciones web colaborativas. Permite establecer conexiones bidireccionales y persistentes entre un servidor y varios clientes, posibilitando la comunicación en tiempo real y la sincronización de datos entre usuarios."
+                      },
+                      {
+                        "ask": "¿Cómo se pueden implementar sistemas de autenticación y autorización en Node.js?",
+                        "options": [
+                          "Usando módulos como 'passport' o 'jsonwebtoken'",
+                          "Escribiendo código manualmente para verificar usuarios y contraseñas",
+                          "Ambas opciones son válidas"
+                        ],
+                        "answer": "Ambas opciones son válidas",
+                        "images": "https://example.com/node-authentication.png",
+                        "information": "En Node.js, se pueden implementar sistemas de autenticación y autorización utilizando módulos como 'passport' o 'jsonwebtoken'. Estos módulos facilitan la gestión de usuarios, contraseñas, tokens de autenticación y control de acceso a diferentes recursos de la aplicación. También se puede escribir código manualmente para verificar usuarios y contraseñas, pero esto requiere más trabajo de desarrollo."
+                      },
+                      {
+                        "ask": "¿Qué son las 'variables de entorno' en Node.js?",
+                        "options": [
+                          "Variables que se definen en el entorno de ejecución de Node.js y se pueden utilizar en la aplicación",
+                          "Módulos para crear servidores web",
+                          "Frameworks para trabajar con archivos y directorios"
+                        ],
+                        "answer": "Variables que se definen en el entorno de ejecución de Node.js y se pueden utilizar en la aplicación",
+                        "images": "https://example.com/node-environment-variables.png",
+                        "information": "Las 'variables de entorno' en Node.js son variables que se definen en el entorno de ejecución y se pueden utilizar en la aplicación para almacenar configuraciones, rutas de archivos, claves de API o cualquier otra información que se necesite durante la ejecución. Se pueden acceder a ellas mediante el objeto 'process.env'."
+                      }
                 ],
                 "expert": [
                     {

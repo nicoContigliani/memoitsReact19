@@ -7,10 +7,11 @@ import Checkboxs from './components/checkbox/Checkbox';
 import Inputs from './components/inputs/Inputs';
 import Maps from './components/Map/Maps';
 
-import { CommentOutlined, CustomerServiceOutlined, FieldNumberOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
+import { CommentOutlined, CustomerServiceOutlined, FieldNumberOutlined, InfoCircleOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
 import { FloatButton } from 'antd';
 import useProcessTecnologyData from './hooks/useProcessTecnologyData';
 import MapStatistic from './components/Map/mapStatistic/MapStatistic';
+import Buttons from './components/Buttons/Button';
 
 function App() {
   const [count, setCount] = useState<number>(0);
@@ -28,6 +29,7 @@ function App() {
 
   const { tecnology } = todo;
 
+  const [showInfoComponent, setShowInfoComponent] = useState<any | any[] | undefined>(false);
 
 
 
@@ -36,7 +38,9 @@ function App() {
 
 
 
-
+  const showInfo = () => {
+    setShowInfoComponent(!showInfoComponent)
+  }
 
 
 
@@ -108,40 +112,8 @@ function App() {
 
 
 
-    // useEffect(() => {
-    //   const functionAsync = async () => {
-    //     const tecnosData = json.tecnology;
-    //     const results = {};
-    
-    //     tecnosData.forEach((element) => {
-    //       Object.keys(element).forEach((techKey) => {
-    //         const levels = element[techKey];
-    //         Object.keys(levels).forEach((levelKey) => {
-    //           const levelArray = levels[levelKey];
-    
-    //           const totalQuestions = levelArray.length;
-    //           const totalAnswers = levelArray.reduce((sum, question) => sum + question.options.length, 0);
-    
-    //           if (!results[techKey]) {
-    //             results[techKey] = {};
-    //           }
-    
-    //           results[techKey][levelKey] = {
-    //             totalQuestions,
-    //             totalAnswers,
-    //           };
-    //         });
-    //       });
-    //     });
-    
-    //     console.log("Results:", results);
-    //   };
-    
-    //   functionAsync();
-    // }, [json]);
 
-    const results = useProcessTecnologyData(json);
-    console.log("🚀 ~ App ~ results:", results)
+  const results = useProcessTecnologyData(json);
 
 
   return (
@@ -150,10 +122,31 @@ function App() {
         <h2> Que comience el juego</h2>
 
       </div>
-      <MapStatistic
-      results={results}
-      />
+      {
+        showInfoComponent ?
+          <MapStatistic
+            results={results}
+          /> : null
+      }
       <div className=''>
+        <FloatButton.Group
+          trigger="hover"
+          type="primary"
+          style={{ right: 235 }}
+          icon={<InfoCircleOutlined />}
+        >
+          <div className='level'>
+            <span>
+              Show info
+            </span>
+            <Buttons
+              actions={showInfo}
+              type="primary"
+            >
+              Show
+            </Buttons>
+          </div>
+        </FloatButton.Group>
 
 
         <FloatButton.Group
@@ -175,7 +168,7 @@ function App() {
             />
           </div>
         </FloatButton.Group>
-        --
+
 
         <FloatButton.Group
           trigger="hover"
