@@ -33,20 +33,9 @@ function App() {
 
 
 
-
-
-
-
-
   const showInfo = () => {
     setShowInfoComponent(!showInfoComponent)
   }
-
-
-
-
-
-
 
 
 
@@ -152,27 +141,6 @@ function App() {
         <FloatButton.Group
           trigger="hover"
           type="primary"
-          style={{ right: 185 }}
-          icon={<FieldNumberOutlined />}
-        >
-          <div className='level'>
-            <span>
-              Count Answer
-            </span>
-            <Inputs
-              type={'number'}
-              data={data}
-              setData={setData}
-              placeholder={"cuantas consultas"}
-              name={"ask"}
-            />
-          </div>
-        </FloatButton.Group>
-
-
-        <FloatButton.Group
-          trigger="hover"
-          type="primary"
           style={{ right: 135 }}
           icon={<LinuxOutlined />}
         >
@@ -201,6 +169,30 @@ function App() {
           />
 
         </FloatButton.Group>
+
+
+        <FloatButton.Group
+          trigger="hover"
+          type="primary"
+          style={{ right: 185 }}
+          icon={<FieldNumberOutlined />}
+        >
+          <div className='level'>
+            <span>
+              Count Answer
+            </span>
+            <Inputs
+              type={'number'}
+              data={data}
+              setData={setData}
+              placeholder={"cuantas consultas"}
+              name={"ask"}
+            />
+          </div>
+        </FloatButton.Group>
+
+
+
 
 
       </div>
