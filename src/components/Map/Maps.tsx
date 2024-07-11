@@ -125,6 +125,9 @@ const Maps = (props: any | undefined) => {
                     Reset
                 </Buttons>
             </div>
+            <div className='data'>
+
+            </div>
             <pre>{JSON.stringify(selectedValues, null, 2)}</pre>
         </div>
     );

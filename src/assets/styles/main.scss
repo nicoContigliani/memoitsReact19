@@ -1,150 +1,3 @@
-// $primary-color: #b5cdfd43;
-// $secondary-color:  #007bff;
-
-// body {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-//   font-family: Arial, sans-serif;
-//   background-color: #ffffff;
-//   color: $primary-color;
-//   // overflow-x: auto;
-//   // overflow: hidden;
-
-// }
-
-// .header {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-//   // background-color: $primary-color;
-//   // padding:10px;
-//   text-align: center;
-//   color: #ffffff;
-// }
-
-// .container {
-//   margin: 20px;
-//   font-family: Arial, sans-serif;
-//   background-color: #ffffff;
-//   color: $secondary-color;
-
-// }
-
-// $glass-background-color: rgba(144, 177, 255, 0.271); // Color del fondo con transparencia
-// $glass-blur: 10px; // Nivel de desenfoque para el efecto de vidrio
-// .bodySetting{
-//     // padding-top: 1px;
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-//     gap: 10px; /* Adjust the gap between columns as needed
-// }
-
-// .checkbox-wrapper {
-//   background-color: $glass-background-color; // Aplicar color de fondo con transparencia
-//   backdrop-filter: blur($glass-blur); // Aplicar desenfoque para el efecto de vidrio
-//   // border-radius: 4px; // Redondear esquinas opcional para mejorar el aspecto estético
-//   // padding: 5px; // Espacio interior para los checkbox
-//   // margin: 5px; // Margen exterior para separar del resto de contenido
-//   // box-shadow: #000000;
-//   // border-radius: 1%;
-//   // display: flex;
-//   // flex-wrap: wrap;
-//   display: grid;
-//   grid-template-columns: repeat(3, 1fr);
-//   justify-content: space-around;
-//   align-items: center;
-//   align-content: flex-start;
-//   border-radius: 3%;
-//   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-//   width: 100px;
-//   /* Lighter shade
-//   // box-shadow: 0 1px 0 rgba(0, 0, 0, 0.917) inset;
-
-// }
-// .inputAsk{
-//   padding-top: 5px;
-// }
-// .checkClass{
-//   padding-left: 2%;
-//   padding-bottom: 1%;
-//   display: grid;
-//   grid-template-columns: repeat(3, 1fr); /* Dos columnas usando repeat
-//   grid-gap: 5%; /* Espacio entre elementos
-//   align-items: center;
-//    justify-content: space-around;
-//    place-content: center;
-//    position: relative;
-
-// }
-
-// @media screen and (max-width: 768px) {
-//   .checkClass {
-//     grid-template-columns: repeat(3, 1fr); /* Dos columnas en tabletas
-//   }
-// }
-
-// @media screen and (max-width: 480px) {
-//   .checkClass {
-//     display: grid;
-//     grid-template-columns: 1fr; /* Una columna en teléfonos
-//     grid-gap: 5%; /* Espacio entre elementos
-//     justify-content: space-around;
-//     align-items: start;
-//     align-content: flex-start;
-//   }
-// }
-
-// .headerCheckbox{
-
-// }
-
-// .chekboxDiv{
-
-// }
-// .answersSussses{
-// background-color: $secondary-color;
-// width: auto;
-// }
-// .answersError{
-//   background-color: grey;
-// }
-// .level{
-//   width: 150px;
-//   padding: 1%;
-//   background-color: $glass-background-color; // Aplicar color de fondo con transparencia
-//   backdrop-filter: blur($glass-blur); // Aplicar desenfoque para el efecto de vidrio
-//   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-
-// }
-
-// .buttonReset{
-//   border-radius: 100%;
-//   position: fixed;
-//   bottom: 53px;
-//   right: 65%;
-//   display: flex;
-//   align-items: center;
-//   z-index: 1000;
-// }
-
-// @media screen and (max-width: 768px) {
-//   .buttonReset {
-//   }
-// }
-
-// @media screen and (max-width: 480px) {
-//   .buttonReset {
-//  padding-right: 10%;
-//   }
-// }
-
-// .buttonGroup{
-//   padding: 1%;
-//   display: grid;
-//   grid-template-columns: repeat(6, 1fr);
-// }
-
-/* Estilos generales (aplicables a todos los dispositivos) */
-
 $primary-color: #007bff;
 $secondary-color: #007bff;
 
@@ -248,13 +101,11 @@ body {
         padding-left: 5%;
         width: 100%; /* Ancho del 100% del contenedor padre */
         max-width: 800px; /* Ancho máximo del div */
-        margin: 0 auto; /* Centra el div horizontalmente */
-        // padding: 10px; /* Espacio interno dentro del div
-        // background-color: #f0f0f0; /* Color de fondo del div
-        // border: 1px solid #ccc; /* Borde del div
-        // box-sizing: border-box; /* Incluye el padding y border en el ancho total
-        // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-   
+        margin: 0 auto; /* Centra el div horizontalmente */  
+    }
+    .data{
+        overflow-y: auto;
+
     }
 }
 
@@ -357,5 +208,8 @@ body {
         // box-sizing: border-box; /* Incluye el padding y border en el ancho total
         // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
    
+    }
+    .data{
+
     }
 }
