@@ -1,123 +1,46 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useState } from 'react';
 import '../src/App.scss';
 import Button from './components/Buttons/Button';
 import json from './virtualDb/virtualJSON.json';
-console.log("🚀 ~ json:", json)
 import Checkboxs from './components/checkbox/Checkbox';
 import Inputs from './components/inputs/Inputs';
 import Maps from './components/Map/Maps';
-
-import { CommentOutlined, CustomerServiceOutlined, FieldNumberOutlined, InfoCircleOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
+import { FieldNumberOutlined, InfoCircleOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
 import { FloatButton } from 'antd';
-import useProcessTecnologyData from './hooks/useProcessTecnologyData';
 import MapStatistic from './components/Map/mapStatistic/MapStatistic';
-import Buttons from './components/Buttons/Button';
+import useTecnologyData from './hooks/useTecnologyData';
 
 function App() {
-  const [count, setCount] = useState<number>(0);
-  const [todo, setTodo] = useState<any>(json);
+  const [JsonGetData, setJsonGetData] = useState<any | undefined>(json);
   const [data, setData] = useState<any | any[] | undefined>();
-
-  const [selectTecnology, setSelectTecnology] = useState<any | any[] | undefined>();
-  const [selectLevel, setSelectLevel] = useState<any | any[] | undefined>();
-  const [dataAll, setDataAll] = useState<any | any[] | undefined>();
-
-  const [optionsTecnology, setOptionsTecnology] = useState<any | any[] | undefined>();
-
-  const [selectValueLevel, setSelectValueLevel] = useState<any | any[] | undefined>(0);
+  const [selectValueLevel, setSelectValueLevel] = useState<number>(0);
   const [selectedValue, setSelectedValue] = useState<number>(0);
+  const [showInfoComponent, setShowInfoComponent] = useState<boolean>(false);
 
-  const { tecnology } = todo;
+  const { tecnology } = JsonGetData;
 
-  const [showInfoComponent, setShowInfoComponent] = useState<any | any[] | undefined>(false);
-
-
+  const {
+    optionsTecnology,
+    selectTecnology,
+    selectLevel,
+    dataAll,
+    results
+  } = useTecnologyData(tecnology, selectedValue, selectValueLevel, json);
 
   const showInfo = () => {
-    setShowInfoComponent(!showInfoComponent)
-  }
-
-
-
-  const dataTodo = useMemo(() => {
-    const result: string[] = [];
-    for (const key in tecnology) {
-      if (Object?.prototype?.hasOwnProperty.call(tecnology, key)) {
-        const element: any = tecnology[key];
-        if (typeof element === 'object' && element !== null) {
-          const todoE = Object?.keys(element);
-          result.push(todoE[0]);
-        }
-      }
-    }
-    return result;
-  }, [tecnology]);
-
-
-
-  useEffect(() => {
-    try {
-      setOptionsTecnology(dataTodo);
-    } catch (error) {
-      console.log("🚀 ~ useEffect ~ error:", error);
-    }
-  }, [todo]);
-
-  useEffect(() => {
-    try {
-      if (selectedValue !== undefined) setSelectTecnology(dataTodo[selectedValue]);
-    } catch (error) {
-      console.log("🚀 ~ useEffect ~ error:", error);
-    }
-  }, [selectedValue, selectValueLevel]);
-
-  useEffect(() => {
-    try {
-      const level = ['basic', 'middel', 'expert', 'god'][selectValueLevel]
-      if (selectValueLevel !== undefined) setSelectLevel(['basic', 'middel', 'expert', 'god'][selectValueLevel]);
-    } catch (error) {
-      console.log("🚀 ~ useEffect ~ error:", error);
-    }
-  }, [selectValueLevel, selectedValue]);
-
-  useEffect(() => {
-    try {
-      if (selectTecnology !== undefined && selectLevel !== undefined) {
-        const filteredTechnology = tecnology.filter((item: any) => item[selectTecnology] !== undefined);
-        if (filteredTechnology.length > 0) {
-          try {
-            const arrayData = filteredTechnology[0][selectTecnology];
-            const dataS: any[] | undefined | any = arrayData[selectLevel];
-            setDataAll(dataS);
-          } catch (error) {
-            console.log("🚀 ~ useEffect ~ error:", error);
-          }
-        }
-      }
-    } catch (error) {
-      console.log("🚀 ~ useEffect ~ error:", error);
-    }
-  }, [selectTecnology, selectLevel, tecnology]);
-
-
-
-
-  const results = useProcessTecnologyData(json);
-
+    setShowInfoComponent(!showInfoComponent);
+  };
 
   return (
-    <>
+    <div className='app'>
       <div className='header'>
-        <h2> Que comience el juego</h2>
-
+        <h2>Que comience el juego</h2>
       </div>
       {
-        showInfoComponent ?
-          <MapStatistic
-            results={results}
-          /> : null
+        showInfoComponent &&
+        <MapStatistic results={results} />
       }
-      <div className=''>
+      <div className='appBody'>
         <FloatButton.Group
           trigger="hover"
           type="primary"
@@ -125,18 +48,10 @@ function App() {
           icon={<InfoCircleOutlined />}
         >
           <div className='level'>
-            <span>
-              Show info
-            </span>
-            <Buttons
-              actions={showInfo}
-              type="primary"
-            >
-              Show
-            </Buttons>
+            <span>Show info</span>
+            <Button actions={showInfo} type="primary">Show</Button>
           </div>
         </FloatButton.Group>
-
 
         <FloatButton.Group
           trigger="hover"
@@ -144,15 +59,12 @@ function App() {
           style={{ right: 135 }}
           icon={<LinuxOutlined />}
         >
-
           <Checkboxs
-            name={`checkbox-tecnology`}
+            name="checkbox-tecnology"
             optionsTecnology={optionsTecnology}
             selectedValue={selectedValue}
             setSelectedValue={setSelectedValue}
           />
-          {/* <FloatButton icon={<CommentOutlined />}
-        /> */}
         </FloatButton.Group>
 
         <FloatButton.Group
@@ -162,14 +74,12 @@ function App() {
           icon={<WifiOutlined />}
         >
           <Checkboxs
-            name={`checkbox-level`}
+            name="checkbox-level"
             optionsTecnology={['basic', 'middel', 'expert', 'god']}
             selectedValue={selectValueLevel}
             setSelectedValue={setSelectValueLevel}
           />
-
         </FloatButton.Group>
-
 
         <FloatButton.Group
           trigger="hover"
@@ -178,67 +88,29 @@ function App() {
           icon={<FieldNumberOutlined />}
         >
           <div className='level'>
-            <span>
-              Count Answer
-            </span>
+            <span>Count Answer</span>
             <Inputs
-              type={'number'}
+              type="number"
               data={data}
               setData={setData}
-              placeholder={"cuantas consultas"}
-              name={"ask"}
+              placeholder="cuantas consultas"
+              name="ask"
             />
           </div>
         </FloatButton.Group>
-
-
-
-
-
       </div>
 
-      {/* <div className='bodySetting'>
-        <div className='tecnology'>
-          <Checkboxs
-            name={`checkbox-tecnology`}
-            optionsTecnology={optionsTecnology}
-            selectedValue={selectedValue}
-            setSelectedValue={setSelectedValue}
-          />
-        </div>
-        <div className='level'>
-          <Checkboxs
-            name={`checkbox-level`}
-            optionsTecnology={['basic', 'middel', 'expert', 'god']}
-            selectedValue={selectValueLevel}
-            setSelectedValue={setSelectValueLevel}
-          />
-        </div>
-        <div className='inputAsk'>
-          <Inputs
-            type={'number'}
-            data={data}
-            setData={setData}
-            placeholder={"cuantas consultas"}
-            name={"ask"}
-          />
-        </div>
-      </div> */}
-
-      <div className='container'>
-        {
-          data &&
-          dataAll &&
+      <div className='mapsAll'>
+        {data && dataAll && (
           <Maps
             dataMapAll={dataAll}
             getTodo={data?.ask}
           />
-        }
+        )}
       </div>
 
       total {data?.ask}
-
-    </>
+    </div>
   );
 }
 

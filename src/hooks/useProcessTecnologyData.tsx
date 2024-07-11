@@ -11,11 +11,11 @@ const useProcessTecnologyData = (json) => {
       tecnosData.forEach((element) => {
         Object.keys(element).forEach((techKey) => {
           const levels = element[techKey];
-          Object.keys(levels).forEach((levelKey) => {
+          Object.keys(levels).forEach((levelKey: any) => {
             const levelArray = levels[levelKey];
 
             const totalQuestions = levelArray.length;
-            const totalAnswers = levelArray.reduce((sum, question) => sum + question.options.length, 0);
+            const totalAnswers = levelArray.reduce((sum: any, question: any) => sum + question.options.length, 0);
 
             if (!results[techKey]) {
               results[techKey] = {};

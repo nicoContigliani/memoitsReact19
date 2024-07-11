@@ -5,7 +5,7 @@ import { Row, Col, Statistic, Card } from 'antd';
 const MapStatistic = (props: any) => {
     const { results:data } = props
     return (
-        <Row gutter={16} className='container'
+        <Row gutter={16} className='mapStaticGeneral'
         // style={{fontSize:'16px',width:'70%'}}
         >
             {Object?.keys(data)?.map(tech => (

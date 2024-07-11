@@ -68,14 +68,11 @@ const Maps = (props: any | undefined) => {
     const saveAsk = () => {
 
     }
-
-
-
     return (
         <div className='checkClass'>
             {dataMapReturn && dataMapReturn?.map((item: any, index: any) => (
-                <div key={index}>
-                    <div className='container'>
+                <div key={index} className='todo'>
+                    <div className='ask'>
                         <h3>
                             <Asks dataItem={item?.ask} />
                         </h3>
@@ -83,7 +80,6 @@ const Maps = (props: any | undefined) => {
                     <div className='chekboxDiv'>
                         {
                             <div>
-
                                 <Checkboxs
                                     name={`radio-${index + 1}`}
                                     classN={""}
@@ -91,9 +87,7 @@ const Maps = (props: any | undefined) => {
                                     selectedValue={selectedValues[`radio-${index + 1}`] || ''}
                                     setSelectedValue={(value: any) => handleRadioChange(`radio-${index + 1}`, value)}
                                 />
-
                             </div>
-
                         }
                     </div>
                     <div className='answer'>
@@ -112,22 +106,21 @@ const Maps = (props: any | undefined) => {
                         >
                             Save
                         </Buttons>
-                        <Buttons
+                        {/* <Buttons
                             actions={saveAsk}
                             type="primary"
                             ghost
                         >
                             Save
-                        </Buttons>
+                        </Buttons> */}
 
                     </div>
                 </div>
             ))}
             <div className='buttonReset'>
-
                 <Buttons
                     actions={resetButton}
-                    type="primary"
+                    type=""
                 >
                     Reset
                 </Buttons>
