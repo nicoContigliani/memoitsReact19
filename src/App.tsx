@@ -1,133 +1,88 @@
 import { useState } from 'react';
 import '../src/App.scss';
-import Button from './components/Buttons/Button';
-import json from './virtualDb/virtualJSON.json';
-import Checkboxs from './components/checkbox/Checkbox';
-import Inputs from './components/inputs/Inputs';
-import Maps from './components/Map/Maps';
-import { FieldNumberOutlined, InfoCircleOutlined, LinuxOutlined, WifiOutlined } from '@ant-design/icons';
-import { FloatButton } from 'antd';
-import MapStatistic from './components/Map/mapStatistic/MapStatistic';
-import useTecnologyData from './hooks/useTecnologyData';
+
+import { FieldNumberOutlined, InfoCircleOutlined, LinuxOutlined, MenuOutlined, WifiOutlined } from '@ant-design/icons';
+import { Button, Drawer, FloatButton } from 'antd';
+
+import Navbar from './components/Navbars/Navbar';
+
+import { Routes, Route, Link } from "react-router-dom";
+import Home from './page/Home/Home';
+import Ask from './page/Ask/Ask';
+import Information from './page/Information/Information';
+import Contact from './page/Contact/Contact';
+import NotFound from './page/NotFound/NotFound';
+
+
 
 function App() {
-  const [JsonGetData, setJsonGetData] = useState<any | undefined>(json);
-  const [data, setData] = useState<any | any[] | undefined>();
-  const [selectValueLevel, setSelectValueLevel] = useState<number>(0);
-  const [selectedValue, setSelectedValue] = useState<number>(0);
-  const [showInfoComponent, setShowInfoComponent] = useState<boolean>(false);
 
-  const { tecnology } = JsonGetData;
+  const [open, setOpen] = useState(false);
 
-  const {
-    optionsTecnology,
-    selectTecnology,
-    selectLevel,
-    dataAll,
-    results
-  } = useTecnologyData(tecnology, selectedValue, selectValueLevel, json);
-
-
-  const showInfo = () => {
-    setShowInfoComponent(!showInfoComponent);
+  const showDrawer = () => {
+    setOpen(true);
   };
+
+  const onClose = () => {
+    setOpen(false);
+  };
+
 
   return (
     <div className='app'>
+
       <div className='header'>
         <h2>Que comience el juego</h2>
       </div>
-      {
-        showInfoComponent &&
-        <MapStatistic results={results} />
-      }
-      <div className='appBody'>
-        {/* <FloatButton.Group
-          trigger="hover"
-          type="primary"
-          style={{ right: 235 }}
-          icon={<InfoCircleOutlined />}
-        >
-          <div className='level'>
-            <span>Show info</span>
-            <Button actions={showInfo} type="primary">Show</Button>
-          </div>
-        </FloatButton.Group> */}
+      <div className="container">
+        <Routes>
+          <Route
+            path="/"
+            element={<Home />}
+          />
+          <Route
+            path="/ask"
+            element={<Ask />}
+          />
+          <Route
+            path="/informmation"
+            element={<Information />}
+          />
+          <Route
+            path="/contact"
+            element={<Contact />}
+          />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
 
+      </div>
 
+      {/* <Navbar /> */}
+      <div>
         <FloatButton
-          onClick={() => setShowInfoComponent(!showInfoComponent)}
-          // description="info"
-          shape="circle"
-          type='primary'
-          style={{ right: 235 }}
-          icon={<InfoCircleOutlined />}
+          className="float-button-menu" /* Apply the CSS class */
+          type="primary"
+          icon={<MenuOutlined />}
+          onClick={showDrawer}
         />
-
-
-
-        <FloatButton.Group
-          trigger="hover"
-          type="primary"
-          style={{ right: 135 }}
-          icon={<LinuxOutlined />}
-        >
-          <Checkboxs
-            name="checkbox-tecnology"
-            optionsTecnology={optionsTecnology}
-            selectedValue={selectedValue}
-            setSelectedValue={setSelectedValue}
-          />
-        </FloatButton.Group>
-
-        <FloatButton.Group
-          trigger="hover"
-          type="primary"
-          style={{ right: 85 }}
-          icon={<WifiOutlined />}
-        >
-          <Checkboxs
-            name="checkbox-level"
-            optionsTecnology={['basic', 'middel', 'expert', 'god']}
-            selectedValue={selectValueLevel}
-            setSelectedValue={setSelectValueLevel}
-          />
-        </FloatButton.Group>
-
-        <FloatButton.Group
-          trigger="hover"
-          type="primary"
-          style={{ right: 185 }}
-          icon={<FieldNumberOutlined />}
-        >
-          <div className='level'>
-            <span>Count Answer</span>
-            <Inputs
-              type="number"
-              data={data}
-              setData={setData}
-              placeholder="cuantas consultas"
-              name="ask"
-            />
-          </div>
-        </FloatButton.Group>
       </div>
 
-      <div className='mapsAll'>
-        {data && dataAll && (
-          <Maps
+      <Drawer
+        // title="Basic Drawer"
+        onClose={onClose}
+        open={open}
+        placement={'left'}
+        width={160}
+        style={{ backgroundColor: 'transparent', backdropFilter: 'blur(20px)', color: 'black' }} // Inline styles
+        className='drawers' // More specific class name
+      >
+        <div >
 
-            dataMapAll={dataAll}
-            getTodo={data?.ask}
-            tecnoData={selectTecnology}
-            levelData={selectLevel}
+          <Navbar />
+        </div>
+      </Drawer>
 
-          />
-        )}
-      </div>
-
-      total {data?.ask}
-    </div>
+    </div >
   );
 }
 

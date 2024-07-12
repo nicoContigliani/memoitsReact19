@@ -1,5 +1,7 @@
 $primary-color: #007bff;
 $secondary-color: #007bff;
+$thirds-color: #76b8fd;
+
 
 $glass-background-color: rgba(144, 177, 255, 0.271); // Color del fondo con transparencia
 
@@ -9,6 +11,14 @@ body {
     padding: 0;
     background-color: #ffffff;
     color: $primary-color;
+}
+
+.float-button-right {
+    position: fixed; /* Position the button absolutely for precise positioning */
+    top: 20px; /* Adjust top offset as needed */
+    right: 20px; /* Adjust right offset as needed */
+    z-index: 1000; /* Ensure the button stays on top of other elements */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos específicos para dispositivos móviles */
@@ -34,6 +44,31 @@ body {
     .appBody {
         // background-color:rgb(138, 172, 252) ;
    
+    }
+
+    // .navbar{background-color: red($color: #000000);}
+
+    /* navbar.css */
+    .navbar {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+
+        // background-color: red; /* Cambia el color de fondo */
+        padding: 1px; /* Añade espacio interior */
+    }
+
+    .navbar a {
+        color: #ffffff; /* Cambia el color del texto */
+        margin-right: 10px; /* Añade espacio entre los enlaces */
+        text-decoration: none; /* Elimina el subrayado */
+    }
+
+    .navbar a:hover {
+        color: $thirds-color;
+    }
+
+    .drawers {
+        backdrop-filter: blur(5px);
     }
 
     .level {}
@@ -134,6 +169,28 @@ body {
    
     }
 
+    .navbar {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+
+        // background-color: red; /* Cambia el color de fondo */
+        padding: 1px; /* Añade espacio interior */
+    }
+
+    .navbar a {
+        color: #ffffff; /* Cambia el color del texto */
+        margin-right: 10px; /* Añade espacio entre los enlaces */
+        text-decoration: none; /* Elimina el subrayado */
+    }
+
+    .navbar a:hover {
+        color: $thirds-color;
+    }
+
+    .drawers {
+        backdrop-filter: blur(5px);
+    }
+
     .level {}
 
     .checkbox-tecnology {}
@@ -172,7 +229,6 @@ body {
         grid-template-columns: repeat(3, 1fr);
         justify-content: space-between;
 
-
         // margin: 1px; /* Elimina el margen por defecto del h1 */
    
     }
@@ -193,7 +249,6 @@ body {
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
-
     }
 
     .rates {
