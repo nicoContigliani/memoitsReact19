@@ -101,11 +101,11 @@ body {
         padding-left: 5%;
         width: 100%; /* Ancho del 100% del contenedor padre */
         max-width: 800px; /* Ancho máximo del div */
-        margin: 0 auto; /* Centra el div horizontalmente */  
+        margin: 0 auto; /* Centra el div horizontalmente */
     }
-    .data{
-        overflow-y: auto;
 
+    .data {
+        overflow-y: auto;
     }
 }
 
@@ -150,27 +150,28 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    
+
     .todo {
         padding: 1%;
         border-radius: 5%;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.143);
         border-width: 2px 0 0 2px;
-
     }
 
     .ask {
         display: flex;
         justify-content: start; /* Centra horizontalmente */
         // align-items: center;
-        margin-left: 15px; /* Elimina el margen por defecto del h1 */
+        margin-left: 5%; /* Elimina el margen por defecto del h1 */
         margin-right: 5px;
     }
 
     .chekboxDiv {
-        padding-left: 2%;
+        padding-left: 5%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+
 
         // margin: 1px; /* Elimina el margen por defecto del h1 */
    
@@ -178,13 +179,30 @@ body {
 
     .answer {
         text-align: center; /* Alinea el texto horizontalmente */
+        padding: 1%;
+        border-radius: 1%;
+        border: none;
+        padding: 20px 30px;
     }
 
     .buttonGroup {
-        padding-left: 5%;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: 2fr 4fr  5fr;
+        padding-left: 5%;
         padding-bottom: 10px;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .rates {
+        // padding: 1%;
+        // padding-top: 3%;
+        // padding-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
     }
 
     .buttonReset {
@@ -209,7 +227,6 @@ body {
         // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
    
     }
-    .data{
 
-    }
+    .data {}
 }

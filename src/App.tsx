@@ -27,6 +27,7 @@ function App() {
     results
   } = useTecnologyData(tecnology, selectedValue, selectValueLevel, json);
 
+
   const showInfo = () => {
     setShowInfoComponent(!showInfoComponent);
   };
@@ -41,7 +42,7 @@ function App() {
         <MapStatistic results={results} />
       }
       <div className='appBody'>
-        <FloatButton.Group
+        {/* <FloatButton.Group
           trigger="hover"
           type="primary"
           style={{ right: 235 }}
@@ -51,7 +52,19 @@ function App() {
             <span>Show info</span>
             <Button actions={showInfo} type="primary">Show</Button>
           </div>
-        </FloatButton.Group>
+        </FloatButton.Group> */}
+
+
+        <FloatButton
+          onClick={() => setShowInfoComponent(!showInfoComponent)}
+          // description="info"
+          shape="circle"
+          type='primary'
+          style={{ right: 235 }}
+          icon={<InfoCircleOutlined />}
+        />
+
+
 
         <FloatButton.Group
           trigger="hover"
@@ -103,8 +116,12 @@ function App() {
       <div className='mapsAll'>
         {data && dataAll && (
           <Maps
+
             dataMapAll={dataAll}
             getTodo={data?.ask}
+            tecnoData={selectTecnology}
+            levelData={selectLevel}
+
           />
         )}
       </div>

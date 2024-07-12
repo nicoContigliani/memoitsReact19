@@ -8,6 +8,10 @@ import Checkboxs from '../checkboxmaps/Checkbox';
 import Asnwers from './Aswers/Asnwers';
 import { Card, Col, Row } from 'antd';
 import Buttons from '../Buttons/Button';
+import Rates from '../Rates/Rates';
+import moment from 'moment';
+import { writteLocalStorage } from '../../services/writteLocalStorage.services';
+import { formaterDataAndTime } from '../../utils/formaterDataAndTime.utils';
 
 
 const gridStyle: React.CSSProperties = {
@@ -18,7 +22,7 @@ const gridStyle: React.CSSProperties = {
 
 
 const Maps = (props: any | undefined) => {
-    const { dataMapAll, getTodo } = props;
+    const { dataMapAll, getTodo, tecnoData, levelData } = props;
 
     const [dataMapReturn, setDataMapReturn] = useState<any | undefined | any[]>();
     const [selectedValues, setSelectedValues] = useState<{ [key: string]: any }>({});
@@ -65,9 +69,28 @@ const Maps = (props: any | undefined) => {
         setDataMapReturn(todo);
     }
 
-    const saveAsk = () => {
+
+
+
+    const saveAsk = (props: any) => {
+        let element: any = { ...props }
+        element.tecnology = tecnoData || undefined
+        element.levelData = levelData || undefined
+
+        const now = moment();
+        const formattedDateTime = formaterDataAndTime(now, 'middel')
+        console.log("🚀 ~ saveAsk ~ formattedDateTime:", formattedDateTime)
+        // const formattedDateTime = now.format('YYYY-MM-DD_HH:mm:ss');
+        // const formattedDateTime:any = writteLocalStorage(element, "middle")
+        // console.log("🚀 ~ saveAsk ~ formattedDateTime:", formattedDateTime)
+        const forma:any = writteLocalStorage(element, formattedDateTime)
+
+        // localStorage.setItem(`${formattedDateTime}-memoIts`, JSON.stringify(element));
+    }
+    const getItDelete = () => {
 
     }
+
     return (
         <div className='checkClass'>
             {dataMapReturn && dataMapReturn?.map((item: any, index: any) => (
@@ -101,19 +124,28 @@ const Maps = (props: any | undefined) => {
                     <div className='buttonGroup'>
 
                         <Buttons
-                            actions={saveAsk}
+                            actions={() => saveAsk(
+                                {
+                                    ask: item?.ask,
+                                    option: item?.options,
+                                    answer: item?.answer,
+                                    myanswer: selectedValues[`radio-${index + 1}`] || undefined
+                                }
+                            )}
                             type="primary"
                         >
-                            Save
+                            Save Ask
                         </Buttons>
-                        {/* <Buttons
-                            actions={saveAsk}
+                        <Buttons
+                            actions={getItDelete}
                             type="primary"
                             ghost
                         >
-                            Save
-                        </Buttons> */}
-
+                            I get It delete
+                        </Buttons>
+                        <div className='rates'>
+                            <Rates />
+                        </div>
                     </div>
                 </div>
             ))}
