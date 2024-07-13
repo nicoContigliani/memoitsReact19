@@ -29,8 +29,8 @@ const Home = () => {
                     <Maps
                         dataMapAll={dataReturn}
                         getTodo={dataReturn?.length}
-                        tecnoData={dataReturn[0].tecnology||'react'}
-                        levelData={dataReturn[0].levelData||'basic'}
+                        tecnoData={dataReturn[0]?.tecnology||'react'}
+                        levelData={dataReturn[0]?.levelData||'basic'}
                     />
                 )}
             </div>
