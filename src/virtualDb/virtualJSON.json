@@ -15,6 +15,226 @@
                         "information": "Un componente en React es simplemente una función de JavaScript que retorna JSX para renderizar contenido en la interfaz de usuario."
                     },
                     {
+                        "ask": "¿Cómo se define un estado en React?",
+                        "options": [
+                            "Con la función setState()",
+                            "Usando un bucle for",
+                            "Definiendo una constante"
+                        ],
+                        "answer": "Con la función setState()",
+                        "images": "https://example.com/react-state.png",
+                        "information": "Un estado en React se define utilizando la función setState(), que permite actualizar y manejar los datos dinámicos dentro de un componente."
+                    },
+                    {
+                        "ask": "¿Qué es JSX en React?",
+                        "options": [
+                            "Una extensión de JavaScript",
+                            "Un formato de base de datos",
+                            "Un lenguaje de estilos"
+                        ],
+                        "answer": "Una extensión de JavaScript",
+                        "images": "https://example.com/react-jsx.png",
+                        "information": "JSX es una extensión de JavaScript utilizada en React para escribir código que se parece al HTML pero que se compila en llamadas a funciones de JavaScript regulares."
+                    },
+                    {
+                        "ask": "¿Cuál es el propósito de ReactDOM.render() en React?",
+                        "options": [
+                            "Renderizar componentes en el navegador",
+                            "Crear una base de datos",
+                            "Definir estilos CSS"
+                        ],
+                        "answer": "Renderizar componentes en el navegador",
+                        "images": "https://example.com/react-render.png",
+                        "information": "ReactDOM.render() se utiliza para renderizar un componente de React en el DOM (Documento Object Model) del navegador."
+                    },
+                    {
+                        "ask": "¿Cómo se manejan los eventos en React?",
+                        "options": [
+                            "Con handlers o manejadores de eventos",
+                            "Usando operadores matemáticos",
+                            "Definiendo variables globales"
+                        ],
+                        "answer": "Con handlers o manejadores de eventos",
+                        "images": "https://example.com/react-events.png",
+                        "information": "En React, los eventos se manejan utilizando handlers o manejadores de eventos que son funciones de JavaScript que se ejecutan cuando ocurre un evento específico."
+                    },
+                    {
+                        "ask": "¿Qué es el estado del ciclo de vida en React?",
+                        "options": [
+                            "El estado actual de un componente",
+                            "Las fases de desarrollo de un proyecto",
+                            "El ciclo de vida de un estado en la aplicación"
+                        ],
+                        "answer": "El estado actual de un componente",
+                        "images": "https://example.com/react-lifecycle.png",
+                        "information": "El estado del ciclo de vida en React se refiere al estado actual de un componente en cada fase del ciclo de vida de React, desde la creación hasta la destrucción."
+                    },
+                    {
+                        "ask": "¿Cómo se define un prop en React?",
+                        "options": [
+                            "Pasando atributos a un componente",
+                            "Usando una consulta SQL",
+                            "Creando una nueva clase"
+                        ],
+                        "answer": "Pasando atributos a un componente",
+                        "images": "https://example.com/react-prop.png",
+                        "information": "Un prop en React se define pasando atributos a un componente, permitiendo la personalización y reutilización de componentes con diferentes datos."
+                    },
+                    {
+                        "ask": "¿Qué son las keys en React?",
+                        "options": [
+                            "Identificadores únicos para elementos de lista",
+                            "Palabras clave en JavaScript",
+                            "Claves de cifrado para seguridad"
+                        ],
+                        "answer": "Identificadores únicos para elementos de lista",
+                        "images": "https://example.com/react-keys.png",
+                        "information": "Las keys en React son identificadores únicos que se utilizan para elementos de lista, asegurando un renderizado eficiente y correcto de los componentes."
+                    },
+                    {
+                        "ask": "¿Qué es la prop children en React?",
+                        "options": [
+                            "Los hijos de un componente",
+                            "Las etiquetas de cierre en HTML",
+                            "Un método de estilización"
+                        ],
+                        "answer": "Los hijos de un componente",
+                        "images": "https://example.com/react-children.png",
+                        "information": "La prop children en React representa los elementos anidados dentro de un componente, permitiendo la composición de componentes y la estructuración del contenido."
+                    },
+                    {
+                        "ask": "¿Cómo se actualiza el estado en React?",
+                        "options": [
+                            "Utilizando setState()",
+                            "Editando directamente la propiedad state",
+                            "Creando una nueva instancia de clase"
+                        ],
+                        "answer": "Utilizando setState()",
+                        "images": "https://example.com/react-update-state.png",
+                        "information": "El estado en React se actualiza utilizando el método setState(), que permite modificar dinámicamente los datos y activar un nuevo renderizado del componente."
+                    },
+                    {
+                        "ask": "¿Qué es un Hook en React?",
+                        "options": [
+                            "Funciones especiales en React",
+                            "Un tipo de componente",
+                            "Una marca de error en JavaScript"
+                        ],
+                        "answer": "Funciones especiales en React",
+                        "images": "https://example.com/react-hook.png",
+                        "information": "Un Hook en React es una función especial que permite usar características de React sin escribir una clase, facilitando el reuso de estado y efectos en componentes funcionales."
+                    },
+                    {
+                        "ask": "¿Qué es el Virtual DOM en React?",
+                        "options": [
+                            "Una representación ligera del DOM",
+                            "Un archivo de configuración",
+                            "Un tipo de estado en React"
+                        ],
+                        "answer": "Una representación ligera del DOM",
+                        "images": "https://example.com/react-virtual-dom.png",
+                        "information": "El Virtual DOM en React es una representación ligera del DOM real, utilizado para optimizar el rendimiento al actualizar solo las partes necesarias de la interfaz de usuario."
+                    },
+                    {
+                        "ask": "¿Cuál es la diferencia entre state y props en React?",
+                        "options": [
+                            "Props son inmutables, state es mutable",
+                            "State se pasa como argumento, props se define en el componente",
+                            "State solo se usa en clases, props en funciones"
+                        ],
+                        "answer": "Props son inmutables, state es mutable",
+                        "images": "https://example.com/react-state-props.png",
+                        "information": "En React, props son datos inmutables pasados de un componente padre a un componente hijo, mientras que state es un objeto mutable gestionado internamente por el componente."
+                    },
+                    {
+                        "ask": "¿Qué es el ciclo de vida de un componente en React?",
+                        "options": [
+                            "Fases que un componente atraviesa desde su creación hasta su destrucción",
+                            "Un patrón de diseño en React",
+                            "Un proceso de optimización de renderizado"
+                        ],
+                        "answer": "Fases que un componente atraviesa desde su creación hasta su destrucción",
+                        "images": "https://example.com/react-lifecycle.png",
+                        "information": "El ciclo de vida de un componente en React son las fases que atraviesa desde que se crea hasta que se elimina, incluyendo montaje, actualización y desmontaje."
+                    },
+                    {
+                        "ask": "¿Cómo se crea un componente de clase en React?",
+                        "options": [
+                            "Extendiendo la clase Component de React",
+                            "Declarando una función en JavaScript",
+                            "Importando un archivo CSS"
+                        ],
+                        "answer": "Extendiendo la clase Component de React",
+                        "images": "https://example.com/react-class-component.png",
+                        "information": "Un componente de clase en React se crea extendiendo la clase Component de React, permitiendo el uso de state y métodos de ciclo de vida en componentes más complejos."
+                    },
+                    {
+                        "ask": "¿Qué es un Higher-Order Component (HOC) en React?",
+                        "options": [
+                            "Un patrón de diseño de alto nivel",
+                            "Un componente que acepta otros componentes como argumento",
+                            "Una función de orden superior en JavaScript"
+                        ],
+                        "answer": "Un componente que acepta otros componentes como argumento",
+                        "images": "https://example.com/react-hoc.png",
+                        "information": "Un Higher-Order Component (HOC) en React es un patrón que consiste en una función que acepta un componente y devuelve un nuevo componente con funcionalidades adicionales."
+                    },
+                    {
+                        "ask": "¿Cómo se manejan los estilos en React?",
+                        "options": [
+                            "Con CSS Modules y styled-components",
+                            "Usando etiquetas <style> en el HTML",
+                            "Importando archivos .css en el componente"
+                        ],
+                        "answer": "Con CSS Modules y styled-components",
+                        "images": "https://example.com/react-styles.png",
+                        "information": "En React, los estilos se pueden manejar utilizando CSS Modules para el scope local de estilos y styled-components para crear componentes con estilos definidos en línea."
+                    },
+                    {
+                        "ask": "¿Qué son las props.children en React?",
+                        "options": [
+                            "Elementos anidados dentro de un componente",
+                            "Atributos adicionales de un componente",
+                            "Un método para manipular el DOM"
+                        ],
+                        "answer": "Elementos anidados dentro de un componente",
+                        "images": "https://example.com/react-props-children.png",
+                        "information": "Las props.children en React representan los elementos anidados dentro de un componente, permitiendo la composición de componentes y la estructuración del contenido de manera flexible."
+                    },
+                    {
+                        "ask": "¿Qué es React Router?",
+                        "options": [
+                            "Una biblioteca para el enrutamiento en aplicaciones React",
+                            "Una herramienta para la gestión de estados",
+                            "Una función para manipular el DOM"
+                        ],
+                        "answer": "Una biblioteca para el enrutamiento en aplicaciones React",
+                        "images": "https://example.com/react-router.png",
+                        "information": "React Router es una biblioteca que facilita el enrutamiento y la navegación en aplicaciones React, permitiendo definir rutas y gestionar la navegación de manera declarativa."
+                    },
+                    {
+                        "ask": "¿Cuál es la función de PropTypes en React?",
+                        "options": [
+                            "Validar los tipos de datos de las props",
+                            "Definir estilos para los componentes",
+                            "Crear nuevas instancias de componentes"
+                        ],
+                        "answer": "Validar los tipos de datos de las props",
+                        "images": "https://example.com/react-proptypes.png",
+                        "information": "PropTypes en React se utiliza para validar los tipos de datos de las props que se pasan a un componente, asegurando que los datos sean correctos según lo esperado."
+                    },
+                    {
+                        "ask": "¿Qué es un componente en React?",
+                        "options": [
+                            "Una función de JavaScript",
+                            "Un archivo CSS",
+                            "Una base de datos"
+                        ],
+                        "answer": "Una función de JavaScript",
+                        "images": "https://example.com/react-component.png",
+                        "information": "Un componente en React es simplemente una función de JavaScript que retorna JSX para renderizar contenido en la interfaz de usuario."
+                    },
+                    {
                         "ask": "¿Qué es el estado (state) en React?",
                         "options": [
                             "Un componente de React",
@@ -4423,6 +4643,1008 @@
                         "answer": {},
                         "images": {},
                         "information": {}
+                    }
+                ]
+            }
+        },
+        {
+            "laravel": {
+                "basic": [
+                    {
+                        "ask": "¿Qué es Laravel?",
+                        "options": [
+                            "Un framework de desarrollo web con PHP",
+                            "Una base de datos relacional",
+                            "Un sistema operativo"
+                        ],
+                        "answer": "Un framework de desarrollo web con PHP",
+                        "images": "https://example.com/laravel-framework.png",
+                        "information": "Laravel es un framework de desarrollo web con PHP que facilita la creación de aplicaciones web modernas y escalables."
+                    },
+                    {
+                        "ask": "¿Cuál es el motor de plantillas predeterminado en Laravel?",
+                        "options": [
+                            "Blade",
+                            "Twig",
+                            "React"
+                        ],
+                        "answer": "Blade",
+                        "images": "https://example.com/laravel-blade.png",
+                        "information": "Blade es el motor de plantillas predeterminado en Laravel, que permite escribir código PHP dentro de archivos de plantilla de manera limpia y eficiente."
+                    },
+                    {
+                        "ask": "¿Qué es Eloquent en Laravel?",
+                        "options": [
+                            "ORM (Object-Relational Mapping) para trabajar con bases de datos",
+                            "Un sistema de control de versiones",
+                            "Un editor de código"
+                        ],
+                        "answer": "ORM (Object-Relational Mapping) para trabajar con bases de datos",
+                        "images": "https://example.com/laravel-eloquent.png",
+                        "information": "Eloquent es el ORM de Laravel que facilita la interacción con bases de datos relacionales mediante el uso de modelos y consultas orientadas a objetos."
+                    },
+                    {
+                        "ask": "¿Qué es el archivo .env en Laravel?",
+                        "options": [
+                            "Archivo de configuración que almacena variables de entorno",
+                            "Archivo de definición de rutas",
+                            "Archivo de estilos CSS"
+                        ],
+                        "answer": "Archivo de configuración que almacena variables de entorno",
+                        "images": "https://example.com/laravel-env.png",
+                        "information": "El archivo .env en Laravel es un archivo de configuración que almacena variables de entorno como configuraciones de base de datos, claves API y otras configuraciones sensibles."
+                    },
+                    {
+                        "ask": "¿Qué es la migración en Laravel?",
+                        "options": [
+                            "Control de versiones de la base de datos",
+                            "Una forma de cambiar la versión de Laravel",
+                            "Definición de rutas en el proyecto"
+                        ],
+                        "answer": "Control de versiones de la base de datos",
+                        "images": "https://example.com/laravel-migration.png",
+                        "information": "Las migraciones en Laravel son archivos PHP que permiten controlar versiones de la base de datos, facilitando la creación y modificación de tablas y esquemas de bases de datos."
+                    },
+                    {
+                        "ask": "¿Cuál es el método para definir rutas en Laravel?",
+                        "options": [
+                            "Utilizando el método Route::get()",
+                            "Editando directamente en el archivo index.php",
+                            "Definiendo en el archivo .htaccess"
+                        ],
+                        "answer": "Utilizando el método Route::get()",
+                        "images": "https://example.com/laravel-routes.png",
+                        "information": "En Laravel, las rutas se definen utilizando métodos como Route::get(), Route::post(), etc., que vinculan URLs con acciones específicas del controlador o funciones de cierre."
+                    },
+                    {
+                        "ask": "¿Qué es el middleware en Laravel?",
+                        "options": [
+                            "Filtros que se ejecutan antes o después de una solicitud HTTP",
+                            "Un tipo de plantilla de Blade",
+                            "Una biblioteca de funciones predefinidas"
+                        ],
+                        "answer": "Filtros que se ejecutan antes o después de una solicitud HTTP",
+                        "images": "https://example.com/laravel-middleware.png",
+                        "information": "El middleware en Laravel son filtros que se ejecutan antes o después de una solicitud HTTP, permitiendo aplicar lógica de autenticación, verificación y más."
+                    },
+                    {
+                        "ask": "¿Qué es Composer en Laravel?",
+                        "options": [
+                            "Gestor de dependencias para PHP",
+                            "Una biblioteca de funciones para Laravel",
+                            "Un editor de código en línea"
+                        ],
+                        "answer": "Gestor de dependencias para PHP",
+                        "images": "https://example.com/laravel-composer.png",
+                        "information": "Composer es un gestor de dependencias para PHP que Laravel utiliza para gestionar paquetes y bibliotecas de terceros, facilitando la integración y gestión de componentes externos en proyectos Laravel."
+                    },
+                    {
+                        "ask": "¿Qué son los controladores en Laravel?",
+                        "options": [
+                            "Clases que manejan la lógica de la aplicación",
+                            "Componentes de interfaz de usuario en Blade",
+                            "Archivos de configuración de la base de datos"
+                        ],
+                        "answer": "Clases que manejan la lógica de la aplicación",
+                        "images": "https://example.com/laravel-controllers.png",
+                        "information": "Los controladores en Laravel son clases que manejan la lógica de la aplicación, respondiendo a las solicitudes HTTP y coordinando la lógica de negocio entre rutas y vistas."
+                    },
+                    {
+                        "ask": "¿Qué es la validación de formularios en Laravel?",
+                        "options": [
+                            "Proceso de asegurar que los datos del formulario sean correctos y seguros",
+                            "Un tipo de encriptación para datos sensibles",
+                            "Un método para comprimir archivos"
+                        ],
+                        "answer": "Proceso de asegurar que los datos del formulario sean correctos y seguros",
+                        "images": "https://example.com/laravel-validation.png",
+                        "information": "La validación de formularios en Laravel es el proceso de asegurar que los datos ingresados en un formulario sean correctos y seguros antes de ser procesados y almacenados en la base de datos."
+                    },
+                    {
+                        "ask": "¿Qué es el método artisan en Laravel?",
+                        "options": [
+                            "Interfaz de línea de comandos de Laravel",
+                            "Un editor de código específico para Laravel",
+                            "Un método para conectar bases de datos"
+                        ],
+                        "answer": "Interfaz de línea de comandos de Laravel",
+                        "images": "https://example.com/laravel-artisan.png",
+                        "information": "Artisan es la interfaz de línea de comandos de Laravel que permite realizar tareas como la generación de código, la ejecución de migraciones, la limpieza de caché y más, facilitando la gestión y automatización de tareas en proyectos Laravel."
+                    },
+                    {
+                        "ask": "¿Qué es el patrón MVC en Laravel?",
+                        "options": [
+                            "Un patrón de arquitectura de software",
+                            "Un método para encriptar contraseñas",
+                            "Una biblioteca de funciones para Laravel"
+                        ],
+                        "answer": "Un patrón de arquitectura de software",
+                        "images": "https://example.com/laravel-mvc.png",
+                        "information": "El patrón MVC (Modelo-Vista-Controlador) en Laravel es una estructura de arquitectura de software que separa la lógica de negocio (Modelo), la presentación (Vista) y la gestión de las solicitudes (Controlador), facilitando la organización y mantenimiento de aplicaciones web."
+                    },
+                    {
+                        "ask": "¿Qué es la inyección de dependencias en Laravel?",
+                        "options": [
+                            "Un principio de diseño que permite instanciar objetos externamente",
+                            "Un método para validar formularios",
+                            "Un tipo de middleware en las rutas"
+                        ],
+                        "answer": "Un principio de diseño que permite instanciar objetos externamente",
+                        "images": "https://example.com/laravel-dependency-injection.png",
+                        "information": "La inyección de dependencias en Laravel es un principio de diseño que permite instanciar objetos externamente y pasar dependencias a través de métodos, constructores o contenedores de servicio, promoviendo la modularidad y reutilización del código."
+                    },
+                    {
+                        "ask": "¿Qué es la paginación en Laravel?",
+                        "options": [
+                            "Dividir grandes conjuntos de datos en páginas más pequeñas",
+                            "Un tipo de validación de formularios",
+                            "Un método para conectar a bases de datos"
+                        ],
+                        "answer": "Dividir grandes conjuntos de datos en páginas más pequeñas",
+                        "images": "https://example.com/laravel-pagination.png",
+                        "information": "La paginación en Laravel es el proceso de dividir grandes conjuntos de datos en páginas más pequeñas, facilitando la navegación y la presentación de datos paginados en aplicaciones web."
+                    },
+                    {
+                        "ask": "¿Qué es el cacheado en Laravel?",
+                        "options": [
+                            "Almacenamiento temporal de datos para mejorar el rendimiento",
+                            "Un método para cifrar contraseñas",
+                            "Un tipo de middleware en las rutas"
+                        ],
+                        "answer": "Almacenamiento temporal de datos para mejorar el rendimiento",
+                        "images": "https://example.com/laravel-cache.png",
+                        "information": "El cacheado en Laravel es el almacenamiento temporal de datos en la memoria o en almacenamiento persistente, como archivos o bases de datos, para mejorar el rendimiento al reducir el tiempo de acceso y procesamiento de datos frecuentemente solicitados."
+                    },
+                    {
+                        "ask": "¿Qué es la internacionalización en Laravel?",
+                        "options": [
+                            "Adaptación de una aplicación para soportar múltiples idiomas",
+                            "Un método para generar rutas dinámicamente",
+                            "Una biblioteca de funciones para Laravel"
+                        ],
+                        "answer": "Adaptación de una aplicación para soportar múltiples idiomas",
+                        "images": "https://example.com/laravel-internationalization.png",
+                        "information": "La internacionalización en Laravel es el proceso de adaptar una aplicación web para soportar múltiples idiomas, permitiendo que los usuarios elijan su idioma preferido y mostrando contenido localizado según la configuración del idioma."
+                    },
+                    {
+                        "ask": "¿Qué son las migraciones en Laravel?",
+                        "options": [
+                            "Archivos PHP que gestionan la estructura de la base de datos",
+                            "Una biblioteca de funciones para Laravel",
+                            "Un método para enviar correos electrónicos"
+                        ],
+                        "answer": "Archivos PHP que gestionan la estructura de la base de datos",
+                        "images": "https://example.com/laravel-migrations.png",
+                        "information": "Las migraciones en Laravel son archivos PHP que gestionan la estructura de la base de datos, permitiendo crear y modificar tablas, índices y restricciones mediante código PHP en lugar de SQL directo, facilitando el control de versiones de la base de datos."
+                    },
+                    {
+                        "ask": "¿Qué es Laravel Forge?",
+                        "options": [
+                            "Servicio de administración de servidores para despliegue de aplicaciones Laravel",
+                            "Un editor de código específico para Laravel",
+                            "Una biblioteca de funciones para Laravel"
+                        ],
+                        "answer": "Servicio de administración de servidores para despliegue de aplicaciones Laravel",
+                        "images": "https://example.com/laravel-forge.png",
+                        "information": "Laravel Forge es un servicio de administración de servidores diseñado para el despliegue y gestión de aplicaciones Laravel en servidores virtuales, simplificando tareas como la configuración de entornos de desarrollo, despliegue continuo y monitoreo de aplicaciones."
+                    },
+                    {
+                        "ask": "¿Qué es Laravel Valet?",
+                        "options": [
+                            "Entorno de desarrollo local para proyectos Laravel",
+                            "Un método para autenticar usuarios",
+                            "Un sistema de plantillas para Laravel"
+                        ],
+                        "answer": "Entorno de desarrollo local para proyectos Laravel",
+                        "images": "https://example.com/laravel-valet.png",
+                        "information": "Laravel Valet es un entorno de desarrollo local diseñado específicamente para proyectos Laravel, proporcionando un servidor de desarrollo ligero y rápido optimizado para aplicaciones Laravel sin necesidad de configuración adicional."
+                    },
+                    {
+                        "ask": "¿Qué es el facade en Laravel?",
+                        "options": [
+                            "Clase que proporciona una interfaz simple para un subsistema complejo",
+                            "Un tipo de middleware en las rutas",
+                            "Un método para definir rutas en el proyecto"
+                        ],
+                        "answer": "Clase que proporciona una interfaz simple para un subsistema complejo",
+                        "images": "https://example.com/laravel-facade.png",
+                        "information": "El facade en Laravel es una clase que proporciona una interfaz simple y estática para acceder a servicios dentro del contenedor de Laravel, ofreciendo un acceso simplificado a subsistemas complejos como el gestor de caché, el gestor de configuración, entre otros."
+                    },
+                    {
+                        "ask": "¿Qué es el helper dd() en Laravel?",
+                        "options": [
+                            "Función de ayuda para depurar e imprimir variables",
+                            "Método para definir directivas de Blade",
+                            "Un método para generar rutas dinámicamente"
+                        ],
+                        "answer": "Función de ayuda para depurar e imprimir variables",
+                        "images": "https://example.com/laravel-dd-helper.png",
+                        "information": "La función dd() en Laravel es un helper que permite depurar e imprimir variables o datos de forma detallada y formateada en la salida, facilitando la inspección y depuración de datos durante el desarrollo de aplicaciones Laravel."
+                    }
+                ],
+                "middel": [
+                    {
+                        "ask": "¿Qué es una migración con estructura condicional en Laravel?",
+                        "options": [
+                            "Una migración que crea o modifica columnas basadas en condiciones",
+                            "Una migración que solo actualiza índices",
+                            "Una migración que elimina todas las tablas"
+                        ],
+                        "answer": "Una migración que crea o modifica columnas basadas en condiciones",
+                        "images": "https://example.com/laravel-migration-conditional.png",
+                        "information": "Una migración con estructura condicional en Laravel permite crear o modificar columnas en una tabla basada en condiciones específicas, utilizando técnicas como `Schema::table()` y métodos condicionales."
+                    },
+                    {
+                        "ask": "¿Cómo se define una política de modelo en Laravel?",
+                        "options": [
+                            "Creando un archivo en la carpeta app/Policies",
+                            "Definiendo métodos en el modelo directamente",
+                            "Utilizando rutas específicas en el archivo routes/web.php"
+                        ],
+                        "answer": "Creando un archivo en la carpeta app/Policies",
+                        "images": "https://example.com/laravel-policies.png",
+                        "information": "Una política de modelo en Laravel se define creando un archivo en la carpeta app/Policies, donde se especifican métodos que determinan permisos para acciones sobre modelos específicos."
+                    },
+                    {
+                        "ask": "¿Qué es un Job en Laravel?",
+                        "options": [
+                            "Una tarea que se ejecuta en segundo plano",
+                            "Un método para definir rutas",
+                            "Un archivo de configuración de base de datos"
+                        ],
+                        "answer": "Una tarea que se ejecuta en segundo plano",
+                        "images": "https://example.com/laravel-job.png",
+                        "information": "Un Job en Laravel es una tarea que se ejecuta en segundo plano utilizando el sistema de colas de Laravel, permitiendo la ejecución de procesos largos o pesados sin bloquear la respuesta del servidor."
+                    },
+                    {
+                        "ask": "¿Qué es el método `resolve()` en Laravel?",
+                        "options": [
+                            "Método que resuelve instancias de clases desde el contenedor de servicios",
+                            "Método para enviar correos electrónicos",
+                            "Método para definir rutas en el archivo web.php"
+                        ],
+                        "answer": "Método que resuelve instancias de clases desde el contenedor de servicios",
+                        "images": "https://example.com/laravel-resolve.png",
+                        "information": "El método `resolve()` en Laravel se utiliza para resolver instancias de clases directamente desde el contenedor de servicios, facilitando la inyección de dependencias y la obtención de instancias de objetos."
+                    },
+                    {
+                        "ask": "¿Cómo se utiliza el método `with()` en una consulta Eloquent?",
+                        "options": [
+                            "Para cargar relaciones de modelos de manera anticipada",
+                            "Para ordenar resultados de la base de datos",
+                            "Para agregar condiciones adicionales a la consulta"
+                        ],
+                        "answer": "Para cargar relaciones de modelos de manera anticipada",
+                        "images": "https://example.com/laravel-eloquent-with.png",
+                        "information": "El método `with()` en una consulta Eloquent se utiliza para cargar relaciones de modelos de manera anticipada, mejorando el rendimiento y evitando la N+1 problemática al realizar consultas a la base de datos."
+                    },
+                    {
+                        "ask": "¿Cuál es el propósito de `Laravel's rate limiting`?",
+                        "options": [
+                            "Limitar el número de solicitudes a una ruta específica",
+                            "Configurar el archivo .env",
+                            "Definir la estructura de la base de datos"
+                        ],
+                        "answer": "Limitar el número de solicitudes a una ruta específica",
+                        "images": "https://example.com/laravel-rate-limiting.png",
+                        "information": "El `Laravel's rate limiting` permite limitar el número de solicitudes a una ruta específica en un período de tiempo determinado, protegiendo la aplicación de abusos y ataques de denegación de servicio (DDoS)."
+                    },
+                    {
+                        "ask": "¿Qué es un evento y un listener en Laravel?",
+                        "options": [
+                            "Un sistema de manejo de eventos y acciones relacionadas",
+                            "Una forma de definir rutas en el archivo routes/web.php",
+                            "Un tipo de middleware para autenticar usuarios"
+                        ],
+                        "answer": "Un sistema de manejo de eventos y acciones relacionadas",
+                        "images": "https://example.com/laravel-events-listeners.png",
+                        "information": "Un evento y un listener en Laravel forman un sistema de manejo de eventos y acciones relacionadas, donde los eventos son acciones que se pueden disparar y los listeners son los manejadores que ejecutan lógica cuando se dispara un evento."
+                    },
+                    {
+                        "ask": "¿Cómo se utiliza `Queue::push()` en Laravel?",
+                        "options": [
+                            "Para agregar trabajos a la cola de ejecución",
+                            "Para enviar correos electrónicos",
+                            "Para definir rutas en el archivo routes/api.php"
+                        ],
+                        "answer": "Para agregar trabajos a la cola de ejecución",
+                        "images": "https://example.com/laravel-queue-push.png",
+                        "information": "El método `Queue::push()` en Laravel se utiliza para agregar trabajos a la cola de ejecución, permitiendo la ejecución asincrónica de tareas en segundo plano."
+                    },
+                    {
+                        "ask": "¿Qué es una migración con campo `timestamps` en Laravel?",
+                        "options": [
+                            "Una migración que añade campos created_at y updated_at",
+                            "Una migración que solo crea tablas sin columnas",
+                            "Una migración que elimina todas las tablas"
+                        ],
+                        "answer": "Una migración que añade campos created_at y updated_at",
+                        "images": "https://example.com/laravel-migration-timestamps.png",
+                        "information": "Una migración con campo `timestamps` en Laravel añade automáticamente las columnas `created_at` y `updated_at` a las tablas, facilitando el seguimiento de la creación y actualización de registros."
+                    },
+                    {
+                        "ask": "¿Qué es el método `sync()` en relaciones Eloquent?",
+                        "options": [
+                            "Sincroniza los IDs de los modelos relacionados en la base de datos",
+                            "Elimina todos los registros de una tabla",
+                            "Define nuevas rutas en el archivo routes/api.php"
+                        ],
+                        "answer": "Sincroniza los IDs de los modelos relacionados en la base de datos",
+                        "images": "https://example.com/laravel-eloquent-sync.png",
+                        "information": "El método `sync()` en relaciones Eloquent se utiliza para sincronizar los IDs de los modelos relacionados en la base de datos, añadiendo, actualizando o eliminando registros según los IDs proporcionados."
+                    },
+                    {
+                        "ask": "¿Qué sucede si se omite el método `->get()` al final de una consulta Eloquent en Laravel?",
+                        "options": [
+                            "La consulta no se ejecuta y devuelve un objeto Query Builder",
+                            "La consulta se ejecuta pero devuelve resultados incorrectos",
+                            "Laravel genera un error de sintaxis"
+                        ],
+                        "answer": "La consulta no se ejecuta y devuelve un objeto Query Builder",
+                        "images": "https://example.com/laravel-query-builder.png",
+                        "information": "Si se omite el método `->get()` al final de una consulta Eloquent en Laravel, la consulta no se ejecuta y simplemente devuelve un objeto Query Builder, que representa la estructura de la consulta pero sin recuperar los datos de la base de datos."
+                    },
+                    {
+                        "ask": "¿Cuál es la diferencia entre `auth()->user()` y `Auth::user()` en Laravel?",
+                        "options": [
+                            "`auth()->user()` devuelve el usuario autenticado actualmente en una instancia más actualizada",
+                            "`Auth::user()` es un alias obsoleto y no se debe utilizar",
+                            "`Auth::user()` devuelve el usuario autenticado pero puede no estar actualizado"
+                        ],
+                        "answer": "`Auth::user()` devuelve el usuario autenticado pero puede no estar actualizado",
+                        "images": "https://example.com/laravel-auth-user.png",
+                        "information": "`auth()->user()` devuelve el usuario autenticado actualmente en una instancia más actualizada, mientras que `Auth::user()` puede devolver el usuario autenticado pero la instancia puede no estar actualizada, dependiendo del contexto de la aplicación."
+                    },
+                    {
+                        "ask": "¿Por qué es importante usar `findOrFail()` en Laravel al buscar un modelo por ID?",
+                        "options": [
+                            "Porque lanza una excepción si no se encuentra el modelo, evitando errores silenciosos",
+                            "Porque mejora el rendimiento de la consulta al usar índices",
+                            "Porque permite buscar modelos en cualquier tabla de la base de datos"
+                        ],
+                        "answer": "Porque lanza una excepción si no se encuentra el modelo, evitando errores silenciosos",
+                        "images": "https://example.com/laravel-findorfail.png",
+                        "information": "Es importante usar `findOrFail()` en Laravel al buscar un modelo por ID porque lanza una excepción `ModelNotFoundException` si no se encuentra el modelo, evitando errores silenciosos y facilitando la gestión de errores y excepciones."
+                    },
+                    {
+                        "ask": "¿Qué sucede si se usa `->first()` en una consulta Eloquent sin condiciones en Laravel?",
+                        "options": [
+                            "Devuelve el primer registro encontrado en la tabla",
+                            "Devuelve todos los registros de la tabla",
+                            "Laravel genera un error de sintaxis"
+                        ],
+                        "answer": "Devuelve el primer registro encontrado en la tabla",
+                        "images": "https://example.com/laravel-first.png",
+                        "information": "Si se usa `->first()` en una consulta Eloquent sin condiciones en Laravel, devuelve el primer registro encontrado en la tabla según el orden predeterminado de la base de datos, si existe algún registro."
+                    },
+                    {
+                        "ask": "¿Qué ocurre si se llama al método `->delete()` en un modelo Eloquent que aún no ha sido guardado?",
+                        "options": [
+                            "No se realiza ninguna operación en la base de datos",
+                            "Se elimina el registro correspondiente en la base de datos",
+                            "Laravel genera un error de integridad referencial"
+                        ],
+                        "answer": "Laravel genera un error de integridad referencial",
+                        "images": "https://example.com/laravel-delete.png",
+                        "information": "Si se llama al método `->delete()` en un modelo Eloquent que aún no ha sido guardado (es decir, que no tiene un ID asignado), Laravel generará un error de integridad referencial ya que no puede eliminar un modelo que no existe físicamente en la base de datos."
+                    },
+                    {
+                        "ask": "¿Qué pasa si se llama al método `->save()` en un modelo Eloquent que ya está guardado y no ha sido modificado?",
+                        "options": [
+                            "No se realiza ninguna operación en la base de datos",
+                            "Se actualizan todos los campos del modelo en la base de datos",
+                            "Laravel genera un error de sintaxis"
+                        ],
+                        "answer": "No se realiza ninguna operación en la base de datos",
+                        "images": "https://example.com/laravel-save.png",
+                        "information": "Si se llama al método `->save()` en un modelo Eloquent que ya está guardado y no ha sido modificado, no se realizará ninguna operación en la base de datos, ya que Laravel detecta que no hay cambios en el modelo desde la última vez que se guardó."
+                    },
+                    {
+                        "ask": "¿Cuál es la función de `Eloquent's touch()` en Laravel?",
+                        "options": [
+                            "Actualizar el timestamp `updated_at` del modelo",
+                            "Enviar notificaciones por correo electrónico",
+                            "Configurar el archivo .env"
+                        ],
+                        "answer": "Actualizar el timestamp `updated_at` del modelo",
+                        "images": "https://example.com/laravel-eloquent-touch.png",
+                        "information": "`Eloquent's touch()` en Laravel se utiliza para actualizar el timestamp `updated_at` de un modelo sin modificar ningún otro campo, útil para marcar un modelo como actualizado sin cambiar su contenido."
+                    },
+                    {
+                        "ask": "¿Qué significa `Eager Loading` en Laravel?",
+                        "options": [
+                            "Cargar relaciones de modelos de manera anticipada para evitar la N+1 problemática",
+                            "Definir rutas en el archivo routes/api.php",
+                            "Una forma de manejar errores en las vistas"
+                        ],
+                        "answer": "Cargar relaciones de modelos de manera anticipada para evitar la N+1 problemática",
+                        "images": "https://example.com/laravel-eager-loading.png",
+                        "information": "`Eager Loading` en Laravel se refiere a cargar relaciones de modelos de manera anticipada durante la recuperación de datos, evitando la N+1 problemática al realizar consultas a la base de datos y mejorando el rendimiento de la aplicación."
+                    },
+                    {
+                        "ask": "¿Cuál es el propósito de usar `->exists()` en un modelo Eloquent en Laravel?",
+                        "options": [
+                            "Verificar si el modelo tiene una clave primaria asignada",
+                            "Comprobar si existe una relación entre dos modelos",
+                            "Definir la estructura de la base de datos"
+                        ],
+                        "answer": "Verificar si el modelo tiene una clave primaria asignada",
+                        "images": "https://example.com/laravel-exists.png",
+                        "information": "El método `->exists()` en un modelo Eloquent en Laravel se utiliza para verificar si el modelo tiene una clave primaria asignada y existe físicamente en la base de datos, devolviendo true o false según el estado del modelo."
+                    },
+                    {
+                        "ask": "¿Qué ocurre si se omite el middleware `auth` en una ruta protegida en Laravel?",
+                        "options": [
+                            "Los usuarios pueden acceder a la ruta sin autenticación",
+                            "Laravel genera un error de seguridad",
+                            "Se muestra una página de error 403"
+                        ],
+                        "answer": "Los usuarios pueden acceder a la ruta sin autenticación",
+                        "images": "https://example.com/laravel-middleware-auth.png",
+                        "information": "Si se omite el middleware `auth` en una ruta protegida en Laravel, los usuarios podrán acceder a la ruta sin necesidad de autenticación, lo cual puede comprometer la seguridad de la aplicación si la ruta requiere protección."
+                    }
+                ],
+                "expert": [
+                    {
+                        "ask": "¿Cuál es la diferencia entre `Soft Deletes` y `Hard Deletes` en Laravel?",
+                        "options": [
+                            "`Soft Deletes` marca registros como eliminados sin eliminar físicamente de la base de datos, `Hard Deletes` los elimina permanentemente",
+                            "`Soft Deletes` elimina registros con una clave suave, `Hard Deletes` solo elimina registros con claves primarias",
+                            "`Soft Deletes` es un método obsoleto, `Hard Deletes` es la forma recomendada de eliminar registros"
+                        ],
+                        "answer": "`Soft Deletes` marca registros como eliminados sin eliminar físicamente de la base de datos, `Hard Deletes` los elimina permanentemente",
+                        "images": "https://example.com/laravel-soft-hard-deletes.png",
+                        "information": "`Soft Deletes` en Laravel marca registros como eliminados estableciendo una columna `deleted_at`, mientras que `Hard Deletes` elimina registros físicamente de la base de datos. `Soft Deletes` permite recuperar registros marcados como eliminados, mientras que `Hard Deletes` es irreversible."
+                    },
+                    {
+                        "ask": "¿Qué es un `Repository Pattern` y cómo se implementa en Laravel?",
+                        "options": [
+                            "Un patrón de diseño que abstrae la capa de acceso a datos, implementado mediante interfaces y clases concretas",
+                            "Un método para definir rutas en el archivo routes/web.php",
+                            "Una técnica para diseñar políticas de modelo en Laravel"
+                        ],
+                        "answer": "Un patrón de diseño que abstrae la capa de acceso a datos, implementado mediante interfaces y clases concretas",
+                        "images": "https://example.com/laravel-repository-pattern.png",
+                        "information": "El `Repository Pattern` en Laravel es un patrón de diseño que abstrae la capa de acceso a datos de la lógica de negocio, utilizando interfaces para definir contratos y clases concretas que implementan métodos para interactuar con la base de datos. Facilita el testing y la mantenibilidad del código al separar responsabilidades."
+                    },
+                    {
+                        "ask": "¿Cómo se usa `Database Transactions` en Laravel y por qué son importantes?",
+                        "options": [
+                            "Para agrupar operaciones de base de datos en transacciones que se pueden revertir si falla alguna operación",
+                            "Para optimizar consultas de base de datos y mejorar el rendimiento de la aplicación",
+                            "Para enmascarar errores de sintaxis en consultas SQL"
+                        ],
+                        "answer": "Para agrupar operaciones de base de datos en transacciones que se pueden revertir si falla alguna operación",
+                        "images": "https://example.com/laravel-database-transactions.png",
+                        "information": "`Database Transactions` en Laravel se utilizan para agrupar operaciones de base de datos en transacciones que se pueden revertir automáticamente si alguna operación falla, manteniendo la consistencia de la base de datos. Son importantes para asegurar la integridad de los datos y evitar estados inconsistentes."
+                    },
+                    {
+                        "ask": "¿Qué es `Eloquent ORM` y por qué es poderoso en Laravel?",
+                        "options": [
+                            "Un ORM que simplifica la interacción con la base de datos mediante modelos de datos en PHP",
+                            "Un método para definir relaciones entre modelos en Laravel",
+                            "Una herramienta para configurar el archivo .env en Laravel"
+                        ],
+                        "answer": "Un ORM que simplifica la interacción con la base de datos mediante modelos de datos en PHP",
+                        "images": "https://example.com/laravel-eloquent-orm.png",
+                        "information": "`Eloquent ORM` en Laravel es un ORM (Object-Relational Mapping) que simplifica la interacción con la base de datos utilizando modelos de datos en PHP. Es poderoso debido a su capacidad para definir relaciones entre modelos, realizar consultas avanzadas y gestionar la persistencia de datos de manera eficiente."
+                    },
+                    {
+                        "ask": "¿Qué es un `Service Container` en Laravel y cómo se utiliza?",
+                        "options": [
+                            "Un contenedor que gestiona la creación y resolución de dependencias de aplicaciones",
+                            "Una herramienta para optimizar consultas de base de datos",
+                            "Un método para configurar el archivo routes/api.php"
+                        ],
+                        "answer": "Un contenedor que gestiona la creación y resolución de dependencias de aplicaciones",
+                        "images": "https://example.com/laravel-service-container.png",
+                        "information": "El `Service Container` en Laravel es un contenedor que gestiona la creación y resolución de dependencias de aplicaciones. Permite la inyección de dependencias, la resolución automática de clases y la gestión de instancias compartidas, facilitando la creación de aplicaciones modulares y mantenibles."
+                    },
+                    {
+                        "ask": "¿Cómo se implementa `Caching` en Laravel y cuál es su propósito?",
+                        "options": [
+                            "Para almacenar en caché resultados de consultas y operaciones costosas para mejorar el rendimiento",
+                            "Para realizar copias de seguridad de la base de datos en un sistema externo",
+                            "Para encriptar datos sensibles en la base de datos"
+                        ],
+                        "answer": "Para almacenar en caché resultados de consultas y operaciones costosas para mejorar el rendimiento",
+                        "images": "https://example.com/laravel-caching.png",
+                        "information": "`Caching` en Laravel se implementa utilizando el sistema de almacenamiento en caché integrado. Su propósito es almacenar en caché resultados de consultas y operaciones costosas para mejorar el rendimiento de la aplicación, reduciendo el tiempo de respuesta y la carga en el servidor de base de datos."
+                    },
+                    {
+                        "ask": "¿Qué son los `Laravel Gates` y `Policies` y cómo se diferencian?",
+                        "options": [
+                            "`Laravel Gates` son puntos de entrada para autorizar acciones, `Policies` son clases que definen políticas de acceso",
+                            "`Laravel Gates` son políticas de acceso, `Policies` son puntos de entrada para autorizar acciones",
+                            "`Laravel Gates` y `Policies` son términos intercambiables en Laravel"
+                        ],
+                        "answer": "`Laravel Gates` son puntos de entrada para autorizar acciones, `Policies` son clases que definen políticas de acceso",
+                        "images": "https://example.com/laravel-gates-policies.png",
+                        "information": "`Laravel Gates` son puntos de entrada que determinan si un usuario puede realizar una acción específica en la aplicación. `Policies` son clases que definen políticas de acceso, especificando reglas para cada modelo. `Gates` se utilizan para autorización basada en habilidades, mientras que `Policies` son más específicas a nivel de modelo."
+                    },
+                    {
+                        "ask": "¿Qué es `Laravel Mix` y cómo se utiliza para la gestión de activos?",
+                        "options": [
+                            "Un wrapper para gestionar activos web, como JavaScript, CSS y otros recursos, integrado con Webpack",
+                            "Una herramienta para migrar bases de datos en Laravel",
+                            "Un método para configurar el archivo .env"
+                        ],
+                        "answer": "Un wrapper para gestionar activos web, como JavaScript, CSS y otros recursos, integrado con Webpack",
+                        "images": "https://example.com/laravel-mix.png",
+                        "information": "`Laravel Mix` es un wrapper para gestionar activos web en Laravel, como JavaScript, CSS y otros recursos. Integrado con Webpack, simplifica el proceso de compilación y optimización de activos, permitiendo la escritura de código utilizando sintaxis moderna y mejorando el rendimiento de la aplicación."
+                    },
+                    {
+                        "ask": "¿Qué son los `Eloquent Events` en Laravel y cómo se utilizan?",
+                        "options": [
+                            "Eventos que se disparan en ciertos puntos del ciclo de vida de los modelos Eloquent, útiles para ejecutar lógica personalizada",
+                            "Métodos para manejar errores en las consultas Eloquent",
+                            "Una técnica para validar campos en formularios en Laravel"
+                        ],
+                        "answer": "Eventos que se disparan en ciertos puntos del ciclo de vida de los modelos Eloquent, útiles para ejecutar lógica personalizada",
+                        "images": "https://example.com/laravel-eloquent-events.png",
+                        "information": "`Eloquent Events` en Laravel son eventos que se disparan en ciertos puntos del ciclo de vida de los modelos Eloquent, como creación, actualización o eliminación. Se utilizan para ejecutar lógica personalizada antes o después de realizar operaciones en la base de datos, facilitando la extensibilidad y personalización del comportamiento de los modelos."
+                    },
+                    {
+                        "ask": "¿Qué método se utiliza para registrar un middleware global en Laravel?",
+                        "options": [
+                            "app()->middleware()",
+                            "$this->middleware()",
+                            "Kernel::$middleware"
+                        ],
+                        "answer": "Kernel::$middleware",
+                        "information": "Los middleware globales se registran en la propiedad $middleware de la clase Kernel, aplicándose a todas las solicitudes de la aplicación."
+                    },
+                    {
+                        "ask": "¿Cuál es la diferencia principal entre 'softDeletes' y 'forceDelete' en Eloquent?",
+                        "options": [
+                            "Tiempo de ejecución",
+                            "Reversibilidad",
+                            "Espacio en base de datos"
+                        ],
+                        "answer": "Reversibilidad",
+                        "information": "'softDeletes' marca un registro como eliminado sin borrarlo de la base de datos, permitiendo su restauración, mientras que 'forceDelete' lo elimina permanentemente."
+                    },
+                    {
+                        "ask": "¿Qué método de Eloquent se utiliza para prevenir condiciones de carrera en transacciones concurrentes?",
+                        "options": [
+                            "lockForUpdate()",
+                            "sharedLock()",
+                            "optimisticLock()"
+                        ],
+                        "answer": "lockForUpdate()",
+                        "information": "lockForUpdate() bloquea las filas seleccionadas para actualizaciones, previniendo que otras transacciones modifiquen o seleccionen esos datos hasta que la transacción actual se complete."
+                    },
+                    {
+                        "ask": "En Laravel, ¿qué patrón de diseño implementa el facade Route?",
+                        "options": [
+                            "Singleton",
+                            "Factory",
+                            "Facade"
+                        ],
+                        "answer": "Facade",
+                        "information": "Route es un facade que proporciona una interfaz estática simple para acceder a la funcionalidad de enrutamiento subyacente, ocultando la complejidad de la implementación real."
+                    },
+                    {
+                        "ask": "¿Qué característica de PHP 8 se puede utilizar para simplificar la inyección de dependencias en los constructores de Laravel?",
+                        "options": [
+                            "Named arguments",
+                            "Constructor property promotion",
+                            "Union types"
+                        ],
+                        "answer": "Constructor property promotion",
+                        "information": "Constructor property promotion permite declarar y inicializar propiedades de clase directamente en los parámetros del constructor, reduciendo la cantidad de código boilerplate."
+                    },
+                    {
+                        "ask": "¿Cuál es la principal ventaja de usar Laravel Sanctum sobre Passport para la autenticación de API?",
+                        "options": [
+                            "Soporte para OAuth2",
+                            "Simplicidad",
+                            "Mayor seguridad"
+                        ],
+                        "answer": "Simplicidad",
+                        "information": "Sanctum ofrece una solución de autenticación más ligera y sencilla para SPA y API tokens, ideal para aplicaciones que no requieren toda la complejidad de OAuth2 proporcionada por Passport."
+                    },
+                    {
+                        "ask": "¿Qué técnica se utiliza en Laravel para optimizar las consultas N+1?",
+                        "options": [
+                            "Lazy loading",
+                            "Eager loading",
+                            "Preloading"
+                        ],
+                        "answer": "Eager loading",
+                        "information": "Eager loading permite cargar relaciones anticipadamente utilizando métodos como 'with()', reduciendo significativamente el número de consultas a la base de datos y mejorando el rendimiento."
+                    },
+                    {
+                        "ask": "En el contexto de Laravel Queues, ¿qué es el 'job batching'?",
+                        "options": [
+                            "Ejecución secuencial de jobs",
+                            "Agrupación de jobs para procesamiento simultáneo",
+                            "Priorización de jobs"
+                        ],
+                        "answer": "Agrupación de jobs para procesamiento simultáneo",
+                        "information": "Job batching permite agrupar jobs relacionados, ejecutarlos en paralelo, y realizar acciones cuando todo el lote se ha completado, facilitando el procesamiento de grandes cantidades de tareas."
+                    },
+                    {
+                        "ask": "¿Qué ventaja principal ofrece el uso de 'route model binding' implícito en Laravel?",
+                        "options": [
+                            "Mejora la seguridad",
+                            "Reduce el código repetitivo",
+                            "Aumenta la velocidad de la aplicación"
+                        ],
+                        "answer": "Reduce el código repetitivo",
+                        "information": "El route model binding implícito automáticamente resuelve los modelos Eloquent basados en los segmentos de URL, eliminando la necesidad de buscar manualmente el modelo en cada método del controlador."
+                    },
+                    {
+                        "ask": "¿Cuál es el propósito principal de implementar el patrón Repository en Laravel?",
+                        "options": [
+                            "Mejorar el rendimiento",
+                            "Aumentar la seguridad",
+                            "Desacoplar la lógica de negocio del acceso a datos"
+                        ],
+                        "answer": "Desacoplar la lógica de negocio del acceso a datos",
+                        "information": "El patrón Repository actúa como una capa de abstracción entre la lógica de negocio y la capa de persistencia, permitiendo cambiar fácilmente la fuente de datos sin afectar el resto de la aplicación."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de caché distribuido personalizado en Laravel que sea compatible con el facade Cache?",
+                        "options": [
+                            "Extendiendo la clase Cache",
+                            "Implementando CacheStore interface",
+                            "Modificando config/cache.php"
+                        ],
+                        "answer": "Implementando CacheStore interface",
+                        "information": "Para crear un driver de caché personalizado, se debe implementar la interface CacheStore y registrar el nuevo driver usando Cache::extend() en un ServiceProvider. Esto permite integrarse perfectamente con el sistema de caché de Laravel manteniendo la consistencia de la API."
+                    },
+                    {
+                        "ask": "¿Qué técnica avanzada de Eloquent utilizarías para implementar un sistema de auditoría que registre todos los cambios en los modelos, incluyendo relaciones polimórficas?",
+                        "options": [
+                            "Events y Observers",
+                            "Trait personalizado con booted()",
+                            "Middleware de base de datos"
+                        ],
+                        "answer": "Trait personalizado con booted()",
+                        "information": "Un trait personalizado que utilice el método booted() puede interceptar y registrar todos los cambios en los modelos, incluyendo relaciones polimórficas. Este enfoque permite una implementación más flexible y reutilizable que los eventos o observers tradicionales."
+                    },
+                    {
+                        "ask": "En un sistema de microservicios basado en Laravel, ¿cómo implementarías un mecanismo de tracing distribuido compatible con OpenTelemetry?",
+                        "options": [
+                            "Middleware global",
+                            "Service Provider personalizado",
+                            "Decorador de servicios"
+                        ],
+                        "answer": "Service Provider personalizado",
+                        "information": "Un Service Provider personalizado puede registrar un TracerProvider de OpenTelemetry, configurar exportadores y instrumentar automáticamente componentes clave de Laravel como el router, permitiendo un tracing consistente a través de múltiples servicios."
+                    },
+                    {
+                        "ask": "¿Qué estrategia utilizarías para implementar un sistema de permisos dinámicos en Laravel que soporte herencia múltiple y sea eficiente en términos de consultas a la base de datos?",
+                        "options": [
+                            "RBAC con caché",
+                            "ACL con eager loading",
+                            "Bitwise permissions"
+                        ],
+                        "answer": "Bitwise permissions",
+                        "information": "Los permisos bitwise permiten representar múltiples permisos en un solo valor entero, soportando herencia múltiple a través de operaciones bit a bit. Esto reduce significativamente las consultas a la base de datos y mejora el rendimiento en sistemas complejos de autorización."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de migraciones multi-tenant en Laravel que soporte bases de datos separadas por tenant y migraciones específicas por tenant?",
+                        "options": [
+                            "Comandos Artisan personalizados",
+                            "Extensión de DatabaseMigrationRepository",
+                            "Middleware de conexión dinámica"
+                        ],
+                        "answer": "Extensión de DatabaseMigrationRepository",
+                        "information": "Extender DatabaseMigrationRepository permite personalizar cómo se almacenan y recuperan las migraciones por tenant. Combinado con un sistema de conexiones dinámicas, esto permite ejecutar migraciones específicas por tenant en sus respectivas bases de datos."
+                    },
+                    {
+                        "ask": "En un sistema de alta concurrencia, ¿cómo implementarías un mecanismo de rate limiting distribuido en Laravel que sea consistente a través de múltiples instancias de la aplicación?",
+                        "options": [
+                            "Cache distribuido con Redis",
+                            "Base de datos centralizada",
+                            "Sistema de colas distribuido"
+                        ],
+                        "answer": "Cache distribuido con Redis",
+                        "information": "Utilizando Redis como backend de caché distribuido, se puede implementar un rate limiter que mantenga contadores atómicos compartidos entre todas las instancias de la aplicación, garantizando consistencia en entornos de alta concurrencia y escalabilidad horizontal."
+                    },
+                    {
+                        "ask": "¿Qué enfoque utilizarías para implementar un sistema de plugins dinámicos en Laravel que permita cargar y descargar funcionalidades en tiempo de ejecución sin reiniciar la aplicación?",
+                        "options": [
+                            "Service Providers dinámicos",
+                            "Composer scripts",
+                            "Contenedor IoC personalizado"
+                        ],
+                        "answer": "Contenedor IoC personalizado",
+                        "information": "Un contenedor IoC personalizado puede cargar dinámicamente clases y bindings de plugins en tiempo de ejecución. Combinado con un sistema de descubrimiento de plugins basado en filesystem, esto permite añadir o remover funcionalidades sin reiniciar la aplicación."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de validación de formularios dinámicos en Laravel que soporte reglas de validación personalizadas basadas en el contenido de otros campos del formulario?",
+                        "options": [
+                            "Validator personalizado",
+                            "Form Request dinámico",
+                            "Middleware de validación"
+                        ],
+                        "answer": "Form Request dinámico",
+                        "information": "Un Form Request dinámico puede ajustar sus reglas de validación basándose en los datos de entrada. Implementando el método withValidator() y utilizando closures para definir reglas, se pueden crear validaciones complejas e interdependientes que se adapten al contenido del formulario."
+                    },
+                    {
+                        "ask": "En un sistema de eventos de dominio en Laravel, ¿cómo implementarías la reconstrucción del estado de agregados a partir de eventos históricos de manera eficiente?",
+                        "options": [
+                            "Snapshots periódicos",
+                            "Caché de agregados",
+                            "Proyecciones de eventos"
+                        ],
+                        "answer": "Proyecciones de eventos",
+                        "information": "Las proyecciones de eventos permiten reconstruir el estado de los agregados procesando eventos de manera incremental. Utilizando un sistema de almacenamiento de eventos optimizado y procesamiento asíncrono, se puede mantener vistas materializadas actualizadas de los agregados para consultas rápidas."
+                    },
+                    {
+                        "ask": "¿Qué técnica avanzada utilizarías para implementar un sistema de migraciones de base de datos sin tiempo de inactividad en Laravel, considerando tablas grandes y esquemas complejos?",
+                        "options": [
+                            "Lock-free migrations",
+                            "Dual schema pattern",
+                            "Online schema change"
+                        ],
+                        "answer": "Online schema change",
+                        "information": "La técnica de online schema change implica crear una nueva tabla con el esquema deseado, replicar los datos incrementalmente, y finalmente hacer un switch atómico. Esto requiere implementar triggers personalizados, un sistema de colas para sincronización, y manejar cuidadosamente las transacciones para garantizar la consistencia de los datos durante la migración."
+                    }
+                ],
+                "god": [
+                    {
+                        "ask": "¿Cómo implementarías un sistema de sharding dinámico en Laravel que permita distribuir datos y consultas entre múltiples bases de datos basándose en patrones de acceso en tiempo real?",
+                        "options": [
+                            "Middleware de enrutamiento de conexiones",
+                            "Proxy de base de datos personalizado",
+                            "Extensión del Query Builder"
+                        ],
+                        "answer": "Proxy de base de datos personalizado",
+                        "information": "Un proxy de base de datos personalizado puede interceptar todas las consultas, analizarlas en tiempo real, y redirigirlas dinámicamente a diferentes shards basándose en patrones de acceso, carga del sistema y reglas de negocio complejas. Esto requiere implementar un analizador de SQL, un sistema de monitoreo en tiempo real y un algoritmo de balanceo de carga adaptativo."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de caché predictivo en Laravel que anticipe y precargue datos basándose en patrones de comportamiento del usuario y aprendizaje automático?",
+                        "options": [
+                            "Job scheduling con machine learning",
+                            "Middleware de análisis predictivo",
+                            "Service container con inyección de predicciones"
+                        ],
+                        "answer": "Service container con inyección de predicciones",
+                        "information": "Implementar un servicio de predicción que utilice modelos de machine learning para anticipar las necesidades de datos. Este servicio se inyectaría en el container de Laravel, permitiendo que los componentes de la aplicación soliciten predicciones y precarguen datos de forma transparente. Requiere integración con sistemas de ML, análisis de comportamiento en tiempo real y optimización continua del modelo predictivo."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de migración de datos en tiempo real entre diferentes versiones de esquemas de base de datos en una aplicación Laravel de alta disponibilidad?",
+                        "options": [
+                            "Doble escritura con reconciliación",
+                            "Schema versioning con proxies",
+                            "Event sourcing con proyecciones dinámicas"
+                        ],
+                        "answer": "Event sourcing con proyecciones dinámicas",
+                        "information": "Utilizar event sourcing permite mantener múltiples proyecciones de datos compatibles con diferentes versiones del esquema. Las proyecciones se actualizan dinámicamente a medida que se producen eventos, permitiendo la coexistencia de múltiples versiones del esquema sin tiempo de inactividad. Requiere un sistema sofisticado de manejo de eventos, proyecciones paralelas y estrategias de reconciliación para manejar inconsistencias temporales."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de autorización en Laravel que soporte políticas de acceso basadas en atributos (ABAC) con evaluación en tiempo real de condiciones complejas y contextuales?",
+                        "options": [
+                            "Middleware de evaluación dinámica",
+                            "Policy providers contextuales",
+                            "Motor de reglas con DSL personalizado"
+                        ],
+                        "answer": "Motor de reglas con DSL personalizado",
+                        "information": "Implementar un motor de reglas que evalúe políticas ABAC utilizando un DSL (Domain Specific Language) personalizado. Este motor interpreta reglas complejas que consideran atributos del usuario, recurso, acción y ambiente en tiempo real. Requiere diseñar un lenguaje de reglas expresivo, un intérprete eficiente y un sistema de caché inteligente para optimizar evaluaciones frecuentes."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de consultas distribuidas en Laravel que permita ejecutar consultas complejas a través de múltiples microservicios y bases de datos heterogéneas, manteniendo la consistencia transaccional?",
+                        "options": [
+                            "Saga pattern con compensación",
+                            "Distributed query engine",
+                            "Federated GraphQL gateway"
+                        ],
+                        "answer": "Distributed query engine",
+                        "information": "Desarrollar un motor de consultas distribuidas que descomponga consultas complejas en sub-consultas, las distribuya a los servicios relevantes, y combine los resultados. Debe manejar transacciones distribuidas, resolver conflictos, y optimizar el plan de ejecución. Requiere implementar un parser SQL avanzado, un optimizador de consultas distribuidas y un protocolo de commit de dos fases personalizado."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de deployment continuo para una aplicación Laravel de misión crítica que garantice zero-downtime y permita rollbacks instantáneos sin pérdida de datos?",
+                        "options": [
+                            "Blue-green deployment con state transfer",
+                            "Canary releases con feature flags",
+                            "Incremental schema evolution con migración de estado en vivo"
+                        ],
+                        "answer": "Incremental schema evolution con migración de estado en vivo",
+                        "information": "Implementar un sistema que permita evolucionar el esquema de la aplicación y la base de datos incrementalmente, migrando el estado en tiempo real. Requiere versionar cada cambio de esquema, mantener compatibilidad bidireccional entre versiones adyacentes, y un mecanismo para transferir el estado de la aplicación entre versiones sin interrupción del servicio. Incluye técnicas avanzadas de gestión de conexiones, proxying de requests y sincronización de estado distribuido."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de rate limiting adaptativo en Laravel que ajuste dinámicamente los límites basándose en la carga del sistema, patrones de tráfico y prioridad del usuario?",
+                        "options": [
+                            "Token bucket con factores dinámicos",
+                            "Leaky bucket con retroalimentación del sistema",
+                            "Adaptive concurrency limits"
+                        ],
+                        "answer": "Adaptive concurrency limits",
+                        "information": "Implementar un sistema de límites de concurrencia adaptativos que ajuste dinámicamente la cantidad de requests concurrentes permitidos basándose en métricas del sistema en tiempo real. Utiliza algoritmos de control de congestión inspirados en TCP, combinados con aprendizaje por refuerzo para optimizar los límites. Requiere instrumentación detallada del sistema, un modelo de aprendizaje en línea y mecanismos de propagación de límites en entornos distribuidos."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de caching multi-nivel en Laravel que optimice automáticamente la estrategia de caching basándose en patrones de acceso, costo de computación y consistencia de datos?",
+                        "options": [
+                            "Cache hierarchy con políticas adaptativas",
+                            "Predictive cache warming",
+                            "Semantic caching con query analysis"
+                        ],
+                        "answer": "Semantic caching con query analysis",
+                        "information": "Implementar un sistema de caché semántico que analice las consultas SQL y las solicitudes de API para entender la semántica de los datos solicitados. Utiliza esta información para almacenar y recuperar datos de manera inteligente en múltiples niveles de caché (memoria, disco, distribuido). Requiere un analizador de consultas avanzado, un sistema de indexación semántica y algoritmos de invalidación de caché basados en dependencias de datos."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de manejo de errores y resiliencia en Laravel que permita la degradación graciosa de funcionalidades y auto-reparación en escenarios de fallos parciales del sistema?",
+                        "options": [
+                            "Circuit breaker con service mesh",
+                            "Chaos engineering framework",
+                            "Self-healing microservices con reconciliation loops"
+                        ],
+                        "answer": "Self-healing microservices con reconciliation loops",
+                        "information": "Desarrollar un framework de microservicios auto-reparables donde cada servicio implementa bucles de reconciliación que constantemente comparan el estado actual con el estado deseado y toman acciones correctivas. Incluye mecanismos de detección de anomalías, estrategias de retroceso exponencial, y capacidades de auto-escalado. Requiere un sistema sofisticado de observabilidad, un DSL para definir estados deseados, y algoritmos de toma de decisiones basados en políticas para manejar escenarios complejos de fallo."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de testing en Laravel que permita simular escenarios de carga extrema y fallos de infraestructura a escala global, incluyendo latencia de red realista y particiones de red?",
+                        "options": [
+                            "Distributed load testing con Kubernetes",
+                            "Chaos monkey integration",
+                            "Global scale simulation framework"
+                        ],
+                        "answer": "Global scale simulation framework",
+                        "information": "Crear un framework de simulación a escala global que permita modelar y probar la aplicación Laravel bajo condiciones extremas. Incluye simulación de millones de usuarios concurrentes, emulación de latencia y pérdida de paquetes basada en geografía real, y capacidad para introducir fallos de infraestructura complejos. Requiere integración con sistemas de orquestación de contenedores, un motor de simulación de red distribuida, y capacidades de generación de tráfico sintético basado en patrones de uso reales."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de migración de datos en tiempo real entre diferentes arquitecturas de base de datos (por ejemplo, de relacional a graph) en una aplicación Laravel de alta disponibilidad sin tiempo de inactividad?",
+                        "options": [
+                            "Dual-write con transformación asíncrona",
+                            "Change Data Capture (CDC) con adaptadores de transformación",
+                            "Event sourcing con proyecciones multi-modelo"
+                        ],
+                        "answer": "Event sourcing con proyecciones multi-modelo",
+                        "information": "Implementar un sistema de event sourcing que capture todos los cambios como eventos. Utilizar proyecciones especializadas para mantener representaciones en tiempo real de los datos en diferentes modelos de base de datos. Requiere un diseño cuidadoso del modelo de eventos, estrategias de particionamiento para escalar horizontalmente, y mecanismos de consistencia eventual entre proyecciones."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de caché predictivo en Laravel que utilice aprendizaje por refuerzo para optimizar dinámicamente las estrategias de invalidación de caché?",
+                        "options": [
+                            "Q-learning con políticas de expiración",
+                            "Actor-Critic para decisiones de invalidación",
+                            "Monte Carlo Tree Search para predicción de invalidaciones"
+                        ],
+                        "answer": "Actor-Critic para decisiones de invalidación",
+                        "information": "Implementar un sistema Actor-Critic que aprenda a tomar decisiones de invalidación de caché. El Actor sugiere acciones de invalidación, mientras que el Critic evalúa la calidad de estas decisiones basándose en métricas de rendimiento del sistema. Requiere instrumentación detallada, un modelo de recompensas que balancee la frescura de los datos con el rendimiento, y estrategias de exploración vs explotación."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de consultas polimórficas en Laravel que permita ejecutar la misma consulta de manera transparente a través de múltiples backends de almacenamiento (SQL, NoSQL, sistemas de archivos distribuidos)?",
+                        "options": [
+                            "Query builder abstracto con adaptadores",
+                            "DSL de consultas con compilación JIT",
+                            "Virtual database layer con routing dinámico"
+                        ],
+                        "answer": "DSL de consultas con compilación JIT",
+                        "information": "Desarrollar un DSL (Domain Specific Language) para consultas que se pueda compilar en tiempo de ejecución a consultas nativas para diferentes backends. Utilizar técnicas de compilación JIT para optimizar el rendimiento. Requiere diseñar un lenguaje de consultas expresivo, implementar compiladores para cada backend, y un optimizador que pueda generar planes de ejecución eficientes para cada tipo de almacenamiento."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de autorización en Laravel que soporte políticas de acceso basadas en el contexto global del sistema, incluyendo estado de la infraestructura, métricas de negocio en tiempo real y análisis de riesgo dinámico?",
+                        "options": [
+                            "Policy engine con evaluación distribuida",
+                            "ABAC con integraciones de sistemas externos",
+                            "Authorización basada en grafos de conocimiento"
+                        ],
+                        "answer": "Authorización basada en grafos de conocimiento",
+                        "information": "Implementar un sistema de autorización que utilice un grafo de conocimiento para representar el estado global del sistema, relaciones entre entidades y métricas en tiempo real. Las decisiones de autorización se toman mediante consultas y traversals en este grafo. Requiere un motor de grafos de alto rendimiento, integración en tiempo real con múltiples fuentes de datos, y algoritmos de inferencia para derivar permisos implícitos."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de migraciones de base de datos que soporte esquemas evolutivos y permita a diferentes versiones de la aplicación coexistir y operar simultáneamente sobre la misma base de datos?",
+                        "options": [
+                            "Versionado de esquema con proxies de acceso",
+                            "Migración incremental con transformaciones bidireccionales",
+                            "Esquemas multi-versión con routing de queries"
+                        ],
+                        "answer": "Esquemas multi-versión con routing de queries",
+                        "information": "Desarrollar un sistema que mantenga múltiples versiones del esquema simultáneamente, con un router de queries que dirija las consultas a la versión apropiada del esquema basándose en la versión de la aplicación. Incluye mecanismos para sincronizar datos entre versiones de esquema, estrategias de consolidación para eliminar versiones obsoletas, y optimizaciones de almacenamiento para manejar la redundancia de datos."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de manejo de transacciones distribuidas en Laravel que garantice la consistencia en operaciones que abarcan múltiples microservicios y bases de datos, sin comprometer la disponibilidad del sistema?",
+                        "options": [
+                            "Saga pattern con compensación",
+                            "Two-phase commit optimizado",
+                            "Transacciones BASE con reconciliación eventual"
+                        ],
+                        "answer": "Transacciones BASE con reconciliación eventual",
+                        "information": "Implementar un sistema de transacciones que siga el modelo BASE (Basically Available, Soft state, Eventually consistent). Utilizar técnicas de reconciliación eventual para resolver conflictos y mantener la consistencia a largo plazo. Requiere diseñar protocolos de comunicación asíncrona entre servicios, mecanismos de detección y resolución de conflictos, y estrategias para manejar la incertidumbre temporal en el estado del sistema."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de deployment continuo para una aplicación Laravel distribuida globalmente que soporte rollouts graduales basados en geografía, métricas de rendimiento en tiempo real y feedback de usuarios?",
+                        "options": [
+                            "Canary releases con routing geográfico",
+                            "Feature flags con machine learning",
+                            "Progressive delivery con análisis de impacto en tiempo real"
+                        ],
+                        "answer": "Progressive delivery con análisis de impacto en tiempo real",
+                        "information": "Desarrollar un sistema de entrega progresiva que despliegue nuevas versiones gradualmente basándose en múltiples criterios. Utilizar análisis en tiempo real para evaluar el impacto de cada fase del despliegue en métricas clave de negocio y rendimiento. Requiere instrumentación detallada de la aplicación, un sistema de routing de tráfico dinámico, y algoritmos de toma de decisiones que puedan balancear múltiples objetivos contrapuestos."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de observabilidad para una aplicación Laravel de microservicios que permita el debugging distribuido en tiempo real y la correlación automática de eventos a través de servicios?",
+                        "options": [
+                            "Distributed tracing con IA para análisis causal",
+                            "Log aggregation con procesamiento de lenguaje natural",
+                            "Metrics streaming con detección de anomalías en tiempo real"
+                        ],
+                        "answer": "Distributed tracing con IA para análisis causal",
+                        "information": "Implementar un sistema de tracing distribuido que capture detalles granulares de cada transacción. Utilizar técnicas de IA, como redes bayesianas o análisis de grafos, para inferir relaciones causales entre eventos y identificar automáticamente la raíz de problemas complejos. Requiere instrumentación extensiva, un sistema de almacenamiento y consulta de alta velocidad para los traces, y modelos de IA que puedan aprender y adaptarse a patrones de comportamiento del sistema."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de caching predictivo en Laravel que utilice modelos de series temporales y análisis de patrones de acceso para precalcular y cachear datos antes de que sean solicitados?",
+                        "options": [
+                            "Time series forecasting con ARIMA",
+                            "Deep learning con LSTM para predicción de accesos",
+                            "Reinforcement learning para optimización de cache"
+                        ],
+                        "answer": "Deep learning con LSTM para predicción de accesos",
+                        "information": "Utilizar redes neuronales LSTM (Long Short-Term Memory) para analizar y predecir patrones de acceso a datos. Implementar un sistema que use estas predicciones para precalcular y cachear datos proactivamente. Requiere recolección y procesamiento de grandes volúmenes de datos de acceso históricos, un pipeline de entrenamiento continuo del modelo, y mecanismos para integrar las predicciones con el sistema de caché de Laravel."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de rate limiting en Laravel que se adapte dinámicamente basándose en la capacidad del sistema, el valor del usuario y el contexto de la solicitud, optimizando para maximizar el throughput de transacciones de alto valor?",
+                        "options": [
+                            "Token bucket con parámetros dinámicos",
+                            "Adaptive concurrency control",
+                            "Economic model con subastas en tiempo real"
+                        ],
+                        "answer": "Economic model con subastas en tiempo real",
+                        "information": "Implementar un sistema de rate limiting basado en un modelo económico donde los recursos del sistema se asignan mediante subastas en tiempo real. Cada solicitud tiene un 'valor' basado en métricas de negocio, y compite por recursos del sistema. Requiere diseñar un mecanismo de subasta eficiente, integración con sistemas de valoración de transacciones en tiempo real, y estrategias para balancear la equidad con la optimización de valor."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de pruebas de caos (chaos engineering) automatizado para una aplicación Laravel de microservicios que pueda identificar y explotar vulnerabilidades sistémicas de manera segura en producción?",
+                        "options": [
+                            "Fault injection con machine learning",
+                            "Game theoretic approach para diseño de experimentos",
+                            "Evolutionary algorithms para generación de escenarios"
+                        ],
+                        "answer": "Game theoretic approach para diseño de experimentos",
+                        "information": "Desarrollar un sistema que utilice teoría de juegos para diseñar y ejecutar experimentos de caos. Modelar el sistema como un juego donde el 'atacante' intenta encontrar vulnerabilidades y el 'defensor' intenta mantener la estabilidad. Utilizar técnicas de equilibrio de Nash para encontrar estrategias óptimas de prueba. Requiere modelado detallado del sistema, simulaciones de alta fidelidad, y mecanismos de seguridad robustos para limitar el impacto potencial."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de migración de datos en tiempo real para una aplicación Laravel que permita transiciones suaves entre diferentes paradigmas de base de datos (por ejemplo, de relacional a grafo) sin tiempo de inactividad?",
+                        "options": [
+                            "Dual-write con reconciliación asíncrona",
+                            "Change Data Capture (CDC) con transformación en streaming",
+                            "Evolutionary database design con proxies de acceso"
+                        ],
+                        "answer": "Change Data Capture (CDC) con transformación en streaming",
+                        "information": "Implementar un sistema de CDC que capture todos los cambios en la base de datos fuente y los transforme en tiempo real para la base de datos destino. Utilizar procesamiento de streaming para realizar transformaciones complejas y mantener la consistencia. Requiere diseñar un pipeline de transformación de alta performance, estrategias para manejar diferencias semánticas entre modelos de datos, y mecanismos para validar y reconciliar datos durante la migración."
+                    },
+                    {
+                        "ask": "¿Cómo implementarías un sistema de autorización en Laravel que utilice técnicas de aprendizaje federado para mejorar las políticas de seguridad sin comprometer la privacidad de los datos de los usuarios?",
+                        "options": [
+                            "Federated learning con differential privacy",
+                            "Homomorphic encryption para entrenamiento de modelos",
+                            "Secure multi-party computation para políticas distribuidas"
+                        ],
+                        "answer": "Federated learning con differential privacy",
+                        "information": "Desarrollar un sistema de autorización que utilice aprendizaje federado para mejorar las políticas de seguridad basándose en datos de múltiples instancias de la aplicación. Aplicar técnicas de privacidad diferencial para garantizar que los modelos aprendidos no revelen información sensible. Requiere implementar protocolos de aprendizaje federado, mecanismos de agregación segura de actualizaciones de modelo, y técnicas avanzadas de anonimización de datos."
+                    },
+                    {
+                        "ask": "¿Cómo diseñarías un sistema de orquestación de contenedores para una aplicación Laravel que optimice dinámicamente la distribución de recursos basándose en predicciones de carga, costos de infraestructura y SLAs de negocio?",
+                        "options": [
+                            "Reinforcement learning para scheduling",
+                            "Genetic algorithms para optimización de placement",
+                            "Market-based resource allocation"
+                        ],
+                        "answer": "Reinforcement learning para scheduling",
+                        "information": "Implementar un sistema de orquestación que utilice aprendizaje por refuerzo para tomar decisiones de scheduling y distribución de recursos. El agente de RL aprende a optimizar la asignación de recursos basándose en múltiples objetivos (rendimiento, costo, SLAs). Requiere modelar el entorno de contenedores como un problema de RL, diseñar una función de recompensa que balancee múltiples objetivos, y estrategias para manejar la exploración en un entorno de producción."
                     }
                 ]
             }

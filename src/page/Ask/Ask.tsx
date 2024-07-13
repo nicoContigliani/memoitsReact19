@@ -27,6 +27,7 @@ const Ask = () => {
         dataAll,
         results
     } = useTecnologyData(tecnology, selectedValue, selectValueLevel, json);
+        console.log("🚀 ~ Ask ~ selectTecnology:", selectTecnology)
 
 
 
@@ -99,8 +100,8 @@ const Ask = () => {
                     <Maps
                         dataMapAll={dataAll}
                         getTodo={data?.ask}
-                        tecnoData={selectTecnology}
-                        levelData={selectLevel}
+                        tecnoData={selectTecnology||'react'}
+                        levelData={selectLevel||'basic'}
 
                     />
                 )}
