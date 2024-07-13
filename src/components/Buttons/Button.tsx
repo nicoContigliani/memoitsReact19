@@ -1,16 +1,17 @@
-// import React from 'react'
+import React from 'react'
 import { Button, Flex } from 'antd';
 
-const Buttons = (props: any) => {
+const Buttons = ({ actionsData, children, ...restProps }) => {
   return (
     <Flex gap="small" wrap>
       <Button
-        onClick={props?.actions}
-        {...props}
-      >{props?.children}
+        onClick={actionsData}
+        {...restProps}
+      >
+        {children}
       </Button>
     </Flex>
   )
 }
 
-export default Buttons
+export default Buttons;

@@ -49,7 +49,8 @@ const useTecnologyData = (tecnology: any, selectedValue: number, selectValueLeve
     }, [selectTecnology, selectLevel, tecnology]);
 
     const results = useProcessTecnologyData(json);
-
+    
+ 
     return {
         optionsTecnology,
         selectTecnology,
