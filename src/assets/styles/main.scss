@@ -2,7 +2,6 @@ $primary-color: #007bff;
 $secondary-color: #007bff;
 $thirds-color: #76b8fd;
 
-
 $glass-background-color: rgba(144, 177, 255, 0.271); // Color del fondo con transparencia
 
 body {
@@ -213,6 +212,56 @@ body {
         border-radius: 5%;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.143);
         border-width: 2px 0 0 2px;
+    }
+
+    .todo-basic {
+        font-size: 16px;
+        color: #333; /* Color de texto oscuro para contraste */
+        line-height: 1.5; /* Espaciado entre líneas */
+
+        border: 1px solid #b7d2f3;
+        background: radial-gradient(circle, #a3d7f5, #6bbde7);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 5px;
+    }
+
+    .todo-middel {
+        font-size: 16px;
+        color: #333; /* Color de texto oscuro para contraste */
+        line-height: 1.5; /* Espaciado entre líneas */
+
+        border: 1px solid #b7d2f3;
+        background: radial-gradient(circle, #b2f4c3, #66e980);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 5px;
+    }
+
+    .todo-expert {
+        border: 1px solid #e5874d;
+        color: #333; /* Color de texto oscuro para contraste */
+
+        background: radial-gradient(circle, #ffcc80, #ff9900);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 5px;
+    }
+    .todo-god {
+        border: 1px solid #e5874d;
+        background: radial-gradient(circle, #ff9d6c, #ff613a);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
     }
 
     .ask {
