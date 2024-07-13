@@ -11,6 +11,7 @@ const Asnwers = (props: any) => {
 
     return (
         <div>
+            <hr />
             {answers ?
                 <div className='answersSussses'>
                     si
@@ -20,6 +21,7 @@ const Asnwers = (props: any) => {
                     no
                 </div>
             }
+            <hr />
         </div>
     )
 }
