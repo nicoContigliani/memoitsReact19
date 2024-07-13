@@ -19,7 +19,7 @@ const Ask = () => {
     const [selectedValue, setSelectedValue] = useState<number>(0);
     const [showInfoComponent, setShowInfoComponent] = useState<boolean>(false);
     const { tecnology } = JsonGetData;
-
+    
     const {
         optionsTecnology,
         selectTecnology,
@@ -27,9 +27,10 @@ const Ask = () => {
         dataAll,
         results
     } = useTecnologyData(tecnology, selectedValue, selectValueLevel, json);
-        console.log("🚀 ~ Ask ~ selectTecnology:", selectTecnology)
-
-
+    console.log("🚀 ~ Ask ~ selectTecnology:", selectTecnology)
+    
+    
+    console.log("🚀 ~ Ask ~ data:", data)
 
     return (
         <div>

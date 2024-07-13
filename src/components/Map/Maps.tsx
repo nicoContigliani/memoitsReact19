@@ -101,11 +101,6 @@ const Maps = (props: any | undefined) => {
         }
     }
 
-
-
-
-
-
     return (
         <div className='checkClass'>
             {dataMapReturn && dataMapReturn.map((item: any, index: any) => (

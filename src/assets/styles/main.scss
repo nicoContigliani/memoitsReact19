@@ -71,7 +71,7 @@ body {
     }
 
     .level {
-        width: auto;
+        width: 150px;
     }
 
     .checkbox-tecnology {}
@@ -117,10 +117,21 @@ body {
     }
 
     .buttonGroup {
+        padding-top: 3px;
         padding-left: 5%;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding-bottom: 10px;
+    }
+
+    .rates {
+        width: 150%;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1px;
+        border-radius: 5%;
     }
 
     .buttonReset {
@@ -293,7 +304,6 @@ body {
         border-radius: 1%;
         border: none;
         padding: 20px 30px;
-        
     }
 
     .buttonGroup {
@@ -305,19 +315,13 @@ body {
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
-
     }
 
     .rates {
-        // padding: 1%;
-        // padding-top: 3%;
-        // padding-left: 5%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
         border-radius: 5%;
-
-
     }
 
     .buttonReset {
@@ -335,12 +339,6 @@ body {
         width: 100%; /* Ancho del 100% del contenedor padre */
         max-width: 800px; /* Ancho máximo del div */
         margin: 0 auto; /* Centra el div horizontalmente */
-        // padding: 10px; /* Espacio interno dentro del div
-        // background-color: #f0f0f0; /* Color de fondo del div
-        // border: 1px solid #ccc; /* Borde del div
-        // box-sizing: border-box; /* Incluye el padding y border en el ancho total
-        // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-   
     }
 
     .data {}
