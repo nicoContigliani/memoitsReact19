@@ -5648,6 +5648,1416 @@
                     }
                 ]
             }
+        },
+        {
+            "bestLoop": {
+                "basic": [
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre los elementos de un array y multiplicarlos por 2?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "for...of",
+                        "example": {
+                            "description": "Para iterar sobre los elementos de un array y multiplicarlos por 2, puedes usar el bucle for...of de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst result = [];\nfor (const number of numbers) {\n  result.push(number * 2);\n}\nconsole.log(result); // Output: [2, 4, 6, 8, 10]"
+                        },
+                        "images": "https://example.com/for-of-loop.png",
+                        "information": "El bucle for...of es ideal para iterar sobre los elementos de un array cuando no necesitas acceder a los índices del array."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para sumar todos los elementos de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para sumar todos los elementos de un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, number) => acc + number, 0);\nconsole.log(sum); // Output: 15"
+                        },
+                        "images": "https://example.com/reduce-sum.png",
+                        "information": "El método reduce es ideal para acumular valores, como sumar todos los elementos de un array."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para transformar cada elemento de un array en su doble?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "map",
+                        "example": {
+                            "description": "Para transformar cada elemento de un array en su doble, puedes usar el método map de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(number => number * 2);\nconsole.log(doubled); // Output: [2, 4, 6, 8, 10]"
+                        },
+                        "images": "https://example.com/map-double.png",
+                        "information": "El método map es ideal para aplicar una transformación a cada elemento de un array y devolver un nuevo array con los elementos transformados."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre un array y loggear cada elemento en la consola?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "for",
+                        "example": {
+                            "description": "Para iterar sobre un array y loggear cada elemento en la consola, puedes usar el bucle for de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nfor (let i = 0; i < numbers.length; i++) {\n  console.log(numbers[i]);\n}"
+                        },
+                        "images": "https://example.com/for-loop.png",
+                        "information": "El bucle for es ideal cuando necesitas controlar el índice de iteración y realizar operaciones con él."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre las propiedades de un objeto?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "for...in"
+                        ],
+                        "answer": "for...in",
+                        "example": {
+                            "description": "Para iterar sobre las propiedades de un objeto, puedes usar el bucle for...in de la siguiente manera:",
+                            "code": "const person = { name: 'Alice', age: 25, city: 'Wonderland' };\nfor (const key in person) {\n  console.log(`${key}: ${person[key]}`);\n}"
+                        },
+                        "images": "https://example.com/for-in-loop.png",
+                        "information": "El bucle for...in es ideal para iterar sobre las propiedades de un objeto."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para filtrar los elementos de un array que son mayores a 10?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "filter"
+                        ],
+                        "answer": "filter",
+                        "example": {
+                            "description": "Para filtrar los elementos de un array que son mayores a 10, puedes usar el método filter de la siguiente manera:",
+                            "code": "const numbers = [5, 10, 15, 20];\nconst filtered = numbers.filter(number => number > 10);\nconsole.log(filtered); // Output: [15, 20]"
+                        },
+                        "images": "https://example.com/filter-array.png",
+                        "information": "El método filter es ideal para crear un nuevo array con todos los elementos que pasen una prueba implementada por una función."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para verificar si al menos un elemento de un array es par?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "some"
+                        ],
+                        "answer": "some",
+                        "example": {
+                            "description": "Para verificar si al menos un elemento de un array es par, puedes usar el método some de la siguiente manera:",
+                            "code": "const numbers = [1, 3, 5, 8, 10];\nconst hasEven = numbers.some(number => number % 2 === 0);\nconsole.log(hasEven); // Output: true"
+                        },
+                        "images": "https://example.com/some-array.png",
+                        "information": "El método some es ideal para comprobar si al menos un elemento en el array cumple con una condición."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para verificar si todos los elementos de un array son mayores que 0?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "every"
+                        ],
+                        "answer": "every",
+                        "example": {
+                            "description": "Para verificar si todos los elementos de un array son mayores que 0, puedes usar el método every de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst allPositive = numbers.every(number => number > 0);\nconsole.log(allPositive); // Output: true"
+                        },
+                        "images": "https://example.com/every-array.png",
+                        "information": "El método every es ideal para comprobar si todos los elementos en el array cumplen con una condición."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para encontrar el primer elemento de un array que es mayor que 10?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "find"
+                        ],
+                        "answer": "find",
+                        "example": {
+                            "description": "Para encontrar el primer elemento de un array que es mayor que 10, puedes usar el método find de la siguiente manera:",
+                            "code": "const numbers = [5, 10, 15, 20];\nconst first = numbers.find(number => number > 10);\nconsole.log(first); // Output: 15"
+                        },
+                        "images": "https://example.com/find-array.png",
+                        "information": "El método find es ideal para encontrar el primer elemento en el array que cumpla con una condición."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para aplanar un array de arrays en un solo array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para aplanar un array de arrays en un solo array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const nestedArrays = [[1, 2], [3, 4], [5, 6]];\nconst flatArray = nestedArrays.reduce((acc, array) => acc.concat(array), []);\nconsole.log(flatArray); // Output: [1, 2, 3, 4, 5, 6]"
+                        },
+                        "images": "https://example.com/reduce-flatten.png",
+                        "information": "El método reduce es ideal para transformar y combinar elementos de un array en una nueva estructura, como aplanar un array de arrays."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para crear un nuevo array con los cuadrados de los elementos de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "map",
+                        "example": {
+                            "description": "Para crear un nuevo array con los cuadrados de los elementos de un array, puedes usar el método map de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst squares = numbers.map(number => number * number);\nconsole.log(squares); // Output: [1, 4, 9, 16, 25]"
+                        },
+                        "images": "https://example.com/map-squares.png",
+                        "information": "El método map es ideal para aplicar una función a cada elemento de un array y crear un nuevo array con los resultados."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre un array y contar el número de elementos mayores a 10?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "for",
+                        "example": {
+                            "description": "Para iterar sobre un array y contar el número de elementos mayores a 10, puedes usar el bucle for de la siguiente manera:",
+                            "code": "const numbers = [5, 10, 15, 20];\nlet count = 0;\nfor (let i = 0; i < numbers.length; i++) {\n  if (numbers[i] > 10) {\n    count++;\n  }\n}\nconsole.log(count); // Output: 2"
+                        },
+                        "images": "https://example.com/for-count.png",
+                        "information": "El bucle for es ideal cuando necesitas iterar sobre un array y realizar una operación condicional en cada elemento."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre un array de objetos y extraer un array con un atributo específico?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "map",
+                        "example": {
+                            "description": "Para iterar sobre un array de objetos y extraer un array con un atributo específico, puedes usar el método map de la siguiente manera:",
+                            "code": "const people = [{ name: 'Alice' }, { name: 'Bob' }, { name: 'Charlie' }];\nconst names = people.map(person => person.name);\nconsole.log(names); // Output: ['Alice', 'Bob', 'Charlie']"
+                        },
+                        "images": "https://example.com/map-objects.png",
+                        "information": "El método map es ideal para transformar un array de objetos en un nuevo array con un atributo específico de esos objetos."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para sumar los valores de un array de objetos según un atributo específico?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para sumar los valores de un array de objetos según un atributo específico, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const items = [{ price: 10 }, { price: 20 }, { price: 30 }];\nconst total = items.reduce((acc, item) => acc + item.price, 0);\nconsole.log(total); // Output: 60"
+                        },
+                        "images": "https://example.com/reduce-objects.png",
+                        "information": "El método reduce es ideal para acumular valores de un array de objetos según un atributo específico."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para crear un array con los elementos de otro array que cumplen una condición?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "filter"
+                        ],
+                        "answer": "filter",
+                        "example": {
+                            "description": "Para crear un array con los elementos de otro array que cumplen una condición, puedes usar el método filter de la siguiente manera:",
+                            "code": "const numbers = [5, 10, 15, 20];\nconst filtered = numbers.filter(number => number > 10);\nconsole.log(filtered); // Output: [15, 20]"
+                        },
+                        "images": "https://example.com/filter-condition.png",
+                        "information": "El método filter es ideal para crear un nuevo array con todos los elementos que pasan una prueba implementada por una función."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para verificar si un array contiene un elemento específico?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "includes"
+                        ],
+                        "answer": "includes",
+                        "example": {
+                            "description": "Para verificar si un array contiene un elemento específico, puedes usar el método includes de la siguiente manera:",
+                            "code": "const fruits = ['apple', 'banana', 'mango'];\nconst hasApple = fruits.includes('apple');\nconsole.log(hasApple); // Output: true"
+                        },
+                        "images": "https://example.com/includes-array.png",
+                        "information": "El método includes es ideal para verificar si un array contiene un elemento específico."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para encontrar el índice de un elemento específico en un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "indexOf"
+                        ],
+                        "answer": "indexOf",
+                        "example": {
+                            "description": "Para encontrar el índice de un elemento específico en un array, puedes usar el método indexOf de la siguiente manera:",
+                            "code": "const fruits = ['apple', 'banana', 'mango'];\nconst index = fruits.indexOf('banana');\nconsole.log(index); // Output: 1"
+                        },
+                        "images": "https://example.com/indexOf-array.png",
+                        "information": "El método indexOf es ideal para encontrar el índice de un elemento específico en un array."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para concatenar los valores de un array en una cadena de texto?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "join"
+                        ],
+                        "answer": "join",
+                        "example": {
+                            "description": "Para concatenar los valores de un array en una cadena de texto, puedes usar el método join de la siguiente manera:",
+                            "code": "const words = ['Hello', 'world'];\nconst sentence = words.join(' ');\nconsole.log(sentence); // Output: 'Hello world'"
+                        },
+                        "images": "https://example.com/join-array.png",
+                        "information": "El método join es ideal para concatenar todos los elementos de un array en una cadena de texto, separados por un delimitador."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para encontrar el valor máximo en un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para encontrar el valor máximo en un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst max = numbers.reduce((acc, number) => number > acc ? number : acc, numbers[0]);\nconsole.log(max); // Output: 5"
+                        },
+                        "images": "https://example.com/reduce-max.png",
+                        "information": "El método reduce es ideal para iterar sobre un array y mantener el valor máximo encontrado."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para eliminar elementos duplicados de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para eliminar elementos duplicados de un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5, 3, 4, 1];\nconst unique = numbers.reduce((acc, number) => {\n  if (!acc.includes(number)) {\n    acc.push(number);\n  }\n  return acc;\n}, []);\nconsole.log(unique); // Output: [1, 2, 3, 4, 5]"
+                        },
+                        "images": "https://example.com/reduce-unique.png",
+                        "information": "El método reduce es ideal para eliminar elementos duplicados de un array acumulando solo los elementos que no están presentes en el acumulador."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para sumar todos los elementos de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para sumar todos los elementos de un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, number) => acc + number, 0);\nconsole.log(sum); // Output: 15"
+                        },
+                        "images": "https://example.com/reduce-sum.png",
+                        "information": "El método reduce es ideal para realizar acumulaciones o sumas sobre los elementos de un array."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre los elementos de un array sin modificarlo?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "for...of",
+                        "example": {
+                            "description": "Para iterar sobre los elementos de un array sin modificarlo, puedes usar el bucle for...of de la siguiente manera:",
+                            "code": "const fruits = ['apple', 'banana', 'mango'];\nfor (const fruit of fruits) {\n  console.log(fruit);\n}\n// Output: 'apple', 'banana', 'mango'"
+                        },
+                        "images": "https://example.com/forof-iteration.png",
+                        "information": "El bucle for...of es ideal para iterar sobre los elementos de un array de manera simple y directa."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para duplicar los elementos de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "map",
+                        "example": {
+                            "description": "Para duplicar los elementos de un array, puedes usar el método map de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(number => number * 2);\nconsole.log(doubled); // Output: [2, 4, 6, 8, 10]"
+                        },
+                        "images": "https://example.com/map-duplicate.png",
+                        "information": "El método map es ideal para transformar cada elemento de un array según una función dada."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para contar el número de elementos de un array que cumplen una condición?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "filter",
+                            "reduce"
+                        ],
+                        "answer": "filter",
+                        "example": {
+                            "description": "Para contar el número de elementos de un array que cumplen una condición, puedes usar el método filter de la siguiente manera:",
+                            "code": "const numbers = [5, 10, 15, 20];\nconst filtered = numbers.filter(number => number > 10);\nconsole.log(filtered.length); // Output: 2"
+                        },
+                        "images": "https://example.com/filter-count.png",
+                        "information": "El método filter es ideal para crear un nuevo array con los elementos que pasan una prueba específica."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para encontrar el primer elemento de un array que cumple una condición?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "find",
+                            "reduce"
+                        ],
+                        "answer": "find",
+                        "example": {
+                            "description": "Para encontrar el primer elemento de un array que cumple una condición, puedes usar el método find de la siguiente manera:",
+                            "code": "const numbers = [5, 10, 15, 20];\nconst found = numbers.find(number => number > 10);\nconsole.log(found); // Output: 15"
+                        },
+                        "images": "https://example.com/find-first.png",
+                        "information": "El método find es ideal para encontrar el primer elemento en un array que cumple con una condición especificada."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre las claves y valores de un objeto?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "for...in",
+                            "reduce"
+                        ],
+                        "answer": "for...in",
+                        "example": {
+                            "description": "Para iterar sobre las claves y valores de un objeto, puedes usar el bucle for...in de la siguiente manera:",
+                            "code": "const person = { name: 'Alice', age: 25, city: 'New York' };\nfor (const key in person) {\n  console.log(`${key}: ${person[key]}`);\n}\n// Output: 'name: Alice', 'age: 25', 'city: New York'"
+                        },
+                        "images": "https://example.com/forin-object.png",
+                        "information": "El bucle for...in es ideal para iterar sobre todas las claves de un objeto."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para iterar sobre los elementos de un Set?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "for...of",
+                        "example": {
+                            "description": "Para iterar sobre los elementos de un Set, puedes usar el bucle for...of de la siguiente manera:",
+                            "code": "const mySet = new Set([1, 2, 3, 4, 5]);\nfor (const value of mySet) {\n  console.log(value);\n}\n// Output: 1, 2, 3, 4, 5"
+                        },
+                        "images": "https://example.com/forof-set.png",
+                        "information": "El bucle for...of es ideal para iterar sobre los elementos de estructuras de datos iterables como Set y Map."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para crear un array con los elementos únicos de otro array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para crear un array con los elementos únicos de otro array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5, 3, 4, 1];\nconst unique = numbers.reduce((acc, number) => {\n  if (!acc.includes(number)) {\n    acc.push(number);\n  }\n  return acc;\n}, []);\nconsole.log(unique); // Output: [1, 2, 3, 4, 5]"
+                        },
+                        "images": "https://example.com/reduce-unique.png",
+                        "information": "El método reduce es ideal para eliminar elementos duplicados y mantener sólo los únicos."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para crear una copia profunda de un array de objetos?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "map",
+                        "example": {
+                            "description": "Para crear una copia profunda de un array de objetos, puedes usar el método map de la siguiente manera:",
+                            "code": "const objects = [{ a: 1 }, { b: 2 }];\nconst deepCopy = objects.map(obj => ({ ...obj }));\nconsole.log(deepCopy); // Output: [{ a: 1 }, { b: 2 }]"
+                        },
+                        "images": "https://example.com/map-deepcopy.png",
+                        "information": "El método map es ideal para crear una copia profunda de los elementos de un array aplicando una transformación a cada uno."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para aplicar una función a cada elemento de un array y crear un nuevo array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "map",
+                            "reduce"
+                        ],
+                        "answer": "map",
+                        "example": {
+                            "description": "Para aplicar una función a cada elemento de un array y crear un nuevo array, puedes usar el método map de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(number => number * 2);\nconsole.log(doubled); // Output: [2, 4, 6, 8, 10]"
+                        },
+                        "images": "https://example.com/map-apply.png",
+                        "information": "El método map es ideal para aplicar una función a cada elemento de un array y crear un nuevo array con los resultados."
+                    }
+                ],
+                "middel": [
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para realizar una búsqueda en un array de objetos?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "find",
+                            "filter"
+                        ],
+                        "answer": "find",
+                        "example": {
+                            "description": "Para buscar un objeto específico en un array de objetos, puedes usar el método find de la siguiente manera:",
+                            "code": "const users = [\n  { id: 1, name: 'Alice' },\n  { id: 2, name: 'Bob' },\n  { id: 3, name: 'Charlie' }\n];\nconst user = users.find(user => user.id === 2);\nconsole.log(user); // Output: { id: 2, name: 'Bob' }"
+                        },
+                        "images": "https://example.com/find-object.png",
+                        "information": "El método find es ideal para buscar un elemento específico en un array de objetos basado en una condición."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para ordenar un array de números?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "sort",
+                            "reduce"
+                        ],
+                        "answer": "sort",
+                        "example": {
+                            "description": "Para ordenar un array de números en orden ascendente, puedes usar el método sort de la siguiente manera:",
+                            "code": "const numbers = [3, 1, 4, 1, 5, 9, 2];\nnumbers.sort((a, b) => a - b);\nconsole.log(numbers); // Output: [1, 1, 2, 3, 4, 5, 9]"
+                        },
+                        "images": "https://example.com/sort-numbers.png",
+                        "information": "El método sort es ideal para ordenar elementos de un array según un criterio definido."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para realizar una suma acumulada de elementos de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para realizar una suma acumulada de elementos de un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, number) => acc + number, 0);\nconsole.log(sum); // Output: 15"
+                        },
+                        "images": "https://example.com/reduce-accumulate.png",
+                        "information": "El método reduce es ideal para realizar operaciones acumulativas como suma, producto, o cualquier operación que combine elementos de un array."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para transformar un array de objetos a un objeto con claves únicas?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para transformar un array de objetos en un objeto con claves únicas, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const users = [\n  { id: 1, name: 'Alice' },\n  { id: 2, name: 'Bob' },\n  { id: 3, name: 'Charlie' }\n];\nconst usersById = users.reduce((acc, user) => {\n  acc[user.id] = user;\n  return acc;\n}, {});\nconsole.log(usersById); // Output: { 1: { id: 1, name: 'Alice' }, 2: { id: 2, name: 'Bob' }, 3: { id: 3, name: 'Charlie' } }"
+                        },
+                        "images": "https://example.com/reduce-object-transform.png",
+                        "information": "El método reduce es útil para transformar arrays en otros tipos de estructuras de datos, como objetos con claves únicas."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para concatenar todos los elementos de un array en una cadena de texto?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "join"
+                        ],
+                        "answer": "join",
+                        "example": {
+                            "description": "Para concatenar todos los elementos de un array en una cadena de texto, puedes usar el método join de la siguiente manera:",
+                            "code": "const fruits = ['apple', 'banana', 'cherry'];\nconst result = fruits.join(', ');\nconsole.log(result); // Output: 'apple, banana, cherry'"
+                        },
+                        "images": "https://example.com/join-array.png",
+                        "information": "El método join es ideal para convertir todos los elementos de un array en una única cadena de texto separada por un delimitador especificado."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para validar si todos los elementos de un array cumplen una condición?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "every",
+                            "some"
+                        ],
+                        "answer": "every",
+                        "example": {
+                            "description": "Para validar si todos los elementos de un array cumplen una condición, puedes usar el método every de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst allPositive = numbers.every(number => number > 0);\nconsole.log(allPositive); // Output: true"
+                        },
+                        "images": "https://example.com/every-validation.png",
+                        "information": "El método every es ideal para verificar si todos los elementos de un array cumplen una condición específica."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para calcular el promedio de un array de números?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para calcular el promedio de un array de números, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, number) => acc + number, 0);\nconst average = sum / numbers.length;\nconsole.log(average); // Output: 3"
+                        },
+                        "images": "https://example.com/reduce-average.png",
+                        "information": "El método reduce es ideal para calcular valores agregados como sumas, promedios, mínimos o máximos en arrays numéricos."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para eliminar elementos duplicados de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "filter"
+                        ],
+                        "answer": "filter",
+                        "example": {
+                            "description": "Para eliminar elementos duplicados de un array, puedes usar el método filter de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 1, 2, 4];\nconst unique = numbers.filter((value, index, self) => self.indexOf(value) === index);\nconsole.log(unique); // Output: [1, 2, 3, 4]"
+                        },
+                        "images": "https://example.com/filter-remove-duplicates.png",
+                        "information": "El método filter es ideal para eliminar elementos duplicados de un array basado en una condición de unicidad."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para contar la cantidad de ocurrencias de cada elemento en un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para contar la cantidad de ocurrencias de cada elemento en un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const names = ['Alice', 'Bob', 'Alice', 'Charlie', 'Bob'];\nconst count = names.reduce((acc, name) => {\n  acc[name] = acc[name] ? acc[name] + 1 : 1;\n  return acc;\n}, {});\nconsole.log(count); // Output: { 'Alice': 2, 'Bob': 2, 'Charlie': 1 }"
+                        },
+                        "images": "https://example.com/reduce-count-occurrences.png",
+                        "information": "El método reduce es ideal para contar la cantidad de veces que cada elemento aparece en un array y almacenar los resultados en un objeto."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para buscar un elemento en un array de objetos?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "find",
+                            "filter"
+                        ],
+                        "answer": "find",
+                        "example": {
+                            "description": "Para buscar un objeto específico en un array de objetos, puedes usar el método find de la siguiente manera:",
+                            "code": "const users = [\n  { id: 1, name: 'Alice' },\n  { id: 2, name: 'Bob' },\n  { id: 3, name: 'Charlie' }\n];\nconst user = users.find(user => user.id === 2);\nconsole.log(user); // Output: { id: 2, name: 'Bob' }"
+                        },
+                        "images": "https://example.com/find-object.png",
+                        "information": "El método find es ideal para buscar un elemento específico en un array de objetos basado en una condición."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para ordenar un array de números?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "sort",
+                            "reduce"
+                        ],
+                        "answer": "sort",
+                        "example": {
+                            "description": "Para ordenar un array de números en orden ascendente, puedes usar el método sort de la siguiente manera:",
+                            "code": "const numbers = [3, 1, 4, 1, 5, 9, 2];\nnumbers.sort((a, b) => a - b);\nconsole.log(numbers); // Output: [1, 1, 2, 3, 4, 5, 9]"
+                        },
+                        "images": "https://example.com/sort-numbers.png",
+                        "information": "El método sort es ideal para ordenar elementos de un array según un criterio definido."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para realizar una suma acumulada de elementos de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para realizar una suma acumulada de elementos de un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, number) => acc + number, 0);\nconsole.log(sum); // Output: 15"
+                        },
+                        "images": "https://example.com/reduce-accumulate.png",
+                        "information": "El método reduce es ideal para realizar operaciones acumulativas como suma, producto, o cualquier operación que combine elementos de un array."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para transformar un array de objetos a un objeto con claves únicas?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para transformar un array de objetos en un objeto con claves únicas, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const users = [\n  { id: 1, name: 'Alice' },\n  { id: 2, name: 'Bob' },\n  { id: 3, name: 'Charlie' }\n];\nconst usersById = users.reduce((acc, user) => {\n  acc[user.id] = user;\n  return acc;\n}, {});\nconsole.log(usersById); // Output: { 1: { id: 1, name: 'Alice' }, 2: { id: 2, name: 'Bob' }, 3: { id: 3, name: 'Charlie' } }"
+                        },
+                        "images": "https://example.com/reduce-object-transform.png",
+                        "information": "El método reduce es útil para transformar arrays en otros tipos de estructuras de datos, como objetos con claves únicas."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para concatenar todos los elementos de un array en una cadena de texto?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "join"
+                        ],
+                        "answer": "join",
+                        "example": {
+                            "description": "Para concatenar todos los elementos de un array en una cadena de texto, puedes usar el método join de la siguiente manera:",
+                            "code": "const fruits = ['apple', 'banana', 'cherry'];\nconst result = fruits.join(', ');\nconsole.log(result); // Output: 'apple, banana, cherry'"
+                        },
+                        "images": "https://example.com/join-array.png",
+                        "information": "El método join es ideal para convertir todos los elementos de un array en una única cadena de texto separada por un delimitador especificado."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para validar si todos los elementos de un array cumplen una condición?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "every",
+                            "some"
+                        ],
+                        "answer": "every",
+                        "example": {
+                            "description": "Para validar si todos los elementos de un array cumplen una condición, puedes usar el método every de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst allPositive = numbers.every(number => number > 0);\nconsole.log(allPositive); // Output: true"
+                        },
+                        "images": "https://example.com/every-validation.png",
+                        "information": "El método every es ideal para verificar si todos los elementos de un array cumplen una condición específica."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para calcular el promedio de un array de números?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para calcular el promedio de un array de números, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, number) => acc + number, 0);\nconst average = sum / numbers.length;\nconsole.log(average); // Output: 3"
+                        },
+                        "images": "https://example.com/reduce-average.png",
+                        "information": "El método reduce es ideal para calcular valores agregados como sumas, promedios, mínimos o máximos en arrays numéricos."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para eliminar elementos duplicados de un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "filter"
+                        ],
+                        "answer": "filter",
+                        "example": {
+                            "description": "Para eliminar elementos duplicados de un array, puedes usar el método filter de la siguiente manera:",
+                            "code": "const numbers = [1, 2, 3, 1, 2, 4];\nconst unique = numbers.filter((value, index, self) => self.indexOf(value) === index);\nconsole.log(unique); // Output: [1, 2, 3, 4]"
+                        },
+                        "images": "https://example.com/filter-remove-duplicates.png",
+                        "information": "El método filter es ideal para eliminar elementos duplicados de un array basado en una condición de unicidad."
+                    },
+                    {
+                        "ask": "¿Qué tipo de bucle debo usar para contar la cantidad de ocurrencias de cada elemento en un array?",
+                        "options": [
+                            "for",
+                            "for...of",
+                            "forEach",
+                            "reduce",
+                            "map"
+                        ],
+                        "answer": "reduce",
+                        "example": {
+                            "description": "Para contar la cantidad de ocurrencias de cada elemento en un array, puedes usar el método reduce de la siguiente manera:",
+                            "code": "const names = ['Alice', 'Bob', 'Alice', 'Charlie', 'Bob'];\nconst count = names.reduce((acc, name) => {\n  acc[name] = acc[name] ? acc[name] + 1 : 1;\n  return acc;\n}, {});\nconsole.log(count); // Output: { 'Alice': 2, 'Bob': 2, 'Charlie': 1 }"
+                        },
+                        "images": "https://example.com/reduce-count-occurrences.png",
+                        "information": "El método reduce es ideal para contar la cantidad de veces que cada elemento aparece en un array y almacenar los resultados en un objeto."
+                    }
+                ],
+                "expert": [
+                    {
+                        "ask": "¿Cuál es la complejidad temporal (Big O) del algoritmo QuickSort en el peor caso?",
+                        "options": [
+                            "O(n)",
+                            "O(n log n)",
+                            "O(n^2)",
+                            "O(log n)",
+                            "O(1)"
+                        ],
+                        "answer": "O(n^2)",
+                        "example": {
+                            "description": "El algoritmo QuickSort tiene una complejidad temporal de O(n^2) en el peor caso cuando la partición siempre divide el array en dos subarrays desequilibrados.",
+                            "code": ""
+                        },
+                        "information": "El peor caso de QuickSort ocurre cuando se elige el elemento pivote de manera subóptima, lo que lleva a particiones desequilibradas y un rendimiento cuadrático."
+                    },
+                    {
+                        "ask": "¿Qué tipo de estructura de datos se usa comúnmente para implementar un grafo no dirigido ponderado?",
+                        "options": [
+                            "Lista de adyacencia",
+                            "Matriz de adyacencia",
+                            "Árbol AVL",
+                            "Cola de prioridad",
+                            "Árbol B"
+                        ],
+                        "answer": "Lista de adyacencia",
+                        "example": {
+                            "description": "Una lista de adyacencia es una estructura de datos eficiente para representar grafos no dirigidos ponderados, donde cada nodo tiene una lista de los nodos adyacentes y sus pesos asociados.",
+                            "code": ""
+                        },
+                        "information": "La lista de adyacencia es preferida sobre la matriz de adyacencia para grafos dispersos o grandes debido a su eficiencia en términos de uso de memoria y operaciones."
+                    },
+                    {
+                        "ask": "¿Qué patrón de diseño se utiliza para encapsular una solicitud como un objeto, lo que le permite parametrizar clientes con solicitudes diferentes, hacer colas o registrar solicitudes, y soportar operaciones reversibles?",
+                        "options": [
+                            "Patrón Singleton",
+                            "Patrón Factory",
+                            "Patrón Command",
+                            "Patrón Strategy",
+                            "Patrón Proxy"
+                        ],
+                        "answer": "Patrón Command",
+                        "example": {
+                            "description": "El patrón Command encapsula una solicitud como un objeto, permitiendo la parametrización de clientes con diferentes solicitudes y soportando operaciones reversibles a través de métodos execute y undo.",
+                            "code": ""
+                        },
+                        "information": "El patrón Command es útil para desacoplar el objeto que invoca la operación de los objetos que conocen la operación, permitiendo la parametrización y la reversión de las operaciones."
+                    },
+                    {
+                        "ask": "¿Qué estructura de datos se usa típicamente para implementar una cola de prioridad?",
+                        "options": [
+                            "Árbol binario",
+                            "Lista enlazada",
+                            "Pila",
+                            "Heap",
+                            "Grafo"
+                        ],
+                        "answer": "Heap",
+                        "example": {
+                            "description": "Un heap es una estructura de datos que se utiliza comúnmente para implementar colas de prioridad, donde el elemento de mayor prioridad se encuentra en la raíz y se puede insertar y eliminar eficientemente.",
+                            "code": ""
+                        },
+                        "information": "Los heaps son ideales para implementar colas de prioridad debido a su capacidad para mantener el elemento de mayor prioridad en la raíz y soportar operaciones eficientes de inserción y extracción."
+                    },
+                    {
+                        "ask": "¿Qué algoritmo se utiliza para encontrar el árbol de expansión mínima en un grafo ponderado, conectando todos los nodos exactamente una vez y con el peso total mínimo?",
+                        "options": [
+                            "Búsqueda en profundidad (DFS)",
+                            "Algoritmo de Dijkstra",
+                            "Algoritmo de Prim",
+                            "Algoritmo de Kruskal",
+                            "Búsqueda en anchura (BFS)"
+                        ],
+                        "answer": "Algoritmo de Prim",
+                        "example": {
+                            "description": "El algoritmo de Prim encuentra el árbol de expansión mínima en un grafo ponderado conectando todos los nodos exactamente una vez con el peso total mínimo, utilizando una cola de prioridad para seleccionar el próximo vértice.",
+                            "code": ""
+                        },
+                        "information": "El algoritmo de Prim es eficiente para encontrar el árbol de expansión mínima en grafos densos y se basa en agregar vértices uno a uno, seleccionando siempre el vértice más cercano al árbol existente."
+                    },
+                    {
+                        "ask": "¿Qué tipo de estructura de datos se utiliza para implementar un conjunto que permite verificar la existencia de un elemento en tiempo constante?",
+                        "options": [
+                            "Array",
+                            "Árbol binario de búsqueda",
+                            "Hash table (tabla hash)",
+                            "Árbol AVL",
+                            "Heap"
+                        ],
+                        "answer": "Hash table (tabla hash)",
+                        "example": {
+                            "description": "Una tabla hash es una estructura de datos que implementa un conjunto permitiendo la verificación de la existencia de un elemento en tiempo constante, utilizando una función de hash para calcular la ubicación del elemento en la tabla.",
+                            "code": ""
+                        },
+                        "information": "Las tablas hash son ideales para implementar conjuntos cuando se requiere una verificación rápida de la existencia de elementos, ofreciendo un acceso promedio O(1) para operaciones de inserción, búsqueda y eliminación."
+                    },
+                    {
+                        "ask": "¿Qué tipo de estructura de datos se utiliza comúnmente para representar relaciones de muchos a muchos en bases de datos relacionales?",
+                        "options": [
+                            "Árbol B",
+                            "Grafo",
+                            "Tabla de hash",
+                            "Lista enlazada",
+                            "Tabla de unión"
+                        ],
+                        "answer": "Tabla de unión",
+                        "example": {
+                            "description": "Una tabla de unión es una estructura de datos que se utiliza para representar relaciones de muchos a muchos en bases de datos relacionales, almacenando pares de claves primarias de tablas relacionadas.",
+                            "code": ""
+                        },
+                        "information": "Las tablas de unión son esenciales en bases de datos relacionales para manejar relaciones complejas entre entidades, proporcionando un medio para definir y mantener integridad referencial."
+                    },
+                    {
+                        "ask": "¿Qué tipo de algoritmo de búsqueda se utiliza para encontrar la ruta más corta en un grafo ponderado y dirigido con pesos no negativos?",
+                        "options": [
+                            "Algoritmo de Kruskal",
+                            "Algoritmo de Dijkstra",
+                            "Algoritmo de Prim",
+                            "Búsqueda en anchura (BFS)",
+                            "Búsqueda en profundidad (DFS)"
+                        ],
+                        "answer": "Algoritmo de Dijkstra",
+                        "example": {
+                            "description": "El algoritmo de Dijkstra se utiliza para encontrar la ruta más corta en un grafo ponderado y dirigido con pesos no negativos, manteniendo una lista de distancias mínimas desde un nodo de origen hacia todos los demás nodos.",
+                            "code": ""
+                        },
+                        "information": "El algoritmo de Dijkstra es eficiente para encontrar la ruta más corta desde un nodo de origen hacia todos los demás nodos en grafos con pesos no negativos, utilizando una cola de prioridad para seleccionar el siguiente nodo de manera óptima."
+                    },
+                    {
+                        "ask": "¿Qué estructura de datos se utiliza típicamente para implementar un árbol de búsqueda binaria balanceado?",
+                        "options": [
+                            "Heap",
+                            "Árbol AVL",
+                            "Grafo",
+                            "Lista enlazada",
+                            "Árbol B"
+                        ],
+                        "answer": "Árbol AVL",
+                        "example": {
+                            "description": "Un árbol AVL es una estructura de datos que se utiliza para implementar árboles de búsqueda binaria balanceados, manteniendo la propiedad de balanceo mediante rotaciones.",
+                            "code": ""
+                        },
+                        "information": "Los árboles AVL son ideales para implementar árboles de búsqueda binaria balanceados, garantizando un rendimiento logarítmico para operaciones de inserción, búsqueda y eliminación."
+                    },
+                    {
+                        "ask": "¿Qué algoritmo de ordenamiento tiene una complejidad temporal garantizada de O(n log n) en el peor caso?",
+                        "options": [
+                            "Bubble Sort",
+                            "Merge Sort",
+                            "Insertion Sort",
+                            "QuickSort",
+                            "Selection Sort"
+                        ],
+                        "answer": "Merge Sort",
+                        "example": {
+                            "description": "Merge Sort es un algoritmo de ordenamiento eficiente que tiene una complejidad temporal de O(n log n) en el peor caso, utilizando una estrategia de división y conquista para ordenar los elementos.",
+                            "code": ""
+                        },
+                        "information": "Merge Sort es preferido en aplicaciones donde se requiere una garantía de complejidad temporal O(n log n), como en situaciones donde los datos pueden estar parcialmente ordenados o se necesitan estabilidad y rendimiento predecible."
+                    },
+                    {
+                        "ask": "¿Qué tipo de estructura de datos se utiliza para implementar un conjunto que no permite duplicados y proporciona operaciones de inserción, eliminación y búsqueda en tiempo logarítmico?",
+                        "options": [
+                            "Heap",
+                            "Tabla de hash",
+                            "Árbol AVL",
+                            "Árbol B",
+                            "Árbol binario de búsqueda"
+                        ],
+                        "answer": "Árbol AVL",
+                        "example": {
+                            "description": "Un Árbol AVL es una estructura de datos que se utiliza para implementar conjuntos que no permiten duplicados y proporciona operaciones de inserción, eliminación y búsqueda en tiempo logarítmico, manteniendo el balance mediante rotaciones.",
+                            "code": ""
+                        },
+                        "information": "Los Árboles AVL son eficientes para implementar conjuntos ordenados que no permiten duplicados, ofreciendo un rendimiento logarítmico para operaciones básicas y garantizando el balance de la estructura."
+                    },
+                    {
+                        "ask": "¿Cuál es la principal diferencia entre una tabla hash y un árbol binario de búsqueda en términos de complejidad de las operaciones?",
+                        "options": [
+                            "La tabla hash tiene complejidad O(1) para todas las operaciones, mientras que el árbol binario de búsqueda tiene complejidad O(log n) en promedio.",
+                            "El árbol binario de búsqueda tiene complejidad O(1) para todas las operaciones, mientras que la tabla hash tiene complejidad O(log n) en promedio.",
+                            "Ambos tienen complejidad O(n) para todas las operaciones.",
+                            "El árbol binario de búsqueda tiene complejidad O(n) para todas las operaciones, mientras que la tabla hash tiene complejidad O(1) en promedio.",
+                            "Ambos tienen complejidad O(log n) para todas las operaciones."
+                        ],
+                        "answer": "La tabla hash tiene complejidad O(1) para todas las operaciones, mientras que el árbol binario de búsqueda tiene complejidad O(log n) en promedio.",
+                        "example": {
+                            "description": "Una tabla hash proporciona acceso promedio O(1) para operaciones de inserción, eliminación y búsqueda utilizando una función de hash para calcular la posición del elemento. En contraste, un árbol binario de búsqueda ofrece acceso promedio O(log n) para estas operaciones, manteniendo los elementos ordenados en la estructura del árbol.",
+                            "code": ""
+                        },
+                        "information": "La elección entre una tabla hash y un árbol binario de búsqueda depende de las necesidades específicas del uso, como el rendimiento esperado, la frecuencia de operaciones y los requisitos de ordenación y búsqueda."
+                    },
+                    {
+                        "ask": "¿Qué tipo de algoritmo se utiliza típicamente para encontrar el árbol de expansión mínima en un grafo ponderado y no dirigido?",
+                        "options": [
+                            "Algoritmo de Kruskal",
+                            "Algoritmo de Dijkstra",
+                            "Algoritmo de Prim",
+                            "Búsqueda en anchura (BFS)",
+                            "Búsqueda en profundidad (DFS)"
+                        ],
+                        "answer": "Algoritmo de Kruskal",
+                        "example": {
+                            "description": "El algoritmo de Kruskal se utiliza para encontrar el árbol de expansión mínima en un grafo ponderado y no dirigido, ordenando todas las aristas por peso y añadiendo aristas a un árbol que no forme ciclos hasta que se incluyan todos los vértices.",
+                            "code": ""
+                        },
+                        "information": "El algoritmo de Kruskal es eficiente para encontrar el árbol de expansión mínima en grafos dispersos o densos, ordenando aristas y utilizando una estructura de datos como una estructura de unión-búsqueda para evitar ciclos."
+                    },
+                    {
+                        "ask": "¿Qué estructura de datos se utiliza típicamente para implementar una cola de prioridad que permite agregar elementos con prioridad y eliminar el elemento con la prioridad más alta?",
+                        "options": [
+                            "Heap",
+                            "Árbol binario de búsqueda",
+                            "Grafo",
+                            "Tabla de hash",
+                            "Árbol AVL"
+                        ],
+                        "answer": "Heap",
+                        "example": {
+                            "description": "Un heap es una estructura de datos que se utiliza para implementar colas de prioridad, donde el elemento con la mayor prioridad se encuentra en la raíz y se pueden agregar y eliminar elementos de manera eficiente manteniendo el orden de prioridad.",
+                            "code": ""
+                        },
+                        "information": "Los heaps son ideales para implementar colas de prioridad debido a su capacidad para mantener el elemento de mayor prioridad en la raíz y soportar operaciones eficientes de inserción, eliminación y acceso al máximo."
+                    },
+                    {
+                        "ask": "¿Cuál es la complejidad temporal promedio del algoritmo de búsqueda en anchura (BFS) en un grafo no dirigido con vértices V y aristas E?",
+                        "options": [
+                            "O(V)",
+                            "O(E)",
+                            "O(V log V)",
+                            "O(V + E)",
+                            "O(E log E)"
+                        ],
+                        "answer": "O(V + E)",
+                        "example": {
+                            "description": "El algoritmo de búsqueda en anchura (BFS) tiene una complejidad temporal promedio de O(V + E) en un grafo no dirigido, donde V representa el número de vértices y E el número de aristas.",
+                            "code": ""
+                        },
+                        "information": "El algoritmo BFS es eficiente para recorrer o buscar en grafos no dirigidos, utilizando una estructura de cola para mantener los vértices visitados y asegurando que cada vértice se visite exactamente una vez."
+                    },
+                    {
+                        "ask": "¿Qué tipo de estructura de datos se utiliza típicamente para implementar un conjunto de datos dinámico que admite operaciones de inserción, eliminación y búsqueda en tiempo O(log n)?",
+                        "options": [
+                            "Heap",
+                            "Árbol AVL",
+                            "Tabla de hash",
+                            "Árbol binario de búsqueda",
+                            "Grafo"
+                        ],
+                        "answer": "Árbol AVL",
+                        "example": {
+                            "description": "Un Árbol AVL es una estructura de datos que se utiliza para implementar conjuntos dinámicos que admiten operaciones de inserción, eliminación y búsqueda en tiempo O(log n), manteniendo el balance mediante rotaciones.",
+                            "code": ""
+                        },
+                        "information": "Los Árboles AVL son ideales para implementar conjuntos dinámicos donde se requiere un rendimiento logarítmico para operaciones básicas, asegurando que la altura del árbol permanezca equilibrada."
+                    },
+                    {
+                        "ask": "¿Cuál es el tipo de estructura de datos más eficiente para implementar un sistema de cache que requiera acceso rápido a elementos recientes y eliminación de elementos menos recientes cuando se alcanza la capacidad máxima?",
+                        "options": [
+                            "Heap",
+                            "Lista enlazada",
+                            "Tabla de hash",
+                            "Árbol binario de búsqueda",
+                            "Árbol B"
+                        ],
+                        "answer": "Lista enlazada",
+                        "example": {
+                            "description": "Una lista enlazada es una estructura de datos que se puede utilizar eficientemente para implementar un sistema de caché, permitiendo el acceso rápido a elementos recientes y eliminando elementos menos recientes cuando se alcanza la capacidad máxima mediante un enfoque basado en nodos enlazados.",
+                            "code": ""
+                        },
+                        "information": "Las listas enlazadas son adecuadas para implementar sistemas de caché donde se necesita acceso rápido a elementos recientes y una gestión dinámica de la capacidad mediante la eliminación de elementos menos utilizados o más antiguos."
+                    }
+                ],
+                "god": [
+                    {
+                        "question": "Which design pattern is commonly used to implement undo functionality?",
+                        "options": [
+                            "Observer Pattern",
+                            "Command Pattern",
+                            "Factory Pattern",
+                            "Singleton Pattern",
+                            "Strategy Pattern"
+                        ],
+                        "answer": "Command Pattern",
+                        "explanation": "The Command Pattern is often used to encapsulate requests as objects, allowing for operations like undo, redo, and logging of commands.",
+                        "use_cases": [
+                            "Implementing text editors with undo/redo functionality",
+                            "Managing transactions in database systems",
+                            "Controlling user interactions in GUI applications"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is typically used for finding the shortest path in a weighted graph with non-negative weights?",
+                        "options": [
+                            "Floyd-Warshall Algorithm",
+                            "Dijkstra's Algorithm",
+                            "A* Search Algorithm",
+                            "Bellman-Ford Algorithm",
+                            "Prim's Algorithm"
+                        ],
+                        "answer": "Dijkstra's Algorithm",
+                        "explanation": "Dijkstra's Algorithm is well-suited for finding the shortest path from a single source vertex to all other vertices in a graph with non-negative weights.",
+                        "use_cases": [
+                            "Routing algorithms in computer networks",
+                            "Navigation systems in maps",
+                            "Optimization problems in operations research"
+                        ]
+                    },
+                    {
+                        "question": "What data structure is commonly used to implement a LRU (Least Recently Used) cache?",
+                        "options": [
+                            "Linked List",
+                            "Heap",
+                            "Hash Map",
+                            "Binary Search Tree",
+                            "Array"
+                        ],
+                        "answer": "Linked List",
+                        "explanation": "A doubly linked list is often used to maintain order of access in an LRU cache, allowing for efficient removal and addition of elements based on access patterns.",
+                        "use_cases": [
+                            "Implementing web browsers' cache mechanisms",
+                            "Optimizing memory usage in operating systems",
+                            "Handling recently used items in applications"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is used for sorting data sets that are already mostly sorted?",
+                        "options": [
+                            "Merge Sort",
+                            "Bubble Sort",
+                            "Quick Sort",
+                            "Insertion Sort",
+                            "Heap Sort"
+                        ],
+                        "answer": "Insertion Sort",
+                        "explanation": "Insertion Sort is efficient for sorting small data sets or data sets that are nearly sorted, as it builds the final sorted array one item at a time.",
+                        "use_cases": [
+                            "Sorting elements in real-time systems",
+                            "Implementing algorithms for small-scale data sets",
+                            "Handling partially sorted data in data processing"
+                        ]
+                    },
+                    {
+                        "question": "What design pattern promotes loose coupling between objects by ensuring that objects depend only on abstractions?",
+                        "options": [
+                            "Factory Pattern",
+                            "Bridge Pattern",
+                            "Decorator Pattern",
+                            "Adapter Pattern",
+                            "Dependency Injection Pattern"
+                        ],
+                        "answer": "Dependency Injection Pattern",
+                        "explanation": "Dependency Injection (DI) promotes loose coupling by injecting dependencies into objects rather than letting them create dependencies internally.",
+                        "use_cases": [
+                            "Testing frameworks to inject mock dependencies",
+                            "Frameworks like Spring for Java applications",
+                            "Maintaining modular and reusable code"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is used to find strongly connected components in a directed graph?",
+                        "options": [
+                            "Depth-First Search (DFS)",
+                            "Breadth-First Search (BFS)",
+                            "Tarjan's Algorithm",
+                            "Kosaraju's Algorithm",
+                            "Prim's Algorithm"
+                        ],
+                        "answer": "Tarjan's Algorithm",
+                        "explanation": "Tarjan's Algorithm is efficient for finding strongly connected components (SCCs) in a directed graph, based on the depth-first search traversal.",
+                        "use_cases": [
+                            "Compiler design for code optimization",
+                            "Graph analysis in social network analysis",
+                            "Detecting cycles and connectivity in systems"
+                        ]
+                    },
+                    {
+                        "question": "Which data structure is suitable for implementing a scheduling algorithm that selects the next process to execute based on priority?",
+                        "options": [
+                            "Heap",
+                            "Trie",
+                            "Queue",
+                            "Stack",
+                            "Graph"
+                        ],
+                        "answer": "Heap",
+                        "explanation": "A priority heap (or priority queue) is ideal for scheduling algorithms where processes are executed based on their priority, ensuring efficient access and removal of the highest priority element.",
+                        "use_cases": [
+                            "Operating system task schedulers",
+                            "Job scheduling in batch processing systems",
+                            "Network packet scheduling in routers"
+                        ]
+                    },
+                    {
+                        "question": "What is the primary advantage of using a Trie data structure over a hash table for storing strings?",
+                        "options": [
+                            "Constant-time insertion and deletion",
+                            "Guaranteed O(1) average-time complexity for search operations",
+                            "Efficient prefix searching and ordered iteration",
+                            "Better memory utilization",
+                            "Support for concurrent access"
+                        ],
+                        "answer": "Efficient prefix searching and ordered iteration",
+                        "explanation": "Trie structures allow efficient prefix searching and ordered iteration of strings, making them suitable for autocomplete features and dictionary applications.",
+                        "use_cases": [
+                            "Implementing auto-complete functionality in text editors",
+                            "Storing dictionaries for spell-checking algorithms",
+                            "Implementing efficient search engines"
+                        ]
+                    },
+                    {
+                        "question": "Which sorting algorithm has the best asymptotic time complexity in both average and worst cases?",
+                        "options": [
+                            "Quick Sort",
+                            "Merge Sort",
+                            "Heap Sort",
+                            "Bubble Sort",
+                            "Insertion Sort"
+                        ],
+                        "answer": "Merge Sort",
+                        "explanation": "Merge Sort has a consistent O(n log n) time complexity in both average and worst cases, making it suitable for large-scale data sets.",
+                        "use_cases": [
+                            "Sorting large volumes of data in databases",
+                            "Efficient sorting in programming competitions",
+                            "Implementing sorting in stable conditions"
+                        ]
+                    },
+                    {
+                        "question": "Which data structure is typically used to implement a graph with weighted edges and supports efficient insertion, deletion, and update operations?",
+                        "options": [
+                            "Hash Map",
+                            "Heap",
+                            "Adjacency List",
+                            "Red-Black Tree",
+                            "Matrix"
+                        ],
+                        "answer": "Red-Black Tree",
+                        "explanation": "Red-Black Trees are self-balancing binary search trees that provide efficient insertion, deletion, and update operations for maintaining weighted graphs.",
+                        "use_cases": [
+                            "Implementing network flow algorithms",
+                            "Optimizing route planning algorithms",
+                            "Graph databases for efficient data retrieval"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is commonly used to find the longest common subsequence between two sequences?",
+                        "options": [
+                            "Dynamic Programming",
+                            "Greedy Algorithm",
+                            "Depth-First Search (DFS)",
+                            "Breadth-First Search (BFS)",
+                            "Dijkstra's Algorithm"
+                        ],
+                        "answer": "Dynamic Programming",
+                        "explanation": "Dynamic Programming is well-suited for finding the longest common subsequence (LCS) by breaking down the problem into smaller subproblems and storing solutions to avoid redundant calculations.",
+                        "use_cases": [
+                            "Bioinformatics for DNA sequence analysis",
+                            "Text comparison in plagiarism detection systems",
+                            "Version control systems for identifying changes"
+                        ]
+                    },
+                    {
+                        "question": "Which data structure is used to efficiently find the k-th smallest or largest element in an unsorted array?",
+                        "options": [
+                            "Max Heap",
+                            "Min Heap",
+                            "Binary Search Tree (BST)",
+                            "Red-Black Tree",
+                            "Hash Map"
+                        ],
+                        "answer": "Min Heap",
+                        "explanation": "A Min Heap is ideal for finding the k-th smallest or largest element in an unsorted array due to its efficient extraction of the smallest element and maintaining heap properties.",
+                        "use_cases": [
+                            "Implementing priority queues with efficient access to minimum or maximum elements",
+                            "Selection algorithms like Quickselect",
+                            "Median finding algorithms"
+                        ]
+                    },
+                    {
+                        "question": "Which pattern is used to separate the construction of a complex object from its representation?",
+                        "options": [
+                            "Factory Pattern",
+                            "Builder Pattern",
+                            "Abstract Factory Pattern",
+                            "Prototype Pattern",
+                            "Singleton Pattern"
+                        ],
+                        "answer": "Builder Pattern",
+                        "explanation": "The Builder Pattern is used to construct complex objects step by step and separates the construction logic from the representation, allowing different representations to be created using the same construction process.",
+                        "use_cases": [
+                            "Creating varied representations of products in an e-commerce system",
+                            "Object creation with optional parameters or complex initialization steps",
+                            "Configuring objects with a fluent interface"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is commonly used for clustering data points based on similarity measures?",
+                        "options": [
+                            "K-means Algorithm",
+                            "Depth-First Search (DFS)",
+                            "Breadth-First Search (BFS)",
+                            "Bellman-Ford Algorithm",
+                            "Prim's Algorithm"
+                        ],
+                        "answer": "K-means Algorithm",
+                        "explanation": "The K-means Algorithm partitions data points into clusters based on their similarity, aiming to minimize the variance within clusters and maximize the variance between clusters.",
+                        "use_cases": [
+                            "Customer segmentation in marketing analytics",
+                            "Image compression and pattern recognition",
+                            "Anomaly detection in data streams"
+                        ]
+                    },
+                    {
+                        "question": "Which data structure is suitable for implementing a cache with a fixed number of elements, discarding the least recently used element when full?",
+                        "options": [
+                            "Heap",
+                            "Trie",
+                            "Queue",
+                            "Stack",
+                            "Linked List"
+                        ],
+                        "answer": "Linked List",
+                        "explanation": "A doubly linked list is often used to maintain order of access in an LRU (Least Recently Used) cache, allowing efficient removal and addition of elements based on access patterns.",
+                        "use_cases": [
+                            "Implementing web browsers' cache mechanisms",
+                            "Optimizing memory usage in operating systems",
+                            "Handling recently used items in applications"
+                        ]
+                    },
+                    {
+                        "question": "Which design pattern is used to represent an entire family of algorithms and make them interchangeable at runtime?",
+                        "options": [
+                            "Strategy Pattern",
+                            "Observer Pattern",
+                            "Adapter Pattern",
+                            "Facade Pattern",
+                            "Decorator Pattern"
+                        ],
+                        "answer": "Strategy Pattern",
+                        "explanation": "The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows algorithms to vary independently from clients that use them.",
+                        "use_cases": [
+                            "Implementing various sorting algorithms in an application",
+                            "Dynamic selection of encryption or compression algorithms",
+                            "Different strategies for data validation or filtering"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is commonly used for finding the shortest path in a graph with negative weights?",
+                        "options": [
+                            "Dijkstra's Algorithm",
+                            "Bellman-Ford Algorithm",
+                            "A* Search Algorithm",
+                            "Floyd-Warshall Algorithm",
+                            "Prim's Algorithm"
+                        ],
+                        "answer": "Bellman-Ford Algorithm",
+                        "explanation": "The Bellman-Ford Algorithm handles graphs with negative weights and detects negative weight cycles, making it suitable for scenarios where negative weights are present but require additional checks for negative cycles.",
+                        "use_cases": [
+                            "Routing algorithms in network graphs",
+                            "Optimizing routes in transportation and logistics",
+                            "Finding arbitrage opportunities in financial markets"
+                        ]
+                    },
+                    {
+                        "question": "Which data structure is used to efficiently store and retrieve data in a Last-In-First-Out (LIFO) manner?",
+                        "options": [
+                            "Queue",
+                            "Heap",
+                            "Deque",
+                            "Stack",
+                            "Trie"
+                        ],
+                        "answer": "Stack",
+                        "explanation": "A Stack is ideal for scenarios where elements are added and removed from the top (last-in, first-out), making it suitable for function call management, expression evaluation, and backtracking algorithms.",
+                        "use_cases": [
+                            "Expression evaluation in compilers and interpreters",
+                            "Managing function calls and recursion",
+                            "Undo/Redo functionality in applications"
+                        ]
+                    },
+                    {
+                        "question": "Which algorithm is used to find the minimum spanning tree (MST) of a weighted graph?",
+                        "options": [
+                            "Kruskal's Algorithm",
+                            "Prim's Algorithm",
+                            "Dijkstra's Algorithm",
+                            "Bellman-Ford Algorithm",
+                            "Depth-First Search (DFS)"
+                        ],
+                        "answer": "Prim's Algorithm",
+                        "explanation": "Prim's Algorithm finds the minimum spanning tree by greedily adding vertices to the growing tree based on the smallest edge weight connected to the tree.",
+                        "use_cases": [
+                            "Network design for minimal cost connections",
+                            "Cable laying or infrastructure planning",
+                            "Clustering algorithms in data analysis"
+                        ]
+                    },
+                    {
+                        "question": "Which design pattern is used to provide a surrogate or placeholder for another object to control access to it?",
+                        "options": [
+                            "Proxy Pattern",
+                            "Adapter Pattern",
+                            "Facade Pattern",
+                            "Decorator Pattern",
+                            "Bridge Pattern"
+                        ],
+                        "answer": "Proxy Pattern",
+                        "explanation": "The Proxy Pattern provides a surrogate or placeholder for another object to control access to it. It can be used for lazy initialization, access control, logging, or caching.",
+                        "use_cases": [
+                            "Virtual proxy for expensive object initialization",
+                            "Remote proxy for accessing objects in different address spaces",
+                            "Protection proxies for access control and security"
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
