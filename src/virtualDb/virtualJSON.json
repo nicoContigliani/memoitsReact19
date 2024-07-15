@@ -2462,9 +2462,9 @@
                         "options": [
                             "Usando el comando 'node -v'",
                             "Usando el comando 'node --version'",
-                            "Ambas respuestas son correctas"
+                            "Ambas answers son correctas"
                         ],
-                        "answer": "Ambas respuestas son correctas",
+                        "answer": "Ambas answers son correctas",
                         "images": "https://example.com/node-version.png",
                         "information": "Para ver la versión de Node.js instalada, se pueden usar los comandos 'node -v' o 'node --version'."
                     },
@@ -2682,7 +2682,7 @@
                         "options": [
                             "Usando el método 'req.on('data', callback)' para recibir datos",
                             "Usando el método 'req.write()' para enviar datos",
-                            "Usando el método 'req.end()' para finalizar la respuesta"
+                            "Usando el método 'req.end()' para finalizar la answer"
                         ],
                         "answer": "Usando el método 'req.on('data', callback)' para recibir datos",
                         "images": "https://example.com/post-request.png",
@@ -2812,13 +2812,13 @@
                     {
                         "ask": "¿Qué es middleware en Express?",
                         "options": [
-                            "Funciones que tienen acceso al objeto de solicitud, respuesta y al siguiente middleware",
+                            "Funciones que tienen acceso al objeto de solicitud, answer y al siguiente middleware",
                             "Una base de datos",
                             "Una API para manejar datos"
                         ],
-                        "answer": "Funciones que tienen acceso al objeto de solicitud, respuesta y al siguiente middleware",
+                        "answer": "Funciones que tienen acceso al objeto de solicitud, answer y al siguiente middleware",
                         "images": "https://example.com/middleware.png",
-                        "information": "En Express, middleware son funciones que tienen acceso al objeto de solicitud, respuesta y al siguiente middleware en el ciclo de solicitud/respuesta."
+                        "information": "En Express, middleware son funciones que tienen acceso al objeto de solicitud, answer y al siguiente middleware en el ciclo de solicitud/answer."
                     },
                     {
                         "ask": "¿Cómo se puede crear una promesa en Node.js?",
@@ -3377,9 +3377,9 @@
                         "options": [
                             "Usando 'require()' para importar el módulo",
                             "Instalando el módulo con 'npm install' y luego importándolo con 'require()'",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-modules.png",
                         "information": "En Node.js, se pueden utilizar módulos externos para ampliar las funcionalidades de las aplicaciones. Para hacerlo, se puede usar el comando 'require()' para importar el módulo, ya sea directamente desde el archivo o después de instalarlo con 'npm install'."
                     },
@@ -3410,9 +3410,9 @@
                         "options": [
                             "Usando módulos como 'express-session' o 'connect-session'",
                             "Guardando la información de sesión en el objeto 'req' de las solicitudes HTTP",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-sessions.png",
                         "information": "En Node.js, se pueden manejar las sesiones de usuario utilizando módulos como 'express-session' o 'connect-session'. Estos módulos permiten almacenar y recuperar información sobre la sesión del usuario, como el ID de sesión, el usuario autenticado y los datos asociados a la sesión."
                     },
@@ -3436,7 +3436,7 @@
                         ],
                         "answer": "Un módulo para crear aplicaciones escalables que aprovechan el multiprocesamiento",
                         "images": "https://example.com/node-cluster.png",
-                        "information": "El módulo 'cluster' en Node.js permite crear aplicaciones escalables que aprovechan el multiprocesamiento, ejecutando diferentes partes de la aplicación en diferentes procesos. Esto puede mejorar el rendimiento y la capacidad de respuesta, especialmente en aplicaciones que manejan muchas conexiones o tareas de larga duración."
+                        "information": "El módulo 'cluster' en Node.js permite crear aplicaciones escalables que aprovechan el multiprocesamiento, ejecutando diferentes partes de la aplicación en diferentes procesos. Esto puede mejorar el rendimiento y la capacidad de answer, especialmente en aplicaciones que manejan muchas conexiones o tareas de larga duración."
                     },
                     {
                         "ask": "¿Qué son los 'streams' en Node.js?",
@@ -3486,12 +3486,12 @@
                         "ask": "¿Cómo se pueden implementar APIs RESTful en Node.js?",
                         "options": [
                             "Usando frameworks como 'Express' o 'Hapi' junto con el módulo 'restify'",
-                            "Utilizando el módulo 'http' y escribiendo código manualmente para manejar las solicitudes y respuestas",
-                            "Ambas opciones son válidas"
+                            "Utilizando el módulo 'http' y escribiendo código manualmente para manejar las solicitudes y answers",
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-restful-apis.png",
-                        "information": "En Node.js, se pueden implementar APIs RESTful utilizando frameworks como 'Express' o 'Hapi', que facilitan la creación de rutas, la gestión de métodos HTTP (GET, POST, PUT, DELETE) y el envío de respuestas en formato JSON. También se puede utilizar el módulo 'http' y escribir código manualmente para manejar las solicitudes y respuestas, pero esto requiere más trabajo de desarrollo."
+                        "information": "En Node.js, se pueden implementar APIs RESTful utilizando frameworks como 'Express' o 'Hapi', que facilitan la creación de rutas, la gestión de métodos HTTP (GET, POST, PUT, DELETE) y el envío de answers en formato JSON. También se puede utilizar el módulo 'http' y escribir código manualmente para manejar las solicitudes y answers, pero esto requiere más trabajo de desarrollo."
                     },
                     {
                         "ask": "¿Qué es el módulo 'mongoose' en Node.js?",
@@ -3520,9 +3520,9 @@
                         "options": [
                             "Usando módulos como 'passport' o 'jsonwebtoken'",
                             "Escribiendo código manualmente para verificar usuarios y contraseñas",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-authentication.png",
                         "information": "En Node.js, se pueden implementar sistemas de autenticación y autorización utilizando módulos como 'passport' o 'jsonwebtoken'. Estos módulos facilitan la gestión de usuarios, contraseñas, tokens de autenticación y control de acceso a diferentes recursos de la aplicación. También se puede escribir código manualmente para verificar usuarios y contraseñas, pero esto requiere más trabajo de desarrollo."
                     },
@@ -3542,9 +3542,9 @@
                         "options": [
                             "Usando frameworks como 'Mocha' o 'Jest' junto con módulos como 'chai' o 'Sinon'",
                             "Escribiendo código de prueba manual para cada caso de uso",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-testing.png",
                         "information": "En Node.js, se pueden implementar sistemas de testeo utilizando frameworks como 'Mocha' o 'Jest' junto con módulos como 'chai' o 'Sinon'. Estos frameworks facilitan la creación de casos de prueba, la ejecución de pruebas automatizadas y la obtención de informes de resultados. También se puede escribir código de prueba manual para cada caso de uso, pero esto requiere más trabajo de desarrollo y puede ser menos eficiente a largo plazo."
                     },
@@ -3564,11 +3564,11 @@
                         "options": [
                             "Para instalar paquetes NPM que solo se necesitan durante el desarrollo de la aplicación",
                             "Para ejecutar scripts de forma simultánea o consecutiva en diferentes paquetes NPM",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
                         "answer": "Para instalar paquetes NPM que solo se necesitan durante el desarrollo de la aplicación",
                         "images": "https://example.com/node-dev-dependencies.png",
-                        "information": "En Node.js, las 'dependencias de desarrollo' son paquetes NPM que solo se necesitan durante el desarrollo de la aplicación, como herramientas de prueba, frameworks de desarrollo o módulos de ejemplo. Se instalan con el comando 'npm install --save-dev' y no se incluyen en la aplicación final."
+                        "information": "En Node.js, las 'dependencias de desarrollo' son paquetes NPM que solo se necesitan durante el desarrollo de la aplicación, como herramientas de prueba, frameworks de desarrollo o módulos de example. Se instalan con el comando 'npm install --save-dev' y no se incluyen en la aplicación final."
                     },
                     {
                         "ask": "¿Qué son los 'monitores de eventos' en Node.js?",
@@ -3588,9 +3588,9 @@
                         "options": [
                             "Utilizando herramientas como 'Jenkins' o 'Travis CI' junto con servicios de hosting como 'Heroku' o 'AWS'",
                             "Escribiendo scripts manuales para automatizar el proceso de compilación, pruebas y despliegue",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-continuous-deployment.png",
                         "information": "En Node.js, se pueden implementar sistemas de despliegue continuo utilizando herramientas como 'Jenkins' o 'Travis CI' junto con servicios de hosting como 'Heroku' o 'AWS'. Estas herramientas automatizan el proceso de compilación, pruebas y despliegue de la aplicación, lo que permite entregar nuevas versiones de forma rápida y segura. También se puede escribir scripts manuales para automatizar el proceso, pero esto requiere más trabajo de configuración y mantenimiento."
                     },
@@ -3676,11 +3676,11 @@
                         "options": [
                             "Utilizando herramientas como 'Prometheus' o 'Grafana' junto con servicios como 'Datadog' o 'Sentry'",
                             "Escribiendo scripts manuales para recopilar y analizar métricas de rendimiento",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-monitoring-alerts.png",
-                        "information": "En Node.js, se pueden implementar sistemas de monitorización y alertas utilizando herramientas como 'Prometheus' o 'Grafana' junto con servicios como 'Datadog' o 'Sentry'. Estas herramientas permiten recopilar métricas de rendimiento de la aplicación, como el uso de CPU, memoria, tiempo de respuesta de las solicitudes, y generar alertas cuando se detectan anomalías o problemas de rendimiento. También se puede escribir scripts manuales para recopilar y analizar métricas de rendimiento, pero esto requiere más trabajo de desarrollo y mantenimiento."
+                        "information": "En Node.js, se pueden implementar sistemas de monitorización y alertas utilizando herramientas como 'Prometheus' o 'Grafana' junto con servicios como 'Datadog' o 'Sentry'. Estas herramientas permiten recopilar métricas de rendimiento de la aplicación, como el uso de CPU, memoria, tiempo de answer de las solicitudes, y generar alertas cuando se detectan anomalías o problemas de rendimiento. También se puede escribir scripts manuales para recopilar y analizar métricas de rendimiento, pero esto requiere más trabajo de desarrollo y mantenimiento."
                     },
                     {
                         "ask": "¿Qué es el módulo 'pino' en Node.js?",
@@ -3713,16 +3713,16 @@
                         ],
                         "answer": "Un módulo para registrar información sobre las solicitudes HTTP en la consola o en un archivo de log",
                         "images": "https://example.com/node-morgan.png",
-                        "information": "El módulo 'morgan' en Node.js permite registrar información sobre las solicitudes HTTP en la consola o en un archivo de log. Esto facilita el seguimiento de las solicitudes que llegan al servidor, incluyendo la dirección IP del cliente, la ruta de la solicitud, el método HTTP, el código de estado de la respuesta y otros detalles relevantes. Es útil para depurar problemas, analizar el tráfico web y obtener información sobre el uso de la aplicación."
+                        "information": "El módulo 'morgan' en Node.js permite registrar información sobre las solicitudes HTTP en la consola o en un archivo de log. Esto facilita el seguimiento de las solicitudes que llegan al servidor, incluyendo la dirección IP del cliente, la ruta de la solicitud, el método HTTP, el código de estado de la answer y otros detalles relevantes. Es útil para depurar problemas, analizar el tráfico web y obtener información sobre el uso de la aplicación."
                     },
                     {
                         "ask": "¿Cómo se pueden implementar pasarelas de pago en Node.js?",
                         "options": [
                             "Utilizando servicios de pago como Stripe o PayPal junto con módulos como 'stripe' o 'paypal-rest-sdk'",
                             "Escribiendo código manual para procesar pagos con tarjetas de crédito o débito",
-                            "Ambas opciones son válidas"
+                            "Ambas options son válidas"
                         ],
-                        "answer": "Ambas opciones son válidas",
+                        "answer": "Ambas options son válidas",
                         "images": "https://example.com/node-payment-gateways.png",
                         "information": "En Node.js, se pueden implementar pasarelas de pago utilizando servicios de pago como Stripe o PayPal junto con módulos como 'stripe' o 'paypal-rest-sdk'. Estos servicios facilitan la integración de pagos en la aplicación, procesando de forma segura los datos de las tarjetas de crédito o débito y manejando las transacciones financieras. También se puede escribir código manual para procesar pagos, pero esto requiere más trabajo de desarrollo, conocimiento sobre seguridad de pagos y cumplimiento de normas PCI."
                     },
@@ -3768,11 +3768,11 @@
                             "Implementando un balanceador de carga para distribuir las solicitudes entre múltiples instancias de la aplicación",
                             "Optimizando el código JavaScript para eliminar cuellos de botella y mejorar la eficiencia",
                             "Utilizando un servidor web optimizado para Node.js, como 'Nginx' o 'Apache', junto con la configuración adecuada",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-performance-optimization.png",
-                        "information": "Para optimizar el rendimiento de una aplicación Node.js para manejar grandes volúmenes de tráfico, se deben considerar varias estrategias: **Caché:** Utilizar sistemas de caché como Redis o Memcached para almacenar datos frecuentemente accedidos, reduciendo la necesidad de consultas a bases de datos o APIs externas. **Balanceador de carga:** Implementar un balanceador de carga para distribuir las solicitudes entre múltiples instancias de la aplicación, asegurando una alta disponibilidad y escalabilidad. **Optimización de código:** Revisar y optimizar el código JavaScript para eliminar cuellos de botella, mejorar la eficiencia y reducir el tiempo de respuesta. **Servidor web:** Utilizar un servidor web optimizado para Node.js, como Nginx o Apache, junto con la configuración adecuada para manejar el tráfico de manera eficiente. **Otras técnicas:** Considerar técnicas como la compresión de datos, la minificación de código, la utilización de async/await y promesas, y la monitorización del rendimiento para identificar y solucionar problemas."
+                        "information": "Para optimizar el rendimiento de una aplicación Node.js para manejar grandes volúmenes de tráfico, se deben considerar varias estrategias: **Caché:** Utilizar sistemas de caché como Redis o Memcached para almacenar datos frecuentemente accedidos, reduciendo la necesidad de consultas a bases de datos o APIs externas. **Balanceador de carga:** Implementar un balanceador de carga para distribuir las solicitudes entre múltiples instancias de la aplicación, asegurando una alta disponibilidad y escalabilidad. **Optimización de código:** Revisar y optimizar el código JavaScript para eliminar cuellos de botella, mejorar la eficiencia y reducir el tiempo de answer. **Servidor web:** Utilizar un servidor web optimizado para Node.js, como Nginx o Apache, junto con la configuración adecuada para manejar el tráfico de manera eficiente. **Otras técnicas:** Considerar técnicas como la compresión de datos, la minificación de código, la utilización de async/await y promesas, y la monitorización del rendimiento para identificar y solucionar problemas."
                     },
                     {
                         "ask": "¿Cómo se pueden implementar sistemas de seguridad robustos en aplicaciones Node.js?",
@@ -3781,9 +3781,9 @@
                             "Implementando autenticación y autorización para controlar el acceso a recursos y datos",
                             "Protegiendo contra ataques XSS y CSRF utilizando técnicas de validación y sanitización de datos",
                             "Cifrando datos sensibles, como contraseñas y tokens de autenticación, utilizando algoritmos de cifrado robustos",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-security-best-practices.png",
                         "information": "La seguridad en aplicaciones Node.js es crucial para proteger datos, usuarios y la infraestructura. Se deben implementar medidas como: **Validación y sanitización:** Validar y sanatizar todas las entradas de usuario para prevenir ataques de inyección de código, scripts maliciosos o datos no válidos. **Autenticación y autorización:** Implementar un sistema de autenticación para verificar la identidad de los usuarios y un sistema de autorización para controlar el acceso a recursos y datos en función de los permisos de cada usuario. **Protección contra XSS y CSRF:** Utilizar técnicas de validación y sanitización de datos para protegerse contra ataques XSS (Cross-Site Scripting) y CSRF (Cross-Site Request Forgery). **Cifrado de datos:** Cifrar datos sensibles, como contraseñas, tokens de autenticación e información personal, utilizando algoritmos de cifrado robustos como bcrypt o scrypt. **Actualizaciones y parches:** Mantener el software actualizado con las últimas versiones y parches de seguridad para corregir vulnerabilidades conocidas."
                     },
@@ -3794,9 +3794,9 @@
                             "Implementando adaptadores o conectores personalizados para comunicarse con los sistemas",
                             "Utilizando herramientas de integración de datos como 'Enterprise Service Bus' o 'API Gateway'",
                             "Considerar la migración de datos o la creación de APIs para abstraer la complejidad de los sistemas heredados",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-enterprise-integration.png",
                         "information": "La integración de aplicaciones Node.js con sistemas empresariales existentes y bases de datos heredadas puede ser un desafío. Se pueden utilizar diferentes estrategias: **APIs y SDKs:** Aprovechar APIs y SDKs oficiales proporcionados por los sistemas empresariales o bases de datos para simplificar la comunicación. **Adaptadores personalizados:** Desarrollar adaptadores o conectores personalizados para traducir formatos de datos y protocolos de comunicación entre Node.js y los sistemas heredados. **Herramientas de integración:** Utilizar herramientas de integración de datos como Enterprise Service Bus o API Gateway para orquestar la comunicación y el intercambio de datos entre diferentes sistemas. **Migración de datos:** Considerar la migración de datos relevantes a un formato moderno o la creación de APIs para abstraer la complejidad de los sistemas heredados y facilitar el acceso a los datos desde Node.js."
                     },
@@ -3807,11 +3807,11 @@
                             "Implementar registro de logs detallado y centralizado para identificar errores y problemas",
                             "Utilizar herramientas de análisis de rendimiento como 'New Relic' o 'AppDynamics' para obtener información profunda sobre el comportamiento de la aplicación",
                             "Realizar pruebas de carga y rendimiento para evaluar el comportamiento de la aplicación bajo diferentes escenarios de tráfico",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-monitoring-observability.png",
-                        "information": "El monitoreo y la observabilidad son cruciales para garantizar el buen funcionamiento y la salud de las aplicaciones Node.js en producción. Se recomienda: **Herramientas de monitoreo:** Utilizar herramientas como Prometheus o Grafana para recopilar métricas de rendimiento clave, como el uso de CPU, memoria, tiempo de respuesta de las solicitudes y errores. **Registro de logs:** Implementar un registro de logs detallado y centralizado que capture eventos, errores y mensajes relevantes para facilitar la identificación y resolución de problemas. **Análisis de rendimiento:** Utilizar herramientas como New Relic o AppDynamics para obtener información profunda sobre el comportamiento de la aplicación, identificar cuellos de botella y optimizar el rendimiento. **Pruebas de carga y rendimiento:** Realizar pruebas de carga y rendimiento para evaluar el comportamiento de la aplicación bajo diferentes escenarios de tráfico, asegurando que pueda manejar la demanda esperada."
+                        "information": "El monitoreo y la observabilidad son cruciales para garantizar el buen funcionamiento y la salud de las aplicaciones Node.js en producción. Se recomienda: **Herramientas de monitoreo:** Utilizar herramientas como Prometheus o Grafana para recopilar métricas de rendimiento clave, como el uso de CPU, memoria, tiempo de answer de las solicitudes y errores. **Registro de logs:** Implementar un registro de logs detallado y centralizado que capture eventos, errores y mensajes relevantes para facilitar la identificación y resolución de problemas. **Análisis de rendimiento:** Utilizar herramientas como New Relic o AppDynamics para obtener información profunda sobre el comportamiento de la aplicación, identificar cuellos de botella y optimizar el rendimiento. **Pruebas de carga y rendimiento:** Realizar pruebas de carga y rendimiento para evaluar el comportamiento de la aplicación bajo diferentes escenarios de tráfico, asegurando que pueda manejar la demanda esperada."
                     },
                     {
                         "ask": "¿Cómo se puede implementar un sistema de despliegue gradual (canary releases) para aplicaciones Node.js?",
@@ -3820,9 +3820,9 @@
                             "Implementar feature flags para habilitar nuevas funcionalidades de forma controlada",
                             "Utilizar un proxy inverso como Nginx para distribuir el tráfico entre versiones",
                             "Implementar un sistema de rollback automatizado en caso de detectar problemas",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-canary-releases.png",
                         "information": "Un sistema de despliegue gradual para Node.js implica: **Descubrimiento de servicios:** Utilizar Consul o etcd para gestionar dinámicamente las rutas de tráfico. **Feature flags:** Implementar toggles para activar nuevas funcionalidades de forma controlada, utilizando bibliotecas como LaunchDarkly. **Proxy inverso:** Configurar Nginx o HAProxy para distribuir el tráfico entre diferentes versiones de la aplicación. **Rollback automatizado:** Implementar scripts que monitoreen métricas clave y reviertan automáticamente a la versión anterior si se detectan problemas. Además, es crucial implementar un sistema robusto de monitoreo y alertas, utilizar herramientas de análisis de logs en tiempo real, y considerar la implementación de tests A/B para evaluar el impacto de nuevas funcionalidades."
                     },
@@ -3833,9 +3833,9 @@
                             "Implementar buffers personalizados para operaciones de lectura/escritura",
                             "Utilizar el módulo 'fs/promises' para operaciones de archivo asíncronas",
                             "Implementar batch processing para operaciones de base de datos",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-io-optimization.png",
                         "information": "La optimización de I/O en Node.js incluye: **Worker threads:** Utilizar hilos para operaciones intensivas de CPU, evitando bloquear el event loop. **Buffers personalizados:** Implementar buffers optimizados para mejorar la eficiencia en operaciones de lectura/escritura de grandes volúmenes de datos. **fs/promises:** Aprovechar las promesas nativas para operaciones de archivo asíncronas, mejorando la legibilidad y manejo de errores. **Batch processing:** Agrupar operaciones de base de datos para reducir la sobrecarga de comunicación. También es importante considerar el uso de streams para procesar datos de forma eficiente, implementar connection pooling para bases de datos, y utilizar caches en memoria como Redis para datos frecuentemente accedidos."
                     },
@@ -3846,9 +3846,9 @@
                             "Implementar hot reloading de configuraciones sin reiniciar los servicios",
                             "Utilizar variables de entorno encriptadas para manejar secretos",
                             "Implementar versionado de configuraciones y rollback",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-dynamic-config.png",
                         "information": "La gestión de configuración dinámica en microservicios Node.js implica: **Servicio centralizado:** Utilizar etcd o Consul KV para almacenar y distribuir configuraciones. **Hot reloading:** Implementar un mecanismo para actualizar configuraciones en tiempo real sin reiniciar servicios. **Secretos encriptados:** Utilizar herramientas como Vault para manejar secretos de forma segura. **Versionado y rollback:** Mantener un historial de configuraciones y permitir revertir a versiones anteriores. Es importante también implementar un sistema de auditoría para cambios de configuración, utilizar esquemas de validación para asegurar la integridad de las configuraciones, y considerar la implementación de canary releases para probar nuevas configuraciones de forma gradual."
                     },
@@ -3859,9 +3859,9 @@
                             "Implementar caching en múltiples niveles (multi-tiered caching)",
                             "Utilizar algoritmos de invalidación de caché predictivos",
                             "Implementar caching de consultas a nivel de ORM",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-distributed-caching.png",
                         "information": "El caching distribuido en Node.js incluye: **Redis Cluster:** Configurar un cluster de Redis para escalar horizontalmente y garantizar alta disponibilidad. **Multi-tiered caching:** Implementar capas de caché (memoria, Redis, CDN) para optimizar el acceso a datos. **Invalidación predictiva:** Utilizar algoritmos que anticipen la expiración de datos basados en patrones de uso. **Caching a nivel ORM:** Configurar caching de resultados de consultas frecuentes directamente en el ORM. También es crucial implementar estrategias de warm-up del caché, utilizar técnicas de cache stampede prevention, y considerar el uso de Bloom filters para reducir accesos innecesarios a la base de datos."
                     },
@@ -3872,9 +3872,9 @@
                             "Implementar correlación de logs entre servicios usando IDs de traza",
                             "Utilizar Jaeger o Zipkin para visualización y análisis de trazas",
                             "Implementar muestreo adaptativo para reducir la sobrecarga en producción",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-distributed-tracing.png",
                         "information": "El tracing distribuido avanzado en microservicios Node.js implica: **OpenTelemetry:** Utilizar este estándar para instrumentar código y recolectar datos de tracing de forma consistente. **Correlación de logs:** Implementar un sistema para correlacionar logs entre servicios usando IDs de traza únicas. **Visualización:** Utilizar herramientas como Jaeger o Zipkin para analizar y visualizar trazas distribuidas. **Muestreo adaptativo:** Implementar estrategias de muestreo inteligente para reducir la cantidad de datos recolectados en producción sin perder información crítica. Es importante también considerar la integración con APM (Application Performance Monitoring) para una visión completa del rendimiento, implementar alertas basadas en anomalías detectadas en las trazas, y utilizar análisis de impacto para identificar los efectos de cambios en el sistema distribuido."
                     },
@@ -3885,9 +3885,9 @@
                             "Optimizar el código JavaScript para minimizar el tiempo de carga y el uso de recursos",
                             "Implementar estrategias de caché y precarga de datos para mejorar la experiencia del usuario",
                             "Considerar el uso de tecnologías como WebAssembly para ejecutar código nativo en el navegador",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-mobile-performance.png",
                         "information": "Optimizar aplicaciones Node.js para dispositivos móviles requiere considerar diferentes aspectos: **Bibliotecas móviles:** Utilizar bibliotecas como React Native o NativeScript para crear interfaces de usuario nativas que aprovechen las capacidades de los dispositivos móviles. **Optimización de código:** Minimizar el tiempo de carga y el uso de recursos optimizando el código JavaScript, evitando operaciones innecesarias y utilizando librerías eficientes. **Estrategias de caché:** Implementar estrategias de caché y precarga de datos para mejorar la experiencia del usuario, reduciendo el tiempo de carga de datos y mejorando la fluidez de la aplicación. **WebAssembly:** Considerar el uso de tecnologías como WebAssembly para ejecutar código nativo en el navegador, lo que puede mejorar el rendimiento de tareas intensivas en CPU. **Pruebas y análisis:** Realizar pruebas de rendimiento y análisis de uso para identificar cuellos de botella y optimizar la aplicación para diferentes dispositivos y condiciones de red."
                     },
@@ -3898,9 +3898,9 @@
                             "Implementar servicios de mensajería como 'Socket.io' o 'PubNub' para facilitar la gestión de mensajes y la comunicación entre clientes",
                             "Considerar la utilización de bases de datos NoSQL como 'MongoDB' o 'Redis' para almacenar y recuperar mensajes de forma eficiente",
                             "Implementar mecanismos de autenticación y autorización para controlar el acceso a los mensajes y garantizar la seguridad",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-real-time-messaging.png",
                         "information": "Los sistemas de mensajería en tiempo real permiten la comunicación instantánea entre clientes y servidores en aplicaciones Node.js. Se pueden utilizar: **Tecnologías de mensajería:** WebSockets o Server-Sent Events para la comunicación bidireccional en tiempo real, permitiendo el envío y recepción de mensajes de forma fluida. **Servicios de mensajería:** Socket.io o PubNub para facilitar la gestión de mensajes, la comunicación entre clientes y la escalabilidad de la aplicación. **Bases de datos NoSQL:** MongoDB o Redis para almacenar y recuperar mensajes de forma eficiente, aprovechando su escalabilidad y rendimiento. **Seguridad:** Implementar mecanismos de autenticación y autorización para controlar el acceso a los mensajes, garantizar la seguridad y evitar accesos no autorizados."
                     },
@@ -3911,9 +3911,9 @@
                             "Implementar modelos de NLP personalizados utilizando frameworks como 'TensorFlow.js' o 'Brain.js'",
                             "Integrar APIs de NLP externas como 'Google Cloud Natural Language API' o 'Amazon Comprehend' para obtener funcionalidades avanzadas",
                             "Considerar la utilización de herramientas de procesamiento de voz como 'SpeechRecognition.js' o 'Web Speech API' para interactuar con el usuario mediante voz",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-nlp-processing.png",
                         "information": "El procesamiento del lenguaje natural (NLP) permite a las aplicaciones Node.js comprender, analizar y generar lenguaje humano. Se pueden utilizar: **Bibliotecas de NLP:** NLTK o Stanford CoreNLP para realizar tareas básicas de NLP como tokenización, análisis sintáctico, extracción de entidades y clasificación de texto. **Modelos NLP personalizados:** Implementar modelos de NLP personalizados utilizando frameworks como TensorFlow.js o Brain.js para tareas más complejas como la traducción automática, el resumen de texto o la generación de texto. **APIs de NLP externas:** Integrar APIs de NLP externas como Google Cloud Natural Language API o Amazon Comprehend para acceder a funcionalidades avanzadas como el análisis de sentimientos, la detección de intenciones o el reconocimiento de entidades nombradas. **Procesamiento de voz:** Utilizar herramientas de procesamiento de voz como SpeechRecognition.js o Web Speech API para interactuar con el usuario mediante voz, permitiendo el control de la aplicación o la entrada de datos mediante comandos de voz."
                     },
@@ -3924,9 +3924,9 @@
                             "Implementar sistemas de recomendación personalizados utilizando frameworks como 'Recommender.js' o 'Node-Recommender'",
                             "Integrar APIs de recomendación externas como 'Amazon Personalize' o 'Google Recommender Engine' para obtener funcionalidades avanzadas",
                             "Considerar la utilización de técnicas de aprendizaje automático para mejorar la precisión de las recomendaciones",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-recommendation-systems.png",
                         "information": "Los sistemas de recomendación permiten a las aplicaciones Node.js sugerir contenido relevante a los usuarios, mejorando su experiencia y aumentando la participación. Se pueden utilizar: **Algoritmos de recomendación:** Algoritmos basados en contenido o basados en la colaboración para sugerir contenido similar al que el usuario ha visto o interactuado previamente. **Sistemas de recomendación personalizados:** Implementar sistemas de recomendación personalizados utilizando frameworks como Recommender.js o Node-Recommender para adaptar las recomendaciones a las preferencias y el historial de cada usuario. **APIs de recomendación externas:** Integrar APIs de recomendación externas como Amazon Personalize o Google Recommender Engine para acceder a funcionalidades avanzadas como la recomendación en tiempo real o la personalización basada en datos demográficos. **Aprendizaje automático:** Utilizar técnicas de aprendizaje automático para mejorar la precisión de las recomendaciones, analizando patrones de comportamiento y preferencias de los usuarios."
                     },
@@ -3937,9 +3937,9 @@
                             "Implementar un sistema de bloqueo distribuido con Redis",
                             "Usar vector clocks para manejar conflictos en entornos multi-master",
                             "Implementar una estrategia de merge automático para resolver conflictos",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-concurrency-control.png",
                         "information": "El control de concurrencia optimista en sistemas distribuidos implica: **Timestamps:** Usar marcas de tiempo para detectar y resolver conflictos de versiones. **Bloqueo distribuido:** Implementar un sistema de bloqueo ligero con Redis para operaciones críticas. **Vector clocks:** Utilizar relojes vectoriales para ordenar eventos en sistemas distribuidos multi-master. **Merge automático:** Desarrollar estrategias para fusionar automáticamente cambios conflictivos cuando sea posible. También es importante implementar retries inteligentes, utilizar transacciones distribuidas cuando sea necesario, y considerar el uso de CRDTs (Conflict-free Replicated Data Types) para tipos de datos que puedan resolverse automáticamente."
                     },
@@ -3950,9 +3950,9 @@
                             "Utilizar un proxy reverso como nginx para balancear conexiones WebSocket",
                             "Implementar compresión de mensajes WebSocket",
                             "Utilizar protocolo MQTT para comunicación pub/sub eficiente",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-websocket-optimization.png",
                         "information": "La optimización de WebSockets a gran escala incluye: **Sharding:** Distribuir conexiones entre múltiples servidores basándose en identificadores de cliente. **Balanceo de carga:** Utilizar nginx con el módulo stream para distribuir conexiones WebSocket. **Compresión:** Implementar compresión de mensajes para reducir el ancho de banda utilizado. **MQTT:** Considerar el uso de MQTT para escenarios de publicación/suscripción eficientes. Además, es crucial implementar reconexión automática en el cliente, utilizar heartbeats para mantener conexiones activas, y considerar el uso de Redis para sincronización de estado entre instancias de servidor."
                     },
@@ -3963,9 +3963,9 @@
                             "Implementar un motor de reglas para definir patrones de eventos complejos",
                             "Utilizar una base de datos de series temporales para almacenar y analizar eventos",
                             "Implementar ventanas deslizantes para análisis de eventos en tiempo real",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-cep.png",
                         "information": "Un sistema CEP en Node.js puede incluir: **RxJS:** Utilizar programación reactiva para manejar y transformar flujos de eventos complejos. **Motor de reglas:** Implementar un sistema para definir y ejecutar reglas sobre patrones de eventos. **Base de datos de series temporales:** Usar InfluxDB o similar para almacenar y consultar eficientemente grandes volúmenes de eventos temporales. **Ventanas deslizantes:** Implementar análisis sobre ventanas de tiempo móviles para detectar patrones en tiempo real. Es importante también considerar la integración con sistemas de mensajería como Kafka para ingesta de eventos a gran escala, implementar técnicas de muestreo para manejar alta carga, y utilizar técnicas de machine learning para detección de anomalías en tiempo real."
                     },
@@ -3976,9 +3976,9 @@
                             "Implementar funciones idempotentes y stateless",
                             "Utilizar servicios gestionados para almacenamiento y base de datos",
                             "Implementar un sistema de orquestación de funciones como Step Functions",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-serverless.png",
                         "information": "Las mejores prácticas serverless con Node.js incluyen: **Frameworks:** Utilizar herramientas como Serverless Framework para simplificar el desarrollo y despliegue. **Idempotencia:** Diseñar funciones que puedan ser ejecutadas múltiples veces sin efectos secundarios. **Servicios gestionados:** Aprovechar servicios como DynamoDB o S3 para reducir la complejidad operativa. **Orquestación:** Utilizar servicios como AWS Step Functions para coordinar flujos de trabajo complejos. También es crucial optimizar el cold start de las funciones, implementar logging y monitoreo adecuados, y considerar el uso de capas (layers) para compartir código común entre funciones."
                     },
@@ -3989,9 +3989,9 @@
                             "Implementar blue/green deployments para actualizaciones sin tiempo de inactividad",
                             "Utilizar herramientas de seguridad como Snyk en el pipeline de CI",
                             "Implementar testing de contrato para asegurar la compatibilidad entre servicios",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-cicd-advanced.png",
                         "information": "Un sistema CI/CD avanzado para microservicios Node.js puede incluir: **GitOps:** Utilizar ArgoCD o Flux para sincronizar el estado deseado del cluster con un repositorio Git. **Blue/Green:** Implementar despliegues paralelos para permitir rollbacks rápidos y sin downtime. **Seguridad:** Integrar análisis de seguridad automatizado en el pipeline de CI. **Testing de contrato:** Utilizar herramientas como Pact para asegurar que los cambios no rompan la comunicación entre servicios. Es importante también implementar análisis de calidad de código, automatizar la generación y despliegue de documentación de API, y considerar la implementación de chaos engineering para probar la resiliencia del sistema."
                     },
@@ -4002,9 +4002,9 @@
                             "Utilizar schema stitching para federación de múltiples servicios GraphQL",
                             "Implementar persisted queries para reducir el tamaño de las peticiones",
                             "Utilizar análisis estático de queries para optimización automática",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-graphql-optimization.png",
                         "information": "La optimización de GraphQL en Node.js incluye: **DataLoader:** Utilizar esta biblioteca para agrupar y cachear eficientemente la resolución de campos. **Schema stitching:** Combinar múltiples schemas GraphQL para crear una API unificada. **Persisted queries:** Almacenar queries en el servidor y enviar solo un hash desde el cliente para reducir el payload. **Análisis estático:** Utilizar herramientas como graphql-query-complexity para analizar y optimizar queries automáticamente. También es importante implementar rate limiting específico para GraphQL, utilizar fragments para optimizar queries del cliente, y considerar el uso de subscriptions para datos en tiempo real."
                     },
@@ -4015,9 +4015,9 @@
                             "Implementar backpressure handling para manejar picos de carga",
                             "Utilizar Node.js Streams API para procesamiento eficiente de datos",
                             "Implementar windowing techniques para agregaciones en tiempo real",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-stream-processing.png",
                         "information": "El procesamiento de streams en tiempo real con Node.js implica: **Kafka:** Utilizar Apache Kafka con node-rdkafka para ingerir y procesar grandes volúmenes de datos en tiempo real. **Backpressure:** Implementar mecanismos para regular el flujo de datos y evitar sobrecargas. **Streams API:** Aprovechar la API nativa de Node.js para procesamiento eficiente de streams. **Windowing:** Utilizar técnicas de ventana deslizante para realizar agregaciones y análisis en tiempo real. Es crucial también considerar la implementación de exactly-once processing para garantizar la integridad de los datos, utilizar técnicas de particionamiento para paralelizar el procesamiento, y implementar mecanismos de recuperación ante fallos."
                     },
@@ -4028,9 +4028,9 @@
                             "Implementar autenticación basada en firmas digitales con claves públicas/privadas",
                             "Utilizar tokens no fungibles (NFTs) para representar credenciales de acceso",
                             "Implementar un sistema de reputación descentralizado para autorización dinámica",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-blockchain-auth.png",
                         "information": "La autenticación y autorización basada en blockchain en Node.js puede incluir: **Smart contracts:** Utilizar contratos inteligentes en Ethereum o similar para gestionar roles y permisos de forma descentralizada. **Firmas digitales:** Implementar autenticación basada en criptografía asimétrica, verificando firmas en el servidor. **NFTs:** Utilizar tokens no fungibles para representar credenciales o badges de acceso únicos. **Sistema de reputación:** Implementar un mecanismo descentralizado para calcular y verificar la reputación de los usuarios para autorización dinámica. Es importante también considerar la implementación de mecanismos de recuperación de cuentas, utilizar oráculos para integrar datos off-chain en las decisiones de autorización, y implementar capas de caché para optimizar el rendimiento de las verificaciones frecuentes."
                     },
@@ -4041,9 +4041,9 @@
                             "Implementar un sistema de colas distribuido para tareas de procesamiento ML",
                             "Utilizar WebAssembly para optimizar cálculos intensivos en CPU",
                             "Implementar federated learning para entrenar modelos de forma descentralizada",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-distributed-ml.png",
                         "information": "Un sistema de ML distribuido en Node.js puede incluir: **TensorFlow.js:** Utilizar esta biblioteca para ejecutar y entrenar modelos de ML en entornos distribuidos. **Colas distribuidas:** Implementar un sistema como Bull para distribuir tareas de procesamiento ML entre múltiples nodos. **WebAssembly:** Utilizar WASM para optimizar operaciones intensivas en CPU, mejorando el rendimiento de algoritmos ML. **Federated learning:** Implementar técnicas de aprendizaje federado para entrenar modelos globales mientras los datos permanecen en dispositivos locales. Es crucial también considerar la implementación de técnicas de paralelización de datos y modelos, utilizar sistemas de almacenamiento distribuido para datasets grandes, y implementar mecanismos de monitoreo y logging específicos para ML."
                     },
@@ -4054,9 +4054,9 @@
                             "Implementar pre-fetching basado en análisis de comportamiento de usuario",
                             "Utilizar Graph Neural Networks para modelar relaciones entre datos y optimizar el caché",
                             "Implementar un sistema de caché multi-nivel con políticas de evicción adaptativas",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-predictive-cache.png",
                         "information": "Un sistema de caché predictivo avanzado en Node.js puede incluir: **ML para predicción:** Utilizar algoritmos como regresión logística o árboles de decisión para predecir qué datos cachear. **Pre-fetching inteligente:** Analizar patrones de comportamiento de usuario para pre-cargar datos probablemente necesarios. **Graph Neural Networks:** Modelar relaciones complejas entre datos para optimizar decisiones de caché. **Caché multi-nivel:** Implementar diferentes niveles de caché (memoria, SSD, disco) con políticas de evicción que se adapten dinámicamente. Es importante también considerar la implementación de técnicas de compresión adaptativa, utilizar análisis de series temporales para identificar patrones cíclicos, y implementar mecanismos de feedback para ajustar continuamente el modelo predictivo."
                     },
@@ -4067,9 +4067,9 @@
                             "Implementar ventanas temporales deslizantes para análisis continuo",
                             "Utilizar aproximaciones probabilísticas como HyperLogLog para estimaciones de cardinalidad",
                             "Implementar un sistema de alertas basado en anomalías detectadas en tiempo real",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-realtime-analytics.png",
                         "information": "Un sistema de análisis en tiempo real con Node.js puede incluir: **Apache Flink:** Utilizar su API para JavaScript para procesamiento de streams distribuido y escalable. **Ventanas deslizantes:** Implementar análisis sobre ventanas de tiempo móviles para métricas como promedios móviles o detección de tendencias. **HyperLogLog:** Usar esta estructura de datos probabilística para estimar cardinalidades únicas en grandes volúmenes de datos. **Alertas en tiempo real:** Desarrollar un sistema que detecte y notifique anomalías basándose en patrones históricos y umbrales dinámicos. Es importante también considerar la implementación de técnicas de muestreo adaptativo para manejar picos de tráfico, utilizar bases de datos de series temporales para almacenamiento eficiente, y diseñar una arquitectura lambda para combinar procesamiento en tiempo real con análisis por lotes."
                     },
@@ -4080,9 +4080,9 @@
                             "Implementar un sistema de embedding de usuarios y artículos con modelos de deep learning",
                             "Utilizar técnicas de bandidos multi-brazo para optimización de recomendaciones",
                             "Implementar un sistema de recomendación sensible al contexto utilizando procesamiento de streams",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-realtime-recommendations.png",
                         "information": "Un sistema de recomendación avanzado en Node.js puede incluir: **Filtrado colaborativo incremental:** Actualizar modelos de recomendación en tiempo real a medida que llegan nuevas interacciones. **Embeddings con deep learning:** Utilizar redes neuronales para generar representaciones vectoriales de usuarios y artículos. **Bandidos multi-brazo:** Implementar algoritmos como Thompson Sampling para balancear exploración y explotación en las recomendaciones. **Recomendaciones contextuales:** Incorporar factores como ubicación, hora del día o dispositivo en el modelo de recomendación. Es crucial también implementar técnicas de caching inteligente para servir recomendaciones rápidamente, utilizar procesamiento distribuido para manejar grandes volúmenes de datos, y diseñar un sistema de feedback para evaluar y mejorar continuamente la calidad de las recomendaciones."
                     },
@@ -4093,9 +4093,9 @@
                             "Implementar un patrón de Saga para manejar transacciones distribuidas",
                             "Utilizar gRPC para comunicación eficiente entre servicios",
                             "Implementar un sistema de descubrimiento de servicios basado en DNS",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-microservices-orchestration.png",
                         "information": "Un sistema avanzado de orquestación de microservicios en Node.js puede incluir: **Service mesh:** Utilizar Istio o Linkerd para manejar aspectos como descubrimiento de servicios, balanceo de carga y seguridad. **Patrón Saga:** Implementar flujos de trabajo distribuidos para manejar transacciones que abarcan múltiples servicios. **gRPC:** Utilizar este protocolo para comunicación eficiente y tipada entre servicios. **Descubrimiento basado en DNS:** Implementar un sistema de registro y descubrimiento de servicios utilizando DNS y herramientas como CoreDNS. Es importante también considerar la implementación de circuit breakers para manejar fallos en cascada, utilizar contratos de API para asegurar la compatibilidad entre servicios, y diseñar un sistema de trazabilidad distribuida para depuración y monitoreo."
                     },
@@ -4106,9 +4106,9 @@
                             "Implementar un motor de reglas distribuido para procesamiento paralelo de eventos",
                             "Utilizar técnicas de ventana deslizante semántica para detectar patrones basados en contexto",
                             "Implementar un sistema de checkpoint y recuperación para garantizar el procesamiento exactamente una vez",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-cep-large-scale.png",
                         "information": "Un sistema CEP avanzado en Node.js puede incluir: **Base de datos de grafos temporal:** Utilizar una solución como TigerGraph para modelar y consultar eficientemente relaciones complejas entre eventos a lo largo del tiempo. **Motor de reglas distribuido:** Implementar un sistema que permita definir y ejecutar reglas de negocio complejas de forma distribuida y paralela. **Ventana deslizante semántica:** Desarrollar técnicas que permitan definir ventanas de eventos basadas en el contexto y significado de los eventos, no solo en tiempo o conteo. **Checkpoint y recuperación:** Implementar mecanismos robustos para garantizar el procesamiento exactamente una vez incluso en caso de fallos. Es crucial también considerar la implementación de técnicas de compresión y muestreo para manejar grandes volúmenes de eventos, utilizar aprendizaje automático para detección de patrones emergentes, y diseñar una arquitectura que permita escalar horizontalmente el procesamiento de eventos."
                     },
@@ -4119,9 +4119,9 @@
                             "Implementar un sistema de sincronización de datos offline-first",
                             "Utilizar service workers para manejar lógica de aplicación en el edge",
                             "Implementar un sistema de despliegue y actualización OTA (Over-The-Air) para nodos edge",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-edge-computing.png",
                         "information": "Un sistema de edge computing con Node.js puede incluir: **WebAssembly:** Utilizar WASM para ejecutar código de alto rendimiento en dispositivos con recursos limitados. **Sincronización offline-first:** Implementar estrategias de sincronización que permitan operaciones offline y resolución de conflictos. **Service workers:** Aprovechar estos para manejar lógica de aplicación, caching y sincronización en el edge. **Actualizaciones OTA:** Desarrollar un sistema para desplegar y actualizar software en dispositivos edge de forma remota y segura. Es importante también considerar la implementación de técnicas de compresión y optimización de payload para comunicaciones eficientes, utilizar protocolos ligeros como MQTT para comunicación M2M (machine-to-machine), y diseñar estrategias de seguridad robustas para proteger los dispositivos y datos en el edge."
                     },
@@ -4132,9 +4132,9 @@
                             "Implementar APIs RESTful para gestionar contenido desde aplicaciones externas o clientes móviles",
                             "Considerar la utilización de bases de datos NoSQL como 'MongoDB' o 'CouchDB' para almacenar contenido de forma flexible y escalable",
                             "Integrar herramientas de colaboración como 'Git' o 'GitHub' para facilitar el trabajo en equipo y la gestión de versiones del contenido",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-content-management-systems.png",
                         "information": "Los sistemas de gestión de contenido (CMS) permiten crear y administrar contenido web de forma dinámica en aplicaciones Node.js. Se pueden utilizar: **Frameworks CMS:** Strapi o Ghost para crear APIs RESTful, administrar contenido y generar páginas web dinámicas. **APIs RESTful:** Implementar APIs RESTful para gestionar contenido desde aplicaciones externas o clientes móviles, permitiendo la interoperabilidad y el acceso remoto. **Bases de datos NoSQL:** MongoDB o CouchDB para almacenar contenido de forma flexible y escalable, aprovechando su estructura flexible y escalabilidad horizontal. **Herramientas de colaboración:** Git o GitHub para facilitar el trabajo en equipo, la gestión de versiones del contenido y el control de cambios."
                     },
@@ -4145,9 +4145,9 @@
                             "Implementar APIs RESTful para integrar datos de CRM con otras aplicaciones o sistemas",
                             "Considerar la utilización de herramientas de automatización de marketing como 'MailChimp' o 'Drip' para enviar correos electrónicos personalizados y automatizar campañas de marketing",
                             "Integrar herramientas de análisis de datos como 'Google Analytics' o 'Mixpanel' para obtener información sobre el comportamiento de los clientes",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-crm-systems.png",
                         "information": "Los sistemas de gestión de relaciones con el cliente (CRM) permiten gestionar datos de clientes, oportunidades y ventas en aplicaciones Node.js. Se pueden utilizar: **Frameworks CRM:** Salesforce o Zoho CRM para gestionar datos de clientes, leads, oportunidades y ventas, automatizar flujos de trabajo y generar informes. **APIs RESTful:** Implementar APIs RESTful para integrar datos de CRM con otras aplicaciones o sistemas, permitiendo la interoperabilidad y el intercambio de información. **Herramientas de automatización de marketing:** MailChimp o Drip para enviar correos electrónicos personalizados, automatizar campañas de marketing y nutrir leads. **Herramientas de análisis de datos:** Google Analytics o Mixpanel para obtener información sobre el comportamiento de los clientes, analizar campañas de marketing y tomar decisiones basadas en datos."
                     },
@@ -4158,9 +4158,9 @@
                             "Implementar algoritmos cuánticos como Shor o Grover en JavaScript",
                             "Utilizar WebAssembly para optimizar cálculos de matrices complejas",
                             "Implementar un sistema distribuido para simular qubits a gran escala",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-quantum-simulation.png",
                         "information": "Un sistema de simulación cuántica en Node.js puede incluir: **Qiskit.js:** Utilizar esta biblioteca para crear y simular circuitos cuánticos en el navegador o servidor. **Algoritmos cuánticos:** Implementar versiones de algoritmos cuánticos famosos para demostración y educación. **WebAssembly:** Aprovechar WASM para optimizar cálculos intensivos de matrices complejas necesarios en la simulación cuántica. **Simulación distribuida:** Diseñar un sistema que distribuya la simulación de qubits entre múltiples nodos para escalar a sistemas más grandes. Es importante también considerar la implementación de visualizaciones interactivas de estados cuánticos, utilizar técnicas de paralelización GPU a través de WebGL para acelerar cálculos, y diseñar APIs intuitivas para que los desarrolladores puedan experimentar con conceptos cuánticos."
                     },
@@ -4171,9 +4171,9 @@
                             "Implementar técnicas de zero-shot learning para tareas en idiomas con pocos recursos",
                             "Utilizar Graph Convolutional Networks para modelar relaciones semánticas entre idiomas",
                             "Implementar un sistema de traducción neuronal en tiempo real",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-multilingual-nlp.png",
                         "information": "Un sistema NLP multilingüe avanzado en Node.js puede incluir: **Modelos multilingües:** Utilizar arquitecturas pre-entrenadas en múltiples idiomas para tareas como clasificación o named entity recognition. **Zero-shot learning:** Implementar técnicas que permitan generalizar a idiomas no vistos durante el entrenamiento. **Graph Convolutional Networks:** Modelar relaciones semánticas entre idiomas para mejorar la transferencia de conocimiento. **Traducción neuronal:** Implementar modelos de seq2seq con atención para traducción en tiempo real. Es crucial también considerar la implementación de técnicas de data augmentation para idiomas con pocos recursos, utilizar transfer learning para adaptar modelos a dominios específicos, y diseñar pipelines de preprocesamiento que manejen eficientemente diferentes sistemas de escritura y codificaciones de caracteres."
                     },
@@ -4184,9 +4184,9 @@
                             "Implementar un sistema de orquestación para distribuir tareas entre nodos fog y cloud",
                             "Utilizar edge TPUs o GPUs para acelerar tareas de inferencia en dispositivos fog",
                             "Implementar técnicas de federación de datos para análisis distribuido",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-fog-computing.png",
                         "information": "Un sistema de fog computing con Node.js puede incluir: **MQTT:** Utilizar este protocolo para comunicación eficiente entre dispositivos fog y sensores IoT. **Orquestación:** Desarrollar un sistema que distribuya dinámicamente tareas entre nodos fog y cloud basándose en latencia, carga y disponibilidad. **Aceleración hardware:** Aprovechar TPUs o GPUs en dispositivos fog para tareas de ML/AI en el edge. **Federación de datos:** Implementar técnicas que permitan realizar análisis sobre datos distribuidos sin centralizarlos. Es importante también considerar la implementación de mecanismos de seguridad robustos para proteger la red fog, utilizar técnicas de compresión y filtrado de datos para optimizar el uso del ancho de banda, y diseñar estrategias de caché distribuido para mejorar la latencia y resiliencia del sistema."
                     },
@@ -4197,9 +4197,9 @@
                             "Implementar patrones de diseño como proxy upgradeable para contratos actualizables",
                             "Utilizar oráculos descentralizados como Chainlink para datos externos confiables",
                             "Implementar sistemas de identidad descentralizada (DID) para autenticación de usuarios",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-dapps-smartcontracts.png",
                         "information": "Un sistema avanzado de DApps y smart contracts con Node.js puede incluir: **Truffle Suite:** Utilizar este conjunto de herramientas para simplificar el ciclo de vida del desarrollo de smart contracts. **Contratos actualizables:** Implementar patrones que permitan actualizar la lógica de los contratos sin perder datos. **Oráculos descentralizados:** Integrar servicios como Chainlink para obtener datos externos de forma segura y confiable. **Identidad descentralizada:** Implementar sistemas DID para autenticación y gestión de identidad sin dependencia de autoridades centrales. Es crucial también considerar la implementación de técnicas de optimización de gas, utilizar herramientas de análisis estático para detectar vulnerabilidades en contratos, y diseñar arquitecturas que balanceen operaciones on-chain y off-chain para optimizar costos y rendimiento."
                     },
@@ -4210,9 +4210,9 @@
                             "Implementar un mecanismo de elección de líder distribuido para coordinación de nodos",
                             "Utilizar técnicas de gossip protocol para diseminación de información entre nodos",
                             "Implementar circuit breakers y bulkheads para prevenir fallos en cascada",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/node-edge-fault-tolerant.png",
                         "information": "Un sistema de edge computing tolerante a fallos en Node.js puede incluir: **CRDT:** Utilizar Conflict-free Replicated Data Types para sincronización de datos resiliente a particiones de red. **Elección de líder:** Implementar algoritmos como Raft para coordinación distribuida y manejo de fallos de nodos. **Gossip protocol:** Utilizar este tipo de protocolo para diseminar información de forma eficiente y robusta en redes parcialmente conectadas. **Circuit breakers:** Implementar estos patrones para prevenir la propagación de fallos y mejorar la resiliencia del sistema. Es importante también considerar la implementación de estrategias de caching distribuido con invalidación eventual, utilizar técnicas de procesamiento de stream para manejar datos en tiempo real de forma resiliente, y diseñar mecanismos de auto-recuperación y auto-escalado para adaptarse a fallos y cambios en la carga de trabajo."
                     }
@@ -4229,9 +4229,9 @@
                             "Enrutamiento basado en el sistema de archivos",
                             "Optimización de imágenes automática",
                             "Soporte incorporado para CSS Modules",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-advantages.png",
                         "information": "Next.js ofrece varias ventajas clave: **SSR por defecto:** Mejora el rendimiento y SEO al renderizar páginas en el servidor. **Enrutamiento basado en archivos:** Simplifica la estructura del proyecto y la navegación. **Optimización de imágenes:** Incluye un componente Image que optimiza automáticamente las imágenes. **CSS Modules:** Proporciona soporte incorporado para estilos modulares. Además, Next.js ofrece una experiencia de desarrollo mejorada con recarga en caliente, división de código automática y una configuración mínima para comenzar."
                     },
@@ -4246,7 +4246,7 @@
                         ],
                         "answer": "Creando un nuevo archivo en la carpeta 'pages'",
                         "images": "https://example.com/nextjs-create-page.png",
-                        "information": "En Next.js, crear una nueva página es tan simple como añadir un nuevo archivo JavaScript o TypeScript en la carpeta 'pages'. Por ejemplo, crear un archivo 'about.js' en la carpeta 'pages' automáticamente crea una ruta '/about' en tu aplicación. Este sistema de enrutamiento basado en el sistema de archivos es una de las características más convenientes de Next.js, ya que elimina la necesidad de configurar rutas manualmente en la mayoría de los casos."
+                        "information": "En Next.js, crear una nueva página es tan simple como añadir un nuevo archivo JavaScript o TypeScript en la carpeta 'pages'. Por example, crear un archivo 'about.js' en la carpeta 'pages' automáticamente crea una ruta '/about' en tu aplicación. Este sistema de enrutamiento basado en el sistema de archivos es una de las características más convenientes de Next.js, ya que elimina la necesidad de configurar rutas manualmente en la mayoría de los casos."
                     },
                     {
                         "ask": "¿Qué es getStaticProps en Next.js y para qué se utiliza?",
@@ -4268,7 +4268,7 @@
                             "Con el método window.location.href",
                             "Utilizando la etiqueta <a> de HTML",
                             "A través de un router personalizado",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
                         "answer": "Usando el componente <Link> de Next.js",
                         "images": "https://example.com/nextjs-navigation.png",
@@ -4281,9 +4281,9 @@
                             "Se usa para envolver componentes con proveedores de contexto global",
                             "Permite añadir estilos globales a la aplicación",
                             "Es donde se configuran los layouts comunes",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-app-js.png",
                         "information": "El archivo _app.js en Next.js es crucial y sirve para varios propósitos: **Punto de entrada:** Es el componente raíz que envuelve todas las páginas. **Contexto global:** Ideal para añadir proveedores de estado global como Redux. **Estilos globales:** Permite importar hojas de estilo CSS que se aplicarán a toda la aplicación. **Layouts comunes:** Se puede usar para implementar layouts o componentes que deben aparecer en todas las páginas. Además, _app.js es útil para manejar la persistencia de estado entre cambios de página y para añadir funcionalidades adicionales que deben aplicarse a toda la aplicación."
                     },
@@ -4298,7 +4298,7 @@
                         ],
                         "answer": "Usando corchetes [] en el nombre del archivo de la página",
                         "images": "https://example.com/nextjs-dynamic-routing.png",
-                        "information": "El enrutamiento dinámico en Next.js permite crear páginas que pueden manejar parámetros dinámicos en la URL. Se implementa creando archivos de página con corchetes en su nombre, por ejemplo, [id].js. Esto permite capturar cualquier valor en esa parte de la URL y utilizarlo dentro de la página. Es útil para crear páginas de detalle de productos, perfiles de usuario, o cualquier contenido que dependa de un identificador en la URL."
+                        "information": "El enrutamiento dinámico en Next.js permite crear páginas que pueden manejar parámetros dinámicos en la URL. Se implementa creando archivos de página con corchetes en su nombre, por example, [id].js. Esto permite capturar cualquier valor en esa parte de la URL y utilizarlo dentro de la página. Es útil para crear páginas de detalle de productos, perfiles de usuario, o cualquier contenido que dependa de un identificador en la URL."
                     },
                     {
                         "ask": "¿Cuál es la diferencia entre getStaticProps y getServerSideProps en Next.js?",
@@ -4307,9 +4307,9 @@
                             "getStaticProps es para datos estáticos, getServerSideProps para datos dinámicos",
                             "getStaticProps es más rápido, getServerSideProps es más flexible",
                             "getStaticProps genera HTML estático, getServerSideProps lo genera dinámicamente",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-props-comparison.png",
                         "information": "getStaticProps y getServerSideProps son funciones de Next.js para obtener datos, pero difieren en cuándo y cómo se ejecutan. getStaticProps se ejecuta en tiempo de compilación y es ideal para datos que no cambian frecuentemente, generando HTML estático. getServerSideProps se ejecuta en cada solicitud, permitiendo datos dinámicos y personalizados por solicitud. getStaticProps ofrece mejor rendimiento al servir contenido pre-renderizado, mientras que getServerSideProps ofrece mayor flexibilidad para contenido que cambia frecuentemente o depende de la solicitud del usuario."
                     },
@@ -4324,7 +4324,7 @@
                         ],
                         "answer": "Para definir rutas dinámicas en páginas estáticas",
                         "images": "https://example.com/nextjs-getstaticpaths.png",
-                        "information": "getStaticPaths es una función que se utiliza en conjunto con getStaticProps para páginas con rutas dinámicas que se generan estáticamente. Se usa para especificar qué instancias de las páginas dinámicas deben ser pre-renderizadas en tiempo de compilación. Por ejemplo, en una página de blog con rutas como /posts/[id], getStaticPaths especificaría qué IDs de posts deben generarse. Esto permite crear páginas estáticas para rutas dinámicas, combinando los beneficios de la generación estática con la flexibilidad de las rutas dinámicas."
+                        "information": "getStaticPaths es una función que se utiliza en conjunto con getStaticProps para páginas con rutas dinámicas que se generan estáticamente. Se usa para especificar qué instancias de las páginas dinámicas deben ser pre-renderizadas en tiempo de compilación. Por example, en una página de blog con rutas como /posts/[id], getStaticPaths especificaría qué IDs de posts deben generarse. Esto permite crear páginas estáticas para rutas dinámicas, combinando los beneficios de la generación estática con la flexibilidad de las rutas dinámicas."
                     },
                     {
                         "ask": "¿Cómo se manejan las API routes en Next.js?",
@@ -4346,9 +4346,9 @@
                             "Proporciona carga lazy por defecto",
                             "Redimensiona imágenes para diferentes dispositivos",
                             "Previene el layout shift causado por la carga de imágenes",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-image-component.png",
                         "information": "El componente Image de Next.js es una extensión de la etiqueta <img> HTML que ofrece optimización automática de imágenes. Proporciona carga lazy por defecto, mejorando el rendimiento inicial de la página. Redimensiona y optimiza imágenes para diferentes dispositivos y tamaños de pantalla. Además, ayuda a prevenir el Cumulative Layout Shift (CLS) reservando el espacio correcto para la imagen antes de que se cargue. Estas características mejoran significativamente el rendimiento y la experiencia del usuario en aplicaciones Next.js."
                     },
@@ -4372,9 +4372,9 @@
                             "Para definir variables de entorno",
                             "Para configurar rutas de redirección y reescritura",
                             "Para añadir plugins y módulos personalizados",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-config-file.png",
                         "information": "El archivo next.config.js es un archivo de configuración para personalizar el comportamiento de una aplicación Next.js. Se utiliza para configurar ajustes como la configuración de webpack, añadir headers personalizados, definir redirects y rewrites, configurar internacionalización, y más. También se puede usar para definir variables de entorno públicas y añadir plugins. Este archivo proporciona una gran flexibilidad para adaptar Next.js a las necesidades específicas de cada proyecto."
                     },
@@ -4385,11 +4385,11 @@
                             "Con Styled Components o Emotion",
                             "A través de archivos .css globales",
                             "Utilizando Sass o Less",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-styling.png",
-                        "information": "Next.js ofrece varias opciones para manejar estilos: CSS Modules para estilos locales a componentes, soporte para bibliotecas de CSS-in-JS como Styled Components, importación de archivos .css globales, y soporte para preprocesadores como Sass. Los CSS Modules son particularmente útiles ya que vienen integrados y permiten estilos locales sin configuración adicional. Next.js también permite mezclar estos enfoques, dando flexibilidad para elegir la mejor estrategia de estilos para cada parte de la aplicación."
+                        "information": "Next.js ofrece varias options para manejar estilos: CSS Modules para estilos locales a componentes, soporte para bibliotecas de CSS-in-JS como Styled Components, importación de archivos .css globales, y soporte para preprocesadores como Sass. Los CSS Modules son particularmente útiles ya que vienen integrados y permiten estilos locales sin configuración adicional. Next.js también permite mezclar estos enfoques, dando flexibilidad para elegir la mejor estrategia de estilos para cada parte de la aplicación."
                     },
                     {
                         "ask": "¿Qué es el componente Head en Next.js y para qué se utiliza?",
@@ -4398,9 +4398,9 @@
                             "Para añadir metadatos y títulos a las páginas",
                             "Para incluir scripts y estilos externos",
                             "Para gestionar el SEO de la página",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-head-component.png",
                         "information": "El componente Head en Next.js se utiliza para modificar el contenido del <head> de HTML en cada página. Permite añadir o modificar metadatos, títulos, descripciones y otros elementos importantes para SEO. También se puede usar para incluir scripts y hojas de estilo externas. Este componente es crucial para optimizar cada página para motores de búsqueda y redes sociales, ya que permite personalizar la información que se muestra cuando se comparte la página."
                     },
@@ -4411,9 +4411,9 @@
                             "Creando carpetas para cada idioma en pages",
                             "Utilizando un hook useTranslation personalizado",
                             "Configurando rutas dinámicas con parámetros de idioma",
-                            "Todas las opciones anteriores"
+                            "Todas las options anteriores"
                         ],
-                        "answer": "Todas las opciones anteriores",
+                        "answer": "Todas las options anteriores",
                         "images": "https://example.com/nextjs-i18n.png",
                         "information": "Next.js ofrece soporte integrado para internacionalización. Se puede configurar en next.config.js especificando los idiomas soportados y el idioma por defecto. Se pueden crear carpetas para cada idioma dentro de pages para versiones localizadas de cada página. Next.js también proporciona un hook useRouter que incluye información sobre el idioma actual. Para traducciones de textos, se pueden usar bibliotecas como next-i18next. Este enfoque permite crear aplicaciones multilingües de forma eficiente, con soporte para enrutamiento basado en idioma y detección automática del idioma del usuario."
                     }
@@ -4914,7 +4914,7 @@
                         ],
                         "answer": "Una tarea que se ejecuta en segundo plano",
                         "images": "https://example.com/laravel-job.png",
-                        "information": "Un Job en Laravel es una tarea que se ejecuta en segundo plano utilizando el sistema de colas de Laravel, permitiendo la ejecución de procesos largos o pesados sin bloquear la respuesta del servidor."
+                        "information": "Un Job en Laravel es una tarea que se ejecuta en segundo plano utilizando el sistema de colas de Laravel, permitiendo la ejecución de procesos largos o pesados sin bloquear la answer del servidor."
                     },
                     {
                         "ask": "¿Qué es el método `resolve()` en Laravel?",
@@ -5169,7 +5169,7 @@
                         ],
                         "answer": "Para almacenar en caché resultados de consultas y operaciones costosas para mejorar el rendimiento",
                         "images": "https://example.com/laravel-caching.png",
-                        "information": "`Caching` en Laravel se implementa utilizando el sistema de almacenamiento en caché integrado. Su propósito es almacenar en caché resultados de consultas y operaciones costosas para mejorar el rendimiento de la aplicación, reduciendo el tiempo de respuesta y la carga en el servidor de base de datos."
+                        "information": "`Caching` en Laravel se implementa utilizando el sistema de almacenamiento en caché integrado. Su propósito es almacenar en caché resultados de consultas y operaciones costosas para mejorar el rendimiento de la aplicación, reduciendo el tiempo de answer y la carga en el servidor de base de datos."
                     },
                     {
                         "ask": "¿Qué son los `Laravel Gates` y `Policies` y cómo se diferencian?",
@@ -5507,7 +5507,7 @@
                         "information": "Crear un framework de simulación a escala global que permita modelar y probar la aplicación Laravel bajo condiciones extremas. Incluye simulación de millones de usuarios concurrentes, emulación de latencia y pérdida de paquetes basada en geografía real, y capacidad para introducir fallos de infraestructura complejos. Requiere integración con sistemas de orquestación de contenedores, un motor de simulación de red distribuida, y capacidades de generación de tráfico sintético basado en patrones de uso reales."
                     },
                     {
-                        "ask": "¿Cómo implementarías un sistema de migración de datos en tiempo real entre diferentes arquitecturas de base de datos (por ejemplo, de relacional a graph) en una aplicación Laravel de alta disponibilidad sin tiempo de inactividad?",
+                        "ask": "¿Cómo implementarías un sistema de migración de datos en tiempo real entre diferentes arquitecturas de base de datos (por example, de relacional a graph) en una aplicación Laravel de alta disponibilidad sin tiempo de inactividad?",
                         "options": [
                             "Dual-write con transformación asíncrona",
                             "Change Data Capture (CDC) con adaptadores de transformación",
@@ -5617,7 +5617,7 @@
                         "information": "Desarrollar un sistema que utilice teoría de juegos para diseñar y ejecutar experimentos de caos. Modelar el sistema como un juego donde el 'atacante' intenta encontrar vulnerabilidades y el 'defensor' intenta mantener la estabilidad. Utilizar técnicas de equilibrio de Nash para encontrar estrategias óptimas de prueba. Requiere modelado detallado del sistema, simulaciones de alta fidelidad, y mecanismos de seguridad robustos para limitar el impacto potencial."
                     },
                     {
-                        "ask": "¿Cómo diseñarías un sistema de migración de datos en tiempo real para una aplicación Laravel que permita transiciones suaves entre diferentes paradigmas de base de datos (por ejemplo, de relacional a grafo) sin tiempo de inactividad?",
+                        "ask": "¿Cómo diseñarías un sistema de migración de datos en tiempo real para una aplicación Laravel que permita transiciones suaves entre diferentes paradigmas de base de datos (por example, de relacional a grafo) sin tiempo de inactividad?",
                         "options": [
                             "Dual-write con reconciliación asíncrona",
                             "Change Data Capture (CDC) con transformación en streaming",
@@ -6717,7 +6717,7 @@
                 ],
                 "god": [
                     {
-                        "question": "Which design pattern is commonly used to implement undo functionality?",
+                        "ask": "Which design pattern is commonly used to implement undo functionality?",
                         "options": [
                             "Observer Pattern",
                             "Command Pattern",
@@ -6734,7 +6734,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is typically used for finding the shortest path in a weighted graph with non-negative weights?",
+                        "ask": "Which algorithm is typically used for finding the shortest path in a weighted graph with non-negative weights?",
                         "options": [
                             "Floyd-Warshall Algorithm",
                             "Dijkstra's Algorithm",
@@ -6751,7 +6751,7 @@
                         ]
                     },
                     {
-                        "question": "What data structure is commonly used to implement a LRU (Least Recently Used) cache?",
+                        "ask": "What data structure is commonly used to implement a LRU (Least Recently Used) cache?",
                         "options": [
                             "Linked List",
                             "Heap",
@@ -6768,7 +6768,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is used for sorting data sets that are already mostly sorted?",
+                        "ask": "Which algorithm is used for sorting data sets that are already mostly sorted?",
                         "options": [
                             "Merge Sort",
                             "Bubble Sort",
@@ -6785,7 +6785,7 @@
                         ]
                     },
                     {
-                        "question": "What design pattern promotes loose coupling between objects by ensuring that objects depend only on abstractions?",
+                        "ask": "What design pattern promotes loose coupling between objects by ensuring that objects depend only on abstractions?",
                         "options": [
                             "Factory Pattern",
                             "Bridge Pattern",
@@ -6802,7 +6802,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is used to find strongly connected components in a directed graph?",
+                        "ask": "Which algorithm is used to find strongly connected components in a directed graph?",
                         "options": [
                             "Depth-First Search (DFS)",
                             "Breadth-First Search (BFS)",
@@ -6819,7 +6819,7 @@
                         ]
                     },
                     {
-                        "question": "Which data structure is suitable for implementing a scheduling algorithm that selects the next process to execute based on priority?",
+                        "ask": "Which data structure is suitable for implementing a scheduling algorithm that selects the next process to execute based on priority?",
                         "options": [
                             "Heap",
                             "Trie",
@@ -6836,7 +6836,7 @@
                         ]
                     },
                     {
-                        "question": "What is the primary advantage of using a Trie data structure over a hash table for storing strings?",
+                        "ask": "What is the primary advantage of using a Trie data structure over a hash table for storing strings?",
                         "options": [
                             "Constant-time insertion and deletion",
                             "Guaranteed O(1) average-time complexity for search operations",
@@ -6853,7 +6853,7 @@
                         ]
                     },
                     {
-                        "question": "Which sorting algorithm has the best asymptotic time complexity in both average and worst cases?",
+                        "ask": "Which sorting algorithm has the best asymptotic time complexity in both average and worst cases?",
                         "options": [
                             "Quick Sort",
                             "Merge Sort",
@@ -6870,7 +6870,7 @@
                         ]
                     },
                     {
-                        "question": "Which data structure is typically used to implement a graph with weighted edges and supports efficient insertion, deletion, and update operations?",
+                        "ask": "Which data structure is typically used to implement a graph with weighted edges and supports efficient insertion, deletion, and update operations?",
                         "options": [
                             "Hash Map",
                             "Heap",
@@ -6887,7 +6887,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is commonly used to find the longest common subsequence between two sequences?",
+                        "ask": "Which algorithm is commonly used to find the longest common subsequence between two sequences?",
                         "options": [
                             "Dynamic Programming",
                             "Greedy Algorithm",
@@ -6904,7 +6904,7 @@
                         ]
                     },
                     {
-                        "question": "Which data structure is used to efficiently find the k-th smallest or largest element in an unsorted array?",
+                        "ask": "Which data structure is used to efficiently find the k-th smallest or largest element in an unsorted array?",
                         "options": [
                             "Max Heap",
                             "Min Heap",
@@ -6921,7 +6921,7 @@
                         ]
                     },
                     {
-                        "question": "Which pattern is used to separate the construction of a complex object from its representation?",
+                        "ask": "Which pattern is used to separate the construction of a complex object from its representation?",
                         "options": [
                             "Factory Pattern",
                             "Builder Pattern",
@@ -6938,7 +6938,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is commonly used for clustering data points based on similarity measures?",
+                        "ask": "Which algorithm is commonly used for clustering data points based on similarity measures?",
                         "options": [
                             "K-means Algorithm",
                             "Depth-First Search (DFS)",
@@ -6955,7 +6955,7 @@
                         ]
                     },
                     {
-                        "question": "Which data structure is suitable for implementing a cache with a fixed number of elements, discarding the least recently used element when full?",
+                        "ask": "Which data structure is suitable for implementing a cache with a fixed number of elements, discarding the least recently used element when full?",
                         "options": [
                             "Heap",
                             "Trie",
@@ -6972,7 +6972,7 @@
                         ]
                     },
                     {
-                        "question": "Which design pattern is used to represent an entire family of algorithms and make them interchangeable at runtime?",
+                        "ask": "Which design pattern is used to represent an entire family of algorithms and make them interchangeable at runtime?",
                         "options": [
                             "Strategy Pattern",
                             "Observer Pattern",
@@ -6989,7 +6989,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is commonly used for finding the shortest path in a graph with negative weights?",
+                        "ask": "Which algorithm is commonly used for finding the shortest path in a graph with negative weights?",
                         "options": [
                             "Dijkstra's Algorithm",
                             "Bellman-Ford Algorithm",
@@ -7006,7 +7006,7 @@
                         ]
                     },
                     {
-                        "question": "Which data structure is used to efficiently store and retrieve data in a Last-In-First-Out (LIFO) manner?",
+                        "ask": "Which data structure is used to efficiently store and retrieve data in a Last-In-First-Out (LIFO) manner?",
                         "options": [
                             "Queue",
                             "Heap",
@@ -7023,7 +7023,7 @@
                         ]
                     },
                     {
-                        "question": "Which algorithm is used to find the minimum spanning tree (MST) of a weighted graph?",
+                        "ask": "Which algorithm is used to find the minimum spanning tree (MST) of a weighted graph?",
                         "options": [
                             "Kruskal's Algorithm",
                             "Prim's Algorithm",
@@ -7040,7 +7040,7 @@
                         ]
                     },
                     {
-                        "question": "Which design pattern is used to provide a surrogate or placeholder for another object to control access to it?",
+                        "ask": "Which design pattern is used to provide a surrogate or placeholder for another object to control access to it?",
                         "options": [
                             "Proxy Pattern",
                             "Adapter Pattern",
@@ -7056,6 +7056,495 @@
                             "Protection proxies for access control and security"
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "desing-pattron-of-react-hook": {
+                "basic": [
+                    {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para compartir datos entre componentes no emparentados sin necesidad de pasar props a través de la jerarquía de componentes?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "Context",
+                        "example": {
+                          "description": "El contexto de React proporciona una forma de compartir datos globales de la aplicación, como la configuración de temas o la información del usuario, sin necesidad de pasar props a través de cada componente de la jerarquía.",
+                          "code": "import React, { useContext } from 'react';\nconst ThemeContext = React.createContext({ theme: 'light' });\nconst App = () => {\n  const { theme } = useContext(ThemeContext);\n  return (\n    <div className={`App ${theme}`}>...</div>\n  );\n};\nconst MyComponent = () => {\n  const { theme } = useContext(ThemeContext);\n  return (\n    <p className={`MyComponent ${theme}`}>...</p>\n  );\n};\n",
+                          "images": "https://www.patterns.dev/react/context.png",
+                          "information": "El contexto es útil para evitar la 'prop drill', que se produce cuando se deben pasar props a través de muchos niveles de componentes para acceder a datos globales."
+                        }
+                      },
+                      {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para crear componentes modulares y reutilizables a partir de componentes más pequeños?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "Composición",
+                        "example": {
+                          "description": "La composición es la base de la arquitectura de componentes de React. Se trata de construir interfaces de usuario complejas a partir de componentes más pequeños y reutilizables.",
+                          "code": "const Button = ({ label, onClick }) => (\n  <button onClick={onClick}>{label}</button>\n);\nconst Card = ({ title, description }) => (\n  <div className='card'>\n    <h2>{title}</h2>\n    <p>{description}</p>\n  </div>\n);\nconst App = () => (\n  <div>\n    <Card title='Mi tarjeta' description='Esta es una tarjeta de example.'>\n      <Button label='Leer más' onClick={() => console.log('Leer más')} />\n    </Card>\n  </div>\n);\n",
+                          "images": "https://www.patterns.dev/react/composition.png",
+                          "information": "La composición permite crear interfaces de usuario más flexibles y fáciles de mantener, ya que los componentes pueden ser reutilizados en diferentes contextos."
+                        }
+                      },
+                      {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para abstraer la lógica de renderizado del componente padre y permitir la renderización de contenido variable o condicional?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "Render Props",
+                        "example": {
+                          "description": "Render props permite pasar una función como prop a un componente, la cual se encarga de renderizar el contenido del componente hijo.",
+                          "code": "const ErrorBoundary = ({ children }) => {\n  const [error, setError] = useState(null);\n  useEffect(() => {\n    try {\n      children();\n    } catch (err) {\n      setError(err);\n    }\n  }, []);\n  if (error) {\n    return <div>Error: {error.message}</div>;\n  }\n  return children;\n};\nconst MyComponent = () => {\n  return (\n    <ErrorBoundary>\n      <h1>Mi componente</h1>\n      <p>Este componente puede generar errores.</p>\n      {Math.random() > 0.5 && <p>¡Error aleatorio!</p>}\n    </ErrorBoundary>\n  );\n};\n",
+                          "images": "https://www.patterns.dev/react/render-props.png",
+                          "information": "Render props es útil para componentes que presentan contenido variable o condicional, ya que permite al componente hijo controlar su propia renderización."
+                        }
+                      },
+                      {
+                        "ask": "¿Cuál es el patrón de diseño de React que se utiliza para compartir datos entre componentes no emparentados sin necesidad de pasar props a través de la jerarquía de componentes?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "Context",
+                        "explication": "El contexto de React proporciona una forma de compartir datos globales de la aplicación, como la configuración de temas o la información del usuario, sin necesidad de pasar props a través de cada componente de la jerarquía. Esto ayuda a evitar la 'prop drill' y a mantener el código más limpio y organizado.",
+                        "example": "Imagina que estás desarrollando una aplicación con un tema global que se aplica a todos los componentes. ¿Qué patrón de diseño usarías para compartir esta información de tema sin pasarla como prop a cada componente?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para crear componentes modulares y reutilizables a partir de componentes más pequeños?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "Composición",
+                        "explication": "La composición es la base de la arquitectura de componentes de React. Se trata de construir interfaces de usuario complejas a partir de componentes más pequeños y reutilizables. Esto permite crear código más modular, fácil de mantener y escalable.",
+                        "example": "Imagina que estás desarrollando un formulario de registro con campos de nombre, correo electrónico y contraseña. ¿Cómo usarías la composición para crear este formulario a partir de componentes más pequeños?",
+                        "dificult": "Fácil"
+                      },
+                      {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para abstraer la lógica de renderizado del componente padre y permitir la renderización de contenido variable o condicional?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "Render Props",
+                        "explication": "Render props permite pasar una función como prop a un componente, la cual se encarga de renderizar el contenido del componente hijo. Esto es útil para componentes que presentan contenido variable o condicional, ya que permite al componente hijo controlar su propia renderización.",
+                        "example": "Imagina que estás desarrollando un componente que muestra un mensaje de error si se produce un error durante la carga de datos. ¿Cómo usarías render props para implementar este comportamiento?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para reutilizar lógica común sin modificar los componentes originales?",
+                        "options": [
+                          "Composición",
+                          "High-Order Components (HOCs)",
+                          "Context",
+                          "Render Props"
+                        ],
+                        "answer": "High-Order Components (HOCs)",
+                        "explication": "Los HOCs son funciones que se utilizan para envolver componentes existentes y agregarles nuevas funcionalidades o comportamiento. Esto permite reutilizar lógica común sin modificar el código original de los componentes.",
+                        "example": "Imagina que estás desarrollando una aplicación que requiere autenticación para acceder a ciertas rutas. ¿Cómo usarías un HOC para implementar la lógica de autenticación y envolver los componentes de ruta?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Qué patrón de diseño de React se utiliza para crear y administrar variables de estado locales en un componente funcional?",
+                        "options": [
+                          "useState",
+                          "useEffect",
+                          "useContext",
+                          "useReducer"
+                        ],
+                        "answer": "useState",
+                        "explication": "El hook `useState` te permite crear y administrar variables de estado locales en un componente funcional. Esto te permite almacenar datos que cambian con el tiempo y actualizar la interfaz de usuario en consecuencia.",
+                        "example": "Imagina que estás desarrollando un componente de contador que muestra un número que aumenta cada vez que se hace clic en un botón. ¿Cómo usarías `useState` para implementar este comportamiento?",
+                        "dificult": "Fácil"
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para ejecutar efectos secundarios, como la recuperación de datos o la suscripción a eventos?",
+                        "options": [
+                          "useState",
+                          "useEffect",
+                          "useContext",
+                          "useReducer"
+                        ],
+                        "answer": "useEffect",
+                        "explication": "El hook `useEffect` te permite ejecutar efectos secundarios en un componente funcional. Los efectos secundarios pueden incluir la recuperación de datos, la suscripción a eventos, la configuración de temporizadores o la realización de cualquier otra operación que no deba bloquear la renderización de la interfaz de usuario.",
+                        "example": "Imagina que estás desarrollando un componente que muestra una lista de publicaciones de un blog. ¿Cómo usarías `useEffect` para recuperar las publicaciones de una API?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para compartir datos entre componentes no emparentados sin necesidad de pasar props?",
+                        "options": [
+                          "useState",
+                          "useEffect",
+                          "useContext",
+                          "useReducer"
+                        ],
+                        "answer": "useContext",
+                        "explication": "El hook `useContext` te permite acceder al contexto de React, que es una forma de compartir datos entre componentes no emparentados sin necesidad de pasar props. Esto es útil para compartir datos globales de la aplicación, como la configuración de temas o la información del usuario.",
+                        "example": "Imagina que estás desarrollando una aplicación con un tema global que se aplica a todos los componentes. ¿Cómo usarías `useContext` para compartir esta información de tema?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Qué hook de React se utiliza para gestionar el estado de un componente de forma más compleja, como cuando se necesita manejar múltiples variables de estado o lógica de actualización compleja?",
+                        "options": [
+                          "useState",
+                          "useEffect",
+                          "useContext",
+                          "useReducer"
+                        ],
+                        "answer": "useReducer",
+                        "explication": "El hook `useReducer` te permite gestionar el estado de un componente de forma más compleja utilizando un patrón de estado basado en un reducer. Esto es útil cuando se necesita manejar múltiples variables de estado o lógica de actualización compleja.",
+                        "example": "Imagina que estás desarrollando un componente de carrito de compras que necesita gestionar el estado de los productos añadidos, eliminados y actualizados. ¿Cómo usarías `useReducer` para implementar este comportamiento?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Qué son las Custom Hooks y cómo se utilizan?",
+                        "options": [
+                          "Funciones personalizadas que reutilizan lógica de hooks para evitar la repetición de código.",
+                          "Componentes de React que se utilizan para renderizar contenido condicional.",
+                          "Una forma de compartir datos entre componentes no emparentados sin necesidad de pasar props.",
+                          "Un patrón de diseño para abstraer la lógica de renderizado del componente padre."
+                        ],
+                        "answer": "Funciones personalizadas que reutilizan lógica de hooks para evitar la repetición de código.",
+                        "explication": "Las Custom Hooks son funciones personalizadas que encapsulan lógica común de hooks y la exponen como una interfaz reutilizable. Esto te permite evitar la repetición de código y crear hooks más abstractos y fáciles de usar.",
+                        "example": "Imagina que estás desarrollando una aplicación que utiliza varios componentes que necesitan autenticarse. ¿Cómo crearías un Custom Hook para manejar la lógica de autenticación y reutilizarla en diferentes componentes?",
+                        "dificult": "Media"
+                      }
+                ],
+                "middel": [
+                    {
+                        "ask": "¿Cómo se puede utilizar el hook `useMemo` para optimizar el rendimiento de componentes React que realizan cálculos lentos o costosos?",
+                        "options": [
+                          "Almacenando en caché los resultados de cálculos lentos para evitar recalcularlos en cada renderizado.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y renderizar solo cuando el estado cambia.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para optimizar el rendimiento.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y optimizar su renderizado."
+                        ],
+                        "answer": "Almacenando en caché los resultados de cálculos lentos para evitar recalcularlos en cada renderizado.",
+                        "explication": "El hook `useMemo` te permite memorizar el resultado de una función y evitar recalcularlo en cada renderizado del componente. Esto es útil para componentes que realizan cálculos lentos o costosos, ya que puede mejorar significativamente el rendimiento de la renderización.",
+                        "example": "Imagina que estás desarrollando un componente que calcula la suma de una gran cantidad de números. ¿Cómo usarías `useMemo` para optimizar el rendimiento de este componente?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el hook `useCallback` para evitar la creación innecesaria de callbacks en React con hooks?",
+                        "options": [
+                          "Memorizando la referencia de una función para evitar crearla en cada renderizado.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y re-renderizar solo cuando el estado cambia.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para optimizar el rendimiento.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y optimizar su renderizado."
+                        ],
+                        "answer": "Memorizando la referencia de una función para evitar crearla en cada renderizado.",
+                        "explication": "El hook `useCallback` te permite memorizar la referencia de una función y evitar crearla en cada renderizado del componente. Esto es útil para callbacks que se pasan a otros componentes o se utilizan en eventos, ya que puede evitar la creación innecesaria de funciones y mejorar el rendimiento.",
+                        "example": "Imagina que estás desarrollando un componente que renderiza una lista de elementos y cada elemento tiene un botón que dispara un callback. ¿Cómo usarías `useCallback` para optimizar el rendimiento de este componente?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el hook `useLayoutEffect` para ejecutar efectos secundarios que dependen de la disposición del layout del componente en React con hooks?",
+                        "options": [
+                          "Ejecutando efectos secundarios después de que el componente se haya renderizado y actualizado.",
+                          "Utilizando el hook `useEffect` para ejecutar efectos secundarios antes de que el componente se renderice.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para manejar los efectos secundarios.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y controlar sus efectos secundarios."
+                        ],
+                        "answer": "Ejecutando efectos secundarios después de que el componente se haya renderizado y actualizado.",
+                        "explication": "El hook `useLayoutEffect` te permite ejecutar efectos secundarios después de que el componente se haya renderizado y actualizado, incluyendo la disposición del layout. Esto es útil para efectos secundarios que dependen de la disposición del layout, como la medición de elementos o la animación.",
+                        "example": "Imagina que estás desarrollando un componente que muestra una galería de imágenes y necesita ajustar el tamaño de las imágenes según el ancho del contenedor. ¿Cómo usarías `useLayoutEffect` para implementar este comportamiento?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el hook `useRef` para acceder a elementos DOM o instancias de componentes en React con hooks?",
+                        "options": [
+                          "Creando una referencia mutable que almacena un valor.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y renderizar solo cuando el estado cambia.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para acceder a elementos DOM.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y controlar sus referencias."
+                        ],
+                        "answer": "Creando una referencia mutable que almacena un valor.",
+                        "explication": "El hook `useRef` te permite crear una referencia mutable que almacena un valor. Este valor puede ser cualquier tipo de dato, incluyendo elementos DOM o instancias de componentes. Esto es útil para acceder a elementos DOM directamente o para realizar acciones sobre instancias de componentes.",
+                        "example": "Imagina que estás desarrollando un componente que tiene un input de texto y necesitas enfocar el input automáticamente cuando se renderiza el componente. ¿Cómo usarías `useRef` para implementar este comportamiento?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el hook `useImperativeHandle` para exponer métodos de un componente a su componente padre en React con hooks?",
+                        "options": [
+                          "Creando una función que se puede llamar desde el componente padre.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y exponerlo al componente padre.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para exponer métodos al componente padre.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y controlar sus métodos expuestos."
+                        ],
+                        "answer": "Creando una función que se puede llamar desde el componente padre.",
+                        "explication": "El hook `useImperativeHandle` te permite crear una función que se puede llamar desde el componente padre. Esta función puede ser utilizada para realizar acciones sobre el componente hijo o para acceder a su estado interno. Esto es útil para casos en los que el componente padre necesita controlar el comportamiento del componente hijo de forma más granular.",
+                        "example": "Imagina que estás desarrollando un componente de modal y necesitas abrir y cerrar el modal desde el componente padre. ¿Cómo usarías `useImperativeHandle` para implementar este comportamiento?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el hook `useDebugValue` para registrar valores de depuración en React con hooks?",
+                        "options": [
+                          "Registrando valores en la consola del navegador para su inspección.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y registrarlo en la consola.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para registrar valores de depuración.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y controlar sus registros de depuración."
+                        ],
+                        "answer": "Registrando valores en la consola del navegador para su inspección.",
+                        "explication": "El hook `useDebugValue` te permite registrar valores en la consola del navegador para su inspección. Esto es útil para depurar el comportamiento de los componentes y comprender el flujo de datos de la aplicación. Cabe destacar que `useDebugValue` no es un hook oficial de React y solo está disponible en versiones de desarrollo.",
+                        "example": "Imagina que estás desarrollando un componente que calcula un valor basado en varias variables de estado. ¿Cómo usarías `useDebugValue` para registrar el valor calculado en la consola?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de arquitectura unidireccional de datos (unidirectional data flow) para crear aplicaciones React escalables y predecibles?",
+                        "options": [
+                          "Haciendo que el flujo de datos sea unidireccional, desde el estado hacia los componentes, para evitar mutaciones y mantener la consistencia.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y renderizar solo cuando el estado cambia.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para controlar el flujo de datos.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y modificar su flujo de datos."
+                        ],
+                        "answer": "Haciendo que el flujo de datos sea unidireccional, desde el estado hacia los componentes, para evitar mutaciones y mantener la consistencia.",
+                        "explication": "La arquitectura unidireccional de datos es un principio fundamental en React que promueve un flujo de datos predecible y consistente. Al hacer que el flujo de datos sea unidireccional, desde el estado hacia los componentes, se evita la mutación del estado y se facilita la depuración y el mantenimiento de las aplicaciones. Los hooks de React facilitan la implementación de este patrón, ya que permiten gestionar el estado de forma declarativa y sin mutaciones.",
+                        "example": "Imagina que estás desarrollando una aplicación de gestión de tareas. ¿Cómo usarías la arquitectura unidireccional de datos para implementar el flujo de creación, edición y eliminación de tareas?",
+                        "dificult": "Experto"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de renderizado condicional para mostrar o ocultar contenido en componentes React en función de datos o condiciones?",
+                        "options": [
+                          "Utilizando operadores ternarios (`? :`) o bloques `if` para renderizar contenido condicionalmente.",
+                          "Utilizando el hook `useState` para gestionar el estado del componente y renderizar solo el contenido correspondiente al estado actual.",
+                          "Escribiendo clases de React tradicionales con métodos de renderizado condicional.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y modificar su renderizado condicional."
+                        ],
+                        "answer": "Utilizando operadores ternarios (`? :`) o bloques `if` para renderizar contenido condicionalmente.",
+                        "explication": "El renderizado condicional es una técnica fundamental para mostrar o ocultar contenido en componentes React en función de datos o condiciones. Los hooks de React facilitan la implementación de este patrón, ya que permiten gestionar el estado de forma declarativa y utilizar operadores ternarios o bloques `if` dentro del JSX para renderizar el contenido correspondiente.",
+                        "example": "Imagina que estás desarrollando un componente que muestra una lista de productos. ¿Cómo usarías el renderizado condicional para mostrar un mensaje de 'No hay productos disponibles' si la lista está vacía?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de reutilización de componentes para crear interfaces de usuario modulares y escalables en React con hooks?",
+                        "options": [
+                          "Creando componentes pequeños y reutilizables que encapsulan funcionalidad específica.",
+                          "Utilizando el hook `useState` para gestionar el estado de los componentes reutilizables.",
+                          "Escribiendo clases de React tradicionales con métodos de renderizado y ciclo de vida para crear componentes reutilizables.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y agregarles funcionalidad reutilizable."
+                        ],
+                        "answer": "Creando componentes pequeños y reutilizables que encapsulan funcionalidad específica.",
+                        "explication": "La reutilización de componentes es un principio fundamental para crear interfaces de usuario modulares y escalables en React con hooks. Al crear componentes pequeños y reutilizables que encapsulan funcionalidad específica, se facilita la creación de interfaces complejas a partir de componentes más simples. Los hooks de React facilitan la creación de componentes reutilizables, ya que permiten gestionar el estado de forma declarativa y utilizar props para pasar datos entre componentes.",
+                        "example": "Imagina que estás desarrollando una aplicación de comercio electrónico. ¿Cómo usarías la reutilización de componentes para crear componentes de producto, carrito de compras y formulario de pago?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de manejo de errores para gestionar errores en aplicaciones React con hooks y evitar que afecten el flujo de la aplicación?",
+                        "options": [
+                          "Implementando mecanismos para capturar errores, registrarlos y mostrar mensajes de error al usuario de forma controlada.",
+                          "Utilizando el hook `useState` para gestionar el estado de error de la aplicación y renderizar contenido condicionalmente.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para manejar errores.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y controlar su manejo de errores."
+                        ],
+                        "answer": "Implementando mecanismos para capturar errores, registrarlos y mostrar mensajes de error al usuario de forma controlada.",
+                        "explication": "El manejo de errores es una parte crucial de cualquier aplicación React. Los hooks de React facilitan la implementación de un sistema de manejo de errores robusto, ya que permiten capturar errores en el ciclo de vida del componente, registrarlos en la consola o en un servicio de logs, y mostrar mensajes de error al usuario de forma controlada. Esto evita que los errores afecten el flujo normal de la aplicación y proporciona información valiosa para la depuración y el mantenimiento.",
+                        "example": "Imagina que estás desarrollando una aplicación que consume datos de una API. ¿Cómo usarías el manejo de errores para capturar errores de red o de servidor y mostrar mensajes de error al usuario?",
+                        "dificult": "Media"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de optimización de rendimiento para mejorar el rendimiento de aplicaciones React con hooks y ofrecer una experiencia de usuario fluida?",
+                        "options": [
+                          "Identificando y eliminando cuellos de botella en el rendimiento de la aplicación mediante herramientas de análisis.",
+                          "Utilizando el hook `useMemo` para memorizar resultados de cálculos lentos y evitar recalcularlos en cada renderizado.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para optimizar el rendimiento.",
+                          "Utilizando componentes de orden superior (HOCs) para envolver componentes existentes y optimizar su renderizado."
+                        ],
+                        "answer": "Identificando y eliminando cuellos de botella en el rendimiento de la aplicación mediante herramientas de análisis.",
+                        "explication": "La optimización del rendimiento es fundamental para ofrecer una experiencia de usuario fluida en aplicaciones React con hooks. Los hooks de React proporcionan herramientas como `useMemo` y `useCallback` para optimizar el rendimiento, pero es importante identificar y eliminar cuellos de botella en el rendimiento de la aplicación mediante herramientas de análisis como React DevTools o Profiler. Esto permite optimizar el código, reducir tiempos de renderizado y mejorar la experiencia general del usuario.",
+                        "example": "Imagina que estás desarrollando una aplicación de juegos en línea. ¿Cómo usarías herramientas de análisis para identificar y optimizar cuellos de botella en el rendimiento del juego?",
+                        "dificult": "Experto"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de accesibilidad para crear aplicaciones React con hooks que sean accesibles para todos los usuarios, independientemente de sus capacidades físicas o tecnológicas?",
+                        "options": [
+                          "Implementando prácticas de accesibilidad como el uso de etiquetas ARIA, contraste adecuado y navegación con teclado.",
+                          "Utilizando el hook `useState` para gestionar el estado de accesibilidad de la aplicación y renderizar contenido accesible.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para implementar accesibilidad.",
+                          "Utilizando bibliotecas de accesibilidad como `react-accessible` o `react-aria` para facilitar la implementación de prácticas accesibles."
+                        ],
+                        "answer": "Implementando prácticas de accesibilidad como el uso de etiquetas ARIA, contraste adecuado y navegación con teclado.",
+                        "explication": "La accesibilidad es un aspecto fundamental en el desarrollo de aplicaciones React con hooks. Al implementar prácticas de accesibilidad como el uso de etiquetas ARIA, contraste adecuado y navegación con teclado, se garantiza que la aplicación sea accesible para todos los usuarios, independientemente de sus capacidades físicas o tecnológicas. Los hooks de React facilitan la implementación de accesibilidad, ya que permiten gestionar el estado de accesibilidad de la aplicación y utilizar herramientas como `react-accessible` o `react-aria` para simplificar el proceso.",
+                        "example": "Imagina que estás desarrollando una aplicación de noticias. ¿Cómo usarías etiquetas ARIA para describir el contenido de las imágenes y permitir que los lectores de pantalla las interpreten correctamente?",
+                        "dificult": "Media"
+                      }
+                ],
+                "expert": [
+                    {
+                        "ask": "¿Cómo se puede utilizar la arquitectura de componentes basada en contexto para crear aplicaciones React con hooks altamente escalables y mantenibles?",
+                        "options": [
+                          "Organizando los componentes en una jerarquía basada en contextos que encapsulan datos y lógica específicos.",
+                          "Utilizando el hook `useContext` para acceder y compartir datos entre componentes en diferentes niveles de la jerarquía.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para gestionar el contexto.",
+                          "Utilizando bibliotecas de gestión de contexto como `react-context` o `mobx-state-tree` para facilitar la implementación de la arquitectura."
+                        ],
+                        "answer": "Organizando los componentes en una jerarquía basada en contextos que encapsulan datos y lógica específicos.",
+                        "explication": "La arquitectura de componentes basada en contexto es un patrón poderoso para crear aplicaciones React con hooks altamente escalables y mantenibles. Al organizar los componentes en una jerarquía basada en contextos, se encapsula la lógica y los datos específicos de cada nivel, lo que facilita la reutilización, el mantenimiento y la prueba de los componentes. Los hooks de React facilitan la implementación de esta arquitectura, ya que permiten acceder y compartir datos entre componentes en diferentes niveles de la jerarquía mediante el hook `useContext`. Además, existen bibliotecas como `react-context` o `mobx-state-tree` que simplifican la gestión del contexto y proporcionan herramientas adicionales para manejar la complejidad de las aplicaciones a gran escala.",
+                        "example": "Imagina que estás desarrollando una aplicación de e-commerce con secciones de productos, carrito de compras y checkout. ¿Cómo usarías la arquitectura de componentes basada en contexto para organizar y gestionar los datos y la lógica de cada sección?",
+                        "dificult": "Señor"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de renderizado por lotes (batching) para optimizar el rendimiento de actualizaciones en aplicaciones React con hooks y reducir el número de re-renderizados?",
+                        "options": [
+                          "Agrupando actualizaciones en lotes y procesándolas de forma conjunta para minimizar el número de re-renderizados.",
+                          "Utilizando el hook `useState` para gestionar el estado de forma eficiente y evitar re-renderizados innecesarios.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para optimizar el renderizado.",
+                          "Utilizando bibliotecas de optimización de rendimiento como `react-addons-perf` o `redux` para facilitar la implementación del renderizado por lotes."
+                        ],
+                        "answer": "Agrupando actualizaciones en lotes y procesándolas de forma conjunta para minimizar el número de re-renderizados.",
+                        "explication": "El renderizado por lotes es una técnica de optimización que agrupa actualizaciones en lotes y las procesa de forma conjunta para minimizar el número de re-renderizados en aplicaciones React con hooks. Esto reduce la carga sobre el navegador y mejora el rendimiento general de la aplicación. Los hooks de React facilitan la implementación de esta técnica, ya que permiten agrupar actualizaciones mediante el uso de `setState` dentro de un callback. Además, existen bibliotecas como `react-addons-perf` o `redux` que proporcionan herramientas adicionales para optimizar el rendimiento y facilitar la gestión del renderizado por lotes.",
+                        "example": "Imagina que estás desarrollando una aplicación de chat que actualiza la lista de mensajes en tiempo real. ¿Cómo usarías el renderizado por lotes para optimizar el rendimiento de las actualizaciones de la lista?",
+                        "dificult": "Señor"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar la arquitectura Redux para gestionar el estado global de aplicaciones React con hooks de forma eficiente y escalable?",
+                        "options": [
+                          "Implementando un almacén centralizado para almacenar el estado global de la aplicación y utilizando actions para modificar dicho estado.",
+                          "Utilizando el hook `useState` para gestionar el estado global de la aplicación y re-renderizar todos los componentes cuando cambia.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para manejar el estado global.",
+                          "Utilizando bibliotecas de gestión de estado como `redux` o `mobx` para facilitar la implementación de la arquitectura."
+                        ],
+                        "answer": "Implementando un almacén centralizado para almacenar el estado global de la aplicación y utilizando actions para modificar dicho estado.",
+                        "explication": "La arquitectura Redux es un patrón de gestión de estado popular para aplicaciones React con hooks. Al implementar un almacén centralizado para almacenar el estado global de la aplicación y utilizar actions para modificar dicho estado, se centraliza la lógica de negocio y se facilita el seguimiento y la predictibilidad de los cambios de estado. Los hooks de React facilitan la integración de Redux, ya que permiten conectar componentes al almacén y acceder a su estado mediante el hook `useSelector`. Además, existen herramientas como `react-redux` y `redux-devtools` que simplifican la implementación y depuración de la arquitectura Redux.",
+                        "example": "Imagina que estás desarrollando una aplicación de gestión de tareas con múltiples usuarios y funcionalidades. ¿Cómo usarías la arquitectura Redux para gestionar el estado global de las tareas, usuarios y filtros de búsqueda?",
+                        "dificult": "Señor"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de pruebas unitarias para escribir tests completos y confiables para componentes React con hooks y garantizar su correcto funcionamiento?",
+                        "options": [
+                          "Aislando y probando cada componente de forma individual utilizando herramientas como Jest y React Testing Library.",
+                          "Utilizando el hook `useState` para gestionar el estado de los componentes en pruebas y simular escenarios de uso.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para facilitar la escritura de tests.",
+                          "Utilizando frameworks de testing como `enzyme` o `testing-library` para simplificar la escritura y ejecución de tests."
+                        ],
+                        "answer": "Aislando y probando cada componente de forma individual utilizando herramientas como Jest y React Testing Library.",
+                        "explication": "El patrón de pruebas unitarias es fundamental para escribir tests completos y confiables para componentes React con hooks y garantizar su correcto funcionamiento. Al aislar y probar cada componente de forma individual, se asegura que cada unidad de código funcione como se espera y se minimizan los errores de integración. Los hooks de React facilitan la escritura de tests unitarios, ya que permiten simular escenarios de uso y acceder al estado interno de los componentes mediante el uso de hooks como `act` o `renderHook`. Además, existen herramientas como Jest y React Testing Library que proporcionan herramientas específicas para testear componentes React con hooks.",
+                        "example": "Imagina que estás desarrollando un componente de formulario de registro. ¿Cómo usarías el patrón de pruebas unitarias para probar la validación de campos, el envío de datos y el manejo de errores?",
+                        "dificult": "Señor"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de composición de componentes para crear interfaces de usuario complejas y reutilizables a partir de componentes más simples en React con hooks?",
+                        "options": [
+                          "Combinando componentes más pequeños y especializados para crear componentes más grandes y funcionales.",
+                          "Utilizando el hook `useState` para gestionar el estado de los componentes compuestos y renderizar contenido condicionalmente.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para componer componentes.",
+                          "Utilizando bibliotecas de composición de componentes como `styled-components` o `emotion` para facilitar la creación y estilo de componentes compuestos."
+                        ],
+                        "answer": "Combinando componentes más pequeños y especializados para crear componentes más grandes y funcionales.",
+                        "explication": "La composición de componentes es un patrón fundamental para crear interfaces de usuario complejas y reutilizables a partir de componentes más simples en React con hooks. Al combinar componentes más pequeños y especializados, se facilita la creación de interfaces modulares y escalables. Los hooks de React facilitan la implementación de este patrón, ya que permiten pasar props entre componentes y gestionar el estado de forma declarativa. Además, existen bibliotecas como `styled-components` o `emotion` que simplifican la creación y el estilo de componentes compuestos.",
+                        "example": "Imagina que estás desarrollando una aplicación de calendario. ¿Cómo usarías la composición de componentes para crear componentes de día, semana y mes?",
+                        "dificult": "Señor"
+                      },
+                      {
+                        "ask": "¿Cómo se puede utilizar el patrón de manejo de asincronía para gestionar operaciones asíncronas en aplicaciones React con hooks y evitar bloqueos en el hilo principal?",
+                        "options": [
+                          "Utilizando hooks como `useState` y `useEffect` para gestionar el estado y los efectos asíncronos de forma controlada.",
+                          "Implementando mecanismos para ejecutar operaciones asíncronas en un hilo separado del hilo principal.",
+                          "Escribiendo clases de React tradicionales con métodos de ciclo de vida para manejar operaciones asíncronas.",
+                          "Utilizando bibliotecas de manejo de asincronía como `redux-thunk` o `react-async` para facilitar la gestión de operaciones asíncronas."
+                        ],
+                        "answer": "Utilizando hooks como `useState` y `useEffect` para gestionar el estado y los efectos asíncronos de forma controlada.",
+                        "explication": "El manejo de asincronía es crucial para gestionar operaciones asíncronas en aplicaciones React con hooks y evitar bloqueos en el hilo principal. Al utilizar hooks como `useState` y `useEffect`, se puede actualizar el estado de la aplicación de forma asíncrona sin bloquear el hilo principal. Los hooks de React facilitan la implementación de este patrón, ya que permiten ejecutar código asíncrono dentro del hook `useEffect` y actualizar el estado en consecuencia. Además, existen bibliotecas como `redux-thunk` o `react-async` que proporcionan herramientas adicionales para facilitar la gestión de operaciones asíncronas complejas.",
+                        "example": "Imagina que estás desarrollando una aplicación que carga datos de una API. ¿Cómo usarías el patrón de manejo de asincronía para cargar los datos y actualizar la interfaz de usuario sin bloquear el hilo principal?",
+                        "dificult": "Señor"
+                      }
+                ],
+                "god": [
+                    {
+                        "ask": "How can you utilize the microservices architecture pattern to create highly scalable and maintainable React applications with hooks at scale?",
+                        "options": [
+                          "Decoupling the application into independent microservices and communicating between them through well-defined interfaces.",
+                          "Using the `useState` hook to manage the local state of each microservice.",
+                          "Implementing communication patterns like REST or GraphQL to interact between microservices.",
+                          "Utilizing container orchestration tools like Docker and Kubernetes to deploy and manage microservices."
+                        ],
+                        "answer": "Decoupling the application into independent microservices and communicating between them through well-defined interfaces.",
+                        "explanation": "The microservices architecture pattern is an ideal design pattern for creating highly scalable and maintainable React applications with hooks at scale. By decoupling the application into independent microservices, it facilitates the development, deployment, and maintenance of the application, as each microservice can be developed and updated independently. React hooks ease the implementation of this pattern, as they allow managing the local state of each microservice and communicating between them using hooks like `useFetch` or libraries like `axios`. Additionally, tools like Docker and Kubernetes simplify the deployment and management of microservices in production environments.",
+                        "example": "Imagine you're developing an e-commerce platform with microservices for products, shopping carts, payments, and user management. How would you use the microservices architecture to design and implement this platform?",
+                        "difficulty": "Expert"
+                      },
+                      {
+                        "ask": "How can you employ the advanced performance management pattern to optimize the performance of React applications with hooks in production environments with high traffic volumes?",
+                        "options": [
+                          "Implementing caching strategies, data preloading, and image optimization to reduce load times.",
+                          "Utilizing performance analysis tools like Google Analytics or Lighthouse to identify bottlenecks.",
+                          "Implementing monitoring and alerting strategies to proactively detect and resolve performance issues.",
+                          "Utilizing serverless computing platforms like AWS Lambda or Azure Functions to scale the application elastically."
+                        ],
+                        "answer": "Implementing caching strategies, data preloading, and image optimization to reduce load times.",
+                        "explanation": "Advanced performance management is crucial for optimizing the performance of React applications with hooks in production environments with high traffic volumes. By implementing caching strategies, data preloading, and image optimization, the application's load time is reduced, and the overall user experience is improved. React hooks facilitate the implementation of these strategies, as they allow using hooks like `useMemo` to memorize calculation results and `useEffect` to execute asynchronous code. Additionally, tools like Google Analytics or Lighthouse provide valuable insights into the application's performance, and platforms like AWS Lambda or Azure Functions enable the application to scale elastically to handle traffic spikes.",
+                        "example": "Imagine you're developing a news application with a high volume of users and articles. How would you use advanced performance management to optimize the application's performance and ensure a smooth experience for users?",
+                        "difficulty": "Expert"
+                      },
+                      {
+                        "ask": "How can you leverage the defense-in-depth security pattern to protect React applications with hooks against cyberattacks and vulnerabilities?",
+                        "options": [
+                          "Implementing multiple layers of security, including input validation, data sanitization, and access control.",
+                          "Utilizing security libraries like `helmet` or `react-security` to simplify the implementation of security measures.",
+                          "Performing comprehensive security testing and code audits to identify and fix vulnerabilities.",
+                          "Implementing monitoring and intrusion detection strategies to detect and respond to attacks in real-time."
+                        ],
+                        "answer": "Implementing multiple layers of security, including input validation, data sanitization, and access control.",
+                        "explanation": "Defense-in-depth is a fundamental pattern for protecting React applications with hooks against a wide range of cyberattacks and vulnerabilities. By implementing multiple layers of security, it makes it more difficult for attackers to breach the application's defenses. React hooks facilitate the implementation of this pattern, as they allow integrating security measures directly into the components. Additionally, security libraries like `helmet` or `react-security` provide pre-built tools and best practices for securing React applications.",
+                        "example": "Imagine you're developing a financial application that handles sensitive user data. How would you use the defense-in-depth security pattern to safeguard the application against potential threats?",
+                        "difficulty": "Expert"
+                      },
+                      {
+                        "ask": "How can you leverage the server-side rendering (SSR) pattern to enhance the performance and SEO of React applications with hooks?",
+                        "options": [
+                          "Rendering the application on the server to improve initial page load times and SEO.",
+                          "Utilizing frameworks like Next.js or Gatsby to simplify the implementation of SSR.",
+                          "Optimizing the rendered HTML and CSS for faster loading and better search engine ranking.",
+                          "Implementing caching strategies to reduce server load and improve response times."
+                        ],
+                        "answer": "Rendering the application on the server to improve initial page load times and SEO.",
+                        "explanation": "Server-side rendering (SSR) is a powerful pattern for enhancing the performance and SEO of React applications with hooks. By rendering the application on the server, the initial page load time is significantly improved, and the application becomes more search engine friendly. React hooks facilitate the implementation of SSR, as they allow accessing the server environment and using data fetching hooks like `useSWR`. Additionally, frameworks like Next.js or Gatsby provide a streamlined approach to implementing SSR in React applications.",
+                        "example": "Imagine you're developing an e-commerce website that needs to rank high in search engine results. How would you use SSR to improve the website's SEO and performance?",
+                        "difficulty": "Expert"
+                      },
+                      {
+                        "ask": "How can you employ the code splitting pattern to optimize the bundle size and loading performance of React applications with hooks?",
+                        "options": [
+                          "Dynamically loading components based on user interactions or route changes.",
+                          "Utilizing tools like Webpack or Parcel to implement code splitting effectively.",
+                          "Optimizing the build process to reduce bundle size and improve loading speed.",
+                          "Leveraging lazy loading techniques to load components only when needed."
+                        ],
+                        "answer": "Dynamically loading components based on user interactions or route changes.",
+                        "explanation": "Code splitting is a crucial pattern for optimizing the bundle size and loading performance of React applications with hooks. By dynamically loading components, only the necessary code is loaded for the current view, reducing the initial bundle size and improving the overall loading speed. React hooks facilitate the implementation of code splitting, as they allow using hooks like `useLazyLoading` or libraries like `react-loadable` to load components asynchronously. Additionally, tools like Webpack or Parcel provide built-in support for code splitting.",
+                        "example": "Imagine you're developing a large React application with multiple pages and components. How would you use code splitting to optimize the bundle size and loading performance of the application?",
+                        "difficulty": "Expert"
+                      },
+                      {
+                        "ask": "How can you utilize the accessibility testing pattern to ensure React applications with hooks are inclusive and usable for all users, regardless of their abilities?",
+                        "options": [
+                          "Implementing automated accessibility testing tools like axe or WAVE to identify accessibility issues.",
+                          "Manually testing the application using assistive technologies like screen readers and keyboard navigation.",
+                          "Following accessibility guidelines like WCAG (Web Content Accessibility Guidelines) to ensure inclusive design.",
+                          "Collaborating with users with disabilities to gather feedback and improve accessibility."
+                        ],
+                        "answer": "Implementing automated accessibility testing tools like axe or WAVE to identify accessibility issues.",
+                        "explanation": "Accessibility testing is essential to ensure React applications with hooks are inclusive and usable for all users, regardless of their abilities. By implementing automated accessibility testing tools, potential accessibility issues can be identified and addressed early in the development process. React hooks facilitate the implementation of accessibility, as they allow using ARIA attributes and keyboard navigation techniques to enhance the accessibility of components. Additionally, tools like axe or WAVE provide comprehensive reports of accessibility issues, making it easier to create inclusive applications.",
+                        "example": "Imagine you're developing a social media platform that needs to be accessible to users with visual impairments. How would you use accessibility testing to ensure the platform is inclusive and usable for all?",
+                        "difficulty": "Expert"
+                      }
                 ]
             }
         }
