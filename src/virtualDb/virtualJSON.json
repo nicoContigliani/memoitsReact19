@@ -5650,7 +5650,7 @@
             }
         },
         {
-            "bestLoop": {
+            "beestLoop": {
                 "basic": [
                     {
                         "ask": "¿Qué tipo de bucle debo usar para iterar sobre los elementos de un array y multiplicarlos por 2?",
